@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-  var oyez = "https://api.oyez.org/cases/2014/13-553?labels=true";
+  // var oyez = "https://api.oyez.org/cases/2014/13-553?labels=true";
+  var oyez = "https://api.oyez.org/cases/2014/13-975?labels=true";
 
   function oyezAjax(){
     var url = oyez;
@@ -17,11 +18,16 @@ $(document).ready(function(){
         $(".documentName").append("<p>"+selectedVote.member.last_name+" - "+selectedVote.vote+"</p>");
         if(selectedVote.joining){
           for(var x=0; x<selectedVote.joining.length; x++){
-            $(".documentName").append("<p> - Joined "+selectedVote.vote+" opinion authored by  "+selectedVote.joining[x].last_name+"</p>");
+            $(".documentName").append("<p> --- Joined "+selectedVote.vote+" opinion authored by  "+selectedVote.joining[x].last_name+"</p>");
           }
-        }else{
-          $(".documentName").append("<p> - Wrote "+selectedVote.vote+" Opinion</p>");
         }
+        // else{
+        //   $(".documentName").append("<p> - Wrote "+selectedVote.vote+" Opinion</p>");
+        // }
+        if(selectedVote.opinion_type !== "none"){
+          $(".documentName").append("<p> --- Wrote "+selectedVote.opinion_type+" Opinion</p>");
+        }
+
       }
     }).fail(function(){
       console.log("Ajax request fails!");
