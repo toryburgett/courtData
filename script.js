@@ -1507,6 +1507,18 @@ $(document).ready(function(){
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
+  function timeConverter(UNIX_timestamp){
+    var a = new Date(UNIX_timestamp * 1000);
+    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    var year = a.getFullYear();
+    var month = months[a.getMonth()];
+    var date = a.getDate();
+    var day = days[a.getDay()];
+    var time = day + ' ' + month + ' ' + date + ', ' + year;
+    return time;
+  }
+
   // Not sure what case this is....
   // var oyez = "https://api.oyez.org/cases/2014/13-553?labels=true";
   // T-Mobile Case
@@ -1524,7 +1536,6 @@ $(document).ready(function(){
   //Horne v Agriculture -- Concurrance, dissent, con dissent
   // var oyez = "https://api.oyez.org/cases/2014/14-275";
 
-
   // 2014 cases
   var oyezYear = "https://api.oyez.org/cases?filter=term:2014&labels=true&page=0&per_page=0";
 
@@ -1539,14 +1550,22 @@ $(document).ready(function(){
       for(var a=0; a<response.decisions.length; a++){
         var justices = [];
 
-        var opinionData = {caseName: "", docketNum: "", decisionNum: 0, decisionId: "", caseDecidedDate: "", majVotes: 0, minVotes: 0, justices: justices};
+        var opinionData = {caseName: "", docketNum: "", decisionNum: 0, decisionId: "", caseDecidedDate: "", caseDecidedDateUnix: 0, majVotes: 0, minVotes: 0, justices: justices};
         opinionData.caseName = response.name;
         opinionData.docketNum = response.docket_number;
-        opinionData.decisionNum = a;
+        opinionData.decisionNum = response.decisions.length;
         var stringifyDecisionNum = a.toString();
         opinionData.decisionId = response.docket_number+"_"+stringifyDecisionNum;
         opinionData.majVotes = response.decisions[a].majority_vote;
         opinionData.minVotes = response.decisions[a].minority_vote;
+        for(var f=0; f<response.timeline.length; f++){
+          if(response.timeline[f].event === "Decided"){
+            opinionData.caseDecidedDateUnix = response.timeline[f].dates[0];
+            var date = timeConverter(response.timeline[f].dates[0]);
+            opinionData.caseDecidedDate = date;
+          }
+        }
+
 
 
         for(var y=0; y<response.decisions[a].votes.length; y++){
@@ -1584,7 +1603,7 @@ $(document).ready(function(){
             selectJustice.opinionsJoinedTotal = selectJustice.opinionsJoinedTotal + 1;
             selectJustice.opinionsJoinedTotalCaseIds.push(opinionData.decisionId);
 
-            //compare select justice opinion
+            //compare select justice opinion with all other justices
             for(var e=0; e<response.decisions[a].votes.length; e++){
               // do not compare justice with themself
               if(response.decisions[a].votes[e].member.last_name !== selectJustice.lastName){
