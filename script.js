@@ -2104,7 +2104,7 @@ $(document).ready(function(){
     }
   };
 
-  var oyezData = [];
+  var oyezAllCasesData = [];
 
   var oyezAllJusticeData = {
     roberts: oyezJusticeDataRoberts,
@@ -2118,13 +2118,20 @@ $(document).ready(function(){
     kagan: oyezJusticeDataKagan
   };
 
-  var oyezOpinionTotalData = {
+  var oyezAllOpinionData = {
     year: 0,
     totalMajorityAuthored: 0, totalMajorityAuthoredCaseIds: [],
     totalMinorityAuthored: 0, totalMinorityAuthoredCaseIds: [],
     totalConcurrenceAuthored: 0, totalConcurrenceAuthoredCaseIds: [],
     totalConDissAuthored: 0, totalConDissAuthoredCaseIds: [],
     totalOpinionsAuthored: 0, totalOpinionsAuthoredCaseIds: []
+  };
+
+  var oyezData = {
+    year: 0,
+    oyezAllCasesData: oyezAllCasesData,
+    oyezAllJusticeData: oyezAllJusticeData,
+    oyezAllOpinionData: oyezAllOpinionData
   };
 
   function capitalizeFirstLetter(string) {
@@ -2162,6 +2169,7 @@ $(document).ready(function(){
 
   // 2014 cases
   var oyezYear = "https://api.oyez.org/cases?filter=term:2014&labels=true&page=0&per_page=0";
+
 
   function oyezAjax(){
     var url = oyez;
@@ -2288,7 +2296,6 @@ $(document).ready(function(){
 
                 // Selected justice joins author Justice opinion
                 // Total
-                // [joinedJusticeLastName][joinedJusticeLastName+"Author"]
                 selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+"OpinionAuthoredJoinedTotal"] = selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+"OpinionAuthoredJoinedTotal"] + 1;
                 selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+"OpinionAuthoredJoinedTotalCaseIds"].push(opinionData.decisionId);
                 // specific opinion
@@ -2332,37 +2339,45 @@ $(document).ready(function(){
               //specific opinion add
               selectJustice.authored[selectJusticeOyezOpinion+"Authored"] = selectJustice.authored[selectJusticeOyezOpinion+"Authored"] + 1;
               selectJustice.authored[selectJusticeOyezOpinion+"AuthoredCaseIds"].push(opinionData.decisionId);
-            }
 
+              //add to oyez all opinion data object
+              var selectJusticeOyezOpinionCapitalized = capitalizeFirstLetter(selectJusticeOyezOpinion);
+              // totals
+              oyezAllOpinionData.totalOpinionsAuthored = oyezAllOpinionData.totalOpinionsAuthored + 1;
+              oyezAllOpinionData.totalOpinionsAuthoredCaseIds.push({caseId: opinionData.decisionId, justice: selectJusticeLastName, opinion: selectJusticeOyezOpinion});
+              // specific opinion
+              oyezAllOpinionData["total"+selectJusticeOyezOpinionCapitalized+"Authored"] = oyezAllOpinionData["total"+selectJusticeOyezOpinionCapitalized+"Authored"] + 1;
+              oyezAllOpinionData["total"+selectJusticeOyezOpinionCapitalized+"AuthoredCaseIds"].push(opinionData.decisionId);
+
+
+            }
             // push justice info to case data
             justices.push(justice);
-
           }
         }
-
-        console.log(opinionData);
-        oyezData.push(opinionData);
-        console.log(oyezData);
-
+        // push case data into case database
+        oyezAllCasesData.push(opinionData);
       }
-      console.log(oyezData);
+      console.log(oyezAllCasesData);
       console.log(oyezAllJusticeData);
+      console.log(oyezAllOpinionData);
+      console.log(oyezData);
 
-      $(".documentName").append("<div class=\"case\" id=\""+oyezData[0].docketNum+"\"></div>");
-      $("#"+oyezData[0].docketNum).append("<h1>"+response.name+"</h1>");
+      $(".documentName").append("<div class=\"case\" id=\""+oyezAllCasesData[0].docketNum+"\"></div>");
+      $("#"+oyezAllCasesData[0].docketNum).append("<h1>"+response.name+"</h1>");
 
-      for(var b=0; b<oyezData.length; b++){
-        $("#"+oyezData[0].docketNum).append("<h2>"+oyezData[b].majVotes+" - "+oyezData[b].minVotes+"</h2>");
+      for(var b=0; b<oyezAllCasesData.length; b++){
+        $("#"+oyezAllCasesData[0].docketNum).append("<h2>"+oyezAllCasesData[b].majVotes+" - "+oyezAllCasesData[b].minVotes+"</h2>");
 
-        $("#"+oyezData[0].docketNum).append("<div class=\"allOpinions "+b+"\" id=\""+oyezData[b].decisionId+"\"></div>");
+        $("#"+oyezAllCasesData[0].docketNum).append("<div class=\"allOpinions "+b+"\" id=\""+oyezAllCasesData[b].decisionId+"\"></div>");
 
 
-        for(var c=0; c<oyezData[b].justices.length; c++){
-          var selJustice = oyezData[b].justices[c];
+        for(var c=0; c<oyezAllCasesData[b].justices.length; c++){
+          var selJustice = oyezAllCasesData[b].justices[c];
           var selJusticeOpinion = selJustice.decision;
-          var joinedId = (oyezData[b].justices[c].joined.length + oyezData[b].justices[c].authored.length);
+          var joinedId = (oyezAllCasesData[b].justices[c].joined.length + oyezAllCasesData[b].justices[c].authored.length);
 
-          $("#"+oyezData[b].decisionId).append("<div class=\"opinion\"><div class=\""+selJusticeOpinion+"\" id=\""+joinedId+"\">"+selJustice.name+"</div></div>");
+          $("#"+oyezAllCasesData[b].decisionId).append("<div class=\"opinion\"><div class=\""+selJusticeOpinion+"\" id=\""+joinedId+"\">"+selJustice.name+"</div></div>");
 
         }
       }
@@ -2375,7 +2390,7 @@ $(document).ready(function(){
 
   $(".case").on("click", function(){
     oyezAjax();
-    console.log(oyezData);
+    console.log(oyezAllCasesData);
 
   });
 
