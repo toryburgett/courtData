@@ -2163,15 +2163,20 @@ $(document).ready(function(){
   // Glossip v Gross -- multiple dissent and Concurrence votes
   // var oyez = "https://api.oyez.org/cases/2014/14-7955";
   // Zivotofsky v Kerry -- 2 Decisions AND multi Concurrence, dissent, con dissent
-  var oyez = "https://api.oyez.org/cases/2014/13-628";
+  // var oyez = "https://api.oyez.org/cases/2014/13-628";
   //Horne v Agriculture -- Concurrence, dissent, con dissent
   // var oyez = "https://api.oyez.org/cases/2014/14-275";
 
   // 2014 cases
   var oyezYear = "https://api.oyez.org/cases?filter=term:2014&labels=true&page=0&per_page=0";
-  var caseYear = 2014;
 
-  function oyezAjax(){
+  var caseYear = 2014;
+  var oyez = "";
+  var oyezCaseNum = 0;
+  var oyezArray = ["https://api.oyez.org/cases/2014/13-628", "https://api.oyez.org/cases/2014/14-7955", "https://api.oyez.org/cases/2014/13-975"];
+
+
+  function oyezAjax(num){
     var url = oyez;
     $.ajax({
       url: url,
@@ -2186,7 +2191,6 @@ $(document).ready(function(){
       for(var g in oyezAllJusticeData){
         oyezAllJusticeData[g].year = caseYear;
       }
-
 
       for(var a=0; a<response.decisions.length; a++){
         var justices = [];
@@ -2366,41 +2370,40 @@ $(document).ready(function(){
         }
         // push case data into case database
         oyezAllCasesData.push(opinionData);
+
+        // adjust html
+        console.log("."+num+"CaseTitle");
+        console.log(num);
+        $("."+num+"CaseTitle").text(opinionData.caseName);
+        $("."+num+"Case").append("<div class=\""+num+"Decision"+a+"\"></div><div class=\""+num+"CaseOpinions"+a+" allOpinions\"></div></div>");
+        $("."+num+"Decision"+a).append("<h2>"+opinionData.majVotes+" - "+opinionData.minVotes+"</h2>");
+        for(var l = 0; l<opinionData.justices.length; l++){
+          $("."+num+"CaseOpinions"+a).append("<div class=\"opinion\"><div class=\""+opinionData.justices[l].decision+"\">"+opinionData.justices[l].name+"</div></div>");
+        }
+
+
       }
       console.log(oyezAllCasesData);
       console.log(oyezAllJusticeData);
       console.log(oyezAllOpinionData);
       console.log(oyezData);
 
-      $(".documentName").append("<div class=\"case\" id=\""+oyezAllCasesData[0].docketNum+"\"></div>");
-      $("#"+oyezAllCasesData[0].docketNum).append("<h1>"+response.name+"</h1>");
-
-      for(var b=0; b<oyezAllCasesData.length; b++){
-        $("#"+oyezAllCasesData[0].docketNum).append("<h2>"+oyezAllCasesData[b].majVotes+" - "+oyezAllCasesData[b].minVotes+"</h2>");
-
-        $("#"+oyezAllCasesData[0].docketNum).append("<div class=\"allOpinions "+b+"\" id=\""+oyezAllCasesData[b].decisionId+"\"></div>");
-
-
-        for(var c=0; c<oyezAllCasesData[b].justices.length; c++){
-          var selJustice = oyezAllCasesData[b].justices[c];
-          var selJusticeOpinion = selJustice.decision;
-          var joinedId = (oyezAllCasesData[b].justices[c].joined.length + oyezAllCasesData[b].justices[c].authored.length);
-
-          $("#"+oyezAllCasesData[b].decisionId).append("<div class=\"opinion\"><div class=\""+selJusticeOpinion+"\" id=\""+joinedId+"\">"+selJustice.name+"</div></div>");
-
-        }
-      }
-
     }).fail(function(){
       console.log("Ajax request fails!");
     });
   }
 
+  // every case gets their own box
+  for(var j=0; j<oyezArray.length; j++){
+    $(".allCases").append("<div class=\""+j+"Case case\"><h1 class=\""+j+"CaseTitle\"></h1></div>");
+  }
 
-  $(".case").on("click", function(){
-    oyezAjax();
-    console.log(oyezAllCasesData);
-
+  $(".caseClick").on("click", function(){
+    for(var h=0; h<oyezArray.length; h++){
+      oyez = oyezArray[h];
+      oyezCaseNum = h;
+      oyezAjax(h);
+    }
   });
 
 
