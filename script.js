@@ -4,7 +4,7 @@ $(document).ready(function(){
     name: "", lastName: "Roberts", year: 0,
     majorityAuthored: 0, majorityAuthoredCaseIds: [],
     minorityAuthored: 0, minorityAuthoredCaseIds: [],
-    concuranceAuthored: 0, concuranceAuthoredCaseIds: [],
+    concurranceAuthored: 0, concurranceAuthoredCaseIds: [],
     conDissAuthored: 0, conDissAuthoredCaseIds: [],
     decisionsAuthored: 0, decisionsAuthoredCaseIds: [],
     withMajorityTotals: 0, withMajorityTotalsCaseIds: [],
@@ -12,7 +12,7 @@ $(document).ready(function(){
     opinionsJoinedTotal: 0, opinionsJoinedTotalCaseIds: [],
     withMajority: 0, withMajorityCaseIds: [],
     withMinority: 0, withMinorityCaseIds: [],
-    withConcurance: 0, withConcuranceCaseIds: [],
+    withConcurrance: 0, withConcurranceCaseIds: [],
     withConDiss: 0, withConDissCaseIds: [],
     opinionsJoinedTotalMathCheck: 0, opinionsJoinedTotalMathCheckCaseIds: [],
     casesVotedTotal: 0, casesVotedTotalCaseIds: [],
@@ -21,48 +21,48 @@ $(document).ready(function(){
 
     scaliaMajorityJoinedTotal: 0, scaliaMajorityJoinedTotalCaseIds: [],
     scaliaMinorityJoinedTotal: 0, scaliaMinorityJoinedTotalCaseIds: [],
-    scaliaConcuranceJoinedTotal: 0, scaliaConcuranceJoinedTotalCaseIds: [],
+    scaliaConcurranceJoinedTotal: 0, scaliaConcurranceJoinedTotalCaseIds: [],
     scaliaConDissJoinedTotal: 0, scaliaConDissJoinedTotalCaseIds: [],
     scaliaJoinedTotal: 0, scaliaJoinedTotalCaseIds: [],
     kennedyMajorityJoinedTotal: 0, kennedyMajorityJoinedTotalCaseIds: [],
     kennedyMinorityJoinedTotal: 0, kennedyMinorityJoinedTotalCaseIds: [],
-    kennedyConcuranceJoinedTotal: 0, kennedyConcuranceJoinedTotalCaseIds: [],
+    kennedyConcurranceJoinedTotal: 0, kennedyConcurranceJoinedTotalCaseIds: [],
     kennedyConDissJoinedTotal: 0, kennedyConDissJoinedTotalCaseIds: [],
     kennedyJoinedTotal: 0, kennedyJoinedTotalCaseIds: [],
     thomasMajorityJoinedTotal: 0, thomasMajorityJoinedTotalCaseIds: [],
     thomasMinorityJoinedTotal: 0, thomasMinorityJoinedTotalCaseIds: [],
-    thomasConcuranceJoinedTotal: 0, thomasConcuranceJoinedTotalCaseIds: [],
+    thomasConcurranceJoinedTotal: 0, thomasConcurranceJoinedTotalCaseIds: [],
     thomasConDissJoinedTotal: 0, thomasConDissJoinedTotalCaseIds: [],
     thomasJoinedTotal: 0, thomasJoinedTotalCaseIds: [],
     ginsburgMajorityJoinedTotal: 0, ginsburgMajorityJoinedTotalCaseIds: [],
     ginsburgMinorityJoinedTotal: 0, ginsburgMinorityJoinedTotalCaseIds: [],
-    ginsburgConcuranceJoinedTotal: 0, ginsburgConcuranceJoinedTotalCaseIds: [],
+    ginsburgConcurranceJoinedTotal: 0, ginsburgConcurranceJoinedTotalCaseIds: [],
     ginsburgConDissJoinedTotal: 0, ginsburgConDissJoinedTotalCaseIds: [],
     ginsburgJoinedTotal: 0, ginsburgJoinedTotalCaseIds: [],
     breyerMajorityJoinedTotal: 0, breyerMajorityJoinedTotalCaseIds: [],
     breyerMinorityJoinedTotal: 0, breyerMinorityJoinedTotalCaseIds: [],
-    breyerConcuranceJoinedTotal: 0, breyerConcuranceJoinedTotalCaseIds: [],
+    breyerConcurranceJoinedTotal: 0, breyerConcurranceJoinedTotalCaseIds: [],
     breyerConDissJoinedTotal: 0, breyerConDissJoinedTotalCaseIds: [],
     breyerJoinedTotal: 0, breyerJoinedTotalCaseIds: [],
     alitoMajorityJoinedTotal: 0, alitoMajorityJoinedTotalCaseIds: [],
     alitoMinorityJoinedTotal: 0, alitoMinorityJoinedTotalCaseIds: [],
-    alitoConcuranceJoinedTotal: 0, alitoConcuranceJoinedTotalCaseIds: [],
+    alitoConcurranceJoinedTotal: 0, alitoConcurranceJoinedTotalCaseIds: [],
     alitoConDissJoinedTotal: 0, alitoConDissJoinedTotalCaseIds: [],
     alitoJoinedTotal: 0, alitoJoinedTotalCaseIds: [],
     sotomayorMajorityJoinedTotal: 0, sotomayorMajorityJoinedTotalCaseIds: [],
     sotomayorMinorityJoinedTotal: 0, sotomayorMinorityJoinedTotalCaseIds: [],
-    sotomayorConcuranceJoinedTotal: 0, sotomayorConcuranceJoinedTotalCaseIds: [],
+    sotomayorConcurranceJoinedTotal: 0, sotomayorConcurranceJoinedTotalCaseIds: [],
     sotomayorConDissJoinedTotal: 0, sotomayorConDissJoinedTotalCaseIds: [],
     sotomayorJoinedTotal: 0, sotomayorJoinedTotalCaseIds: [],
     kaganMajorityJoinedTotal: 0, kaganMajorityJoinedTotalCaseIds: [],
     kaganMinorityJoinedTotal: 0, kaganMinorityJoinedTotalCaseIds: [],
-    kaganConcuranceJoinedTotal: 0, kaganConcuranceJoinedTotalCaseIds: [],
+    kaganConcurranceJoinedTotal: 0, kaganConcurranceJoinedTotalCaseIds: [],
     kaganConDissJoinedTotal: 0, kaganConDissJoinedTotalCaseIds: [],
     kaganJoinedTotal: 0, kaganJoinedTotalCaseIds: [],
 
     scaliaMajorityOpinionAuthoredJoinedTotal: 0, scaliaMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaMinorityOpinionAuthoredJoinedTotal: 0, scaliaMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    scaliaConcuranceOpinionAuthoredJoinedTotal: 0, scaliaConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    scaliaConcurranceOpinionAuthoredJoinedTotal: 0, scaliaConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaConDissOpinionAuthoredJoinedTotal: 0, scaliaConDissOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaOpinionAuthoredJoinedTotal: 0, scaliaOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaWithAndMajority: 0, scaliaWithAndMajorityCaseIds: [],
@@ -75,7 +75,7 @@ $(document).ready(function(){
 
     kennedyMajorityOpinionAuthoredJoinedTotal: 0, kennedyMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyMinorityOpinionAuthoredJoinedTotal: 0, kennedyMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kennedyConcuranceOpinionAuthoredJoinedTotal: 0, kennedyConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kennedyConcurranceOpinionAuthoredJoinedTotal: 0, kennedyConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyConDissOpinionAuthoredJoinedTotal: 0, kennedyConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyOpinionAuthoredJoinedTotal: 0, kennedyOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyWithAndMajority: 0, kennedyWithAndMajorityCaseIds: [],
@@ -88,7 +88,7 @@ $(document).ready(function(){
 
     thomasMajorityOpinionAuthoredJoinedTotal: 0, thomasMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     thomasMinorityOpinionAuthoredJoinedTotal: 0, thomasMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    thomasConcuranceOpinionAuthoredJoinedTotal: 0, thomasConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    thomasConcurranceOpinionAuthoredJoinedTotal: 0, thomasConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     thomasConDissOpinionAuthoredJoinedTotal: 0, thomasConDissOpinionAuthoredJoinedTotalCaseIds: [],
     thomasOpinionAuthoredJoinedTotal: 0, thomasOpinionAuthoredJoinedTotalCaseIds: [],
     thomasWithAndMajority: 0, thomasWithAndMajorityCaseIds: [],
@@ -101,7 +101,7 @@ $(document).ready(function(){
 
     ginsburgMajorityOpinionAuthoredJoinedTotal: 0, ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgMinorityOpinionAuthoredJoinedTotal: 0, ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    ginsburgConcuranceOpinionAuthoredJoinedTotal: 0, ginsburgConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    ginsburgConcurranceOpinionAuthoredJoinedTotal: 0, ginsburgConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgConDissOpinionAuthoredJoinedTotal: 0, ginsburgConDissOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgOpinionAuthoredJoinedTotal: 0, ginsburgOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgWithAndMajority: 0, ginsburgWithAndMajorityCaseIds: [],
@@ -114,7 +114,7 @@ $(document).ready(function(){
 
     breyerMajorityOpinionAuthoredJoinedTotal: 0, breyerMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     breyerMinorityOpinionAuthoredJoinedTotal: 0, breyerMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    breyerConcuranceOpinionAuthoredJoinedTotal: 0, breyerConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    breyerConcurranceOpinionAuthoredJoinedTotal: 0, breyerConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     breyerConDissOpinionAuthoredJoinedTotal: 0, breyerConDissOpinionAuthoredJoinedTotalCaseIds: [],
     breyerOpinionAuthoredJoinedTotal: 0, breyerOpinionAuthoredJoinedTotalCaseIds: [],
     breyerWithAndMajority: 0, breyerWithAndMajorityCaseIds: [],
@@ -127,7 +127,7 @@ $(document).ready(function(){
 
     alitoMajorityOpinionAuthoredJoinedTotal: 0, alitoMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     alitoMinorityOpinionAuthoredJoinedTotal: 0, alitoMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    alitoConcuranceOpinionAuthoredJoinedTotal: 0, alitoConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    alitoConcurranceOpinionAuthoredJoinedTotal: 0, alitoConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     alitoConDissOpinionAuthoredJoinedTotal: 0, alitoConDissOpinionAuthoredJoinedTotalCaseIds: [],
     alitoOpinionAuthoredJoinedTotal: 0, alitoOpinionAuthoredJoinedTotalCaseIds: [],
     alitoWithAndMajority: 0, alitoWithAndMajorityCaseIds: [],
@@ -140,7 +140,7 @@ $(document).ready(function(){
 
     sotomayorMajorityOpinionAuthoredJoinedTotal: 0, sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorMinorityOpinionAuthoredJoinedTotal: 0, sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    sotomayorConcuranceOpinionAuthoredJoinedTotal: 0, sotomayorConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    sotomayorConcurranceOpinionAuthoredJoinedTotal: 0, sotomayorConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorConDissOpinionAuthoredJoinedTotal: 0, sotomayorConDissOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorOpinionAuthoredJoinedTotal: 0, sotomayorOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorWithAndMajority: 0, sotomayorWithAndMajorityCaseIds: [],
@@ -153,7 +153,7 @@ $(document).ready(function(){
 
     kaganMajorityOpinionAuthoredJoinedTotal: 0, kaganMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kaganMinorityOpinionAuthoredJoinedTotal: 0, kaganMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kaganConcuranceOpinionAuthoredJoinedTotal: 0, kaganConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kaganConcurranceOpinionAuthoredJoinedTotal: 0, kaganConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kaganConDissOpinionAuthoredJoinedTotal: 0, kaganConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kaganOpinionAuthoredJoinedTotal: 0, kaganOpinionAuthoredJoinedTotalCaseIds: [],
     kaganWithAndMajority: 0, kaganWithAndMajorityCaseIds: [],
@@ -168,7 +168,7 @@ $(document).ready(function(){
     name: "", lastName: "Scalia", year: 0,
     majorityAuthored: 0, majorityAuthoredCaseIds: [],
     minorityAuthored: 0, minorityAuthoredCaseIds: [],
-    concuranceAuthored: 0, concuranceAuthoredCaseIds: [],
+    concurranceAuthored: 0, concurranceAuthoredCaseIds: [],
     conDissAuthored: 0, conDissAuthoredCaseIds: [],
     decisionsAuthored: 0, decisionsAuthoredCaseIds: [],
     withMajorityTotals: 0, withMajorityTotalsCaseIds: [],
@@ -176,7 +176,7 @@ $(document).ready(function(){
     opinionsJoinedTotal: 0, opinionsJoinedTotalCaseIds: [],
     withMajority: 0, withMajorityCaseIds: [],
     withMinority: 0, withMinorityCaseIds: [],
-    withConcurance: 0, withConcuranceCaseIds: [],
+    withConcurrance: 0, withConcurranceCaseIds: [],
     withConDiss: 0, withConDissCaseIds: [],
     opinionsJoinedTotalMathCheck: 0, opinionsJoinedTotalMathCheckCaseIds: [],
     casesVotedTotal: 0, casesVotedTotalCaseIds: [],
@@ -185,48 +185,48 @@ $(document).ready(function(){
 
     robertsMajorityJoinedTotal: 0, robertsMajorityJoinedTotalCaseIds: [],
     robertsMinorityJoinedTotal: 0, robertsMinorityJoinedTotalCaseIds: [],
-    robertsConcuranceJoinedTotal: 0, robertsConcuranceJoinedTotalCaseIds: [],
+    robertsConcurranceJoinedTotal: 0, robertsConcurranceJoinedTotalCaseIds: [],
     robertsConDissJoinedTotal: 0, robertsConDissJoinedTotalCaseIds: [],
     robertsJoinedTotal: 0, robertsJoinedTotalCaseIds: [],
     kennedyMajorityJoinedTotal: 0, kennedyMajorityJoinedTotalCaseIds: [],
     kennedyMinorityJoinedTotal: 0, kennedyMinorityJoinedTotalCaseIds: [],
-    kennedyConcuranceJoinedTotal: 0, kennedyConcuranceJoinedTotalCaseIds: [],
+    kennedyConcurranceJoinedTotal: 0, kennedyConcurranceJoinedTotalCaseIds: [],
     kennedyConDissJoinedTotal: 0, kennedyConDissJoinedTotalCaseIds: [],
     kennedyJoinedTotal: 0, kennedyJoinedTotalCaseIds: [],
     thomasMajorityJoinedTotal: 0, thomasMajorityJoinedTotalCaseIds: [],
     thomasMinorityJoinedTotal: 0, thomasMinorityJoinedTotalCaseIds: [],
-    thomasConcuranceJoinedTotal: 0, thomasConcuranceJoinedTotalCaseIds: [],
+    thomasConcurranceJoinedTotal: 0, thomasConcurranceJoinedTotalCaseIds: [],
     thomasConDissJoinedTotal: 0, thomasConDissJoinedTotalCaseIds: [],
     thomasJoinedTotal: 0, thomasJoinedTotalCaseIds: [],
     ginsburgMajorityJoinedTotal: 0, ginsburgMajorityJoinedTotalCaseIds: [],
     ginsburgMinorityJoinedTotal: 0, ginsburgMinorityJoinedTotalCaseIds: [],
-    ginsburgConcuranceJoinedTotal: 0, ginsburgConcuranceJoinedTotalCaseIds: [],
+    ginsburgConcurranceJoinedTotal: 0, ginsburgConcurranceJoinedTotalCaseIds: [],
     ginsburgConDissJoinedTotal: 0, ginsburgConDissJoinedTotalCaseIds: [],
     ginsburgJoinedTotal: 0, ginsburgJoinedTotalCaseIds: [],
     breyerMajorityJoinedTotal: 0, breyerMajorityJoinedTotalCaseIds: [],
     breyerMinorityJoinedTotal: 0, breyerMinorityJoinedTotalCaseIds: [],
-    breyerConcuranceJoinedTotal: 0, breyerConcuranceJoinedTotalCaseIds: [],
+    breyerConcurranceJoinedTotal: 0, breyerConcurranceJoinedTotalCaseIds: [],
     breyerConDissJoinedTotal: 0, breyerConDissJoinedTotalCaseIds: [],
     breyerJoinedTotal: 0, breyerJoinedTotalCaseIds: [],
     alitoMajorityJoinedTotal: 0, alitoMajorityJoinedTotalCaseIds: [],
     alitoMinorityJoinedTotal: 0, alitoMinorityJoinedTotalCaseIds: [],
-    alitoConcuranceJoinedTotal: 0, alitoConcuranceJoinedTotalCaseIds: [],
+    alitoConcurranceJoinedTotal: 0, alitoConcurranceJoinedTotalCaseIds: [],
     alitoConDissJoinedTotal: 0, alitoConDissJoinedTotalCaseIds: [],
     alitoJoinedTotal: 0, alitoJoinedTotalCaseIds: [],
     sotomayorMajorityJoinedTotal: 0, sotomayorMajorityJoinedTotalCaseIds: [],
     sotomayorMinorityJoinedTotal: 0, sotomayorMinorityJoinedTotalCaseIds: [],
-    sotomayorConcuranceJoinedTotal: 0, sotomayorConcuranceJoinedTotalCaseIds: [],
+    sotomayorConcurranceJoinedTotal: 0, sotomayorConcurranceJoinedTotalCaseIds: [],
     sotomayorConDissJoinedTotal: 0, sotomayorConDissJoinedTotalCaseIds: [],
     sotomayorJoinedTotal: 0, sotomayorJoinedTotalCaseIds: [],
     kaganMajorityJoinedTotal: 0, kaganMajorityJoinedTotalCaseIds: [],
     kaganMinorityJoinedTotal: 0, kaganMinorityJoinedTotalCaseIds: [],
-    kaganConcuranceJoinedTotal: 0, kaganConcuranceJoinedTotalCaseIds: [],
+    kaganConcurranceJoinedTotal: 0, kaganConcurranceJoinedTotalCaseIds: [],
     kaganConDissJoinedTotal: 0, kaganConDissJoinedTotalCaseIds: [],
     kaganJoinedTotal: 0, kaganJoinedTotalCaseIds: [],
 
     robertsMajorityOpinionAuthoredJoinedTotal: 0, robertsMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     robertsMinorityOpinionAuthoredJoinedTotal: 0, robertsMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    robertsConcuranceOpinionAuthoredJoinedTotal: 0, robertsConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    robertsConcurranceOpinionAuthoredJoinedTotal: 0, robertsConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     robertsConDissOpinionAuthoredJoinedTotal: 0, robertsConDissOpinionAuthoredJoinedTotalCaseIds: [],
     robertsOpinionAuthoredJoinedTotal: 0, robertsOpinionAuthoredJoinedTotalCaseIds: [],
     robertsWithAndMajority: 0, robertsWithAndMajorityCaseIds: [],
@@ -239,7 +239,7 @@ $(document).ready(function(){
 
     kennedyMajorityOpinionAuthoredJoinedTotal: 0, kennedyMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyMinorityOpinionAuthoredJoinedTotal: 0, kennedyMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kennedyConcuranceOpinionAuthoredJoinedTotal: 0, kennedyConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kennedyConcurranceOpinionAuthoredJoinedTotal: 0, kennedyConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyConDissOpinionAuthoredJoinedTotal: 0, kennedyConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyOpinionAuthoredJoinedTotal: 0, kennedyOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyWithAndMajority: 0, kennedyWithAndMajorityCaseIds: [],
@@ -252,7 +252,7 @@ $(document).ready(function(){
 
     thomasMajorityOpinionAuthoredJoinedTotal: 0, thomasMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     thomasMinorityOpinionAuthoredJoinedTotal: 0, thomasMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    thomasConcuranceOpinionAuthoredJoinedTotal: 0, thomasConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    thomasConcurranceOpinionAuthoredJoinedTotal: 0, thomasConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     thomasConDissOpinionAuthoredJoinedTotal: 0, thomasConDissOpinionAuthoredJoinedTotalCaseIds: [],
     thomasOpinionAuthoredJoinedTotal: 0, thomasOpinionAuthoredJoinedTotalCaseIds: [],
     thomasWithAndMajority: 0, thomasWithAndMajorityCaseIds: [],
@@ -265,7 +265,7 @@ $(document).ready(function(){
 
     ginsburgMajorityOpinionAuthoredJoinedTotal: 0, ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgMinorityOpinionAuthoredJoinedTotal: 0, ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    ginsburgConcuranceOpinionAuthoredJoinedTotal: 0, ginsburgConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    ginsburgConcurranceOpinionAuthoredJoinedTotal: 0, ginsburgConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgConDissOpinionAuthoredJoinedTotal: 0, ginsburgConDissOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgOpinionAuthoredJoinedTotal: 0, ginsburgOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgWithAndMajority: 0, ginsburgWithAndMajorityCaseIds: [],
@@ -278,7 +278,7 @@ $(document).ready(function(){
 
     breyerMajorityOpinionAuthoredJoinedTotal: 0, breyerMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     breyerMinorityOpinionAuthoredJoinedTotal: 0, breyerMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    breyerConcuranceOpinionAuthoredJoinedTotal: 0, breyerConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    breyerConcurranceOpinionAuthoredJoinedTotal: 0, breyerConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     breyerConDissOpinionAuthoredJoinedTotal: 0, breyerConDissOpinionAuthoredJoinedTotalCaseIds: [],
     breyerOpinionAuthoredJoinedTotal: 0, breyerOpinionAuthoredJoinedTotalCaseIds: [],
     breyerWithAndMajority: 0, breyerWithAndMajorityCaseIds: [],
@@ -291,7 +291,7 @@ $(document).ready(function(){
 
     alitoMajorityOpinionAuthoredJoinedTotal: 0, alitoMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     alitoMinorityOpinionAuthoredJoinedTotal: 0, alitoMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    alitoConcuranceOpinionAuthoredJoinedTotal: 0, alitoConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    alitoConcurranceOpinionAuthoredJoinedTotal: 0, alitoConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     alitoConDissOpinionAuthoredJoinedTotal: 0, alitoConDissOpinionAuthoredJoinedTotalCaseIds: [],
     alitoOpinionAuthoredJoinedTotal: 0, alitoOpinionAuthoredJoinedTotalCaseIds: [],
     alitoWithAndMajority: 0, alitoWithAndMajorityCaseIds: [],
@@ -304,7 +304,7 @@ $(document).ready(function(){
 
     sotomayorMajorityOpinionAuthoredJoinedTotal: 0, sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorMinorityOpinionAuthoredJoinedTotal: 0, sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    sotomayorConcuranceOpinionAuthoredJoinedTotal: 0, sotomayorConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    sotomayorConcurranceOpinionAuthoredJoinedTotal: 0, sotomayorConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorConDissOpinionAuthoredJoinedTotal: 0, sotomayorConDissOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorOpinionAuthoredJoinedTotal: 0, sotomayorOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorWithAndMajority: 0, sotomayorWithAndMajorityCaseIds: [],
@@ -317,7 +317,7 @@ $(document).ready(function(){
 
     kaganMajorityOpinionAuthoredJoinedTotal: 0, kaganMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kaganMinorityOpinionAuthoredJoinedTotal: 0, kaganMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kaganConcuranceOpinionAuthoredJoinedTotal: 0, kaganConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kaganConcurranceOpinionAuthoredJoinedTotal: 0, kaganConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kaganConDissOpinionAuthoredJoinedTotal: 0, kaganConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kaganOpinionAuthoredJoinedTotal: 0, kaganOpinionAuthoredJoinedTotalCaseIds: [],
     kaganWithAndMajority: 0, kaganWithAndMajorityCaseIds: [],
@@ -332,7 +332,7 @@ $(document).ready(function(){
     name: "", lastName: "Kennedy", year: 0,
     majorityAuthored: 0, majorityAuthoredCaseIds: [],
     minorityAuthored: 0, minorityAuthoredCaseIds: [],
-    concuranceAuthored: 0, concuranceAuthoredCaseIds: [],
+    concurranceAuthored: 0, concurranceAuthoredCaseIds: [],
     conDissAuthored: 0, conDissAuthoredCaseIds: [],
     decisionsAuthored: 0, decisionsAuthoredCaseIds: [],
     withMajorityTotals: 0, withMajorityTotalsCaseIds: [],
@@ -340,7 +340,7 @@ $(document).ready(function(){
     opinionsJoinedTotal: 0, opinionsJoinedTotalCaseIds: [],
     withMajority: 0, withMajorityCaseIds: [],
     withMinority: 0, withMinorityCaseIds: [],
-    withConcurance: 0, withConcuranceCaseIds: [],
+    withConcurrance: 0, withConcurranceCaseIds: [],
     withConDiss: 0, withConDissCaseIds: [],
     opinionsJoinedTotalMathCheck: 0, opinionsJoinedTotalMathCheckCaseIds: [],
     casesVotedTotal: 0, casesVotedTotalCaseIds: [],
@@ -349,48 +349,48 @@ $(document).ready(function(){
 
     robertsMajorityJoinedTotal: 0, robertsMajorityJoinedTotalCaseIds: [],
     robertsMinorityJoinedTotal: 0, robertsMinorityJoinedTotalCaseIds: [],
-    robertsConcuranceJoinedTotal: 0, robertsConcuranceJoinedTotalCaseIds: [],
+    robertsConcurranceJoinedTotal: 0, robertsConcurranceJoinedTotalCaseIds: [],
     robertsConDissJoinedTotal: 0, robertsConDissJoinedTotalCaseIds: [],
     robertsJoinedTotal: 0, robertsJoinedTotalCaseIds: [],
     scaliaMajorityJoinedTotal: 0, scaliaMajorityJoinedTotalCaseIds: [],
     scaliaMinorityJoinedTotal: 0, scaliaMinorityJoinedTotalCaseIds: [],
-    scaliaConcuranceJoinedTotal: 0, scaliaConcuranceJoinedTotalCaseIds: [],
+    scaliaConcurranceJoinedTotal: 0, scaliaConcurranceJoinedTotalCaseIds: [],
     scaliaConDissJoinedTotal: 0, scaliaConDissJoinedTotalCaseIds: [],
     scaliaJoinedTotal: 0, scaliaJoinedTotalCaseIds: [],
     thomasMajorityJoinedTotal: 0, thomasMajorityJoinedTotalCaseIds: [],
     thomasMinorityJoinedTotal: 0, thomasMinorityJoinedTotalCaseIds: [],
-    thomasConcuranceJoinedTotal: 0, thomasConcuranceJoinedTotalCaseIds: [],
+    thomasConcurranceJoinedTotal: 0, thomasConcurranceJoinedTotalCaseIds: [],
     thomasConDissJoinedTotal: 0, thomasConDissJoinedTotalCaseIds: [],
     thomasJoinedTotal: 0, thomasJoinedTotalCaseIds: [],
     ginsburgMajorityJoinedTotal: 0, ginsburgMajorityJoinedTotalCaseIds: [],
     ginsburgMinorityJoinedTotal: 0, ginsburgMinorityJoinedTotalCaseIds: [],
-    ginsburgConcuranceJoinedTotal: 0, ginsburgConcuranceJoinedTotalCaseIds: [],
+    ginsburgConcurranceJoinedTotal: 0, ginsburgConcurranceJoinedTotalCaseIds: [],
     ginsburgConDissJoinedTotal: 0, ginsburgConDissJoinedTotalCaseIds: [],
     ginsburgJoinedTotal: 0, ginsburgJoinedTotalCaseIds: [],
     breyerMajorityJoinedTotal: 0, breyerMajorityJoinedTotalCaseIds: [],
     breyerMinorityJoinedTotal: 0, breyerMinorityJoinedTotalCaseIds: [],
-    breyerConcuranceJoinedTotal: 0, breyerConcuranceJoinedTotalCaseIds: [],
+    breyerConcurranceJoinedTotal: 0, breyerConcurranceJoinedTotalCaseIds: [],
     breyerConDissJoinedTotal: 0, breyerConDissJoinedTotalCaseIds: [],
     breyerJoinedTotal: 0, breyerJoinedTotalCaseIds: [],
     alitoMajorityJoinedTotal: 0, alitoMajorityJoinedTotalCaseIds: [],
     alitoMinorityJoinedTotal: 0, alitoMinorityJoinedTotalCaseIds: [],
-    alitoConcuranceJoinedTotal: 0, alitoConcuranceJoinedTotalCaseIds: [],
+    alitoConcurranceJoinedTotal: 0, alitoConcurranceJoinedTotalCaseIds: [],
     alitoConDissJoinedTotal: 0, alitoConDissJoinedTotalCaseIds: [],
     alitoJoinedTotal: 0, alitoJoinedTotalCaseIds: [],
     sotomayorMajorityJoinedTotal: 0, sotomayorMajorityJoinedTotalCaseIds: [],
     sotomayorMinorityJoinedTotal: 0, sotomayorMinorityJoinedTotalCaseIds: [],
-    sotomayorConcuranceJoinedTotal: 0, sotomayorConcuranceJoinedTotalCaseIds: [],
+    sotomayorConcurranceJoinedTotal: 0, sotomayorConcurranceJoinedTotalCaseIds: [],
     sotomayorConDissJoinedTotal: 0, sotomayorConDissJoinedTotalCaseIds: [],
     sotomayorJoinedTotal: 0, sotomayorJoinedTotalCaseIds: [],
     kaganMajorityJoinedTotal: 0, kaganMajorityJoinedTotalCaseIds: [],
     kaganMinorityJoinedTotal: 0, kaganMinorityJoinedTotalCaseIds: [],
-    kaganConcuranceJoinedTotal: 0, kaganConcuranceJoinedTotalCaseIds: [],
+    kaganConcurranceJoinedTotal: 0, kaganConcurranceJoinedTotalCaseIds: [],
     kaganConDissJoinedTotal: 0, kaganConDissJoinedTotalCaseIds: [],
     kaganJoinedTotal: 0, kaganJoinedTotalCaseIds: [],
 
     robertsMajorityOpinionAuthoredJoinedTotal: 0, robertsMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     robertsMinorityOpinionAuthoredJoinedTotal: 0, robertsMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    robertsConcuranceOpinionAuthoredJoinedTotal: 0, robertsConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    robertsConcurranceOpinionAuthoredJoinedTotal: 0, robertsConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     robertsConDissOpinionAuthoredJoinedTotal: 0, robertsConDissOpinionAuthoredJoinedTotalCaseIds: [],
     robertsOpinionAuthoredJoinedTotal: 0, robertsOpinionAuthoredJoinedTotalCaseIds: [],
     robertsWithAndMajority: 0, robertsWithAndMajorityCaseIds: [],
@@ -403,7 +403,7 @@ $(document).ready(function(){
 
     scaliaMajorityOpinionAuthoredJoinedTotal: 0, scaliaMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaMinorityOpinionAuthoredJoinedTotal: 0, scaliaMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    scaliaConcuranceOpinionAuthoredJoinedTotal: 0, scaliaConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    scaliaConcurranceOpinionAuthoredJoinedTotal: 0, scaliaConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaConDissOpinionAuthoredJoinedTotal: 0, scaliaConDissOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaOpinionAuthoredJoinedTotal: 0, scaliaOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaWithAndMajority: 0, scaliaWithAndMajorityCaseIds: [],
@@ -416,7 +416,7 @@ $(document).ready(function(){
 
     thomasMajorityOpinionAuthoredJoinedTotal: 0, thomasMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     thomasMinorityOpinionAuthoredJoinedTotal: 0, thomasMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    thomasConcuranceOpinionAuthoredJoinedTotal: 0, thomasConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    thomasConcurranceOpinionAuthoredJoinedTotal: 0, thomasConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     thomasConDissOpinionAuthoredJoinedTotal: 0, thomasConDissOpinionAuthoredJoinedTotalCaseIds: [],
     thomasOpinionAuthoredJoinedTotal: 0, thomasOpinionAuthoredJoinedTotalCaseIds: [],
     thomasWithAndMajority: 0, thomasWithAndMajorityCaseIds: [],
@@ -429,7 +429,7 @@ $(document).ready(function(){
 
     ginsburgMajorityOpinionAuthoredJoinedTotal: 0, ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgMinorityOpinionAuthoredJoinedTotal: 0, ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    ginsburgConcuranceOpinionAuthoredJoinedTotal: 0, ginsburgConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    ginsburgConcurranceOpinionAuthoredJoinedTotal: 0, ginsburgConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgConDissOpinionAuthoredJoinedTotal: 0, ginsburgConDissOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgOpinionAuthoredJoinedTotal: 0, ginsburgOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgWithAndMajority: 0, ginsburgWithAndMajorityCaseIds: [],
@@ -442,7 +442,7 @@ $(document).ready(function(){
 
     breyerMajorityOpinionAuthoredJoinedTotal: 0, breyerMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     breyerMinorityOpinionAuthoredJoinedTotal: 0, breyerMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    breyerConcuranceOpinionAuthoredJoinedTotal: 0, breyerConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    breyerConcurranceOpinionAuthoredJoinedTotal: 0, breyerConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     breyerConDissOpinionAuthoredJoinedTotal: 0, breyerConDissOpinionAuthoredJoinedTotalCaseIds: [],
     breyerOpinionAuthoredJoinedTotal: 0, breyerOpinionAuthoredJoinedTotalCaseIds: [],
     breyerWithAndMajority: 0, breyerWithAndMajorityCaseIds: [],
@@ -455,7 +455,7 @@ $(document).ready(function(){
 
     alitoMajorityOpinionAuthoredJoinedTotal: 0, alitoMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     alitoMinorityOpinionAuthoredJoinedTotal: 0, alitoMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    alitoConcuranceOpinionAuthoredJoinedTotal: 0, alitoConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    alitoConcurranceOpinionAuthoredJoinedTotal: 0, alitoConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     alitoConDissOpinionAuthoredJoinedTotal: 0, alitoConDissOpinionAuthoredJoinedTotalCaseIds: [],
     alitoOpinionAuthoredJoinedTotal: 0, alitoOpinionAuthoredJoinedTotalCaseIds: [],
     alitoWithAndMajority: 0, alitoWithAndMajorityCaseIds: [],
@@ -468,7 +468,7 @@ $(document).ready(function(){
 
     sotomayorMajorityOpinionAuthoredJoinedTotal: 0, sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorMinorityOpinionAuthoredJoinedTotal: 0, sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    sotomayorConcuranceOpinionAuthoredJoinedTotal: 0, sotomayorConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    sotomayorConcurranceOpinionAuthoredJoinedTotal: 0, sotomayorConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorConDissOpinionAuthoredJoinedTotal: 0, sotomayorConDissOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorOpinionAuthoredJoinedTotal: 0, sotomayorOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorWithAndMajority: 0, sotomayorWithAndMajorityCaseIds: [],
@@ -481,7 +481,7 @@ $(document).ready(function(){
 
     kaganMajorityOpinionAuthoredJoinedTotal: 0, kaganMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kaganMinorityOpinionAuthoredJoinedTotal: 0, kaganMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kaganConcuranceOpinionAuthoredJoinedTotal: 0, kaganConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kaganConcurranceOpinionAuthoredJoinedTotal: 0, kaganConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kaganConDissOpinionAuthoredJoinedTotal: 0, kaganConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kaganOpinionAuthoredJoinedTotal: 0, kaganOpinionAuthoredJoinedTotalCaseIds: [],
     kaganWithAndMajority: 0, kaganWithAndMajorityCaseIds: [],
@@ -497,7 +497,7 @@ $(document).ready(function(){
     name: "", lastName: "Thomas", year: 0,
     majorityAuthored: 0, majorityAuthoredCaseIds: [],
     minorityAuthored: 0, minorityAuthoredCaseIds: [],
-    concuranceAuthored: 0, concuranceAuthoredCaseIds: [],
+    concurranceAuthored: 0, concurranceAuthoredCaseIds: [],
     conDissAuthored: 0, conDissAuthoredCaseIds: [],
     decisionsAuthored: 0, decisionsAuthoredCaseIds: [],
     withMajorityTotals: 0, withMajorityTotalsCaseIds: [],
@@ -505,7 +505,7 @@ $(document).ready(function(){
     opinionsJoinedTotal: 0, opinionsJoinedTotalCaseIds: [],
     withMajority: 0, withMajorityCaseIds: [],
     withMinority: 0, withMinorityCaseIds: [],
-    withConcurance: 0, withConcuranceCaseIds: [],
+    withConcurrance: 0, withConcurranceCaseIds: [],
     withConDiss: 0, withConDissCaseIds: [],
     opinionsJoinedTotalMathCheck: 0, opinionsJoinedTotalMathCheckCaseIds: [],
     casesVotedTotal: 0, casesVotedTotalCaseIds: [],
@@ -514,48 +514,48 @@ $(document).ready(function(){
 
     robertsMajorityJoinedTotal: 0, robertsMajorityJoinedTotalCaseIds: [],
     robertsMinorityJoinedTotal: 0, robertsMinorityJoinedTotalCaseIds: [],
-    robertsConcuranceJoinedTotal: 0, robertsConcuranceJoinedTotalCaseIds: [],
+    robertsConcurranceJoinedTotal: 0, robertsConcurranceJoinedTotalCaseIds: [],
     robertsConDissJoinedTotal: 0, robertsConDissJoinedTotalCaseIds: [],
     robertsJoinedTotal: 0, robertsJoinedTotalCaseIds: [],
     scaliaMajorityJoinedTotal: 0, scaliaMajorityJoinedTotalCaseIds: [],
     scaliaMinorityJoinedTotal: 0, scaliaMinorityJoinedTotalCaseIds: [],
-    scaliaConcuranceJoinedTotal: 0, scaliaConcuranceJoinedTotalCaseIds: [],
+    scaliaConcurranceJoinedTotal: 0, scaliaConcurranceJoinedTotalCaseIds: [],
     scaliaConDissJoinedTotal: 0, scaliaConDissJoinedTotalCaseIds: [],
     scaliaJoinedTotal: 0, scaliaJoinedTotalCaseIds: [],
     kennedyMajorityJoinedTotal: 0, kennedyMajorityJoinedTotalCaseIds: [],
     kennedyMinorityJoinedTotal: 0, kennedyMinorityJoinedTotalCaseIds: [],
-    kennedyConcuranceJoinedTotal: 0, kennedyConcuranceJoinedTotalCaseIds: [],
+    kennedyConcurranceJoinedTotal: 0, kennedyConcurranceJoinedTotalCaseIds: [],
     kennedyConDissJoinedTotal: 0, kennedyConDissJoinedTotalCaseIds: [],
     kennedyJoinedTotal: 0, kennedyJoinedTotalCaseIds: [],
     ginsburgMajorityJoinedTotal: 0, ginsburgMajorityJoinedTotalCaseIds: [],
     ginsburgMinorityJoinedTotal: 0, ginsburgMinorityJoinedTotalCaseIds: [],
-    ginsburgConcuranceJoinedTotal: 0, ginsburgConcuranceJoinedTotalCaseIds: [],
+    ginsburgConcurranceJoinedTotal: 0, ginsburgConcurranceJoinedTotalCaseIds: [],
     ginsburgConDissJoinedTotal: 0, ginsburgConDissJoinedTotalCaseIds: [],
     ginsburgJoinedTotal: 0, ginsburgJoinedTotalCaseIds: [],
     breyerMajorityJoinedTotal: 0, breyerMajorityJoinedTotalCaseIds: [],
     breyerMinorityJoinedTotal: 0, breyerMinorityJoinedTotalCaseIds: [],
-    breyerConcuranceJoinedTotal: 0, breyerConcuranceJoinedTotalCaseIds: [],
+    breyerConcurranceJoinedTotal: 0, breyerConcurranceJoinedTotalCaseIds: [],
     breyerConDissJoinedTotal: 0, breyerConDissJoinedTotalCaseIds: [],
     breyerJoinedTotal: 0, breyerJoinedTotalCaseIds: [],
     alitoMajorityJoinedTotal: 0, alitoMajorityJoinedTotalCaseIds: [],
     alitoMinorityJoinedTotal: 0, alitoMinorityJoinedTotalCaseIds: [],
-    alitoConcuranceJoinedTotal: 0, alitoConcuranceJoinedTotalCaseIds: [],
+    alitoConcurranceJoinedTotal: 0, alitoConcurranceJoinedTotalCaseIds: [],
     alitoConDissJoinedTotal: 0, alitoConDissJoinedTotalCaseIds: [],
     alitoJoinedTotal: 0, alitoJoinedTotalCaseIds: [],
     sotomayorMajorityJoinedTotal: 0, sotomayorMajorityJoinedTotalCaseIds: [],
     sotomayorMinorityJoinedTotal: 0, sotomayorMinorityJoinedTotalCaseIds: [],
-    sotomayorConcuranceJoinedTotal: 0, sotomayorConcuranceJoinedTotalCaseIds: [],
+    sotomayorConcurranceJoinedTotal: 0, sotomayorConcurranceJoinedTotalCaseIds: [],
     sotomayorConDissJoinedTotal: 0, sotomayorConDissJoinedTotalCaseIds: [],
     sotomayorJoinedTotal: 0, sotomayorJoinedTotalCaseIds: [],
     kaganMajorityJoinedTotal: 0, kaganMajorityJoinedTotalCaseIds: [],
     kaganMinorityJoinedTotal: 0, kaganMinorityJoinedTotalCaseIds: [],
-    kaganConcuranceJoinedTotal: 0, kaganConcuranceJoinedTotalCaseIds: [],
+    kaganConcurranceJoinedTotal: 0, kaganConcurranceJoinedTotalCaseIds: [],
     kaganConDissJoinedTotal: 0, kaganConDissJoinedTotalCaseIds: [],
     kaganJoinedTotal: 0, kaganJoinedTotalCaseIds: [],
 
     robertsMajorityOpinionAuthoredJoinedTotal: 0, robertsMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     robertsMinorityOpinionAuthoredJoinedTotal: 0, robertsMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    robertsConcuranceOpinionAuthoredJoinedTotal: 0, robertsConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    robertsConcurranceOpinionAuthoredJoinedTotal: 0, robertsConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     robertsConDissOpinionAuthoredJoinedTotal: 0, robertsConDissOpinionAuthoredJoinedTotalCaseIds: [],
     robertsOpinionAuthoredJoinedTotal: 0, robertsOpinionAuthoredJoinedTotalCaseIds: [],
     robertsWithAndMajority: 0, robertsWithAndMajorityCaseIds: [],
@@ -568,7 +568,7 @@ $(document).ready(function(){
 
     scaliaMajorityOpinionAuthoredJoinedTotal: 0, scaliaMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaMinorityOpinionAuthoredJoinedTotal: 0, scaliaMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    scaliaConcuranceOpinionAuthoredJoinedTotal: 0, scaliaConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    scaliaConcurranceOpinionAuthoredJoinedTotal: 0, scaliaConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaConDissOpinionAuthoredJoinedTotal: 0, scaliaConDissOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaOpinionAuthoredJoinedTotal: 0, scaliaOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaWithAndMajority: 0, scaliaWithAndMajorityCaseIds: [],
@@ -581,7 +581,7 @@ $(document).ready(function(){
 
     kennedyMajorityOpinionAuthoredJoinedTotal: 0, kennedyMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyMinorityOpinionAuthoredJoinedTotal: 0, kennedyMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kennedyConcuranceOpinionAuthoredJoinedTotal: 0, kennedyConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kennedyConcurranceOpinionAuthoredJoinedTotal: 0, kennedyConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyConDissOpinionAuthoredJoinedTotal: 0, kennedyConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyOpinionAuthoredJoinedTotal: 0, kennedyOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyWithAndMajority: 0, kennedyWithAndMajorityCaseIds: [],
@@ -594,7 +594,7 @@ $(document).ready(function(){
 
     ginsburgMajorityOpinionAuthoredJoinedTotal: 0, ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgMinorityOpinionAuthoredJoinedTotal: 0, ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    ginsburgConcuranceOpinionAuthoredJoinedTotal: 0, ginsburgConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    ginsburgConcurranceOpinionAuthoredJoinedTotal: 0, ginsburgConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgConDissOpinionAuthoredJoinedTotal: 0, ginsburgConDissOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgOpinionAuthoredJoinedTotal: 0, ginsburgOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgWithAndMajority: 0, ginsburgWithAndMajorityCaseIds: [],
@@ -607,7 +607,7 @@ $(document).ready(function(){
 
     breyerMajorityOpinionAuthoredJoinedTotal: 0, breyerMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     breyerMinorityOpinionAuthoredJoinedTotal: 0, breyerMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    breyerConcuranceOpinionAuthoredJoinedTotal: 0, breyerConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    breyerConcurranceOpinionAuthoredJoinedTotal: 0, breyerConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     breyerConDissOpinionAuthoredJoinedTotal: 0, breyerConDissOpinionAuthoredJoinedTotalCaseIds: [],
     breyerOpinionAuthoredJoinedTotal: 0, breyerOpinionAuthoredJoinedTotalCaseIds: [],
     breyerWithAndMajority: 0, breyerWithAndMajorityCaseIds: [],
@@ -620,7 +620,7 @@ $(document).ready(function(){
 
     alitoMajorityOpinionAuthoredJoinedTotal: 0, alitoMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     alitoMinorityOpinionAuthoredJoinedTotal: 0, alitoMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    alitoConcuranceOpinionAuthoredJoinedTotal: 0, alitoConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    alitoConcurranceOpinionAuthoredJoinedTotal: 0, alitoConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     alitoConDissOpinionAuthoredJoinedTotal: 0, alitoConDissOpinionAuthoredJoinedTotalCaseIds: [],
     alitoOpinionAuthoredJoinedTotal: 0, alitoOpinionAuthoredJoinedTotalCaseIds: [],
     alitoWithAndMajority: 0, alitoWithAndMajorityCaseIds: [],
@@ -633,7 +633,7 @@ $(document).ready(function(){
 
     sotomayorMajorityOpinionAuthoredJoinedTotal: 0, sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorMinorityOpinionAuthoredJoinedTotal: 0, sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    sotomayorConcuranceOpinionAuthoredJoinedTotal: 0, sotomayorConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    sotomayorConcurranceOpinionAuthoredJoinedTotal: 0, sotomayorConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorConDissOpinionAuthoredJoinedTotal: 0, sotomayorConDissOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorOpinionAuthoredJoinedTotal: 0, sotomayorOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorWithAndMajority: 0, sotomayorWithAndMajorityCaseIds: [],
@@ -646,7 +646,7 @@ $(document).ready(function(){
 
     kaganMajorityOpinionAuthoredJoinedTotal: 0, kaganMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kaganMinorityOpinionAuthoredJoinedTotal: 0, kaganMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kaganConcuranceOpinionAuthoredJoinedTotal: 0, kaganConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kaganConcurranceOpinionAuthoredJoinedTotal: 0, kaganConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kaganConDissOpinionAuthoredJoinedTotal: 0, kaganConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kaganOpinionAuthoredJoinedTotal: 0, kaganOpinionAuthoredJoinedTotalCaseIds: [],
     kaganWithAndMajority: 0, kaganWithAndMajorityCaseIds: [],
@@ -661,7 +661,7 @@ $(document).ready(function(){
     name: "", lastName: "Ginsburg", year: 0,
     majorityAuthored: 0, majorityAuthoredCaseIds: [],
     minorityAuthored: 0, minorityAuthoredCaseIds: [],
-    concuranceAuthored: 0, concuranceAuthoredCaseIds: [],
+    concurranceAuthored: 0, concurranceAuthoredCaseIds: [],
     conDissAuthored: 0, conDissAuthoredCaseIds: [],
     decisionsAuthored: 0, decisionsAuthoredCaseIds: [],
     withMajorityTotals: 0, withMajorityTotalsCaseIds: [],
@@ -669,7 +669,7 @@ $(document).ready(function(){
     opinionsJoinedTotal: 0, opinionsJoinedTotalCaseIds: [],
     withMajority: 0, withMajorityCaseIds: [],
     withMinority: 0, withMinorityCaseIds: [],
-    withConcurance: 0, withConcuranceCaseIds: [],
+    withConcurrance: 0, withConcurranceCaseIds: [],
     withConDiss: 0, withConDissCaseIds: [],
     opinionsJoinedTotalMathCheck: 0, opinionsJoinedTotalMathCheckCaseIds: [],
     casesVotedTotal: 0, casesVotedTotalCaseIds: [],
@@ -678,48 +678,48 @@ $(document).ready(function(){
 
     robertsMajorityJoinedTotal: 0, robertsMajorityJoinedTotalCaseIds: [],
     robertsMinorityJoinedTotal: 0, robertsMinorityJoinedTotalCaseIds: [],
-    robertsConcuranceJoinedTotal: 0, robertsConcuranceJoinedTotalCaseIds: [],
+    robertsConcurranceJoinedTotal: 0, robertsConcurranceJoinedTotalCaseIds: [],
     robertsConDissJoinedTotal: 0, robertsConDissJoinedTotalCaseIds: [],
     robertsJoinedTotal: 0, robertsJoinedTotalCaseIds: [],
     scaliaMajorityJoinedTotal: 0, scaliaMajorityJoinedTotalCaseIds: [],
     scaliaMinorityJoinedTotal: 0, scaliaMinorityJoinedTotalCaseIds: [],
-    scaliaConcuranceJoinedTotal: 0, scaliaConcuranceJoinedTotalCaseIds: [],
+    scaliaConcurranceJoinedTotal: 0, scaliaConcurranceJoinedTotalCaseIds: [],
     scaliaConDissJoinedTotal: 0, scaliaConDissJoinedTotalCaseIds: [],
     scaliaJoinedTotal: 0, scaliaJoinedTotalCaseIds: [],
     kennedyMajorityJoinedTotal: 0, kennedyMajorityJoinedTotalCaseIds: [],
     kennedyMinorityJoinedTotal: 0, kennedyMinorityJoinedTotalCaseIds: [],
-    kennedyConcuranceJoinedTotal: 0, kennedyConcuranceJoinedTotalCaseIds: [],
+    kennedyConcurranceJoinedTotal: 0, kennedyConcurranceJoinedTotalCaseIds: [],
     kennedyConDissJoinedTotal: 0, kennedyConDissJoinedTotalCaseIds: [],
     kennedyJoinedTotal: 0, kennedyJoinedTotalCaseIds: [],
     thomasMajorityJoinedTotal: 0, thomasMajorityJoinedTotalCaseIds: [],
     thomasMinorityJoinedTotal: 0, thomasMinorityJoinedTotalCaseIds: [],
-    thomasConcuranceJoinedTotal: 0, thomasConcuranceJoinedTotalCaseIds: [],
+    thomasConcurranceJoinedTotal: 0, thomasConcurranceJoinedTotalCaseIds: [],
     thomasConDissJoinedTotal: 0, thomasConDissJoinedTotalCaseIds: [],
     thomasJoinedTotal: 0, thomasJoinedTotalCaseIds: [],
     breyerMajorityJoinedTotal: 0, breyerMajorityJoinedTotalCaseIds: [],
     breyerMinorityJoinedTotal: 0, breyerMinorityJoinedTotalCaseIds: [],
-    breyerConcuranceJoinedTotal: 0, breyerConcuranceJoinedTotalCaseIds: [],
+    breyerConcurranceJoinedTotal: 0, breyerConcurranceJoinedTotalCaseIds: [],
     breyerConDissJoinedTotal: 0, breyerConDissJoinedTotalCaseIds: [],
     breyerJoinedTotal: 0, breyerJoinedTotalCaseIds: [],
     alitoMajorityJoinedTotal: 0, alitoMajorityJoinedTotalCaseIds: [],
     alitoMinorityJoinedTotal: 0, alitoMinorityJoinedTotalCaseIds: [],
-    alitoConcuranceJoinedTotal: 0, alitoConcuranceJoinedTotalCaseIds: [],
+    alitoConcurranceJoinedTotal: 0, alitoConcurranceJoinedTotalCaseIds: [],
     alitoConDissJoinedTotal: 0, alitoConDissJoinedTotalCaseIds: [],
     alitoJoinedTotal: 0, alitoJoinedTotalCaseIds: [],
     sotomayorMajorityJoinedTotal: 0, sotomayorMajorityJoinedTotalCaseIds: [],
     sotomayorMinorityJoinedTotal: 0, sotomayorMinorityJoinedTotalCaseIds: [],
-    sotomayorConcuranceJoinedTotal: 0, sotomayorConcuranceJoinedTotalCaseIds: [],
+    sotomayorConcurranceJoinedTotal: 0, sotomayorConcurranceJoinedTotalCaseIds: [],
     sotomayorConDissJoinedTotal: 0, sotomayorConDissJoinedTotalCaseIds: [],
     sotomayorJoinedTotal: 0, sotomayorJoinedTotalCaseIds: [],
     kaganMajorityJoinedTotal: 0, kaganMajorityJoinedTotalCaseIds: [],
     kaganMinorityJoinedTotal: 0, kaganMinorityJoinedTotalCaseIds: [],
-    kaganConcuranceJoinedTotal: 0, kaganConcuranceJoinedTotalCaseIds: [],
+    kaganConcurranceJoinedTotal: 0, kaganConcurranceJoinedTotalCaseIds: [],
     kaganConDissJoinedTotal: 0, kaganConDissJoinedTotalCaseIds: [],
     kaganJoinedTotal: 0, kaganJoinedTotalCaseIds: [],
 
     robertsMajorityOpinionAuthoredJoinedTotal: 0, robertsMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     robertsMinorityOpinionAuthoredJoinedTotal: 0, robertsMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    robertsConcuranceOpinionAuthoredJoinedTotal: 0, robertsConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    robertsConcurranceOpinionAuthoredJoinedTotal: 0, robertsConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     robertsConDissOpinionAuthoredJoinedTotal: 0, robertsConDissOpinionAuthoredJoinedTotalCaseIds: [],
     robertsOpinionAuthoredJoinedTotal: 0, robertsOpinionAuthoredJoinedTotalCaseIds: [],
     robertsWithAndMajority: 0, robertsWithAndMajorityCaseIds: [],
@@ -732,7 +732,7 @@ $(document).ready(function(){
 
     scaliaMajorityOpinionAuthoredJoinedTotal: 0, scaliaMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaMinorityOpinionAuthoredJoinedTotal: 0, scaliaMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    scaliaConcuranceOpinionAuthoredJoinedTotal: 0, scaliaConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    scaliaConcurranceOpinionAuthoredJoinedTotal: 0, scaliaConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaConDissOpinionAuthoredJoinedTotal: 0, scaliaConDissOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaOpinionAuthoredJoinedTotal: 0, scaliaOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaWithAndMajority: 0, scaliaWithAndMajorityCaseIds: [],
@@ -745,7 +745,7 @@ $(document).ready(function(){
 
     kennedyMajorityOpinionAuthoredJoinedTotal: 0, kennedyMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyMinorityOpinionAuthoredJoinedTotal: 0, kennedyMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kennedyConcuranceOpinionAuthoredJoinedTotal: 0, kennedyConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kennedyConcurranceOpinionAuthoredJoinedTotal: 0, kennedyConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyConDissOpinionAuthoredJoinedTotal: 0, kennedyConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyOpinionAuthoredJoinedTotal: 0, kennedyOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyWithAndMajority: 0, kennedyWithAndMajorityCaseIds: [],
@@ -758,7 +758,7 @@ $(document).ready(function(){
 
     thomasMajorityOpinionAuthoredJoinedTotal: 0, thomasMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     thomasMinorityOpinionAuthoredJoinedTotal: 0, thomasMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    thomasConcuranceOpinionAuthoredJoinedTotal: 0, thomasConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    thomasConcurranceOpinionAuthoredJoinedTotal: 0, thomasConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     thomasConDissOpinionAuthoredJoinedTotal: 0, thomasConDissOpinionAuthoredJoinedTotalCaseIds: [],
     thomasOpinionAuthoredJoinedTotal: 0, thomasOpinionAuthoredJoinedTotalCaseIds: [],
     thomasWithAndMajority: 0, thomasWithAndMajorityCaseIds: [],
@@ -771,7 +771,7 @@ $(document).ready(function(){
 
     breyerMajorityOpinionAuthoredJoinedTotal: 0, breyerMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     breyerMinorityOpinionAuthoredJoinedTotal: 0, breyerMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    breyerConcuranceOpinionAuthoredJoinedTotal: 0, breyerConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    breyerConcurranceOpinionAuthoredJoinedTotal: 0, breyerConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     breyerConDissOpinionAuthoredJoinedTotal: 0, breyerConDissOpinionAuthoredJoinedTotalCaseIds: [],
     breyerOpinionAuthoredJoinedTotal: 0, breyerOpinionAuthoredJoinedTotalCaseIds: [],
     breyerWithAndMajority: 0, breyerWithAndMajorityCaseIds: [],
@@ -784,7 +784,7 @@ $(document).ready(function(){
 
     alitoMajorityOpinionAuthoredJoinedTotal: 0, alitoMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     alitoMinorityOpinionAuthoredJoinedTotal: 0, alitoMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    alitoConcuranceOpinionAuthoredJoinedTotal: 0, alitoConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    alitoConcurranceOpinionAuthoredJoinedTotal: 0, alitoConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     alitoConDissOpinionAuthoredJoinedTotal: 0, alitoConDissOpinionAuthoredJoinedTotalCaseIds: [],
     alitoOpinionAuthoredJoinedTotal: 0, alitoOpinionAuthoredJoinedTotalCaseIds: [],
     alitoWithAndMajority: 0, alitoWithAndMajorityCaseIds: [],
@@ -797,7 +797,7 @@ $(document).ready(function(){
 
     sotomayorMajorityOpinionAuthoredJoinedTotal: 0, sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorMinorityOpinionAuthoredJoinedTotal: 0, sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    sotomayorConcuranceOpinionAuthoredJoinedTotal: 0, sotomayorConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    sotomayorConcurranceOpinionAuthoredJoinedTotal: 0, sotomayorConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorConDissOpinionAuthoredJoinedTotal: 0, sotomayorConDissOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorOpinionAuthoredJoinedTotal: 0, sotomayorOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorWithAndMajority: 0, sotomayorWithAndMajorityCaseIds: [],
@@ -810,7 +810,7 @@ $(document).ready(function(){
 
     kaganMajorityOpinionAuthoredJoinedTotal: 0, kaganMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kaganMinorityOpinionAuthoredJoinedTotal: 0, kaganMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kaganConcuranceOpinionAuthoredJoinedTotal: 0, kaganConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kaganConcurranceOpinionAuthoredJoinedTotal: 0, kaganConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kaganConDissOpinionAuthoredJoinedTotal: 0, kaganConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kaganOpinionAuthoredJoinedTotal: 0, kaganOpinionAuthoredJoinedTotalCaseIds: [],
     kaganWithAndMajority: 0, kaganWithAndMajorityCaseIds: [],
@@ -825,7 +825,7 @@ $(document).ready(function(){
     name: "", lastName: "Breyer", year: 0,
     majorityAuthored: 0, majorityAuthoredCaseIds: [],
     minorityAuthored: 0, minorityAuthoredCaseIds: [],
-    concuranceAuthored: 0, concuranceAuthoredCaseIds: [],
+    concurranceAuthored: 0, concurranceAuthoredCaseIds: [],
     conDissAuthored: 0, conDissAuthoredCaseIds: [],
     decisionsAuthored: 0, decisionsAuthoredCaseIds: [],
     withMajorityTotals: 0, withMajorityTotalsCaseIds: [],
@@ -833,7 +833,7 @@ $(document).ready(function(){
     opinionsJoinedTotal: 0, opinionsJoinedTotalCaseIds: [],
     withMajority: 0, withMajorityCaseIds: [],
     withMinority: 0, withMinorityCaseIds: [],
-    withConcurance: 0, withConcuranceCaseIds: [],
+    withConcurrance: 0, withConcurranceCaseIds: [],
     withConDiss: 0, withConDissCaseIds: [],
     opinionsJoinedTotalMathCheck: 0, opinionsJoinedTotalMathCheckCaseIds: [],
     casesVotedTotal: 0, casesVotedTotalCaseIds: [],
@@ -842,49 +842,49 @@ $(document).ready(function(){
 
     robertsMajorityJoinedTotal: 0, robertsMajorityJoinedTotalCaseIds: [],
     robertsMinorityJoinedTotal: 0, robertsMinorityJoinedTotalCaseIds: [],
-    robertsConcuranceJoinedTotal: 0, robertsConcuranceJoinedTotalCaseIds: [],
+    robertsConcurranceJoinedTotal: 0, robertsConcurranceJoinedTotalCaseIds: [],
     robertsConDissJoinedTotal: 0, robertsConDissJoinedTotalCaseIds: [],
     robertsJoinedTotal: 0, robertsJoinedTotalCaseIds: [],
     scaliaMajorityJoinedTotal: 0, scaliaMajorityJoinedTotalCaseIds: [],
     scaliaMinorityJoinedTotal: 0, scaliaMinorityJoinedTotalCaseIds: [],
-    scaliaConcuranceJoinedTotal: 0, scaliaConcuranceJoinedTotalCaseIds: [],
+    scaliaConcurranceJoinedTotal: 0, scaliaConcurranceJoinedTotalCaseIds: [],
     scaliaConDissJoinedTotal: 0, scaliaConDissJoinedTotalCaseIds: [],
     scaliaJoinedTotal: 0, scaliaJoinedTotalCaseIds: [],
     kennedyMajorityJoinedTotal: 0, kennedyMajorityJoinedTotalCaseIds: [],
     kennedyMinorityJoinedTotal: 0, kennedyMinorityJoinedTotalCaseIds: [],
-    kennedyConcuranceJoinedTotal: 0, kennedyConcuranceJoinedTotalCaseIds: [],
+    kennedyConcurranceJoinedTotal: 0, kennedyConcurranceJoinedTotalCaseIds: [],
     kennedyConDissJoinedTotal: 0, kennedyConDissJoinedTotalCaseIds: [],
     kennedyJoinedTotal: 0, kennedyJoinedTotalCaseIds: [],
     thomasMajorityJoinedTotal: 0, thomasMajorityJoinedTotalCaseIds: [],
     thomasMinorityJoinedTotal: 0, thomasMinorityJoinedTotalCaseIds: [],
-    thomasConcuranceJoinedTotal: 0, thomasConcuranceJoinedTotalCaseIds: [],
+    thomasConcurranceJoinedTotal: 0, thomasConcurranceJoinedTotalCaseIds: [],
     thomasConDissJoinedTotal: 0, thomasConDissJoinedTotalCaseIds: [],
     thomasJoinedTotal: 0, thomasJoinedTotalCaseIds: [],
     ginsburgMajorityJoinedTotal: 0, ginsburgMajorityJoinedTotalCaseIds: [],
     ginsburgMinorityJoinedTotal: 0, ginsburgMinorityJoinedTotalCaseIds: [],
-    ginsburgConcuranceJoinedTotal: 0, ginsburgConcuranceJoinedTotalCaseIds: [],
+    ginsburgConcurranceJoinedTotal: 0, ginsburgConcurranceJoinedTotalCaseIds: [],
     ginsburgConDissJoinedTotal: 0, ginsburgConDissJoinedTotalCaseIds: [],
     ginsburgJoinedTotal: 0, ginsburgJoinedTotalCaseIds: [],
     breyerMajorityJoinedTotal: 0, breyerMajorityJoinedTotalCaseIds: [],
     alitoMajorityJoinedTotal: 0, alitoMajorityJoinedTotalCaseIds: [],
     alitoMinorityJoinedTotal: 0, alitoMinorityJoinedTotalCaseIds: [],
-    alitoConcuranceJoinedTotal: 0, alitoConcuranceJoinedTotalCaseIds: [],
+    alitoConcurranceJoinedTotal: 0, alitoConcurranceJoinedTotalCaseIds: [],
     alitoConDissJoinedTotal: 0, alitoConDissJoinedTotalCaseIds: [],
     alitoJoinedTotal: 0, alitoJoinedTotalCaseIds: [],
     sotomayorMajorityJoinedTotal: 0, sotomayorMajorityJoinedTotalCaseIds: [],
     sotomayorMinorityJoinedTotal: 0, sotomayorMinorityJoinedTotalCaseIds: [],
-    sotomayorConcuranceJoinedTotal: 0, sotomayorConcuranceJoinedTotalCaseIds: [],
+    sotomayorConcurranceJoinedTotal: 0, sotomayorConcurranceJoinedTotalCaseIds: [],
     sotomayorConDissJoinedTotal: 0, sotomayorConDissJoinedTotalCaseIds: [],
     sotomayorJoinedTotal: 0, sotomayorJoinedTotalCaseIds: [],
     kaganMajorityJoinedTotal: 0, kaganMajorityJoinedTotalCaseIds: [],
     kaganMinorityJoinedTotal: 0, kaganMinorityJoinedTotalCaseIds: [],
-    kaganConcuranceJoinedTotal: 0, kaganConcuranceJoinedTotalCaseIds: [],
+    kaganConcurranceJoinedTotal: 0, kaganConcurranceJoinedTotalCaseIds: [],
     kaganConDissJoinedTotal: 0, kaganConDissJoinedTotalCaseIds: [],
     kaganJoinedTotal: 0, kaganJoinedTotalCaseIds: [],
 
     robertsMajorityOpinionAuthoredJoinedTotal: 0, robertsMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     robertsMinorityOpinionAuthoredJoinedTotal: 0, robertsMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    robertsConcuranceOpinionAuthoredJoinedTotal: 0, robertsConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    robertsConcurranceOpinionAuthoredJoinedTotal: 0, robertsConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     robertsConDissOpinionAuthoredJoinedTotal: 0, robertsConDissOpinionAuthoredJoinedTotalCaseIds: [],
     robertsOpinionAuthoredJoinedTotal: 0, robertsOpinionAuthoredJoinedTotalCaseIds: [],
     robertsWithAndMajority: 0, robertsWithAndMajorityCaseIds: [],
@@ -897,7 +897,7 @@ $(document).ready(function(){
 
     scaliaMajorityOpinionAuthoredJoinedTotal: 0, scaliaMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaMinorityOpinionAuthoredJoinedTotal: 0, scaliaMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    scaliaConcuranceOpinionAuthoredJoinedTotal: 0, scaliaConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    scaliaConcurranceOpinionAuthoredJoinedTotal: 0, scaliaConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaConDissOpinionAuthoredJoinedTotal: 0, scaliaConDissOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaOpinionAuthoredJoinedTotal: 0, scaliaOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaWithAndMajority: 0, scaliaWithAndMajorityCaseIds: [],
@@ -910,7 +910,7 @@ $(document).ready(function(){
 
     kennedyMajorityOpinionAuthoredJoinedTotal: 0, kennedyMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyMinorityOpinionAuthoredJoinedTotal: 0, kennedyMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kennedyConcuranceOpinionAuthoredJoinedTotal: 0, kennedyConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kennedyConcurranceOpinionAuthoredJoinedTotal: 0, kennedyConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyConDissOpinionAuthoredJoinedTotal: 0, kennedyConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyOpinionAuthoredJoinedTotal: 0, kennedyOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyWithAndMajority: 0, kennedyWithAndMajorityCaseIds: [],
@@ -923,7 +923,7 @@ $(document).ready(function(){
 
     thomasMajorityOpinionAuthoredJoinedTotal: 0, thomasMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     thomasMinorityOpinionAuthoredJoinedTotal: 0, thomasMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    thomasConcuranceOpinionAuthoredJoinedTotal: 0, thomasConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    thomasConcurranceOpinionAuthoredJoinedTotal: 0, thomasConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     thomasConDissOpinionAuthoredJoinedTotal: 0, thomasConDissOpinionAuthoredJoinedTotalCaseIds: [],
     thomasOpinionAuthoredJoinedTotal: 0, thomasOpinionAuthoredJoinedTotalCaseIds: [],
     thomasWithAndMajority: 0, thomasWithAndMajorityCaseIds: [],
@@ -936,7 +936,7 @@ $(document).ready(function(){
 
     ginsburgMajorityOpinionAuthoredJoinedTotal: 0, ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgMinorityOpinionAuthoredJoinedTotal: 0, ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    ginsburgConcuranceOpinionAuthoredJoinedTotal: 0, ginsburgConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    ginsburgConcurranceOpinionAuthoredJoinedTotal: 0, ginsburgConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgConDissOpinionAuthoredJoinedTotal: 0, ginsburgConDissOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgOpinionAuthoredJoinedTotal: 0, ginsburgOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgWithAndMajority: 0, ginsburgWithAndMajorityCaseIds: [],
@@ -949,7 +949,7 @@ $(document).ready(function(){
 
     alitoMajorityOpinionAuthoredJoinedTotal: 0, alitoMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     alitoMinorityOpinionAuthoredJoinedTotal: 0, alitoMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    alitoConcuranceOpinionAuthoredJoinedTotal: 0, alitoConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    alitoConcurranceOpinionAuthoredJoinedTotal: 0, alitoConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     alitoConDissOpinionAuthoredJoinedTotal: 0, alitoConDissOpinionAuthoredJoinedTotalCaseIds: [],
     alitoOpinionAuthoredJoinedTotal: 0, alitoOpinionAuthoredJoinedTotalCaseIds: [],
     alitoWithAndMajority: 0, alitoWithAndMajorityCaseIds: [],
@@ -962,7 +962,7 @@ $(document).ready(function(){
 
     sotomayorMajorityOpinionAuthoredJoinedTotal: 0, sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorMinorityOpinionAuthoredJoinedTotal: 0, sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    sotomayorConcuranceOpinionAuthoredJoinedTotal: 0, sotomayorConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    sotomayorConcurranceOpinionAuthoredJoinedTotal: 0, sotomayorConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorConDissOpinionAuthoredJoinedTotal: 0, sotomayorConDissOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorOpinionAuthoredJoinedTotal: 0, sotomayorOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorWithAndMajority: 0, sotomayorWithAndMajorityCaseIds: [],
@@ -975,7 +975,7 @@ $(document).ready(function(){
 
     kaganMajorityOpinionAuthoredJoinedTotal: 0, kaganMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kaganMinorityOpinionAuthoredJoinedTotal: 0, kaganMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kaganConcuranceOpinionAuthoredJoinedTotal: 0, kaganConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kaganConcurranceOpinionAuthoredJoinedTotal: 0, kaganConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kaganConDissOpinionAuthoredJoinedTotal: 0, kaganConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kaganOpinionAuthoredJoinedTotal: 0, kaganOpinionAuthoredJoinedTotalCaseIds: [],
     kaganWithAndMajority: 0, kaganWithAndMajorityCaseIds: [],
@@ -990,7 +990,7 @@ $(document).ready(function(){
     name: "", lastName: "Alito", year: 0,
     majorityAuthored: 0, majorityAuthoredCaseIds: [],
     minorityAuthored: 0, minorityAuthoredCaseIds: [],
-    concuranceAuthored: 0, concuranceAuthoredCaseIds: [],
+    concurranceAuthored: 0, concurranceAuthoredCaseIds: [],
     conDissAuthored: 0, conDissAuthoredCaseIds: [],
     decisionsAuthored: 0, decisionsAuthoredCaseIds: [],
     withMajorityTotals: 0, withMajorityTotalsCaseIds: [],
@@ -998,7 +998,7 @@ $(document).ready(function(){
     opinionsJoinedTotal: 0, opinionsJoinedTotalCaseIds: [],
     withMajority: 0, withMajorityCaseIds: [],
     withMinority: 0, withMinorityCaseIds: [],
-    withConcurance: 0, withConcuranceCaseIds: [],
+    withConcurrance: 0, withConcurranceCaseIds: [],
     withConDiss: 0, withConDissCaseIds: [],
     opinionsJoinedTotalMathCheck: 0, opinionsJoinedTotalMathCheckCaseIds: [],
     casesVotedTotal: 0, casesVotedTotalCaseIds: [],
@@ -1007,48 +1007,48 @@ $(document).ready(function(){
 
     robertsMajorityJoinedTotal: 0, robertsMajorityJoinedTotalCaseIds: [],
     robertsMinorityJoinedTotal: 0, robertsMinorityJoinedTotalCaseIds: [],
-    robertsConcuranceJoinedTotal: 0, robertsConcuranceJoinedTotalCaseIds: [],
+    robertsConcurranceJoinedTotal: 0, robertsConcurranceJoinedTotalCaseIds: [],
     robertsConDissJoinedTotal: 0, robertsConDissJoinedTotalCaseIds: [],
     robertsJoinedTotal: 0, robertsJoinedTotalCaseIds: [],
     scaliaMajorityJoinedTotal: 0, scaliaMajorityJoinedTotalCaseIds: [],
     scaliaMinorityJoinedTotal: 0, scaliaMinorityJoinedTotalCaseIds: [],
-    scaliaConcuranceJoinedTotal: 0, scaliaConcuranceJoinedTotalCaseIds: [],
+    scaliaConcurranceJoinedTotal: 0, scaliaConcurranceJoinedTotalCaseIds: [],
     scaliaConDissJoinedTotal: 0, scaliaConDissJoinedTotalCaseIds: [],
     scaliaJoinedTotal: 0, scaliaJoinedTotalCaseIds: [],
     kennedyMajorityJoinedTotal: 0, kennedyMajorityJoinedTotalCaseIds: [],
     kennedyMinorityJoinedTotal: 0, kennedyMinorityJoinedTotalCaseIds: [],
-    kennedyConcuranceJoinedTotal: 0, kennedyConcuranceJoinedTotalCaseIds: [],
+    kennedyConcurranceJoinedTotal: 0, kennedyConcurranceJoinedTotalCaseIds: [],
     kennedyConDissJoinedTotal: 0, kennedyConDissJoinedTotalCaseIds: [],
     kennedyJoinedTotal: 0, kennedyJoinedTotalCaseIds: [],
     thomasMajorityJoinedTotal: 0, thomasMajorityJoinedTotalCaseIds: [],
     thomasMinorityJoinedTotal: 0, thomasMinorityJoinedTotalCaseIds: [],
-    thomasConcuranceJoinedTotal: 0, thomasConcuranceJoinedTotalCaseIds: [],
+    thomasConcurranceJoinedTotal: 0, thomasConcurranceJoinedTotalCaseIds: [],
     thomasConDissJoinedTotal: 0, thomasConDissJoinedTotalCaseIds: [],
     thomasJoinedTotal: 0, thomasJoinedTotalCaseIds: [],
     ginsburgMajorityJoinedTotal: 0, ginsburgMajorityJoinedTotalCaseIds: [],
     ginsburgMinorityJoinedTotal: 0, ginsburgMinorityJoinedTotalCaseIds: [],
-    ginsburgConcuranceJoinedTotal: 0, ginsburgConcuranceJoinedTotalCaseIds: [],
+    ginsburgConcurranceJoinedTotal: 0, ginsburgConcurranceJoinedTotalCaseIds: [],
     ginsburgConDissJoinedTotal: 0, ginsburgConDissJoinedTotalCaseIds: [],
     ginsburgJoinedTotal: 0, ginsburgJoinedTotalCaseIds: [],
     breyerMajorityJoinedTotal: 0, breyerMajorityJoinedTotalCaseIds: [],
     breyerMinorityJoinedTotal: 0, breyerMinorityJoinedTotalCaseIds: [],
-    breyerConcuranceJoinedTotal: 0, breyerConcuranceJoinedTotalCaseIds: [],
+    breyerConcurranceJoinedTotal: 0, breyerConcurranceJoinedTotalCaseIds: [],
     breyerConDissJoinedTotal: 0, breyerConDissJoinedTotalCaseIds: [],
     breyerJoinedTotal: 0, breyerJoinedTotalCaseIds: [],
     sotomayorMajorityJoinedTotal: 0, sotomayorMajorityJoinedTotalCaseIds: [],
     sotomayorMinorityJoinedTotal: 0, sotomayorMinorityJoinedTotalCaseIds: [],
-    sotomayorConcuranceJoinedTotal: 0, sotomayorConcuranceJoinedTotalCaseIds: [],
+    sotomayorConcurranceJoinedTotal: 0, sotomayorConcurranceJoinedTotalCaseIds: [],
     sotomayorConDissJoinedTotal: 0, sotomayorConDissJoinedTotalCaseIds: [],
     sotomayorJoinedTotal: 0, sotomayorJoinedTotalCaseIds: [],
     kaganMajorityJoinedTotal: 0, kaganMajorityJoinedTotalCaseIds: [],
     kaganMinorityJoinedTotal: 0, kaganMinorityJoinedTotalCaseIds: [],
-    kaganConcuranceJoinedTotal: 0, kaganConcuranceJoinedTotalCaseIds: [],
+    kaganConcurranceJoinedTotal: 0, kaganConcurranceJoinedTotalCaseIds: [],
     kaganConDissJoinedTotal: 0, kaganConDissJoinedTotalCaseIds: [],
     kaganJoinedTotal: 0, kaganJoinedTotalCaseIds: [],
 
     robertsMajorityOpinionAuthoredJoinedTotal: 0, robertsMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     robertsMinorityOpinionAuthoredJoinedTotal: 0, robertsMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    robertsConcuranceOpinionAuthoredJoinedTotal: 0, robertsConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    robertsConcurranceOpinionAuthoredJoinedTotal: 0, robertsConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     robertsConDissOpinionAuthoredJoinedTotal: 0, robertsConDissOpinionAuthoredJoinedTotalCaseIds: [],
     robertsOpinionAuthoredJoinedTotal: 0, robertsOpinionAuthoredJoinedTotalCaseIds: [],
     robertsWithAndMajority: 0, robertsWithAndMajorityCaseIds: [],
@@ -1061,7 +1061,7 @@ $(document).ready(function(){
 
     scaliaMajorityOpinionAuthoredJoinedTotal: 0, scaliaMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaMinorityOpinionAuthoredJoinedTotal: 0, scaliaMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    scaliaConcuranceOpinionAuthoredJoinedTotal: 0, scaliaConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    scaliaConcurranceOpinionAuthoredJoinedTotal: 0, scaliaConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaConDissOpinionAuthoredJoinedTotal: 0, scaliaConDissOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaOpinionAuthoredJoinedTotal: 0, scaliaOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaWithAndMajority: 0, scaliaWithAndMajorityCaseIds: [],
@@ -1074,7 +1074,7 @@ $(document).ready(function(){
 
     kennedyMajorityOpinionAuthoredJoinedTotal: 0, kennedyMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyMinorityOpinionAuthoredJoinedTotal: 0, kennedyMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kennedyConcuranceOpinionAuthoredJoinedTotal: 0, kennedyConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kennedyConcurranceOpinionAuthoredJoinedTotal: 0, kennedyConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyConDissOpinionAuthoredJoinedTotal: 0, kennedyConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyOpinionAuthoredJoinedTotal: 0, kennedyOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyWithAndMajority: 0, kennedyWithAndMajorityCaseIds: [],
@@ -1087,7 +1087,7 @@ $(document).ready(function(){
 
     thomasMajorityOpinionAuthoredJoinedTotal: 0, thomasMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     thomasMinorityOpinionAuthoredJoinedTotal: 0, thomasMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    thomasConcuranceOpinionAuthoredJoinedTotal: 0, thomasConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    thomasConcurranceOpinionAuthoredJoinedTotal: 0, thomasConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     thomasConDissOpinionAuthoredJoinedTotal: 0, thomasConDissOpinionAuthoredJoinedTotalCaseIds: [],
     thomasOpinionAuthoredJoinedTotal: 0, thomasOpinionAuthoredJoinedTotalCaseIds: [],
     thomasWithAndMajority: 0, thomasWithAndMajorityCaseIds: [],
@@ -1100,7 +1100,7 @@ $(document).ready(function(){
 
     ginsburgMajorityOpinionAuthoredJoinedTotal: 0, ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgMinorityOpinionAuthoredJoinedTotal: 0, ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    ginsburgConcuranceOpinionAuthoredJoinedTotal: 0, ginsburgConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    ginsburgConcurranceOpinionAuthoredJoinedTotal: 0, ginsburgConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgConDissOpinionAuthoredJoinedTotal: 0, ginsburgConDissOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgOpinionAuthoredJoinedTotal: 0, ginsburgOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgWithAndMajority: 0, ginsburgWithAndMajorityCaseIds: [],
@@ -1113,7 +1113,7 @@ $(document).ready(function(){
 
     breyerMajorityOpinionAuthoredJoinedTotal: 0, breyerMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     breyerMinorityOpinionAuthoredJoinedTotal: 0, breyerMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    breyerConcuranceOpinionAuthoredJoinedTotal: 0, breyerConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    breyerConcurranceOpinionAuthoredJoinedTotal: 0, breyerConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     breyerConDissOpinionAuthoredJoinedTotal: 0, breyerConDissOpinionAuthoredJoinedTotalCaseIds: [],
     breyerOpinionAuthoredJoinedTotal: 0, breyerOpinionAuthoredJoinedTotalCaseIds: [],
     breyerWithAndMajority: 0, breyerWithAndMajorityCaseIds: [],
@@ -1126,7 +1126,7 @@ $(document).ready(function(){
 
     sotomayorMajorityOpinionAuthoredJoinedTotal: 0, sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorMinorityOpinionAuthoredJoinedTotal: 0, sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    sotomayorConcuranceOpinionAuthoredJoinedTotal: 0, sotomayorConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    sotomayorConcurranceOpinionAuthoredJoinedTotal: 0, sotomayorConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorConDissOpinionAuthoredJoinedTotal: 0, sotomayorConDissOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorOpinionAuthoredJoinedTotal: 0, sotomayorOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorWithAndMajority: 0, sotomayorWithAndMajorityCaseIds: [],
@@ -1139,7 +1139,7 @@ $(document).ready(function(){
 
     kaganMajorityOpinionAuthoredJoinedTotal: 0, kaganMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kaganMinorityOpinionAuthoredJoinedTotal: 0, kaganMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kaganConcuranceOpinionAuthoredJoinedTotal: 0, kaganConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kaganConcurranceOpinionAuthoredJoinedTotal: 0, kaganConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kaganConDissOpinionAuthoredJoinedTotal: 0, kaganConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kaganOpinionAuthoredJoinedTotal: 0, kaganOpinionAuthoredJoinedTotalCaseIds: [],
     kaganWithAndMajority: 0, kaganWithAndMajorityCaseIds: [],
@@ -1154,7 +1154,7 @@ $(document).ready(function(){
     name: "", lastName: "Sotomayor", year: 0,
     majorityAuthored: 0, majorityAuthoredCaseIds: [],
     minorityAuthored: 0, minorityAuthoredCaseIds: [],
-    concuranceAuthored: 0, concuranceAuthoredCaseIds: [],
+    concurranceAuthored: 0, concurranceAuthoredCaseIds: [],
     conDissAuthored: 0, conDissAuthoredCaseIds: [],
     decisionsAuthored: 0, decisionsAuthoredCaseIds: [],
     withMajorityTotals: 0, withMajorityTotalsCaseIds: [],
@@ -1162,7 +1162,7 @@ $(document).ready(function(){
     opinionsJoinedTotal: 0, opinionsJoinedTotalCaseIds: [],
     withMajority: 0, withMajorityCaseIds: [],
     withMinority: 0, withMinorityCaseIds: [],
-    withConcurance: 0, withConcuranceCaseIds: [],
+    withConcurrance: 0, withConcurranceCaseIds: [],
     withConDiss: 0, withConDissCaseIds: [],
     opinionsJoinedTotalMathCheck: 0, opinionsJoinedTotalMathCheckCaseIds: [],
     casesVotedTotal: 0, casesVotedTotalCaseIds: [],
@@ -1171,48 +1171,48 @@ $(document).ready(function(){
 
     robertsMajorityJoinedTotal: 0, robertsMajorityJoinedTotalCaseIds: [],
     robertsMinorityJoinedTotal: 0, robertsMinorityJoinedTotalCaseIds: [],
-    robertsConcuranceJoinedTotal: 0, robertsConcuranceJoinedTotalCaseIds: [],
+    robertsConcurranceJoinedTotal: 0, robertsConcurranceJoinedTotalCaseIds: [],
     robertsConDissJoinedTotal: 0, robertsConDissJoinedTotalCaseIds: [],
     robertsJoinedTotal: 0, robertsJoinedTotalCaseIds: [],
     scaliaMajorityJoinedTotal: 0, scaliaMajorityJoinedTotalCaseIds: [],
     scaliaMinorityJoinedTotal: 0, scaliaMinorityJoinedTotalCaseIds: [],
-    scaliaConcuranceJoinedTotal: 0, scaliaConcuranceJoinedTotalCaseIds: [],
+    scaliaConcurranceJoinedTotal: 0, scaliaConcurranceJoinedTotalCaseIds: [],
     scaliaConDissJoinedTotal: 0, scaliaConDissJoinedTotalCaseIds: [],
     scaliaJoinedTotal: 0, scaliaJoinedTotalCaseIds: [],
     kennedyMajorityJoinedTotal: 0, kennedyMajorityJoinedTotalCaseIds: [],
     kennedyMinorityJoinedTotal: 0, kennedyMinorityJoinedTotalCaseIds: [],
-    kennedyConcuranceJoinedTotal: 0, kennedyConcuranceJoinedTotalCaseIds: [],
+    kennedyConcurranceJoinedTotal: 0, kennedyConcurranceJoinedTotalCaseIds: [],
     kennedyConDissJoinedTotal: 0, kennedyConDissJoinedTotalCaseIds: [],
     kennedyJoinedTotal: 0, kennedyJoinedTotalCaseIds: [],
     thomasMajorityJoinedTotal: 0, thomasMajorityJoinedTotalCaseIds: [],
     thomasMinorityJoinedTotal: 0, thomasMinorityJoinedTotalCaseIds: [],
-    thomasConcuranceJoinedTotal: 0, thomasConcuranceJoinedTotalCaseIds: [],
+    thomasConcurranceJoinedTotal: 0, thomasConcurranceJoinedTotalCaseIds: [],
     thomasConDissJoinedTotal: 0, thomasConDissJoinedTotalCaseIds: [],
     thomasJoinedTotal: 0, thomasJoinedTotalCaseIds: [],
     ginsburgMajorityJoinedTotal: 0, ginsburgMajorityJoinedTotalCaseIds: [],
     ginsburgMinorityJoinedTotal: 0, ginsburgMinorityJoinedTotalCaseIds: [],
-    ginsburgConcuranceJoinedTotal: 0, ginsburgConcuranceJoinedTotalCaseIds: [],
+    ginsburgConcurranceJoinedTotal: 0, ginsburgConcurranceJoinedTotalCaseIds: [],
     ginsburgConDissJoinedTotal: 0, ginsburgConDissJoinedTotalCaseIds: [],
     ginsburgJoinedTotal: 0, ginsburgJoinedTotalCaseIds: [],
     breyerMajorityJoinedTotal: 0, breyerMajorityJoinedTotalCaseIds: [],
     breyerMinorityJoinedTotal: 0, breyerMinorityJoinedTotalCaseIds: [],
-    breyerConcuranceJoinedTotal: 0, breyerConcuranceJoinedTotalCaseIds: [],
+    breyerConcurranceJoinedTotal: 0, breyerConcurranceJoinedTotalCaseIds: [],
     breyerConDissJoinedTotal: 0, breyerConDissJoinedTotalCaseIds: [],
     breyerJoinedTotal: 0, breyerJoinedTotalCaseIds: [],
     alitoMajorityJoinedTotal: 0, alitoMajorityJoinedTotalCaseIds: [],
     alitoMinorityJoinedTotal: 0, alitoMinorityJoinedTotalCaseIds: [],
-    alitoConcuranceJoinedTotal: 0, alitoConcuranceJoinedTotalCaseIds: [],
+    alitoConcurranceJoinedTotal: 0, alitoConcurranceJoinedTotalCaseIds: [],
     alitoConDissJoinedTotal: 0, alitoConDissJoinedTotalCaseIds: [],
     alitoJoinedTotal: 0, alitoJoinedTotalCaseIds: [],
     kaganMajorityJoinedTotal: 0, kaganMajorityJoinedTotalCaseIds: [],
     kaganMinorityJoinedTotal: 0, kaganMinorityJoinedTotalCaseIds: [],
-    kaganConcuranceJoinedTotal: 0, kaganConcuranceJoinedTotalCaseIds: [],
+    kaganConcurranceJoinedTotal: 0, kaganConcurranceJoinedTotalCaseIds: [],
     kaganConDissJoinedTotal: 0, kaganConDissJoinedTotalCaseIds: [],
     kaganJoinedTotal: 0, kaganJoinedTotalCaseIds: [],
 
     robertsMajorityOpinionAuthoredJoinedTotal: 0, robertsMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     robertsMinorityOpinionAuthoredJoinedTotal: 0, robertsMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    robertsConcuranceOpinionAuthoredJoinedTotal: 0, robertsConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    robertsConcurranceOpinionAuthoredJoinedTotal: 0, robertsConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     robertsConDissOpinionAuthoredJoinedTotal: 0, robertsConDissOpinionAuthoredJoinedTotalCaseIds: [],
     robertsOpinionAuthoredJoinedTotal: 0, robertsOpinionAuthoredJoinedTotalCaseIds: [],
     robertsWithAndMajority: 0, robertsWithAndMajorityCaseIds: [],
@@ -1225,7 +1225,7 @@ $(document).ready(function(){
 
     scaliaMajorityOpinionAuthoredJoinedTotal: 0, scaliaMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaMinorityOpinionAuthoredJoinedTotal: 0, scaliaMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    scaliaConcuranceOpinionAuthoredJoinedTotal: 0, scaliaConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    scaliaConcurranceOpinionAuthoredJoinedTotal: 0, scaliaConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaConDissOpinionAuthoredJoinedTotal: 0, scaliaConDissOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaOpinionAuthoredJoinedTotal: 0, scaliaOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaWithAndMajority: 0, scaliaWithAndMajorityCaseIds: [],
@@ -1238,7 +1238,7 @@ $(document).ready(function(){
 
     kennedyMajorityOpinionAuthoredJoinedTotal: 0, kennedyMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyMinorityOpinionAuthoredJoinedTotal: 0, kennedyMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kennedyConcuranceOpinionAuthoredJoinedTotal: 0, kennedyConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kennedyConcurranceOpinionAuthoredJoinedTotal: 0, kennedyConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyConDissOpinionAuthoredJoinedTotal: 0, kennedyConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyOpinionAuthoredJoinedTotal: 0, kennedyOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyWithAndMajority: 0, kennedyWithAndMajorityCaseIds: [],
@@ -1251,7 +1251,7 @@ $(document).ready(function(){
 
     thomasMajorityOpinionAuthoredJoinedTotal: 0, thomasMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     thomasMinorityOpinionAuthoredJoinedTotal: 0, thomasMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    thomasConcuranceOpinionAuthoredJoinedTotal: 0, thomasConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    thomasConcurranceOpinionAuthoredJoinedTotal: 0, thomasConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     thomasConDissOpinionAuthoredJoinedTotal: 0, thomasConDissOpinionAuthoredJoinedTotalCaseIds: [],
     thomasOpinionAuthoredJoinedTotal: 0, thomasOpinionAuthoredJoinedTotalCaseIds: [],
     thomasWithAndMajority: 0, thomasWithAndMajorityCaseIds: [],
@@ -1264,7 +1264,7 @@ $(document).ready(function(){
 
     ginsburgMajorityOpinionAuthoredJoinedTotal: 0, ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgMinorityOpinionAuthoredJoinedTotal: 0, ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    ginsburgConcuranceOpinionAuthoredJoinedTotal: 0, ginsburgConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    ginsburgConcurranceOpinionAuthoredJoinedTotal: 0, ginsburgConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgConDissOpinionAuthoredJoinedTotal: 0, ginsburgConDissOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgOpinionAuthoredJoinedTotal: 0, ginsburgOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgWithAndMajority: 0, ginsburgWithAndMajorityCaseIds: [],
@@ -1277,7 +1277,7 @@ $(document).ready(function(){
 
     breyerMajorityOpinionAuthoredJoinedTotal: 0, breyerMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     breyerMinorityOpinionAuthoredJoinedTotal: 0, breyerMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    breyerConcuranceOpinionAuthoredJoinedTotal: 0, breyerConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    breyerConcurranceOpinionAuthoredJoinedTotal: 0, breyerConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     breyerConDissOpinionAuthoredJoinedTotal: 0, breyerConDissOpinionAuthoredJoinedTotalCaseIds: [],
     breyerOpinionAuthoredJoinedTotal: 0, breyerOpinionAuthoredJoinedTotalCaseIds: [],
     breyerWithAndMajority: 0, breyerWithAndMajorityCaseIds: [],
@@ -1290,7 +1290,7 @@ $(document).ready(function(){
 
     alitoMajorityOpinionAuthoredJoinedTotal: 0, alitoMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     alitoMinorityOpinionAuthoredJoinedTotal: 0, alitoMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    alitoConcuranceOpinionAuthoredJoinedTotal: 0, alitoConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    alitoConcurranceOpinionAuthoredJoinedTotal: 0, alitoConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     alitoConDissOpinionAuthoredJoinedTotal: 0, alitoConDissOpinionAuthoredJoinedTotalCaseIds: [],
     alitoOpinionAuthoredJoinedTotal: 0, alitoOpinionAuthoredJoinedTotalCaseIds: [],
     alitoWithAndMajority: 0, alitoWithAndMajorityCaseIds: [],
@@ -1303,7 +1303,7 @@ $(document).ready(function(){
 
     kaganMajorityOpinionAuthoredJoinedTotal: 0, kaganMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kaganMinorityOpinionAuthoredJoinedTotal: 0, kaganMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kaganConcuranceOpinionAuthoredJoinedTotal: 0, kaganConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kaganConcurranceOpinionAuthoredJoinedTotal: 0, kaganConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kaganConDissOpinionAuthoredJoinedTotal: 0, kaganConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kaganOpinionAuthoredJoinedTotal: 0, kaganOpinionAuthoredJoinedTotalCaseIds: [],
     kaganWithAndMajority: 0, kaganWithAndMajorityCaseIds: [],
@@ -1318,15 +1318,16 @@ $(document).ready(function(){
     name: "", lastName: "Kagan", year: 0,
     majorityAuthored: 0, majorityAuthoredCaseIds: [],
     minorityAuthored: 0, minorityAuthoredCaseIds: [],
-    concuranceAuthored: 0, concuranceAuthoredCaseIds: [],
+    concurranceAuthored: 0, concurranceAuthoredCaseIds: [],
     conDissAuthored: 0, conDissAuthoredCaseIds: [],
     decisionsAuthored: 0, decisionsAuthoredCaseIds: [],
+
     withMajorityTotals: 0, withMajorityTotalsCaseIds: [],
     withMinorityTotals: 0, withMinorityTotalsCaseIds: [],
     opinionsJoinedTotal: 0, opinionsJoinedTotalCaseIds: [],
     withMajority: 0, withMajorityCaseIds: [],
     withMinority: 0, withMinorityCaseIds: [],
-    withConcurance: 0, withConcuranceCaseIds: [],
+    withConcurrance: 0, withConcurranceCaseIds: [],
     withConDiss: 0, withConDissCaseIds: [],
     opinionsJoinedTotalMathCheck: 0, opinionsJoinedTotalMathCheckCaseIds: [],
     casesVotedTotal: 0, casesVotedTotalCaseIds: [],
@@ -1335,48 +1336,48 @@ $(document).ready(function(){
 
     robertsMajorityJoinedTotal: 0, robertsMajorityJoinedTotalCaseIds: [],
     robertsMinorityJoinedTotal: 0, robertsMinorityJoinedTotalCaseIds: [],
-    robertsConcuranceJoinedTotal: 0, robertsConcuranceJoinedTotalCaseIds: [],
+    robertsConcurranceJoinedTotal: 0, robertsConcurranceJoinedTotalCaseIds: [],
     robertsConDissJoinedTotal: 0, robertsConDissJoinedTotalCaseIds: [],
     robertsJoinedTotal: 0, robertsJoinedTotalCaseIds: [],
     scaliaMajorityJoinedTotal: 0, scaliaMajorityJoinedTotalCaseIds: [],
     scaliaMinorityJoinedTotal: 0, scaliaMinorityJoinedTotalCaseIds: [],
-    scaliaConcuranceJoinedTotal: 0, scaliaConcuranceJoinedTotalCaseIds: [],
+    scaliaConcurranceJoinedTotal: 0, scaliaConcurranceJoinedTotalCaseIds: [],
     scaliaConDissJoinedTotal: 0, scaliaConDissJoinedTotalCaseIds: [],
     scaliaJoinedTotal: 0, scaliaJoinedTotalCaseIds: [],
     kennedyMajorityJoinedTotal: 0, kennedyMajorityJoinedTotalCaseIds: [],
     kennedyMinorityJoinedTotal: 0, kennedyMinorityJoinedTotalCaseIds: [],
-    kennedyConcuranceJoinedTotal: 0, kennedyConcuranceJoinedTotalCaseIds: [],
+    kennedyConcurranceJoinedTotal: 0, kennedyConcurranceJoinedTotalCaseIds: [],
     kennedyConDissJoinedTotal: 0, kennedyConDissJoinedTotalCaseIds: [],
     kennedyJoinedTotal: 0, kennedyJoinedTotalCaseIds: [],
     thomasMajorityJoinedTotal: 0, thomasMajorityJoinedTotalCaseIds: [],
     thomasMinorityJoinedTotal: 0, thomasMinorityJoinedTotalCaseIds: [],
-    thomasConcuranceJoinedTotal: 0, thomasConcuranceJoinedTotalCaseIds: [],
+    thomasConcurranceJoinedTotal: 0, thomasConcurranceJoinedTotalCaseIds: [],
     thomasConDissJoinedTotal: 0, thomasConDissJoinedTotalCaseIds: [],
     thomasJoinedTotal: 0, thomasJoinedTotalCaseIds: [],
     ginsburgMajorityJoinedTotal: 0, ginsburgMajorityJoinedTotalCaseIds: [],
     ginsburgMinorityJoinedTotal: 0, ginsburgMinorityJoinedTotalCaseIds: [],
-    ginsburgConcuranceJoinedTotal: 0, ginsburgConcuranceJoinedTotalCaseIds: [],
+    ginsburgConcurranceJoinedTotal: 0, ginsburgConcurranceJoinedTotalCaseIds: [],
     ginsburgConDissJoinedTotal: 0, ginsburgConDissJoinedTotalCaseIds: [],
     ginsburgJoinedTotal: 0, ginsburgJoinedTotalCaseIds: [],
     breyerMajorityJoinedTotal: 0, breyerMajorityJoinedTotalCaseIds: [],
     breyerMinorityJoinedTotal: 0, breyerMinorityJoinedTotalCaseIds: [],
-    breyerConcuranceJoinedTotal: 0, breyerConcuranceJoinedTotalCaseIds: [],
+    breyerConcurranceJoinedTotal: 0, breyerConcurranceJoinedTotalCaseIds: [],
     breyerConDissJoinedTotal: 0, breyerConDissJoinedTotalCaseIds: [],
     breyerJoinedTotal: 0, breyerJoinedTotalCaseIds: [],
     alitoMajorityJoinedTotal: 0, alitoMajorityJoinedTotalCaseIds: [],
     alitoMinorityJoinedTotal: 0, alitoMinorityJoinedTotalCaseIds: [],
-    alitoConcuranceJoinedTotal: 0, alitoConcuranceJoinedTotalCaseIds: [],
+    alitoConcurranceJoinedTotal: 0, alitoConcurranceJoinedTotalCaseIds: [],
     alitoConDissJoinedTotal: 0, alitoConDissJoinedTotalCaseIds: [],
     alitoJoinedTotal: 0, alitoJoinedTotalCaseIds: [],
     sotomayorMajorityJoinedTotal: 0, sotomayorMajorityJoinedTotalCaseIds: [],
     sotomayorMinorityJoinedTotal: 0, sotomayorMinorityJoinedTotalCaseIds: [],
-    sotomayorConcuranceJoinedTotal: 0, sotomayorConcuranceJoinedTotalCaseIds: [],
+    sotomayorConcurranceJoinedTotal: 0, sotomayorConcurranceJoinedTotalCaseIds: [],
     sotomayorConDissJoinedTotal: 0, sotomayorConDissJoinedTotalCaseIds: [],
     sotomayorJoinedTotal: 0, sotomayorJoinedTotalCaseIds: [],
 
     robertsMajorityOpinionAuthoredJoinedTotal: 0, robertsMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     robertsMinorityOpinionAuthoredJoinedTotal: 0, robertsMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    robertsConcuranceOpinionAuthoredJoinedTotal: 0, robertsConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    robertsConcurranceOpinionAuthoredJoinedTotal: 0, robertsConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     robertsConDissOpinionAuthoredJoinedTotal: 0, robertsConDissOpinionAuthoredJoinedTotalCaseIds: [],
     robertsOpinionAuthoredJoinedTotal: 0, robertsOpinionAuthoredJoinedTotalCaseIds: [],
     robertsWithAndMajority: 0, robertsWithAndMajorityCaseIds: [],
@@ -1389,7 +1390,7 @@ $(document).ready(function(){
 
     scaliaMajorityOpinionAuthoredJoinedTotal: 0, scaliaMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaMinorityOpinionAuthoredJoinedTotal: 0, scaliaMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    scaliaConcuranceOpinionAuthoredJoinedTotal: 0, scaliaConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    scaliaConcurranceOpinionAuthoredJoinedTotal: 0, scaliaConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaConDissOpinionAuthoredJoinedTotal: 0, scaliaConDissOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaOpinionAuthoredJoinedTotal: 0, scaliaOpinionAuthoredJoinedTotalCaseIds: [],
     scaliaWithAndMajority: 0, scaliaWithAndMajorityCaseIds: [],
@@ -1402,7 +1403,7 @@ $(document).ready(function(){
 
     kennedyMajorityOpinionAuthoredJoinedTotal: 0, kennedyMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyMinorityOpinionAuthoredJoinedTotal: 0, kennedyMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    kennedyConcuranceOpinionAuthoredJoinedTotal: 0, kennedyConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    kennedyConcurranceOpinionAuthoredJoinedTotal: 0, kennedyConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyConDissOpinionAuthoredJoinedTotal: 0, kennedyConDissOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyOpinionAuthoredJoinedTotal: 0, kennedyOpinionAuthoredJoinedTotalCaseIds: [],
     kennedyWithAndMajority: 0, kennedyWithAndMajorityCaseIds: [],
@@ -1415,7 +1416,7 @@ $(document).ready(function(){
 
     thomasMajorityOpinionAuthoredJoinedTotal: 0, thomasMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     thomasMinorityOpinionAuthoredJoinedTotal: 0, thomasMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    thomasConcuranceOpinionAuthoredJoinedTotal: 0, thomasConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    thomasConcurranceOpinionAuthoredJoinedTotal: 0, thomasConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     thomasConDissOpinionAuthoredJoinedTotal: 0, thomasConDissOpinionAuthoredJoinedTotalCaseIds: [],
     thomasOpinionAuthoredJoinedTotal: 0, thomasOpinionAuthoredJoinedTotalCaseIds: [],
     thomasWithAndMajority: 0, thomasWithAndMajorityCaseIds: [],
@@ -1428,7 +1429,7 @@ $(document).ready(function(){
 
     ginsburgMajorityOpinionAuthoredJoinedTotal: 0, ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgMinorityOpinionAuthoredJoinedTotal: 0, ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    ginsburgConcuranceOpinionAuthoredJoinedTotal: 0, ginsburgConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    ginsburgConcurranceOpinionAuthoredJoinedTotal: 0, ginsburgConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgConDissOpinionAuthoredJoinedTotal: 0, ginsburgConDissOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgOpinionAuthoredJoinedTotal: 0, ginsburgOpinionAuthoredJoinedTotalCaseIds: [],
     ginsburgWithAndMajority: 0, ginsburgWithAndMajorityCaseIds: [],
@@ -1441,7 +1442,7 @@ $(document).ready(function(){
 
     breyerMajorityOpinionAuthoredJoinedTotal: 0, breyerMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     breyerMinorityOpinionAuthoredJoinedTotal: 0, breyerMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    breyerConcuranceOpinionAuthoredJoinedTotal: 0, breyerConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    breyerConcurranceOpinionAuthoredJoinedTotal: 0, breyerConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     breyerConDissOpinionAuthoredJoinedTotal: 0, breyerConDissOpinionAuthoredJoinedTotalCaseIds: [],
     breyerOpinionAuthoredJoinedTotal: 0, breyerOpinionAuthoredJoinedTotalCaseIds: [],
     breyerWithAndMajority: 0, breyerWithAndMajorityCaseIds: [],
@@ -1454,7 +1455,7 @@ $(document).ready(function(){
 
     alitoMajorityOpinionAuthoredJoinedTotal: 0, alitoMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     alitoMinorityOpinionAuthoredJoinedTotal: 0, alitoMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    alitoConcuranceOpinionAuthoredJoinedTotal: 0, alitoConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    alitoConcurranceOpinionAuthoredJoinedTotal: 0, alitoConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     alitoConDissOpinionAuthoredJoinedTotal: 0, alitoConDissOpinionAuthoredJoinedTotalCaseIds: [],
     alitoOpinionAuthoredJoinedTotal: 0, alitoOpinionAuthoredJoinedTotalCaseIds: [],
     alitoWithAndMajority: 0, alitoWithAndMajorityCaseIds: [],
@@ -1467,7 +1468,7 @@ $(document).ready(function(){
 
     sotomayorMajorityOpinionAuthoredJoinedTotal: 0, sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorMinorityOpinionAuthoredJoinedTotal: 0, sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds: [],
-    sotomayorConcuranceOpinionAuthoredJoinedTotal: 0, sotomayorConcuranceOpinionAuthoredJoinedTotalCaseIds: [],
+    sotomayorConcurranceOpinionAuthoredJoinedTotal: 0, sotomayorConcurranceOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorConDissOpinionAuthoredJoinedTotal: 0, sotomayorConDissOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorOpinionAuthoredJoinedTotal: 0, sotomayorOpinionAuthoredJoinedTotalCaseIds: [],
     sotomayorWithAndMajority: 0, sotomayorWithAndMajorityCaseIds: [],
@@ -1497,7 +1498,7 @@ $(document).ready(function(){
     year: 0,
     totalMajorityAuthored: 0, totalMajorityAuthoredCaseIds: [],
     totalMinorityAuthored: 0, totalMinorityAuthoredCaseIds: [],
-    totalConcuranceAuthored: 0, totalConcuranceAuthoredCaseIds: [],
+    totalConcurranceAuthored: 0, totalConcurranceAuthoredCaseIds: [],
     totalConDissAuthored: 0, totalConDissAuthoredCaseIds: [],
     totalOpinionsAuthored: 0, totalOpinionsAuthoredCaseIds: []
   };
@@ -1506,39 +1507,21 @@ $(document).ready(function(){
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
-  var selectCompareJustices = function(selectedJustice, selectedJusticeOpinion, compareJustice, compareOpinion){
-    if((selectedJusticeOpinion === "majority")&(compareOpinion === "majority")){
-    // Both justices are in the majority opinion
-
-    }else if((selectedJusticeOpinion === "minority")&(compareOpinion === "minority")){
-    // Both justices are in the minority opinion
-
-    }else if((selectedJusticeOpinion === "majority")&(compareOpinion === "minority")){
-    // Selected Justice = majority, compared justice = minority
-
-    }else if((selectedJusticeOpinion === "minority")&(compareOpinion === "majority")){
-    // Selected Justice = minority, compared justice = majority
-
-    }else{
-      console.log("something went wrong!");
-    }
-  };
-
   // Not sure what case this is....
   // var oyez = "https://api.oyez.org/cases/2014/13-553?labels=true";
   // T-Mobile Case
   // var oyez = "https://api.oyez.org/cases/2014/13-975?labels=true";
   // Commil v Cisco -- Breyer does not vote in this case VVV
   // var oyez = "https://api.oyez.org/cases/2014/13-896";
-  // Reed v Gilbert -- many concurance votes
+  // Reed v Gilbert -- many Concurrance votes
   // var oyez = "https://api.oyez.org/cases/2014/13-502";
   // Oberall v Hodges -- multiple many dissenting votes
   // var oyez = "https://api.oyez.org/cases/2014/14-556";
-  // Glossip v Gross -- multiple dissent and concurance votes
+  // Glossip v Gross -- multiple dissent and Concurrance votes
   // var oyez = "https://api.oyez.org/cases/2014/14-7955";
-  // Zivotofsky v Kerry -- 2 Decisions AND multi concurance, dissent, con dissent
+  // Zivotofsky v Kerry -- 2 Decisions AND multi Concurrance, dissent, con dissent
   var oyez = "https://api.oyez.org/cases/2014/13-628";
-  //Horne v Agriculture -- concurance, dissent, con dissent
+  //Horne v Agriculture -- Concurrance, dissent, con dissent
   // var oyez = "https://api.oyez.org/cases/2014/14-275";
 
 
@@ -1572,6 +1555,7 @@ $(document).ready(function(){
           var justice = {name: "", decision: "", authored: [], joined: [], casesVotedTotal: 0, casesNotVotedTotal: 0, casesTotalMathCheck: 0};
           justice.name = selectedVote.member.last_name;
           var selectJusticeLastName = selectedVote.member.last_name.toLowerCase();
+          var selectJusticeOpinion = capitalizeFirstLetter(selectedVote.vote);
           var selectJustice = oyezAllJusticeData[selectJusticeLastName];
 
           if(selectedVote.vote === "none"){
@@ -1589,14 +1573,52 @@ $(document).ready(function(){
             justice.casesVotedTotal = justice.casesVotedTotal + 1;
             justice.decision = selectedVote.vote;
 
-            //add to total Justice data voted total
+            //Justice gets credit for voting, added to total of all cases
             selectJustice.casesVotedTotal = selectJustice.casesVotedTotal + 1;
             selectJustice.casesVotedTotalCaseIds.push(opinionData.decisionId);
             selectJustice.casesTotalMathCheck = selectJustice.casesTotalMathCheck + 1;
             selectJustice.casesTotalMathCheckCaseIds.push(opinionData.decisionId);
+            // Voting credit then applied to justice majority or minority total
+            selectJustice["with"+selectJusticeOpinion+"Totals"] = selectJustice["with"+selectJusticeOpinion+"Totals"] + 1;
+            selectJustice["with"+selectJusticeOpinion+"TotalsCaseIds"].push(opinionData.decisionId);
+            selectJustice.opinionsJoinedTotal = selectJustice.opinionsJoinedTotal + 1;
+            selectJustice.opinionsJoinedTotalCaseIds.push(opinionData.decisionId);
+
+            //compare select justice opinion
+            for(var e=0; e<response.decisions[a].votes.length; e++){
+              // do not compare justice with themself
+              if(response.decisions[a].votes[e].member.last_name !== selectJustice.lastName){
+                var compareJustice = response.decisions[a].votes[e];
+                var compareJusticeLastName = compareJustice.member.last_name.toLowerCase();
+                // do not compare justice if compareJustice did not vote
+                if(compareJustice.vote !== "none"){
+                  var compareJusticeOpinion = capitalizeFirstLetter(compareJustice.vote);
+                  // compare Justice and selected justice have same opinion
+                  if(compareJustice.vote === selectedVote.vote){
+                    // all same opinion totals
+                    selectJustice[compareJusticeLastName+"WithTotal"] = selectJustice[compareJusticeLastName+"WithTotal"] + 1;
+                    selectJustice[compareJusticeLastName+"WithTotalCaseIds"].push(opinionData.decisionId);
+                    //specific opinion
+                    selectJustice[compareJusticeLastName+"WithAnd"+compareJusticeOpinion] = selectJustice[compareJusticeLastName+"WithAnd"+compareJusticeOpinion] + 1;
+                    selectJustice[compareJusticeLastName+"WithAnd"+compareJusticeOpinion+"CaseIds"].push(opinionData.decisionId);
+
+                  }else if((compareJustice.vote === "majority") && (compareJustice.vote === "minority") || (compareJustice.vote === "minority") && (compareJustice.vote === "majority")){
+                    // all same opinion totals
+                    selectJustice[compareJusticeLastName+"NotWithTotal"] = selectJustice[compareJusticeLastName+"NotWithTotal"] + 1;
+                    selectJustice[compareJusticeLastName+"NotWithTotalCaseIds"].push(opinionData.decisionId);
+                    //specific opinion
+                    selectJustice[compareJusticeLastName+"NotWithAnd"+compareJusticeOpinion] = selectJustice[compareJusticeLastName+"NotWithAnd"+compareJusticeOpinion] + 1;
+                    selectJustice[compareJusticeLastName+"NotWithAnd"+compareJusticeOpinion+"CaseIds"].push(opinionData.decisionId);
+                  }
+                  // add to total of compared (with and not with)
+                  selectJustice[compareJusticeLastName+"TotalMathCheck"] = selectJustice[compareJusticeLastName+"TotalMathCheck"] + 1;
+
+                }
+              }
+            }
 
 
-
+            // if select justice has joined an opinion...
             if(selectedVote.joining){
               for(var z=0; z<selectedVote.joining.length; z++){
                 // find justices in Oyez
@@ -1606,12 +1628,15 @@ $(document).ready(function(){
                     joinedJusticeOyez.push(response.decisions[a].votes[d]);
                   }
                 }
+
+                // find joined justice opinion in oyez ajax
                 var joinedJusticeOyezOpinion = capitalizeFirstLetter(joinedJusticeOyez[0].opinion_type);
                 if(joinedJusticeOyezOpinion === "Special concurrence"){
                   joinedJusticeOyezOpinion = "ConDiss";
                 }
-
-
+                if(joinedJusticeOyezOpinion === "Dissent"){
+                  joinedJusticeOyezOpinion = "Minority";
+                }
 
                 // find justices in my object
                 var joinedJusticeLastName = selectedVote.joining[z].last_name.toLowerCase();
@@ -1619,25 +1644,34 @@ $(document).ready(function(){
                 justice.joined.push(selectedVote.joining[z].last_name);
 
                 // Selected justice joins author Justice opinion
+                // Total
                 selectJustice[joinedJusticeLastName+"OpinionAuthoredJoinedTotal"] = selectJustice[joinedJusticeLastName+"OpinionAuthoredJoinedTotal"] + 1;
                 selectJustice[joinedJusticeLastName+"OpinionAuthoredJoinedTotalCaseIds"].push(opinionData.decisionId);
+                // specific opinion
+                selectJustice[joinedJusticeLastName+joinedJusticeOyezOpinion+"OpinionAuthoredJoinedTotal"] = selectJustice[joinedJusticeLastName+joinedJusticeOyezOpinion+"OpinionAuthoredJoinedTotal"] + 1;
+                selectJustice[joinedJusticeLastName+joinedJusticeOyezOpinion+"OpinionAuthoredJoinedTotalCaseIds"].push(opinionData.decisionId);
 
                 // Joined Justice gets credit for selected Justice
+                // Total
                 joinedJustice[selectJusticeLastName+"JoinedTotal"] = joinedJustice[selectJusticeLastName+"JoinedTotal"] + 1;
                 joinedJustice[selectJusticeLastName+"JoinedTotalCaseIds"].push(opinionData.decisionId);
+                // specific opinion
+                joinedJustice[selectJusticeLastName+joinedJusticeOyezOpinion+"JoinedTotal"] = joinedJustice[selectJusticeLastName+joinedJusticeOyezOpinion+"JoinedTotal"] + 1;
+                joinedJustice[selectJusticeLastName+joinedJusticeOyezOpinion+"JoinedTotalCaseIds"].push(opinionData.decisionId);
 
-
-
-
-
-
-
-
-
+                //selected justice adds joined opionion to total of all joined opinions
+                //total
+                selectJustice.opinionsJoinedTotalMathCheck = selectJustice.opinionsJoinedTotalMathCheck + 1;
+                selectJustice.opinionsJoinedTotalMathCheckCaseIds.push(opinionData.decisionId);
+                //specific opinion
+                selectJustice["with"+joinedJusticeOyezOpinion] = selectJustice["with"+joinedJusticeOyezOpinion] + 1;
+                selectJustice["with"+joinedJusticeOyezOpinion+"CaseIds"].push({caseId: opinionData.decisionId, joinedJustice: joinedJusticeLastName});
 
                 justice.joined.push(selectedVote.joining[z].last_name);
               }
             }
+
+            // if justice has written their own opinion
             if(selectedVote.opinion_type !== "none"){
               justice.authored.push({opinion: selectedVote.opinion_type});
             }
