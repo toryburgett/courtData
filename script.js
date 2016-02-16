@@ -2169,7 +2169,7 @@ $(document).ready(function(){
 
   // 2014 cases
   var oyezYear = "https://api.oyez.org/cases?filter=term:2014&labels=true&page=0&per_page=0";
-
+  var caseYear = 2014;
 
   function oyezAjax(){
     var url = oyez;
@@ -2179,10 +2179,19 @@ $(document).ready(function(){
       dataType: "json"
     }).done(function(response){
       console.log(response);
+
+      // set the year
+      oyezAllOpinionData.year = caseYear;
+      oyezData.year = caseYear;
+      for(var g in oyezAllJusticeData){
+        oyezAllJusticeData[g].year = caseYear;
+      }
+
+
       for(var a=0; a<response.decisions.length; a++){
         var justices = [];
 
-        var opinionData = {caseName: "", docketNum: "", decisionNum: 0, decisionId: "", caseDecidedDate: "", caseDecidedDateUnix: 0, majVotes: 0, minVotes: 0, justices: justices};
+        var opinionData = {caseName: "", docketNum: "", decisionNum: 0, decisionId: "", caseDecidedDate: "", caseDecidedDateUnix: 0, majVotes: 0, minVotes: 0, justices: justices, year: caseYear};
         opinionData.caseName = response.name;
         opinionData.docketNum = response.docket_number;
         opinionData.decisionNum = response.decisions.length;
