@@ -1,0 +1,5647 @@
+/*TEST - Not complete*/
+
+{
+  "year": 2014,
+  "oyezAllCasesData": [
+    {
+      "caseName": "Zivotofsky v. Kerry",
+      "docketNum": "13-628",
+      "decisionNum": 2,
+      "decisionId": "13-628_0",
+      "caseDecidedDate": "Monday Jun 8, 2015",
+      "caseDecidedDateUnix": 1433739600,
+      "majVotes": 6,
+      "minVotes": 3,
+      "justices": [
+        {
+          "name": "Kennedy",
+          "decision": "majority",
+          "authored": [
+            {
+              "opinion": "majority"
+            }
+          ],
+          "joined": [],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Ginsburg",
+          "decision": "majority",
+          "authored": [],
+          "joined": [
+            "Kennedy"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Breyer",
+          "decision": "majority",
+          "authored": [
+            {
+              "opinion": "concurrence"
+            }
+          ],
+          "joined": [
+            "Kennedy"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Sotomayor",
+          "decision": "majority",
+          "authored": [],
+          "joined": [
+            "Kennedy"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Kagan",
+          "decision": "majority",
+          "authored": [],
+          "joined": [
+            "Kennedy"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Thomas",
+          "decision": "majority",
+          "authored": [
+            {
+              "opinion": "concurrence"
+            }
+          ],
+          "joined": [
+            "Kennedy"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Roberts",
+          "decision": "minority",
+          "authored": [
+            {
+              "opinion": "dissent"
+            }
+          ],
+          "joined": [
+            "Scalia"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Alito",
+          "decision": "minority",
+          "authored": [],
+          "joined": [
+            "Roberts",
+            "Scalia"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Scalia",
+          "decision": "minority",
+          "authored": [
+            {
+              "opinion": "dissent"
+            }
+          ],
+          "joined": [],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        }
+      ],
+      "year": 2014
+    },
+    {
+      "caseName": "Zivotofsky v. Kerry",
+      "docketNum": "13-628",
+      "decisionNum": 2,
+      "decisionId": "13-628_1",
+      "caseDecidedDate": "Monday Jun 8, 2015",
+      "caseDecidedDateUnix": 1433739600,
+      "majVotes": 5,
+      "minVotes": 4,
+      "justices": [
+        {
+          "name": "Kennedy",
+          "decision": "majority",
+          "authored": [
+            {
+              "opinion": "majority"
+            }
+          ],
+          "joined": [],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Ginsburg",
+          "decision": "majority",
+          "authored": [],
+          "joined": [
+            "Kennedy"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Breyer",
+          "decision": "majority",
+          "authored": [
+            {
+              "opinion": "concurrence"
+            }
+          ],
+          "joined": [
+            "Kennedy"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Sotomayor",
+          "decision": "majority",
+          "authored": [],
+          "joined": [
+            "Kennedy"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Kagan",
+          "decision": "majority",
+          "authored": [
+            {
+              "opinion": "majority"
+            }
+          ],
+          "joined": [
+            "Kennedy"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Thomas",
+          "decision": "minority",
+          "authored": [
+            {
+              "opinion": "special concurrence"
+            }
+          ],
+          "joined": [],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Roberts",
+          "decision": "minority",
+          "authored": [
+            {
+              "opinion": "dissent"
+            }
+          ],
+          "joined": [
+            "Scalia"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Alito",
+          "decision": "minority",
+          "authored": [],
+          "joined": [
+            "Roberts",
+            "Scalia"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Scalia",
+          "decision": "minority",
+          "authored": [
+            {
+              "opinion": "dissent"
+            }
+          ],
+          "joined": [],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        }
+      ],
+      "year": 2014
+    },
+    {
+      "caseName": "Glossip v. Gross",
+      "docketNum": "14-7955",
+      "decisionNum": 1,
+      "decisionId": "14-7955_0",
+      "caseDecidedDate": "Monday Jun 29, 2015",
+      "caseDecidedDateUnix": 1435554000,
+      "majVotes": 5,
+      "minVotes": 4,
+      "justices": [
+        {
+          "name": "Alito",
+          "decision": "majority",
+          "authored": [
+            {
+              "opinion": "majority"
+            }
+          ],
+          "joined": [],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Roberts",
+          "decision": "majority",
+          "authored": [],
+          "joined": [
+            "Alito"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Scalia",
+          "decision": "majority",
+          "authored": [
+            {
+              "opinion": "concurrence"
+            }
+          ],
+          "joined": [
+            "Alito",
+            "Thomas"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Kennedy",
+          "decision": "majority",
+          "authored": [],
+          "joined": [
+            "Alito"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Thomas",
+          "decision": "majority",
+          "authored": [
+            {
+              "opinion": "concurrence"
+            }
+          ],
+          "joined": [
+            "Alito",
+            "Scalia"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Breyer",
+          "decision": "minority",
+          "authored": [
+            {
+              "opinion": "dissent"
+            }
+          ],
+          "joined": [
+            "Sotomayor"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Ginsburg",
+          "decision": "minority",
+          "authored": [],
+          "joined": [
+            "Breyer",
+            "Sotomayor"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Sotomayor",
+          "decision": "minority",
+          "authored": [
+            {
+              "opinion": "dissent"
+            }
+          ],
+          "joined": [],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Kagan",
+          "decision": "minority",
+          "authored": [],
+          "joined": [
+            "Sotomayor"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        }
+      ],
+      "year": 2014
+    },
+    {
+      "caseName": "T-Mobile South, LLC v. City of Roswell, Georgia",
+      "docketNum": "13-975",
+      "decisionNum": 1,
+      "decisionId": "13-975_0",
+      "caseDecidedDate": "Wednesday Jan 14, 2015",
+      "caseDecidedDateUnix": 1421215200,
+      "majVotes": 6,
+      "minVotes": 3,
+      "justices": [
+        {
+          "name": "Sotomayor",
+          "decision": "majority",
+          "authored": [
+            {
+              "opinion": "majority"
+            }
+          ],
+          "joined": [],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Scalia",
+          "decision": "majority",
+          "authored": [],
+          "joined": [
+            "Sotomayor"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Kennedy",
+          "decision": "majority",
+          "authored": [],
+          "joined": [
+            "Sotomayor"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Breyer",
+          "decision": "majority",
+          "authored": [],
+          "joined": [
+            "Sotomayor"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Alito",
+          "decision": "majority",
+          "authored": [
+            {
+              "opinion": "concurrence"
+            }
+          ],
+          "joined": [
+            "Sotomayor"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Kagan",
+          "decision": "majority",
+          "authored": [],
+          "joined": [
+            "Sotomayor"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Thomas",
+          "decision": "minority",
+          "authored": [
+            {
+              "opinion": "dissent"
+            }
+          ],
+          "joined": [
+            "Roberts"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Roberts",
+          "decision": "minority",
+          "authored": [
+            {
+              "opinion": "dissent"
+            }
+          ],
+          "joined": [],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        },
+        {
+          "name": "Ginsburg",
+          "decision": "minority",
+          "authored": [],
+          "joined": [
+            "Roberts"
+          ],
+          "casesVotedTotal": 1,
+          "casesNotVotedTotal": 0
+        }
+      ],
+      "year": 2014
+    }
+  ],
+  "oyezAllJusticeData": {
+    "roberts": {
+      "name": "John Roberts",
+      "title": "Chief Justice",
+      "seniority": 1,
+      "lastName": "Roberts",
+      "year": 2014,
+      "authored": {
+        "majorityAuthored": 0,
+        "majorityAuthoredCaseIds": [],
+        "minorityAuthored": 3,
+        "minorityAuthoredCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "13-975_0"
+        ],
+        "concurrenceAuthored": 0,
+        "concurrenceAuthoredCaseIds": [],
+        "conDissAuthored": 0,
+        "conDissAuthoredCaseIds": [],
+        "decisionsAuthored": 3,
+        "decisionsAuthoredCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "opinion": "minority"
+          },
+          {
+            "caseId": "13-628_1",
+            "opinion": "minority"
+          },
+          {
+            "caseId": "13-975_0",
+            "opinion": "minority"
+          }
+        ]
+      },
+      "courtAgreeance": {
+        "withMajorityTotals": 1,
+        "withMajorityTotalsCaseIds": [
+          "14-7955_0"
+        ],
+        "withMinorityTotals": 3,
+        "withMinorityTotalsCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "13-975_0"
+        ],
+        "opinionsJoinedTotal": 4,
+        "opinionsJoinedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "joined": {
+        "withMajority": 1,
+        "withMajorityCaseIds": [
+          {
+            "caseId": "14-7955_0",
+            "joinedJustice": "alito"
+          }
+        ],
+        "withMinority": 2,
+        "withMinorityCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "joinedJustice": "scalia"
+          },
+          {
+            "caseId": "13-628_1",
+            "joinedJustice": "scalia"
+          }
+        ],
+        "withConcurrence": 0,
+        "withConcurrenceCaseIds": [],
+        "withConDiss": 0,
+        "withConDissCaseIds": [],
+        "opinionsJoinedTotalMathCheck": 3,
+        "opinionsJoinedTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0"
+        ]
+      },
+      "attendance": {
+        "casesVotedTotal": 4,
+        "casesVotedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "casesNotVotedTotal": 0,
+        "casesNotVotedTotalCaseIds": [],
+        "casesTotalMathCheck": 4,
+        "casesTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "myOpinionJoiners": {
+        "scalia": {
+          "scaliaMajorityJoinedTotal": 0,
+          "scaliaMajorityJoinedTotalCaseIds": [],
+          "scaliaMinorityJoinedTotal": 0,
+          "scaliaMinorityJoinedTotalCaseIds": [],
+          "scaliaConcurrenceJoinedTotal": 0,
+          "scaliaConcurrenceJoinedTotalCaseIds": [],
+          "scaliaConDissJoinedTotal": 0,
+          "scaliaConDissJoinedTotalCaseIds": [],
+          "scaliaJoinedTotal": 0,
+          "scaliaJoinedTotalCaseIds": []
+        },
+        "kennedy": {
+          "kennedyMajorityJoinedTotal": 0,
+          "kennedyMajorityJoinedTotalCaseIds": [],
+          "kennedyMinorityJoinedTotal": 0,
+          "kennedyMinorityJoinedTotalCaseIds": [],
+          "kennedyConcurrenceJoinedTotal": 0,
+          "kennedyConcurrenceJoinedTotalCaseIds": [],
+          "kennedyConDissJoinedTotal": 0,
+          "kennedyConDissJoinedTotalCaseIds": [],
+          "kennedyJoinedTotal": 0,
+          "kennedyJoinedTotalCaseIds": []
+        },
+        "thomas": {
+          "thomasMajorityJoinedTotal": 0,
+          "thomasMajorityJoinedTotalCaseIds": [],
+          "thomasMinorityJoinedTotal": 1,
+          "thomasMinorityJoinedTotalCaseIds": [
+            "13-975_0"
+          ],
+          "thomasConcurrenceJoinedTotal": 0,
+          "thomasConcurrenceJoinedTotalCaseIds": [],
+          "thomasConDissJoinedTotal": 0,
+          "thomasConDissJoinedTotalCaseIds": [],
+          "thomasJoinedTotal": 1,
+          "thomasJoinedTotalCaseIds": [
+            "13-975_0"
+          ]
+        },
+        "ginsburg": {
+          "ginsburgMajorityJoinedTotal": 0,
+          "ginsburgMajorityJoinedTotalCaseIds": [],
+          "ginsburgMinorityJoinedTotal": 1,
+          "ginsburgMinorityJoinedTotalCaseIds": [
+            "13-975_0"
+          ],
+          "ginsburgConcurrenceJoinedTotal": 0,
+          "ginsburgConcurrenceJoinedTotalCaseIds": [],
+          "ginsburgConDissJoinedTotal": 0,
+          "ginsburgConDissJoinedTotalCaseIds": [],
+          "ginsburgJoinedTotal": 1,
+          "ginsburgJoinedTotalCaseIds": [
+            "13-975_0"
+          ]
+        },
+        "breyer": {
+          "breyerMajorityJoinedTotal": 0,
+          "breyerMajorityJoinedTotalCaseIds": [],
+          "breyerMinorityJoinedTotal": 0,
+          "breyerMinorityJoinedTotalCaseIds": [],
+          "breyerConcurrenceJoinedTotal": 0,
+          "breyerConcurrenceJoinedTotalCaseIds": [],
+          "breyerConDissJoinedTotal": 0,
+          "breyerConDissJoinedTotalCaseIds": [],
+          "breyerJoinedTotal": 0,
+          "breyerJoinedTotalCaseIds": []
+        },
+        "alito": {
+          "alitoMajorityJoinedTotal": 0,
+          "alitoMajorityJoinedTotalCaseIds": [],
+          "alitoMinorityJoinedTotal": 2,
+          "alitoMinorityJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ],
+          "alitoConcurrenceJoinedTotal": 0,
+          "alitoConcurrenceJoinedTotalCaseIds": [],
+          "alitoConDissJoinedTotal": 0,
+          "alitoConDissJoinedTotalCaseIds": [],
+          "alitoJoinedTotal": 2,
+          "alitoJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ]
+        },
+        "sotomayor": {
+          "sotomayorMajorityJoinedTotal": 0,
+          "sotomayorMajorityJoinedTotalCaseIds": [],
+          "sotomayorMinorityJoinedTotal": 0,
+          "sotomayorMinorityJoinedTotalCaseIds": [],
+          "sotomayorConcurrenceJoinedTotal": 0,
+          "sotomayorConcurrenceJoinedTotalCaseIds": [],
+          "sotomayorConDissJoinedTotal": 0,
+          "sotomayorConDissJoinedTotalCaseIds": [],
+          "sotomayorJoinedTotal": 0,
+          "sotomayorJoinedTotalCaseIds": []
+        },
+        "kagan": {
+          "kaganMajorityJoinedTotal": 0,
+          "kaganMajorityJoinedTotalCaseIds": [],
+          "kaganMinorityJoinedTotal": 0,
+          "kaganMinorityJoinedTotalCaseIds": [],
+          "kaganConcurrenceJoinedTotal": 0,
+          "kaganConcurrenceJoinedTotalCaseIds": [],
+          "kaganConDissJoinedTotal": 0,
+          "kaganConDissJoinedTotalCaseIds": [],
+          "kaganJoinedTotal": 0,
+          "kaganJoinedTotalCaseIds": []
+        }
+      },
+      "justices": {
+        "scalia": {
+          "scaliaAuthor": {
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 2,
+            "scaliaMinorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaOpinionAuthoredJoinedTotal": 2,
+            "scaliaOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ]
+          },
+          "scaliaSidedWith": {
+            "scaliaWithAndMajority": 1,
+            "scaliaWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "scaliaWithAndMinority": 2,
+            "scaliaWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "scaliaWithTotal": 3,
+            "scaliaWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "scaliaNotWithAndMajority": 1,
+            "scaliaNotWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "scaliaNotWithAndMinority": 0,
+            "scaliaNotWithAndMinorityCaseIds": [],
+            "scaliaNotWithTotal": 1,
+            "scaliaNotWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "scaliaTotalMathCheck": 4
+          }
+        },
+        "kennedy": {
+          "kennedyAuthor": {
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 0,
+            "kennedyMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyOpinionAuthoredJoinedTotal": 0,
+            "kennedyOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "kennedySidedWith": {
+            "kennedyWithAndMajority": 1,
+            "kennedyWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kennedyWithAndMinority": 0,
+            "kennedyWithAndMinorityCaseIds": [],
+            "kennedyWithTotal": 1,
+            "kennedyWithTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "kennedyNotWithAndMajority": 3,
+            "kennedyNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kennedyNotWithAndMinority": 0,
+            "kennedyNotWithAndMinorityCaseIds": [],
+            "kennedyNotWithTotal": 3,
+            "kennedyNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kennedyTotalMathCheck": 4
+          }
+        },
+        "thomas": {
+          "thomasAuthor": {
+            "thomasMajorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasMinorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConDissOpinionAuthoredJoinedTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasOpinionAuthoredJoinedTotal": 0,
+            "thomasOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "thomasSidedWith": {
+            "thomasWithAndMajority": 1,
+            "thomasWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "thomasWithAndMinority": 2,
+            "thomasWithAndMinorityCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "thomasWithTotal": 3,
+            "thomasWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "thomasNotWithAndMajority": 1,
+            "thomasNotWithAndMajorityCaseIds": [
+              "13-628_0"
+            ],
+            "thomasNotWithAndMinority": 0,
+            "thomasNotWithAndMinorityCaseIds": [],
+            "thomasNotWithTotal": 1,
+            "thomasNotWithTotalCaseIds": [
+              "13-628_0"
+            ],
+            "thomasTotalMathCheck": 4
+          }
+        },
+        "ginsburg": {
+          "ginsburgAuthor": {
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgOpinionAuthoredJoinedTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "ginsburgSidedWith": {
+            "ginsburgWithAndMajority": 0,
+            "ginsburgWithAndMajorityCaseIds": [],
+            "ginsburgWithAndMinority": 1,
+            "ginsburgWithAndMinorityCaseIds": [
+              "13-975_0"
+            ],
+            "ginsburgWithTotal": 1,
+            "ginsburgWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "ginsburgNotWithAndMajority": 2,
+            "ginsburgNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "ginsburgNotWithAndMinority": 1,
+            "ginsburgNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "ginsburgNotWithTotal": 3,
+            "ginsburgNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "ginsburgTotalMathCheck": 4
+          }
+        },
+        "breyer": {
+          "breyerAuthor": {
+            "breyerMajorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConDissOpinionAuthoredJoinedTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerOpinionAuthoredJoinedTotal": 0,
+            "breyerOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "breyerSidedWith": {
+            "breyerWithAndMajority": 0,
+            "breyerWithAndMajorityCaseIds": [],
+            "breyerWithAndMinority": 0,
+            "breyerWithAndMinorityCaseIds": [],
+            "breyerWithTotal": 0,
+            "breyerWithTotalCaseIds": [],
+            "breyerNotWithAndMajority": 3,
+            "breyerNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "breyerNotWithAndMinority": 1,
+            "breyerNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "breyerNotWithTotal": 4,
+            "breyerNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "breyerTotalMathCheck": 4
+          }
+        },
+        "alito": {
+          "alitoAuthor": {
+            "alitoMajorityOpinionAuthoredJoinedTotal": 1,
+            "alitoMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConDissOpinionAuthoredJoinedTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoOpinionAuthoredJoinedTotal": 1,
+            "alitoOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ]
+          },
+          "alitoSidedWith": {
+            "alitoWithAndMajority": 1,
+            "alitoWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "alitoWithAndMinority": 2,
+            "alitoWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "alitoWithTotal": 3,
+            "alitoWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "alitoNotWithAndMajority": 1,
+            "alitoNotWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "alitoNotWithAndMinority": 0,
+            "alitoNotWithAndMinorityCaseIds": [],
+            "alitoNotWithTotal": 1,
+            "alitoNotWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "alitoTotalMathCheck": 4
+          }
+        },
+        "sotomayor": {
+          "sotomayorAuthor": {
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 0,
+            "sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorOpinionAuthoredJoinedTotal": 0,
+            "sotomayorOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "sotomayorSidedWith": {
+            "sotomayorWithAndMajority": 0,
+            "sotomayorWithAndMajorityCaseIds": [],
+            "sotomayorWithAndMinority": 0,
+            "sotomayorWithAndMinorityCaseIds": [],
+            "sotomayorWithTotal": 0,
+            "sotomayorWithTotalCaseIds": [],
+            "sotomayorNotWithAndMajority": 3,
+            "sotomayorNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "sotomayorNotWithAndMinority": 1,
+            "sotomayorNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorNotWithTotal": 4,
+            "sotomayorNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "sotomayorTotalMathCheck": 4
+          }
+        },
+        "kagan": {
+          "kaganAuthor": {
+            "kaganMajorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganMinorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConDissOpinionAuthoredJoinedTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganOpinionAuthoredJoinedTotal": 0,
+            "kaganOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "kaganSidedWith": {
+            "kaganWithAndMajority": 0,
+            "kaganWithAndMajorityCaseIds": [],
+            "kaganWithAndMinority": 0,
+            "kaganWithAndMinorityCaseIds": [],
+            "kaganWithTotal": 0,
+            "kaganWithTotalCaseIds": [],
+            "kaganNotWithAndMajority": 3,
+            "kaganNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kaganNotWithAndMinority": 1,
+            "kaganNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kaganNotWithTotal": 4,
+            "kaganNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "kaganTotalMathCheck": 4
+          }
+        }
+      }
+    },
+    "scalia": {
+      "name": "Antonin Scalia",
+      "title": "Associate Justice",
+      "seniority": 2,
+      "lastName": "Scalia",
+      "year": 2014,
+      "authored": {
+        "majorityAuthored": 0,
+        "majorityAuthoredCaseIds": [],
+        "minorityAuthored": 2,
+        "minorityAuthoredCaseIds": [
+          "13-628_0",
+          "13-628_1"
+        ],
+        "concurrenceAuthored": 1,
+        "concurrenceAuthoredCaseIds": [
+          "14-7955_0"
+        ],
+        "conDissAuthored": 0,
+        "conDissAuthoredCaseIds": [],
+        "decisionsAuthored": 3,
+        "decisionsAuthoredCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "opinion": "minority"
+          },
+          {
+            "caseId": "13-628_1",
+            "opinion": "minority"
+          },
+          {
+            "caseId": "14-7955_0",
+            "opinion": "concurrence"
+          }
+        ]
+      },
+      "courtAgreeance": {
+        "withMajorityTotals": 2,
+        "withMajorityTotalsCaseIds": [
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "withMinorityTotals": 2,
+        "withMinorityTotalsCaseIds": [
+          "13-628_0",
+          "13-628_1"
+        ],
+        "opinionsJoinedTotal": 4,
+        "opinionsJoinedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "joined": {
+        "withMajority": 2,
+        "withMajorityCaseIds": [
+          {
+            "caseId": "14-7955_0",
+            "joinedJustice": "alito"
+          },
+          {
+            "caseId": "13-975_0",
+            "joinedJustice": "sotomayor"
+          }
+        ],
+        "withMinority": 0,
+        "withMinorityCaseIds": [],
+        "withConcurrence": 1,
+        "withConcurrenceCaseIds": [
+          {
+            "caseId": "14-7955_0",
+            "joinedJustice": "thomas"
+          }
+        ],
+        "withConDiss": 0,
+        "withConDissCaseIds": [],
+        "opinionsJoinedTotalMathCheck": 3,
+        "opinionsJoinedTotalMathCheckCaseIds": [
+          "14-7955_0",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "attendance": {
+        "casesVotedTotal": 4,
+        "casesVotedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "casesNotVotedTotal": 0,
+        "casesNotVotedTotalCaseIds": [],
+        "casesTotalMathCheck": 4,
+        "casesTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "myOpinionJoiners": {
+        "roberts": {
+          "robertsMajorityJoinedTotal": 0,
+          "robertsMajorityJoinedTotalCaseIds": [],
+          "robertsMinorityJoinedTotal": 2,
+          "robertsMinorityJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ],
+          "robertsConcurrenceJoinedTotal": 0,
+          "robertsConcurrenceJoinedTotalCaseIds": [],
+          "robertsConDissJoinedTotal": 0,
+          "robertsConDissJoinedTotalCaseIds": [],
+          "robertsJoinedTotal": 2,
+          "robertsJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ]
+        },
+        "kennedy": {
+          "kennedyMajorityJoinedTotal": 0,
+          "kennedyMajorityJoinedTotalCaseIds": [],
+          "kennedyMinorityJoinedTotal": 0,
+          "kennedyMinorityJoinedTotalCaseIds": [],
+          "kennedyConcurrenceJoinedTotal": 0,
+          "kennedyConcurrenceJoinedTotalCaseIds": [],
+          "kennedyConDissJoinedTotal": 0,
+          "kennedyConDissJoinedTotalCaseIds": [],
+          "kennedyJoinedTotal": 0,
+          "kennedyJoinedTotalCaseIds": []
+        },
+        "thomas": {
+          "thomasMajorityJoinedTotal": 0,
+          "thomasMajorityJoinedTotalCaseIds": [],
+          "thomasMinorityJoinedTotal": 0,
+          "thomasMinorityJoinedTotalCaseIds": [],
+          "thomasConcurrenceJoinedTotal": 1,
+          "thomasConcurrenceJoinedTotalCaseIds": [
+            "14-7955_0"
+          ],
+          "thomasConDissJoinedTotal": 0,
+          "thomasConDissJoinedTotalCaseIds": [],
+          "thomasJoinedTotal": 1,
+          "thomasJoinedTotalCaseIds": [
+            "14-7955_0"
+          ]
+        },
+        "ginsburg": {
+          "ginsburgMajorityJoinedTotal": 0,
+          "ginsburgMajorityJoinedTotalCaseIds": [],
+          "ginsburgMinorityJoinedTotal": 0,
+          "ginsburgMinorityJoinedTotalCaseIds": [],
+          "ginsburgConcurrenceJoinedTotal": 0,
+          "ginsburgConcurrenceJoinedTotalCaseIds": [],
+          "ginsburgConDissJoinedTotal": 0,
+          "ginsburgConDissJoinedTotalCaseIds": [],
+          "ginsburgJoinedTotal": 0,
+          "ginsburgJoinedTotalCaseIds": []
+        },
+        "breyer": {
+          "breyerMajorityJoinedTotal": 0,
+          "breyerMajorityJoinedTotalCaseIds": [],
+          "breyerMinorityJoinedTotal": 0,
+          "breyerMinorityJoinedTotalCaseIds": [],
+          "breyerConcurrenceJoinedTotal": 0,
+          "breyerConcurrenceJoinedTotalCaseIds": [],
+          "breyerConDissJoinedTotal": 0,
+          "breyerConDissJoinedTotalCaseIds": [],
+          "breyerJoinedTotal": 0,
+          "breyerJoinedTotalCaseIds": []
+        },
+        "alito": {
+          "alitoMajorityJoinedTotal": 0,
+          "alitoMajorityJoinedTotalCaseIds": [],
+          "alitoMinorityJoinedTotal": 2,
+          "alitoMinorityJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ],
+          "alitoConcurrenceJoinedTotal": 0,
+          "alitoConcurrenceJoinedTotalCaseIds": [],
+          "alitoConDissJoinedTotal": 0,
+          "alitoConDissJoinedTotalCaseIds": [],
+          "alitoJoinedTotal": 2,
+          "alitoJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ]
+        },
+        "sotomayor": {
+          "sotomayorMajorityJoinedTotal": 0,
+          "sotomayorMajorityJoinedTotalCaseIds": [],
+          "sotomayorMinorityJoinedTotal": 0,
+          "sotomayorMinorityJoinedTotalCaseIds": [],
+          "sotomayorConcurrenceJoinedTotal": 0,
+          "sotomayorConcurrenceJoinedTotalCaseIds": [],
+          "sotomayorConDissJoinedTotal": 0,
+          "sotomayorConDissJoinedTotalCaseIds": [],
+          "sotomayorJoinedTotal": 0,
+          "sotomayorJoinedTotalCaseIds": []
+        },
+        "kagan": {
+          "kaganMajorityJoinedTotal": 0,
+          "kaganMajorityJoinedTotalCaseIds": [],
+          "kaganMinorityJoinedTotal": 0,
+          "kaganMinorityJoinedTotalCaseIds": [],
+          "kaganConcurrenceJoinedTotal": 0,
+          "kaganConcurrenceJoinedTotalCaseIds": [],
+          "kaganConDissJoinedTotal": 0,
+          "kaganConDissJoinedTotalCaseIds": [],
+          "kaganJoinedTotal": 0,
+          "kaganJoinedTotalCaseIds": []
+        }
+      },
+      "justices": {
+        "roberts": {
+          "robertsAuthor": {
+            "robertsMajorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsMinorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConDissOpinionAuthoredJoinedTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsOpinionAuthoredJoinedTotal": 0,
+            "robertsOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "robertsSidedWith": {
+            "robertsWithAndMajority": 1,
+            "robertsWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "robertsWithAndMinority": 2,
+            "robertsWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "robertsWithTotal": 3,
+            "robertsWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "robertsNotWithAndMajority": 0,
+            "robertsNotWithAndMajorityCaseIds": [],
+            "robertsNotWithAndMinority": 1,
+            "robertsNotWithAndMinorityCaseIds": [
+              "13-975_0"
+            ],
+            "robertsNotWithTotal": 1,
+            "robertsNotWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "robertsTotalMathCheck": 4
+          }
+        },
+        "kennedy": {
+          "kennedyAuthor": {
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 0,
+            "kennedyMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyOpinionAuthoredJoinedTotal": 0,
+            "kennedyOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "kennedySidedWith": {
+            "kennedyWithAndMajority": 2,
+            "kennedyWithAndMajorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "kennedyWithAndMinority": 0,
+            "kennedyWithAndMinorityCaseIds": [],
+            "kennedyWithTotal": 2,
+            "kennedyWithTotalCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "kennedyNotWithAndMajority": 2,
+            "kennedyNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kennedyNotWithAndMinority": 0,
+            "kennedyNotWithAndMinorityCaseIds": [],
+            "kennedyNotWithTotal": 2,
+            "kennedyNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kennedyTotalMathCheck": 4
+          }
+        },
+        "thomas": {
+          "thomasAuthor": {
+            "thomasMajorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasMinorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 1,
+            "thomasConcurrenceOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "thomasConDissOpinionAuthoredJoinedTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasOpinionAuthoredJoinedTotal": 1,
+            "thomasOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ]
+          },
+          "thomasSidedWith": {
+            "thomasWithAndMajority": 1,
+            "thomasWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "thomasWithAndMinority": 1,
+            "thomasWithAndMinorityCaseIds": [
+              "13-628_1"
+            ],
+            "thomasWithTotal": 2,
+            "thomasWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "thomasNotWithAndMajority": 1,
+            "thomasNotWithAndMajorityCaseIds": [
+              "13-628_0"
+            ],
+            "thomasNotWithAndMinority": 1,
+            "thomasNotWithAndMinorityCaseIds": [
+              "13-975_0"
+            ],
+            "thomasNotWithTotal": 2,
+            "thomasNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-975_0"
+            ],
+            "thomasTotalMathCheck": 4
+          }
+        },
+        "ginsburg": {
+          "ginsburgAuthor": {
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgOpinionAuthoredJoinedTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "ginsburgSidedWith": {
+            "ginsburgWithAndMajority": 0,
+            "ginsburgWithAndMajorityCaseIds": [],
+            "ginsburgWithAndMinority": 0,
+            "ginsburgWithAndMinorityCaseIds": [],
+            "ginsburgWithTotal": 0,
+            "ginsburgWithTotalCaseIds": [],
+            "ginsburgNotWithAndMajority": 2,
+            "ginsburgNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "ginsburgNotWithAndMinority": 2,
+            "ginsburgNotWithAndMinorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "ginsburgNotWithTotal": 4,
+            "ginsburgNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "ginsburgTotalMathCheck": 4
+          }
+        },
+        "breyer": {
+          "breyerAuthor": {
+            "breyerMajorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConDissOpinionAuthoredJoinedTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerOpinionAuthoredJoinedTotal": 0,
+            "breyerOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "breyerSidedWith": {
+            "breyerWithAndMajority": 1,
+            "breyerWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "breyerWithAndMinority": 0,
+            "breyerWithAndMinorityCaseIds": [],
+            "breyerWithTotal": 1,
+            "breyerWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "breyerNotWithAndMajority": 2,
+            "breyerNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "breyerNotWithAndMinority": 1,
+            "breyerNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "breyerNotWithTotal": 3,
+            "breyerNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "breyerTotalMathCheck": 4
+          }
+        },
+        "alito": {
+          "alitoAuthor": {
+            "alitoMajorityOpinionAuthoredJoinedTotal": 1,
+            "alitoMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConDissOpinionAuthoredJoinedTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoOpinionAuthoredJoinedTotal": 1,
+            "alitoOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ]
+          },
+          "alitoSidedWith": {
+            "alitoWithAndMajority": 2,
+            "alitoWithAndMajorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "alitoWithAndMinority": 2,
+            "alitoWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "alitoWithTotal": 4,
+            "alitoWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "alitoNotWithAndMajority": 0,
+            "alitoNotWithAndMajorityCaseIds": [],
+            "alitoNotWithAndMinority": 0,
+            "alitoNotWithAndMinorityCaseIds": [],
+            "alitoNotWithTotal": 0,
+            "alitoNotWithTotalCaseIds": [],
+            "alitoTotalMathCheck": 4
+          }
+        },
+        "sotomayor": {
+          "sotomayorAuthor": {
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 1,
+            "sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ],
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorOpinionAuthoredJoinedTotal": 1,
+            "sotomayorOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ]
+          },
+          "sotomayorSidedWith": {
+            "sotomayorWithAndMajority": 1,
+            "sotomayorWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "sotomayorWithAndMinority": 0,
+            "sotomayorWithAndMinorityCaseIds": [],
+            "sotomayorWithTotal": 1,
+            "sotomayorWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "sotomayorNotWithAndMajority": 2,
+            "sotomayorNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "sotomayorNotWithAndMinority": 1,
+            "sotomayorNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorNotWithTotal": 3,
+            "sotomayorNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "sotomayorTotalMathCheck": 4
+          }
+        },
+        "kagan": {
+          "kaganAuthor": {
+            "kaganMajorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganMinorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConDissOpinionAuthoredJoinedTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganOpinionAuthoredJoinedTotal": 0,
+            "kaganOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "kaganSidedWith": {
+            "kaganWithAndMajority": 1,
+            "kaganWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "kaganWithAndMinority": 0,
+            "kaganWithAndMinorityCaseIds": [],
+            "kaganWithTotal": 1,
+            "kaganWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "kaganNotWithAndMajority": 2,
+            "kaganNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kaganNotWithAndMinority": 1,
+            "kaganNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kaganNotWithTotal": 3,
+            "kaganNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "kaganTotalMathCheck": 4
+          }
+        }
+      }
+    },
+    "kennedy": {
+      "name": "Anthony Kennedy",
+      "title": "Associate Justice",
+      "seniority": 3,
+      "lastName": "Kennedy",
+      "year": 2014,
+      "authored": {
+        "majorityAuthored": 2,
+        "majorityAuthoredCaseIds": [
+          "13-628_0",
+          "13-628_1"
+        ],
+        "minorityAuthored": 0,
+        "minorityAuthoredCaseIds": [],
+        "concurrenceAuthored": 0,
+        "concurrenceAuthoredCaseIds": [],
+        "conDissAuthored": 0,
+        "conDissAuthoredCaseIds": [],
+        "decisionsAuthored": 2,
+        "decisionsAuthoredCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "opinion": "majority"
+          },
+          {
+            "caseId": "13-628_1",
+            "opinion": "majority"
+          }
+        ]
+      },
+      "courtAgreeance": {
+        "withMajorityTotals": 4,
+        "withMajorityTotalsCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "withMinorityTotals": 0,
+        "withMinorityTotalsCaseIds": [],
+        "opinionsJoinedTotal": 4,
+        "opinionsJoinedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "joined": {
+        "withMajority": 2,
+        "withMajorityCaseIds": [
+          {
+            "caseId": "14-7955_0",
+            "joinedJustice": "alito"
+          },
+          {
+            "caseId": "13-975_0",
+            "joinedJustice": "sotomayor"
+          }
+        ],
+        "withMinority": 0,
+        "withMinorityCaseIds": [],
+        "withConcurrence": 0,
+        "withConcurrenceCaseIds": [],
+        "withConDiss": 0,
+        "withConDissCaseIds": [],
+        "opinionsJoinedTotalMathCheck": 2,
+        "opinionsJoinedTotalMathCheckCaseIds": [
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "attendance": {
+        "casesVotedTotal": 4,
+        "casesVotedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "casesNotVotedTotal": 0,
+        "casesNotVotedTotalCaseIds": [],
+        "casesTotalMathCheck": 4,
+        "casesTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "myOpinionJoiners": {
+        "roberts": {
+          "robertsMajorityJoinedTotal": 0,
+          "robertsMajorityJoinedTotalCaseIds": [],
+          "robertsMinorityJoinedTotal": 0,
+          "robertsMinorityJoinedTotalCaseIds": [],
+          "robertsConcurrenceJoinedTotal": 0,
+          "robertsConcurrenceJoinedTotalCaseIds": [],
+          "robertsConDissJoinedTotal": 0,
+          "robertsConDissJoinedTotalCaseIds": [],
+          "robertsJoinedTotal": 0,
+          "robertsJoinedTotalCaseIds": []
+        },
+        "scalia": {
+          "scaliaMajorityJoinedTotal": 0,
+          "scaliaMajorityJoinedTotalCaseIds": [],
+          "scaliaMinorityJoinedTotal": 0,
+          "scaliaMinorityJoinedTotalCaseIds": [],
+          "scaliaConcurrenceJoinedTotal": 0,
+          "scaliaConcurrenceJoinedTotalCaseIds": [],
+          "scaliaConDissJoinedTotal": 0,
+          "scaliaConDissJoinedTotalCaseIds": [],
+          "scaliaJoinedTotal": 0,
+          "scaliaJoinedTotalCaseIds": []
+        },
+        "thomas": {
+          "thomasMajorityJoinedTotal": 1,
+          "thomasMajorityJoinedTotalCaseIds": [
+            "13-628_0"
+          ],
+          "thomasMinorityJoinedTotal": 0,
+          "thomasMinorityJoinedTotalCaseIds": [],
+          "thomasConcurrenceJoinedTotal": 0,
+          "thomasConcurrenceJoinedTotalCaseIds": [],
+          "thomasConDissJoinedTotal": 0,
+          "thomasConDissJoinedTotalCaseIds": [],
+          "thomasJoinedTotal": 1,
+          "thomasJoinedTotalCaseIds": [
+            "13-628_0"
+          ]
+        },
+        "ginsburg": {
+          "ginsburgMajorityJoinedTotal": 2,
+          "ginsburgMajorityJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ],
+          "ginsburgMinorityJoinedTotal": 0,
+          "ginsburgMinorityJoinedTotalCaseIds": [],
+          "ginsburgConcurrenceJoinedTotal": 0,
+          "ginsburgConcurrenceJoinedTotalCaseIds": [],
+          "ginsburgConDissJoinedTotal": 0,
+          "ginsburgConDissJoinedTotalCaseIds": [],
+          "ginsburgJoinedTotal": 2,
+          "ginsburgJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ]
+        },
+        "breyer": {
+          "breyerMajorityJoinedTotal": 2,
+          "breyerMajorityJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ],
+          "breyerMinorityJoinedTotal": 0,
+          "breyerMinorityJoinedTotalCaseIds": [],
+          "breyerConcurrenceJoinedTotal": 0,
+          "breyerConcurrenceJoinedTotalCaseIds": [],
+          "breyerConDissJoinedTotal": 0,
+          "breyerConDissJoinedTotalCaseIds": [],
+          "breyerJoinedTotal": 2,
+          "breyerJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ]
+        },
+        "alito": {
+          "alitoMajorityJoinedTotal": 0,
+          "alitoMajorityJoinedTotalCaseIds": [],
+          "alitoMinorityJoinedTotal": 0,
+          "alitoMinorityJoinedTotalCaseIds": [],
+          "alitoConcurrenceJoinedTotal": 0,
+          "alitoConcurrenceJoinedTotalCaseIds": [],
+          "alitoConDissJoinedTotal": 0,
+          "alitoConDissJoinedTotalCaseIds": [],
+          "alitoJoinedTotal": 0,
+          "alitoJoinedTotalCaseIds": []
+        },
+        "sotomayor": {
+          "sotomayorMajorityJoinedTotal": 2,
+          "sotomayorMajorityJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ],
+          "sotomayorMinorityJoinedTotal": 0,
+          "sotomayorMinorityJoinedTotalCaseIds": [],
+          "sotomayorConcurrenceJoinedTotal": 0,
+          "sotomayorConcurrenceJoinedTotalCaseIds": [],
+          "sotomayorConDissJoinedTotal": 0,
+          "sotomayorConDissJoinedTotalCaseIds": [],
+          "sotomayorJoinedTotal": 2,
+          "sotomayorJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ]
+        },
+        "kagan": {
+          "kaganMajorityJoinedTotal": 2,
+          "kaganMajorityJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ],
+          "kaganMinorityJoinedTotal": 0,
+          "kaganMinorityJoinedTotalCaseIds": [],
+          "kaganConcurrenceJoinedTotal": 0,
+          "kaganConcurrenceJoinedTotalCaseIds": [],
+          "kaganConDissJoinedTotal": 0,
+          "kaganConDissJoinedTotalCaseIds": [],
+          "kaganJoinedTotal": 2,
+          "kaganJoinedTotalCaseIds": [
+            "13-628_0",
+            "13-628_1"
+          ]
+        }
+      },
+      "justices": {
+        "roberts": {
+          "robertsAuthor": {
+            "robertsMajorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsMinorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConDissOpinionAuthoredJoinedTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsOpinionAuthoredJoinedTotal": 0,
+            "robertsOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "robertsSidedWith": {
+            "robertsWithAndMajority": 1,
+            "robertsWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "robertsWithAndMinority": 0,
+            "robertsWithAndMinorityCaseIds": [],
+            "robertsWithTotal": 1,
+            "robertsWithTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "robertsNotWithAndMajority": 0,
+            "robertsNotWithAndMajorityCaseIds": [],
+            "robertsNotWithAndMinority": 3,
+            "robertsNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "robertsNotWithTotal": 3,
+            "robertsNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "robertsTotalMathCheck": 4
+          }
+        },
+        "scalia": {
+          "scaliaAuthor": {
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaOpinionAuthoredJoinedTotal": 0,
+            "scaliaOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "scaliaSidedWith": {
+            "scaliaWithAndMajority": 2,
+            "scaliaWithAndMajorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "scaliaWithAndMinority": 0,
+            "scaliaWithAndMinorityCaseIds": [],
+            "scaliaWithTotal": 2,
+            "scaliaWithTotalCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "scaliaNotWithAndMajority": 0,
+            "scaliaNotWithAndMajorityCaseIds": [],
+            "scaliaNotWithAndMinority": 2,
+            "scaliaNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "scaliaNotWithTotal": 2,
+            "scaliaNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "scaliaTotalMathCheck": 4
+          }
+        },
+        "thomas": {
+          "thomasAuthor": {
+            "thomasMajorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasMinorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConDissOpinionAuthoredJoinedTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasOpinionAuthoredJoinedTotal": 0,
+            "thomasOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "thomasSidedWith": {
+            "thomasWithAndMajority": 2,
+            "thomasWithAndMajorityCaseIds": [
+              "13-628_0",
+              "14-7955_0"
+            ],
+            "thomasWithAndMinority": 0,
+            "thomasWithAndMinorityCaseIds": [],
+            "thomasWithTotal": 2,
+            "thomasWithTotalCaseIds": [
+              "13-628_0",
+              "14-7955_0"
+            ],
+            "thomasNotWithAndMajority": 0,
+            "thomasNotWithAndMajorityCaseIds": [],
+            "thomasNotWithAndMinority": 2,
+            "thomasNotWithAndMinorityCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "thomasNotWithTotal": 2,
+            "thomasNotWithTotalCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "thomasTotalMathCheck": 4
+          }
+        },
+        "ginsburg": {
+          "ginsburgAuthor": {
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgOpinionAuthoredJoinedTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "ginsburgSidedWith": {
+            "ginsburgWithAndMajority": 2,
+            "ginsburgWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "ginsburgWithAndMinority": 0,
+            "ginsburgWithAndMinorityCaseIds": [],
+            "ginsburgWithTotal": 2,
+            "ginsburgWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "ginsburgNotWithAndMajority": 0,
+            "ginsburgNotWithAndMajorityCaseIds": [],
+            "ginsburgNotWithAndMinority": 2,
+            "ginsburgNotWithAndMinorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "ginsburgNotWithTotal": 2,
+            "ginsburgNotWithTotalCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "ginsburgTotalMathCheck": 4
+          }
+        },
+        "breyer": {
+          "breyerAuthor": {
+            "breyerMajorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConDissOpinionAuthoredJoinedTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerOpinionAuthoredJoinedTotal": 0,
+            "breyerOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "breyerSidedWith": {
+            "breyerWithAndMajority": 3,
+            "breyerWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "breyerWithAndMinority": 0,
+            "breyerWithAndMinorityCaseIds": [],
+            "breyerWithTotal": 3,
+            "breyerWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "breyerNotWithAndMajority": 0,
+            "breyerNotWithAndMajorityCaseIds": [],
+            "breyerNotWithAndMinority": 1,
+            "breyerNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "breyerNotWithTotal": 1,
+            "breyerNotWithTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "breyerTotalMathCheck": 4
+          }
+        },
+        "alito": {
+          "alitoAuthor": {
+            "alitoMajorityOpinionAuthoredJoinedTotal": 1,
+            "alitoMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConDissOpinionAuthoredJoinedTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoOpinionAuthoredJoinedTotal": 1,
+            "alitoOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ]
+          },
+          "alitoSidedWith": {
+            "alitoWithAndMajority": 2,
+            "alitoWithAndMajorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "alitoWithAndMinority": 0,
+            "alitoWithAndMinorityCaseIds": [],
+            "alitoWithTotal": 2,
+            "alitoWithTotalCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "alitoNotWithAndMajority": 0,
+            "alitoNotWithAndMajorityCaseIds": [],
+            "alitoNotWithAndMinority": 2,
+            "alitoNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "alitoNotWithTotal": 2,
+            "alitoNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "alitoTotalMathCheck": 4
+          }
+        },
+        "sotomayor": {
+          "sotomayorAuthor": {
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 1,
+            "sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ],
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorOpinionAuthoredJoinedTotal": 1,
+            "sotomayorOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ]
+          },
+          "sotomayorSidedWith": {
+            "sotomayorWithAndMajority": 3,
+            "sotomayorWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "sotomayorWithAndMinority": 0,
+            "sotomayorWithAndMinorityCaseIds": [],
+            "sotomayorWithTotal": 3,
+            "sotomayorWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "sotomayorNotWithAndMajority": 0,
+            "sotomayorNotWithAndMajorityCaseIds": [],
+            "sotomayorNotWithAndMinority": 1,
+            "sotomayorNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorNotWithTotal": 1,
+            "sotomayorNotWithTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorTotalMathCheck": 4
+          }
+        },
+        "kagan": {
+          "kaganAuthor": {
+            "kaganMajorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganMinorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConDissOpinionAuthoredJoinedTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganOpinionAuthoredJoinedTotal": 0,
+            "kaganOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "kaganSidedWith": {
+            "kaganWithAndMajority": 3,
+            "kaganWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kaganWithAndMinority": 0,
+            "kaganWithAndMinorityCaseIds": [],
+            "kaganWithTotal": 3,
+            "kaganWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kaganNotWithAndMajority": 0,
+            "kaganNotWithAndMajorityCaseIds": [],
+            "kaganNotWithAndMinority": 1,
+            "kaganNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kaganNotWithTotal": 1,
+            "kaganNotWithTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "kaganTotalMathCheck": 4
+          }
+        }
+      }
+    },
+    "thomas": {
+      "name": "Clarence Thomas",
+      "title": "Associate Justice",
+      "seniority": 4,
+      "lastName": "Thomas",
+      "year": 2014,
+      "authored": {
+        "majorityAuthored": 0,
+        "majorityAuthoredCaseIds": [],
+        "minorityAuthored": 1,
+        "minorityAuthoredCaseIds": [
+          "13-975_0"
+        ],
+        "concurrenceAuthored": 2,
+        "concurrenceAuthoredCaseIds": [
+          "13-628_0",
+          "14-7955_0"
+        ],
+        "conDissAuthored": 1,
+        "conDissAuthoredCaseIds": [
+          "13-628_1"
+        ],
+        "decisionsAuthored": 4,
+        "decisionsAuthoredCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "opinion": "concurrence"
+          },
+          {
+            "caseId": "13-628_1",
+            "opinion": "conDiss"
+          },
+          {
+            "caseId": "14-7955_0",
+            "opinion": "concurrence"
+          },
+          {
+            "caseId": "13-975_0",
+            "opinion": "minority"
+          }
+        ]
+      },
+      "courtAgreeance": {
+        "withMajorityTotals": 2,
+        "withMajorityTotalsCaseIds": [
+          "13-628_0",
+          "14-7955_0"
+        ],
+        "withMinorityTotals": 2,
+        "withMinorityTotalsCaseIds": [
+          "13-628_1",
+          "13-975_0"
+        ],
+        "opinionsJoinedTotal": 4,
+        "opinionsJoinedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "joined": {
+        "withMajority": 2,
+        "withMajorityCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "joinedJustice": "kennedy"
+          },
+          {
+            "caseId": "14-7955_0",
+            "joinedJustice": "alito"
+          }
+        ],
+        "withMinority": 1,
+        "withMinorityCaseIds": [
+          {
+            "caseId": "13-975_0",
+            "joinedJustice": "roberts"
+          }
+        ],
+        "withConcurrence": 1,
+        "withConcurrenceCaseIds": [
+          {
+            "caseId": "14-7955_0",
+            "joinedJustice": "scalia"
+          }
+        ],
+        "withConDiss": 0,
+        "withConDissCaseIds": [],
+        "opinionsJoinedTotalMathCheck": 4,
+        "opinionsJoinedTotalMathCheckCaseIds": [
+          "13-628_0",
+          "14-7955_0",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "attendance": {
+        "casesVotedTotal": 4,
+        "casesVotedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "casesNotVotedTotal": 0,
+        "casesNotVotedTotalCaseIds": [],
+        "casesTotalMathCheck": 4,
+        "casesTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "myOpinionJoiners": {
+        "roberts": {
+          "robertsMajorityJoinedTotal": 0,
+          "robertsMajorityJoinedTotalCaseIds": [],
+          "robertsMinorityJoinedTotal": 0,
+          "robertsMinorityJoinedTotalCaseIds": [],
+          "robertsConcurrenceJoinedTotal": 0,
+          "robertsConcurrenceJoinedTotalCaseIds": [],
+          "robertsConDissJoinedTotal": 0,
+          "robertsConDissJoinedTotalCaseIds": [],
+          "robertsJoinedTotal": 0,
+          "robertsJoinedTotalCaseIds": []
+        },
+        "scalia": {
+          "scaliaMajorityJoinedTotal": 0,
+          "scaliaMajorityJoinedTotalCaseIds": [],
+          "scaliaMinorityJoinedTotal": 0,
+          "scaliaMinorityJoinedTotalCaseIds": [],
+          "scaliaConcurrenceJoinedTotal": 1,
+          "scaliaConcurrenceJoinedTotalCaseIds": [
+            "14-7955_0"
+          ],
+          "scaliaConDissJoinedTotal": 0,
+          "scaliaConDissJoinedTotalCaseIds": [],
+          "scaliaJoinedTotal": 1,
+          "scaliaJoinedTotalCaseIds": [
+            "14-7955_0"
+          ]
+        },
+        "kennedy": {
+          "kennedyMajorityJoinedTotal": 0,
+          "kennedyMajorityJoinedTotalCaseIds": [],
+          "kennedyMinorityJoinedTotal": 0,
+          "kennedyMinorityJoinedTotalCaseIds": [],
+          "kennedyConcurrenceJoinedTotal": 0,
+          "kennedyConcurrenceJoinedTotalCaseIds": [],
+          "kennedyConDissJoinedTotal": 0,
+          "kennedyConDissJoinedTotalCaseIds": [],
+          "kennedyJoinedTotal": 0,
+          "kennedyJoinedTotalCaseIds": []
+        },
+        "ginsburg": {
+          "ginsburgMajorityJoinedTotal": 0,
+          "ginsburgMajorityJoinedTotalCaseIds": [],
+          "ginsburgMinorityJoinedTotal": 0,
+          "ginsburgMinorityJoinedTotalCaseIds": [],
+          "ginsburgConcurrenceJoinedTotal": 0,
+          "ginsburgConcurrenceJoinedTotalCaseIds": [],
+          "ginsburgConDissJoinedTotal": 0,
+          "ginsburgConDissJoinedTotalCaseIds": [],
+          "ginsburgJoinedTotal": 0,
+          "ginsburgJoinedTotalCaseIds": []
+        },
+        "breyer": {
+          "breyerMajorityJoinedTotal": 0,
+          "breyerMajorityJoinedTotalCaseIds": [],
+          "breyerMinorityJoinedTotal": 0,
+          "breyerMinorityJoinedTotalCaseIds": [],
+          "breyerConcurrenceJoinedTotal": 0,
+          "breyerConcurrenceJoinedTotalCaseIds": [],
+          "breyerConDissJoinedTotal": 0,
+          "breyerConDissJoinedTotalCaseIds": [],
+          "breyerJoinedTotal": 0,
+          "breyerJoinedTotalCaseIds": []
+        },
+        "alito": {
+          "alitoMajorityJoinedTotal": 0,
+          "alitoMajorityJoinedTotalCaseIds": [],
+          "alitoMinorityJoinedTotal": 0,
+          "alitoMinorityJoinedTotalCaseIds": [],
+          "alitoConcurrenceJoinedTotal": 0,
+          "alitoConcurrenceJoinedTotalCaseIds": [],
+          "alitoConDissJoinedTotal": 0,
+          "alitoConDissJoinedTotalCaseIds": [],
+          "alitoJoinedTotal": 0,
+          "alitoJoinedTotalCaseIds": []
+        },
+        "sotomayor": {
+          "sotomayorMajorityJoinedTotal": 0,
+          "sotomayorMajorityJoinedTotalCaseIds": [],
+          "sotomayorMinorityJoinedTotal": 0,
+          "sotomayorMinorityJoinedTotalCaseIds": [],
+          "sotomayorConcurrenceJoinedTotal": 0,
+          "sotomayorConcurrenceJoinedTotalCaseIds": [],
+          "sotomayorConDissJoinedTotal": 0,
+          "sotomayorConDissJoinedTotalCaseIds": [],
+          "sotomayorJoinedTotal": 0,
+          "sotomayorJoinedTotalCaseIds": []
+        },
+        "kagan": {
+          "kaganMajorityJoinedTotal": 0,
+          "kaganMajorityJoinedTotalCaseIds": [],
+          "kaganMinorityJoinedTotal": 0,
+          "kaganMinorityJoinedTotalCaseIds": [],
+          "kaganConcurrenceJoinedTotal": 0,
+          "kaganConcurrenceJoinedTotalCaseIds": [],
+          "kaganConDissJoinedTotal": 0,
+          "kaganConDissJoinedTotalCaseIds": [],
+          "kaganJoinedTotal": 0,
+          "kaganJoinedTotalCaseIds": []
+        }
+      },
+      "justices": {
+        "roberts": {
+          "robertsAuthor": {
+            "robertsMajorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsMinorityOpinionAuthoredJoinedTotal": 1,
+            "robertsMinorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ],
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConDissOpinionAuthoredJoinedTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsOpinionAuthoredJoinedTotal": 1,
+            "robertsOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ]
+          },
+          "robertsSidedWith": {
+            "robertsWithAndMajority": 1,
+            "robertsWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "robertsWithAndMinority": 2,
+            "robertsWithAndMinorityCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "robertsWithTotal": 3,
+            "robertsWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "robertsNotWithAndMajority": 0,
+            "robertsNotWithAndMajorityCaseIds": [],
+            "robertsNotWithAndMinority": 1,
+            "robertsNotWithAndMinorityCaseIds": [
+              "13-628_0"
+            ],
+            "robertsNotWithTotal": 1,
+            "robertsNotWithTotalCaseIds": [
+              "13-628_0"
+            ],
+            "robertsTotalMathCheck": 4
+          }
+        },
+        "scalia": {
+          "scaliaAuthor": {
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 1,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaOpinionAuthoredJoinedTotal": 1,
+            "scaliaOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ]
+          },
+          "scaliaSidedWith": {
+            "scaliaWithAndMajority": 1,
+            "scaliaWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "scaliaWithAndMinority": 1,
+            "scaliaWithAndMinorityCaseIds": [
+              "13-628_1"
+            ],
+            "scaliaWithTotal": 2,
+            "scaliaWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "scaliaNotWithAndMajority": 1,
+            "scaliaNotWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "scaliaNotWithAndMinority": 1,
+            "scaliaNotWithAndMinorityCaseIds": [
+              "13-628_0"
+            ],
+            "scaliaNotWithTotal": 2,
+            "scaliaNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-975_0"
+            ],
+            "scaliaTotalMathCheck": 4
+          }
+        },
+        "kennedy": {
+          "kennedyAuthor": {
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 1,
+            "kennedyMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0"
+            ],
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyOpinionAuthoredJoinedTotal": 1,
+            "kennedyOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0"
+            ]
+          },
+          "kennedySidedWith": {
+            "kennedyWithAndMajority": 2,
+            "kennedyWithAndMajorityCaseIds": [
+              "13-628_0",
+              "14-7955_0"
+            ],
+            "kennedyWithAndMinority": 0,
+            "kennedyWithAndMinorityCaseIds": [],
+            "kennedyWithTotal": 2,
+            "kennedyWithTotalCaseIds": [
+              "13-628_0",
+              "14-7955_0"
+            ],
+            "kennedyNotWithAndMajority": 2,
+            "kennedyNotWithAndMajorityCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kennedyNotWithAndMinority": 0,
+            "kennedyNotWithAndMinorityCaseIds": [],
+            "kennedyNotWithTotal": 2,
+            "kennedyNotWithTotalCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kennedyTotalMathCheck": 4
+          }
+        },
+        "ginsburg": {
+          "ginsburgAuthor": {
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgOpinionAuthoredJoinedTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "ginsburgSidedWith": {
+            "ginsburgWithAndMajority": 1,
+            "ginsburgWithAndMajorityCaseIds": [
+              "13-628_0"
+            ],
+            "ginsburgWithAndMinority": 1,
+            "ginsburgWithAndMinorityCaseIds": [
+              "13-975_0"
+            ],
+            "ginsburgWithTotal": 2,
+            "ginsburgWithTotalCaseIds": [
+              "13-628_0",
+              "13-975_0"
+            ],
+            "ginsburgNotWithAndMajority": 1,
+            "ginsburgNotWithAndMajorityCaseIds": [
+              "13-628_1"
+            ],
+            "ginsburgNotWithAndMinority": 1,
+            "ginsburgNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "ginsburgNotWithTotal": 2,
+            "ginsburgNotWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "ginsburgTotalMathCheck": 4
+          }
+        },
+        "breyer": {
+          "breyerAuthor": {
+            "breyerMajorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConDissOpinionAuthoredJoinedTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerOpinionAuthoredJoinedTotal": 0,
+            "breyerOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "breyerSidedWith": {
+            "breyerWithAndMajority": 1,
+            "breyerWithAndMajorityCaseIds": [
+              "13-628_0"
+            ],
+            "breyerWithAndMinority": 0,
+            "breyerWithAndMinorityCaseIds": [],
+            "breyerWithTotal": 1,
+            "breyerWithTotalCaseIds": [
+              "13-628_0"
+            ],
+            "breyerNotWithAndMajority": 2,
+            "breyerNotWithAndMajorityCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "breyerNotWithAndMinority": 1,
+            "breyerNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "breyerNotWithTotal": 3,
+            "breyerNotWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "breyerTotalMathCheck": 4
+          }
+        },
+        "alito": {
+          "alitoAuthor": {
+            "alitoMajorityOpinionAuthoredJoinedTotal": 1,
+            "alitoMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConDissOpinionAuthoredJoinedTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoOpinionAuthoredJoinedTotal": 1,
+            "alitoOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ]
+          },
+          "alitoSidedWith": {
+            "alitoWithAndMajority": 1,
+            "alitoWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "alitoWithAndMinority": 1,
+            "alitoWithAndMinorityCaseIds": [
+              "13-628_1"
+            ],
+            "alitoWithTotal": 2,
+            "alitoWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "alitoNotWithAndMajority": 1,
+            "alitoNotWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "alitoNotWithAndMinority": 1,
+            "alitoNotWithAndMinorityCaseIds": [
+              "13-628_0"
+            ],
+            "alitoNotWithTotal": 2,
+            "alitoNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-975_0"
+            ],
+            "alitoTotalMathCheck": 4
+          }
+        },
+        "sotomayor": {
+          "sotomayorAuthor": {
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 0,
+            "sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorOpinionAuthoredJoinedTotal": 0,
+            "sotomayorOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "sotomayorSidedWith": {
+            "sotomayorWithAndMajority": 1,
+            "sotomayorWithAndMajorityCaseIds": [
+              "13-628_0"
+            ],
+            "sotomayorWithAndMinority": 0,
+            "sotomayorWithAndMinorityCaseIds": [],
+            "sotomayorWithTotal": 1,
+            "sotomayorWithTotalCaseIds": [
+              "13-628_0"
+            ],
+            "sotomayorNotWithAndMajority": 2,
+            "sotomayorNotWithAndMajorityCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "sotomayorNotWithAndMinority": 1,
+            "sotomayorNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorNotWithTotal": 3,
+            "sotomayorNotWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "sotomayorTotalMathCheck": 4
+          }
+        },
+        "kagan": {
+          "kaganAuthor": {
+            "kaganMajorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganMinorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConDissOpinionAuthoredJoinedTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganOpinionAuthoredJoinedTotal": 0,
+            "kaganOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "kaganSidedWith": {
+            "kaganWithAndMajority": 1,
+            "kaganWithAndMajorityCaseIds": [
+              "13-628_0"
+            ],
+            "kaganWithAndMinority": 0,
+            "kaganWithAndMinorityCaseIds": [],
+            "kaganWithTotal": 1,
+            "kaganWithTotalCaseIds": [
+              "13-628_0"
+            ],
+            "kaganNotWithAndMajority": 2,
+            "kaganNotWithAndMajorityCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kaganNotWithAndMinority": 1,
+            "kaganNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kaganNotWithTotal": 3,
+            "kaganNotWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "kaganTotalMathCheck": 4
+          }
+        }
+      }
+    },
+    "ginsburg": {
+      "name": "Ruth Bader Ginsburg",
+      "title": "Associate Justice",
+      "seniority": 5,
+      "lastName": "Ginsburg",
+      "year": 2014,
+      "authored": {
+        "majorityAuthored": 0,
+        "majorityAuthoredCaseIds": [],
+        "minorityAuthored": 0,
+        "minorityAuthoredCaseIds": [],
+        "concurrenceAuthored": 0,
+        "concurrenceAuthoredCaseIds": [],
+        "conDissAuthored": 0,
+        "conDissAuthoredCaseIds": [],
+        "decisionsAuthored": 0,
+        "decisionsAuthoredCaseIds": []
+      },
+      "courtAgreeance": {
+        "withMajorityTotals": 2,
+        "withMajorityTotalsCaseIds": [
+          "13-628_0",
+          "13-628_1"
+        ],
+        "withMinorityTotals": 2,
+        "withMinorityTotalsCaseIds": [
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "opinionsJoinedTotal": 4,
+        "opinionsJoinedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "joined": {
+        "withMajority": 2,
+        "withMajorityCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "joinedJustice": "kennedy"
+          },
+          {
+            "caseId": "13-628_1",
+            "joinedJustice": "kennedy"
+          }
+        ],
+        "withMinority": 3,
+        "withMinorityCaseIds": [
+          {
+            "caseId": "14-7955_0",
+            "joinedJustice": "breyer"
+          },
+          {
+            "caseId": "14-7955_0",
+            "joinedJustice": "sotomayor"
+          },
+          {
+            "caseId": "13-975_0",
+            "joinedJustice": "roberts"
+          }
+        ],
+        "withConcurrence": 0,
+        "withConcurrenceCaseIds": [],
+        "withConDiss": 0,
+        "withConDissCaseIds": [],
+        "opinionsJoinedTotalMathCheck": 5,
+        "opinionsJoinedTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "attendance": {
+        "casesVotedTotal": 4,
+        "casesVotedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "casesNotVotedTotal": 0,
+        "casesNotVotedTotalCaseIds": [],
+        "casesTotalMathCheck": 4,
+        "casesTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "myOpinionJoiners": {
+        "roberts": {
+          "robertsMajorityJoinedTotal": 0,
+          "robertsMajorityJoinedTotalCaseIds": [],
+          "robertsMinorityJoinedTotal": 0,
+          "robertsMinorityJoinedTotalCaseIds": [],
+          "robertsConcurrenceJoinedTotal": 0,
+          "robertsConcurrenceJoinedTotalCaseIds": [],
+          "robertsConDissJoinedTotal": 0,
+          "robertsConDissJoinedTotalCaseIds": [],
+          "robertsJoinedTotal": 0,
+          "robertsJoinedTotalCaseIds": []
+        },
+        "scalia": {
+          "scaliaMajorityJoinedTotal": 0,
+          "scaliaMajorityJoinedTotalCaseIds": [],
+          "scaliaMinorityJoinedTotal": 0,
+          "scaliaMinorityJoinedTotalCaseIds": [],
+          "scaliaConcurrenceJoinedTotal": 0,
+          "scaliaConcurrenceJoinedTotalCaseIds": [],
+          "scaliaConDissJoinedTotal": 0,
+          "scaliaConDissJoinedTotalCaseIds": [],
+          "scaliaJoinedTotal": 0,
+          "scaliaJoinedTotalCaseIds": []
+        },
+        "kennedy": {
+          "kennedyMajorityJoinedTotal": 0,
+          "kennedyMajorityJoinedTotalCaseIds": [],
+          "kennedyMinorityJoinedTotal": 0,
+          "kennedyMinorityJoinedTotalCaseIds": [],
+          "kennedyConcurrenceJoinedTotal": 0,
+          "kennedyConcurrenceJoinedTotalCaseIds": [],
+          "kennedyConDissJoinedTotal": 0,
+          "kennedyConDissJoinedTotalCaseIds": [],
+          "kennedyJoinedTotal": 0,
+          "kennedyJoinedTotalCaseIds": []
+        },
+        "thomas": {
+          "thomasMajorityJoinedTotal": 0,
+          "thomasMajorityJoinedTotalCaseIds": [],
+          "thomasMinorityJoinedTotal": 0,
+          "thomasMinorityJoinedTotalCaseIds": [],
+          "thomasConcurrenceJoinedTotal": 0,
+          "thomasConcurrenceJoinedTotalCaseIds": [],
+          "thomasConDissJoinedTotal": 0,
+          "thomasConDissJoinedTotalCaseIds": [],
+          "thomasJoinedTotal": 0,
+          "thomasJoinedTotalCaseIds": []
+        },
+        "breyer": {
+          "breyerMajorityJoinedTotal": 0,
+          "breyerMajorityJoinedTotalCaseIds": [],
+          "breyerMinorityJoinedTotal": 0,
+          "breyerMinorityJoinedTotalCaseIds": [],
+          "breyerConcurrenceJoinedTotal": 0,
+          "breyerConcurrenceJoinedTotalCaseIds": [],
+          "breyerConDissJoinedTotal": 0,
+          "breyerConDissJoinedTotalCaseIds": [],
+          "breyerJoinedTotal": 0,
+          "breyerJoinedTotalCaseIds": []
+        },
+        "alito": {
+          "alitoMajorityJoinedTotal": 0,
+          "alitoMajorityJoinedTotalCaseIds": [],
+          "alitoMinorityJoinedTotal": 0,
+          "alitoMinorityJoinedTotalCaseIds": [],
+          "alitoConcurrenceJoinedTotal": 0,
+          "alitoConcurrenceJoinedTotalCaseIds": [],
+          "alitoConDissJoinedTotal": 0,
+          "alitoConDissJoinedTotalCaseIds": [],
+          "alitoJoinedTotal": 0,
+          "alitoJoinedTotalCaseIds": []
+        },
+        "sotomayor": {
+          "sotomayorMajorityJoinedTotal": 0,
+          "sotomayorMajorityJoinedTotalCaseIds": [],
+          "sotomayorMinorityJoinedTotal": 0,
+          "sotomayorMinorityJoinedTotalCaseIds": [],
+          "sotomayorConcurrenceJoinedTotal": 0,
+          "sotomayorConcurrenceJoinedTotalCaseIds": [],
+          "sotomayorConDissJoinedTotal": 0,
+          "sotomayorConDissJoinedTotalCaseIds": [],
+          "sotomayorJoinedTotal": 0,
+          "sotomayorJoinedTotalCaseIds": []
+        },
+        "kagan": {
+          "kaganMajorityJoinedTotal": 0,
+          "kaganMajorityJoinedTotalCaseIds": [],
+          "kaganMinorityJoinedTotal": 0,
+          "kaganMinorityJoinedTotalCaseIds": [],
+          "kaganConcurrenceJoinedTotal": 0,
+          "kaganConcurrenceJoinedTotalCaseIds": [],
+          "kaganConDissJoinedTotal": 0,
+          "kaganConDissJoinedTotalCaseIds": [],
+          "kaganJoinedTotal": 0,
+          "kaganJoinedTotalCaseIds": []
+        }
+      },
+      "justices": {
+        "roberts": {
+          "robertsAuthor": {
+            "robertsMajorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsMinorityOpinionAuthoredJoinedTotal": 1,
+            "robertsMinorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ],
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConDissOpinionAuthoredJoinedTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsOpinionAuthoredJoinedTotal": 1,
+            "robertsOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ]
+          },
+          "robertsSidedWith": {
+            "robertsWithAndMajority": 0,
+            "robertsWithAndMajorityCaseIds": [],
+            "robertsWithAndMinority": 1,
+            "robertsWithAndMinorityCaseIds": [
+              "13-975_0"
+            ],
+            "robertsWithTotal": 1,
+            "robertsWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "robertsNotWithAndMajority": 1,
+            "robertsNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "robertsNotWithAndMinority": 2,
+            "robertsNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "robertsNotWithTotal": 3,
+            "robertsNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "robertsTotalMathCheck": 4
+          }
+        },
+        "scalia": {
+          "scaliaAuthor": {
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaOpinionAuthoredJoinedTotal": 0,
+            "scaliaOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "scaliaSidedWith": {
+            "scaliaWithAndMajority": 0,
+            "scaliaWithAndMajorityCaseIds": [],
+            "scaliaWithAndMinority": 0,
+            "scaliaWithAndMinorityCaseIds": [],
+            "scaliaWithTotal": 0,
+            "scaliaWithTotalCaseIds": [],
+            "scaliaNotWithAndMajority": 2,
+            "scaliaNotWithAndMajorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "scaliaNotWithAndMinority": 2,
+            "scaliaNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "scaliaNotWithTotal": 4,
+            "scaliaNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "scaliaTotalMathCheck": 4
+          }
+        },
+        "kennedy": {
+          "kennedyAuthor": {
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 2,
+            "kennedyMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyOpinionAuthoredJoinedTotal": 2,
+            "kennedyOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ]
+          },
+          "kennedySidedWith": {
+            "kennedyWithAndMajority": 2,
+            "kennedyWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kennedyWithAndMinority": 0,
+            "kennedyWithAndMinorityCaseIds": [],
+            "kennedyWithTotal": 2,
+            "kennedyWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kennedyNotWithAndMajority": 2,
+            "kennedyNotWithAndMajorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "kennedyNotWithAndMinority": 0,
+            "kennedyNotWithAndMinorityCaseIds": [],
+            "kennedyNotWithTotal": 2,
+            "kennedyNotWithTotalCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "kennedyTotalMathCheck": 4
+          }
+        },
+        "thomas": {
+          "thomasAuthor": {
+            "thomasMajorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasMinorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConDissOpinionAuthoredJoinedTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasOpinionAuthoredJoinedTotal": 0,
+            "thomasOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "thomasSidedWith": {
+            "thomasWithAndMajority": 1,
+            "thomasWithAndMajorityCaseIds": [
+              "13-628_0"
+            ],
+            "thomasWithAndMinority": 1,
+            "thomasWithAndMinorityCaseIds": [
+              "13-975_0"
+            ],
+            "thomasWithTotal": 2,
+            "thomasWithTotalCaseIds": [
+              "13-628_0",
+              "13-975_0"
+            ],
+            "thomasNotWithAndMajority": 1,
+            "thomasNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "thomasNotWithAndMinority": 1,
+            "thomasNotWithAndMinorityCaseIds": [
+              "13-628_1"
+            ],
+            "thomasNotWithTotal": 2,
+            "thomasNotWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "thomasTotalMathCheck": 4
+          }
+        },
+        "breyer": {
+          "breyerAuthor": {
+            "breyerMajorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerMinorityOpinionAuthoredJoinedTotal": 1,
+            "breyerMinorityOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConDissOpinionAuthoredJoinedTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerOpinionAuthoredJoinedTotal": 1,
+            "breyerOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ]
+          },
+          "breyerSidedWith": {
+            "breyerWithAndMajority": 2,
+            "breyerWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "breyerWithAndMinority": 1,
+            "breyerWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "breyerWithTotal": 3,
+            "breyerWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "breyerNotWithAndMajority": 1,
+            "breyerNotWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "breyerNotWithAndMinority": 0,
+            "breyerNotWithAndMinorityCaseIds": [],
+            "breyerNotWithTotal": 1,
+            "breyerNotWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "breyerTotalMathCheck": 4
+          }
+        },
+        "alito": {
+          "alitoAuthor": {
+            "alitoMajorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConDissOpinionAuthoredJoinedTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoOpinionAuthoredJoinedTotal": 0,
+            "alitoOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "alitoSidedWith": {
+            "alitoWithAndMajority": 0,
+            "alitoWithAndMajorityCaseIds": [],
+            "alitoWithAndMinority": 0,
+            "alitoWithAndMinorityCaseIds": [],
+            "alitoWithTotal": 0,
+            "alitoWithTotalCaseIds": [],
+            "alitoNotWithAndMajority": 2,
+            "alitoNotWithAndMajorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "alitoNotWithAndMinority": 2,
+            "alitoNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "alitoNotWithTotal": 4,
+            "alitoNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "alitoTotalMathCheck": 4
+          }
+        },
+        "sotomayor": {
+          "sotomayorAuthor": {
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 0,
+            "sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 1,
+            "sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorOpinionAuthoredJoinedTotal": 1,
+            "sotomayorOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ]
+          },
+          "sotomayorSidedWith": {
+            "sotomayorWithAndMajority": 2,
+            "sotomayorWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "sotomayorWithAndMinority": 1,
+            "sotomayorWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorWithTotal": 3,
+            "sotomayorWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "sotomayorNotWithAndMajority": 1,
+            "sotomayorNotWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "sotomayorNotWithAndMinority": 0,
+            "sotomayorNotWithAndMinorityCaseIds": [],
+            "sotomayorNotWithTotal": 1,
+            "sotomayorNotWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "sotomayorTotalMathCheck": 4
+          }
+        },
+        "kagan": {
+          "kaganAuthor": {
+            "kaganMajorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganMinorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConDissOpinionAuthoredJoinedTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganOpinionAuthoredJoinedTotal": 0,
+            "kaganOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "kaganSidedWith": {
+            "kaganWithAndMajority": 2,
+            "kaganWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kaganWithAndMinority": 1,
+            "kaganWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kaganWithTotal": 3,
+            "kaganWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "kaganNotWithAndMajority": 1,
+            "kaganNotWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "kaganNotWithAndMinority": 0,
+            "kaganNotWithAndMinorityCaseIds": [],
+            "kaganNotWithTotal": 1,
+            "kaganNotWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "kaganTotalMathCheck": 4
+          }
+        }
+      }
+    },
+    "breyer": {
+      "name": "Stephen Breyer",
+      "title": "Associate Justice",
+      "seniority": 6,
+      "lastName": "Breyer",
+      "year": 2014,
+      "authored": {
+        "majorityAuthored": 0,
+        "majorityAuthoredCaseIds": [],
+        "minorityAuthored": 1,
+        "minorityAuthoredCaseIds": [
+          "14-7955_0"
+        ],
+        "concurrenceAuthored": 2,
+        "concurrenceAuthoredCaseIds": [
+          "13-628_0",
+          "13-628_1"
+        ],
+        "conDissAuthored": 0,
+        "conDissAuthoredCaseIds": [],
+        "decisionsAuthored": 3,
+        "decisionsAuthoredCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "opinion": "concurrence"
+          },
+          {
+            "caseId": "13-628_1",
+            "opinion": "concurrence"
+          },
+          {
+            "caseId": "14-7955_0",
+            "opinion": "minority"
+          }
+        ]
+      },
+      "courtAgreeance": {
+        "withMajorityTotals": 3,
+        "withMajorityTotalsCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "13-975_0"
+        ],
+        "withMinorityTotals": 1,
+        "withMinorityTotalsCaseIds": [
+          "14-7955_0"
+        ],
+        "opinionsJoinedTotal": 4,
+        "opinionsJoinedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "joined": {
+        "withMajority": 3,
+        "withMajorityCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "joinedJustice": "kennedy"
+          },
+          {
+            "caseId": "13-628_1",
+            "joinedJustice": "kennedy"
+          },
+          {
+            "caseId": "13-975_0",
+            "joinedJustice": "sotomayor"
+          }
+        ],
+        "withMinority": 1,
+        "withMinorityCaseIds": [
+          {
+            "caseId": "14-7955_0",
+            "joinedJustice": "sotomayor"
+          }
+        ],
+        "withConcurrence": 0,
+        "withConcurrenceCaseIds": [],
+        "withConDiss": 0,
+        "withConDissCaseIds": [],
+        "opinionsJoinedTotalMathCheck": 4,
+        "opinionsJoinedTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "attendance": {
+        "casesVotedTotal": 4,
+        "casesVotedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "casesNotVotedTotal": 0,
+        "casesNotVotedTotalCaseIds": [],
+        "casesTotalMathCheck": 4,
+        "casesTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "myOpinionJoiners": {
+        "roberts": {
+          "robertsMajorityJoinedTotal": 0,
+          "robertsMajorityJoinedTotalCaseIds": [],
+          "robertsMinorityJoinedTotal": 0,
+          "robertsMinorityJoinedTotalCaseIds": [],
+          "robertsConcurrenceJoinedTotal": 0,
+          "robertsConcurrenceJoinedTotalCaseIds": [],
+          "robertsConDissJoinedTotal": 0,
+          "robertsConDissJoinedTotalCaseIds": [],
+          "robertsJoinedTotal": 0,
+          "robertsJoinedTotalCaseIds": []
+        },
+        "scalia": {
+          "scaliaMajorityJoinedTotal": 0,
+          "scaliaMajorityJoinedTotalCaseIds": [],
+          "scaliaMinorityJoinedTotal": 0,
+          "scaliaMinorityJoinedTotalCaseIds": [],
+          "scaliaConcurrenceJoinedTotal": 0,
+          "scaliaConcurrenceJoinedTotalCaseIds": [],
+          "scaliaConDissJoinedTotal": 0,
+          "scaliaConDissJoinedTotalCaseIds": [],
+          "scaliaJoinedTotal": 0,
+          "scaliaJoinedTotalCaseIds": []
+        },
+        "kennedy": {
+          "kennedyMajorityJoinedTotal": 0,
+          "kennedyMajorityJoinedTotalCaseIds": [],
+          "kennedyMinorityJoinedTotal": 0,
+          "kennedyMinorityJoinedTotalCaseIds": [],
+          "kennedyConcurrenceJoinedTotal": 0,
+          "kennedyConcurrenceJoinedTotalCaseIds": [],
+          "kennedyConDissJoinedTotal": 0,
+          "kennedyConDissJoinedTotalCaseIds": [],
+          "kennedyJoinedTotal": 0,
+          "kennedyJoinedTotalCaseIds": []
+        },
+        "thomas": {
+          "thomasMajorityJoinedTotal": 0,
+          "thomasMajorityJoinedTotalCaseIds": [],
+          "thomasMinorityJoinedTotal": 0,
+          "thomasMinorityJoinedTotalCaseIds": [],
+          "thomasConcurrenceJoinedTotal": 0,
+          "thomasConcurrenceJoinedTotalCaseIds": [],
+          "thomasConDissJoinedTotal": 0,
+          "thomasConDissJoinedTotalCaseIds": [],
+          "thomasJoinedTotal": 0,
+          "thomasJoinedTotalCaseIds": []
+        },
+        "ginsburg": {
+          "ginsburgMajorityJoinedTotal": 0,
+          "ginsburgMajorityJoinedTotalCaseIds": [],
+          "ginsburgMinorityJoinedTotal": 1,
+          "ginsburgMinorityJoinedTotalCaseIds": [
+            "14-7955_0"
+          ],
+          "ginsburgConcurrenceJoinedTotal": 0,
+          "ginsburgConcurrenceJoinedTotalCaseIds": [],
+          "ginsburgConDissJoinedTotal": 0,
+          "ginsburgConDissJoinedTotalCaseIds": [],
+          "ginsburgJoinedTotal": 1,
+          "ginsburgJoinedTotalCaseIds": [
+            "14-7955_0"
+          ]
+        },
+        "alito": {
+          "alitoMajorityJoinedTotal": 0,
+          "alitoMajorityJoinedTotalCaseIds": [],
+          "alitoMinorityJoinedTotal": 0,
+          "alitoMinorityJoinedTotalCaseIds": [],
+          "alitoConcurrenceJoinedTotal": 0,
+          "alitoConcurrenceJoinedTotalCaseIds": [],
+          "alitoConDissJoinedTotal": 0,
+          "alitoConDissJoinedTotalCaseIds": [],
+          "alitoJoinedTotal": 0,
+          "alitoJoinedTotalCaseIds": []
+        },
+        "sotomayor": {
+          "sotomayorMajorityJoinedTotal": 0,
+          "sotomayorMajorityJoinedTotalCaseIds": [],
+          "sotomayorMinorityJoinedTotal": 0,
+          "sotomayorMinorityJoinedTotalCaseIds": [],
+          "sotomayorConcurrenceJoinedTotal": 0,
+          "sotomayorConcurrenceJoinedTotalCaseIds": [],
+          "sotomayorConDissJoinedTotal": 0,
+          "sotomayorConDissJoinedTotalCaseIds": [],
+          "sotomayorJoinedTotal": 0,
+          "sotomayorJoinedTotalCaseIds": []
+        },
+        "kagan": {
+          "kaganMajorityJoinedTotal": 0,
+          "kaganMajorityJoinedTotalCaseIds": [],
+          "kaganMinorityJoinedTotal": 0,
+          "kaganMinorityJoinedTotalCaseIds": [],
+          "kaganConcurrenceJoinedTotal": 0,
+          "kaganConcurrenceJoinedTotalCaseIds": [],
+          "kaganConDissJoinedTotal": 0,
+          "kaganConDissJoinedTotalCaseIds": [],
+          "kaganJoinedTotal": 0,
+          "kaganJoinedTotalCaseIds": []
+        }
+      },
+      "justices": {
+        "roberts": {
+          "robertsAuthor": {
+            "robertsMajorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsMinorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConDissOpinionAuthoredJoinedTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsOpinionAuthoredJoinedTotal": 0,
+            "robertsOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "robertsSidedWith": {
+            "robertsWithAndMajority": 0,
+            "robertsWithAndMajorityCaseIds": [],
+            "robertsWithAndMinority": 0,
+            "robertsWithAndMinorityCaseIds": [],
+            "robertsWithTotal": 0,
+            "robertsWithTotalCaseIds": [],
+            "robertsNotWithAndMajority": 1,
+            "robertsNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "robertsNotWithAndMinority": 3,
+            "robertsNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "robertsNotWithTotal": 4,
+            "robertsNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "robertsTotalMathCheck": 4
+          }
+        },
+        "scalia": {
+          "scaliaAuthor": {
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaOpinionAuthoredJoinedTotal": 0,
+            "scaliaOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "scaliaSidedWith": {
+            "scaliaWithAndMajority": 1,
+            "scaliaWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "scaliaWithAndMinority": 0,
+            "scaliaWithAndMinorityCaseIds": [],
+            "scaliaWithTotal": 1,
+            "scaliaWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "scaliaNotWithAndMajority": 1,
+            "scaliaNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "scaliaNotWithAndMinority": 2,
+            "scaliaNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "scaliaNotWithTotal": 3,
+            "scaliaNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "scaliaTotalMathCheck": 4
+          }
+        },
+        "kennedy": {
+          "kennedyAuthor": {
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 2,
+            "kennedyMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyOpinionAuthoredJoinedTotal": 2,
+            "kennedyOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ]
+          },
+          "kennedySidedWith": {
+            "kennedyWithAndMajority": 3,
+            "kennedyWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kennedyWithAndMinority": 0,
+            "kennedyWithAndMinorityCaseIds": [],
+            "kennedyWithTotal": 3,
+            "kennedyWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kennedyNotWithAndMajority": 1,
+            "kennedyNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kennedyNotWithAndMinority": 0,
+            "kennedyNotWithAndMinorityCaseIds": [],
+            "kennedyNotWithTotal": 1,
+            "kennedyNotWithTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "kennedyTotalMathCheck": 4
+          }
+        },
+        "thomas": {
+          "thomasAuthor": {
+            "thomasMajorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasMinorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConDissOpinionAuthoredJoinedTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasOpinionAuthoredJoinedTotal": 0,
+            "thomasOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "thomasSidedWith": {
+            "thomasWithAndMajority": 1,
+            "thomasWithAndMajorityCaseIds": [
+              "13-628_0"
+            ],
+            "thomasWithAndMinority": 0,
+            "thomasWithAndMinorityCaseIds": [],
+            "thomasWithTotal": 1,
+            "thomasWithTotalCaseIds": [
+              "13-628_0"
+            ],
+            "thomasNotWithAndMajority": 1,
+            "thomasNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "thomasNotWithAndMinority": 2,
+            "thomasNotWithAndMinorityCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "thomasNotWithTotal": 3,
+            "thomasNotWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "thomasTotalMathCheck": 4
+          }
+        },
+        "ginsburg": {
+          "ginsburgAuthor": {
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgOpinionAuthoredJoinedTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "ginsburgSidedWith": {
+            "ginsburgWithAndMajority": 2,
+            "ginsburgWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "ginsburgWithAndMinority": 1,
+            "ginsburgWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "ginsburgWithTotal": 3,
+            "ginsburgWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "ginsburgNotWithAndMajority": 0,
+            "ginsburgNotWithAndMajorityCaseIds": [],
+            "ginsburgNotWithAndMinority": 1,
+            "ginsburgNotWithAndMinorityCaseIds": [
+              "13-975_0"
+            ],
+            "ginsburgNotWithTotal": 1,
+            "ginsburgNotWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "ginsburgTotalMathCheck": 4
+          }
+        },
+        "alito": {
+          "alitoAuthor": {
+            "alitoMajorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConDissOpinionAuthoredJoinedTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoOpinionAuthoredJoinedTotal": 0,
+            "alitoOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "alitoSidedWith": {
+            "alitoWithAndMajority": 1,
+            "alitoWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "alitoWithAndMinority": 0,
+            "alitoWithAndMinorityCaseIds": [],
+            "alitoWithTotal": 1,
+            "alitoWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "alitoNotWithAndMajority": 1,
+            "alitoNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "alitoNotWithAndMinority": 2,
+            "alitoNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "alitoNotWithTotal": 3,
+            "alitoNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "alitoTotalMathCheck": 4
+          }
+        },
+        "sotomayor": {
+          "sotomayorAuthor": {
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 1,
+            "sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ],
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 1,
+            "sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorOpinionAuthoredJoinedTotal": 2,
+            "sotomayorOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ]
+          },
+          "sotomayorSidedWith": {
+            "sotomayorWithAndMajority": 3,
+            "sotomayorWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "sotomayorWithAndMinority": 1,
+            "sotomayorWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorWithTotal": 4,
+            "sotomayorWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "sotomayorNotWithAndMajority": 0,
+            "sotomayorNotWithAndMajorityCaseIds": [],
+            "sotomayorNotWithAndMinority": 0,
+            "sotomayorNotWithAndMinorityCaseIds": [],
+            "sotomayorNotWithTotal": 0,
+            "sotomayorNotWithTotalCaseIds": [],
+            "sotomayorTotalMathCheck": 4
+          }
+        },
+        "kagan": {
+          "kaganAuthor": {
+            "kaganMajorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganMinorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConDissOpinionAuthoredJoinedTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganOpinionAuthoredJoinedTotal": 0,
+            "kaganOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "kaganSidedWith": {
+            "kaganWithAndMajority": 3,
+            "kaganWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kaganWithAndMinority": 1,
+            "kaganWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kaganWithTotal": 4,
+            "kaganWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "kaganNotWithAndMajority": 0,
+            "kaganNotWithAndMajorityCaseIds": [],
+            "kaganNotWithAndMinority": 0,
+            "kaganNotWithAndMinorityCaseIds": [],
+            "kaganNotWithTotal": 0,
+            "kaganNotWithTotalCaseIds": [],
+            "kaganTotalMathCheck": 4
+          }
+        }
+      }
+    },
+    "alito": {
+      "name": "Samuel Alito",
+      "title": "Associate Justice",
+      "seniority": 7,
+      "lastName": "Alito",
+      "year": 2014,
+      "authored": {
+        "majorityAuthored": 1,
+        "majorityAuthoredCaseIds": [
+          "14-7955_0"
+        ],
+        "minorityAuthored": 0,
+        "minorityAuthoredCaseIds": [],
+        "concurrenceAuthored": 1,
+        "concurrenceAuthoredCaseIds": [
+          "13-975_0"
+        ],
+        "conDissAuthored": 0,
+        "conDissAuthoredCaseIds": [],
+        "decisionsAuthored": 2,
+        "decisionsAuthoredCaseIds": [
+          {
+            "caseId": "14-7955_0",
+            "opinion": "majority"
+          },
+          {
+            "caseId": "13-975_0",
+            "opinion": "concurrence"
+          }
+        ]
+      },
+      "courtAgreeance": {
+        "withMajorityTotals": 2,
+        "withMajorityTotalsCaseIds": [
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "withMinorityTotals": 2,
+        "withMinorityTotalsCaseIds": [
+          "13-628_0",
+          "13-628_1"
+        ],
+        "opinionsJoinedTotal": 4,
+        "opinionsJoinedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "joined": {
+        "withMajority": 1,
+        "withMajorityCaseIds": [
+          {
+            "caseId": "13-975_0",
+            "joinedJustice": "sotomayor"
+          }
+        ],
+        "withMinority": 4,
+        "withMinorityCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "joinedJustice": "roberts"
+          },
+          {
+            "caseId": "13-628_0",
+            "joinedJustice": "scalia"
+          },
+          {
+            "caseId": "13-628_1",
+            "joinedJustice": "roberts"
+          },
+          {
+            "caseId": "13-628_1",
+            "joinedJustice": "scalia"
+          }
+        ],
+        "withConcurrence": 0,
+        "withConcurrenceCaseIds": [],
+        "withConDiss": 0,
+        "withConDissCaseIds": [],
+        "opinionsJoinedTotalMathCheck": 5,
+        "opinionsJoinedTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_0",
+          "13-628_1",
+          "13-628_1",
+          "13-975_0"
+        ]
+      },
+      "attendance": {
+        "casesVotedTotal": 4,
+        "casesVotedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "casesNotVotedTotal": 0,
+        "casesNotVotedTotalCaseIds": [],
+        "casesTotalMathCheck": 4,
+        "casesTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "myOpinionJoiners": {
+        "roberts": {
+          "robertsMajorityJoinedTotal": 1,
+          "robertsMajorityJoinedTotalCaseIds": [
+            "14-7955_0"
+          ],
+          "robertsMinorityJoinedTotal": 0,
+          "robertsMinorityJoinedTotalCaseIds": [],
+          "robertsConcurrenceJoinedTotal": 0,
+          "robertsConcurrenceJoinedTotalCaseIds": [],
+          "robertsConDissJoinedTotal": 0,
+          "robertsConDissJoinedTotalCaseIds": [],
+          "robertsJoinedTotal": 1,
+          "robertsJoinedTotalCaseIds": [
+            "14-7955_0"
+          ]
+        },
+        "scalia": {
+          "scaliaMajorityJoinedTotal": 1,
+          "scaliaMajorityJoinedTotalCaseIds": [
+            "14-7955_0"
+          ],
+          "scaliaMinorityJoinedTotal": 0,
+          "scaliaMinorityJoinedTotalCaseIds": [],
+          "scaliaConcurrenceJoinedTotal": 0,
+          "scaliaConcurrenceJoinedTotalCaseIds": [],
+          "scaliaConDissJoinedTotal": 0,
+          "scaliaConDissJoinedTotalCaseIds": [],
+          "scaliaJoinedTotal": 1,
+          "scaliaJoinedTotalCaseIds": [
+            "14-7955_0"
+          ]
+        },
+        "kennedy": {
+          "kennedyMajorityJoinedTotal": 1,
+          "kennedyMajorityJoinedTotalCaseIds": [
+            "14-7955_0"
+          ],
+          "kennedyMinorityJoinedTotal": 0,
+          "kennedyMinorityJoinedTotalCaseIds": [],
+          "kennedyConcurrenceJoinedTotal": 0,
+          "kennedyConcurrenceJoinedTotalCaseIds": [],
+          "kennedyConDissJoinedTotal": 0,
+          "kennedyConDissJoinedTotalCaseIds": [],
+          "kennedyJoinedTotal": 1,
+          "kennedyJoinedTotalCaseIds": [
+            "14-7955_0"
+          ]
+        },
+        "thomas": {
+          "thomasMajorityJoinedTotal": 1,
+          "thomasMajorityJoinedTotalCaseIds": [
+            "14-7955_0"
+          ],
+          "thomasMinorityJoinedTotal": 0,
+          "thomasMinorityJoinedTotalCaseIds": [],
+          "thomasConcurrenceJoinedTotal": 0,
+          "thomasConcurrenceJoinedTotalCaseIds": [],
+          "thomasConDissJoinedTotal": 0,
+          "thomasConDissJoinedTotalCaseIds": [],
+          "thomasJoinedTotal": 1,
+          "thomasJoinedTotalCaseIds": [
+            "14-7955_0"
+          ]
+        },
+        "ginsburg": {
+          "ginsburgMajorityJoinedTotal": 0,
+          "ginsburgMajorityJoinedTotalCaseIds": [],
+          "ginsburgMinorityJoinedTotal": 0,
+          "ginsburgMinorityJoinedTotalCaseIds": [],
+          "ginsburgConcurrenceJoinedTotal": 0,
+          "ginsburgConcurrenceJoinedTotalCaseIds": [],
+          "ginsburgConDissJoinedTotal": 0,
+          "ginsburgConDissJoinedTotalCaseIds": [],
+          "ginsburgJoinedTotal": 0,
+          "ginsburgJoinedTotalCaseIds": []
+        },
+        "breyer": {
+          "breyerMajorityJoinedTotal": 0,
+          "breyerMajorityJoinedTotalCaseIds": [],
+          "breyerMinorityJoinedTotal": 0,
+          "breyerMinorityJoinedTotalCaseIds": [],
+          "breyerConcurrenceJoinedTotal": 0,
+          "breyerConcurrenceJoinedTotalCaseIds": [],
+          "breyerConDissJoinedTotal": 0,
+          "breyerConDissJoinedTotalCaseIds": [],
+          "breyerJoinedTotal": 0,
+          "breyerJoinedTotalCaseIds": []
+        },
+        "sotomayor": {
+          "sotomayorMajorityJoinedTotal": 0,
+          "sotomayorMajorityJoinedTotalCaseIds": [],
+          "sotomayorMinorityJoinedTotal": 0,
+          "sotomayorMinorityJoinedTotalCaseIds": [],
+          "sotomayorConcurrenceJoinedTotal": 0,
+          "sotomayorConcurrenceJoinedTotalCaseIds": [],
+          "sotomayorConDissJoinedTotal": 0,
+          "sotomayorConDissJoinedTotalCaseIds": [],
+          "sotomayorJoinedTotal": 0,
+          "sotomayorJoinedTotalCaseIds": []
+        },
+        "kagan": {
+          "kaganMajorityJoinedTotal": 0,
+          "kaganMajorityJoinedTotalCaseIds": [],
+          "kaganMinorityJoinedTotal": 0,
+          "kaganMinorityJoinedTotalCaseIds": [],
+          "kaganConcurrenceJoinedTotal": 0,
+          "kaganConcurrenceJoinedTotalCaseIds": [],
+          "kaganConDissJoinedTotal": 0,
+          "kaganConDissJoinedTotalCaseIds": [],
+          "kaganJoinedTotal": 0,
+          "kaganJoinedTotalCaseIds": []
+        }
+      },
+      "justices": {
+        "roberts": {
+          "robertsAuthor": {
+            "robertsMajorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsMinorityOpinionAuthoredJoinedTotal": 2,
+            "robertsMinorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConDissOpinionAuthoredJoinedTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsOpinionAuthoredJoinedTotal": 2,
+            "robertsOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ]
+          },
+          "robertsSidedWith": {
+            "robertsWithAndMajority": 1,
+            "robertsWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "robertsWithAndMinority": 2,
+            "robertsWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "robertsWithTotal": 3,
+            "robertsWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "robertsNotWithAndMajority": 0,
+            "robertsNotWithAndMajorityCaseIds": [],
+            "robertsNotWithAndMinority": 1,
+            "robertsNotWithAndMinorityCaseIds": [
+              "13-975_0"
+            ],
+            "robertsNotWithTotal": 1,
+            "robertsNotWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "robertsTotalMathCheck": 4
+          }
+        },
+        "scalia": {
+          "scaliaAuthor": {
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 2,
+            "scaliaMinorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaOpinionAuthoredJoinedTotal": 2,
+            "scaliaOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ]
+          },
+          "scaliaSidedWith": {
+            "scaliaWithAndMajority": 2,
+            "scaliaWithAndMajorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "scaliaWithAndMinority": 2,
+            "scaliaWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "scaliaWithTotal": 4,
+            "scaliaWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "scaliaNotWithAndMajority": 0,
+            "scaliaNotWithAndMajorityCaseIds": [],
+            "scaliaNotWithAndMinority": 0,
+            "scaliaNotWithAndMinorityCaseIds": [],
+            "scaliaNotWithTotal": 0,
+            "scaliaNotWithTotalCaseIds": [],
+            "scaliaTotalMathCheck": 4
+          }
+        },
+        "kennedy": {
+          "kennedyAuthor": {
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 0,
+            "kennedyMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyOpinionAuthoredJoinedTotal": 0,
+            "kennedyOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "kennedySidedWith": {
+            "kennedyWithAndMajority": 2,
+            "kennedyWithAndMajorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "kennedyWithAndMinority": 0,
+            "kennedyWithAndMinorityCaseIds": [],
+            "kennedyWithTotal": 2,
+            "kennedyWithTotalCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "kennedyNotWithAndMajority": 2,
+            "kennedyNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kennedyNotWithAndMinority": 0,
+            "kennedyNotWithAndMinorityCaseIds": [],
+            "kennedyNotWithTotal": 2,
+            "kennedyNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kennedyTotalMathCheck": 4
+          }
+        },
+        "thomas": {
+          "thomasAuthor": {
+            "thomasMajorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasMinorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConDissOpinionAuthoredJoinedTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasOpinionAuthoredJoinedTotal": 0,
+            "thomasOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "thomasSidedWith": {
+            "thomasWithAndMajority": 1,
+            "thomasWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "thomasWithAndMinority": 1,
+            "thomasWithAndMinorityCaseIds": [
+              "13-628_1"
+            ],
+            "thomasWithTotal": 2,
+            "thomasWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "thomasNotWithAndMajority": 1,
+            "thomasNotWithAndMajorityCaseIds": [
+              "13-628_0"
+            ],
+            "thomasNotWithAndMinority": 1,
+            "thomasNotWithAndMinorityCaseIds": [
+              "13-975_0"
+            ],
+            "thomasNotWithTotal": 2,
+            "thomasNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-975_0"
+            ],
+            "thomasTotalMathCheck": 4
+          }
+        },
+        "ginsburg": {
+          "ginsburgAuthor": {
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgOpinionAuthoredJoinedTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "ginsburgSidedWith": {
+            "ginsburgWithAndMajority": 0,
+            "ginsburgWithAndMajorityCaseIds": [],
+            "ginsburgWithAndMinority": 0,
+            "ginsburgWithAndMinorityCaseIds": [],
+            "ginsburgWithTotal": 0,
+            "ginsburgWithTotalCaseIds": [],
+            "ginsburgNotWithAndMajority": 2,
+            "ginsburgNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "ginsburgNotWithAndMinority": 2,
+            "ginsburgNotWithAndMinorityCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "ginsburgNotWithTotal": 4,
+            "ginsburgNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "ginsburgTotalMathCheck": 4
+          }
+        },
+        "breyer": {
+          "breyerAuthor": {
+            "breyerMajorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConDissOpinionAuthoredJoinedTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerOpinionAuthoredJoinedTotal": 0,
+            "breyerOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "breyerSidedWith": {
+            "breyerWithAndMajority": 1,
+            "breyerWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "breyerWithAndMinority": 0,
+            "breyerWithAndMinorityCaseIds": [],
+            "breyerWithTotal": 1,
+            "breyerWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "breyerNotWithAndMajority": 2,
+            "breyerNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "breyerNotWithAndMinority": 1,
+            "breyerNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "breyerNotWithTotal": 3,
+            "breyerNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "breyerTotalMathCheck": 4
+          }
+        },
+        "sotomayor": {
+          "sotomayorAuthor": {
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 1,
+            "sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ],
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorOpinionAuthoredJoinedTotal": 1,
+            "sotomayorOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ]
+          },
+          "sotomayorSidedWith": {
+            "sotomayorWithAndMajority": 1,
+            "sotomayorWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "sotomayorWithAndMinority": 0,
+            "sotomayorWithAndMinorityCaseIds": [],
+            "sotomayorWithTotal": 1,
+            "sotomayorWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "sotomayorNotWithAndMajority": 2,
+            "sotomayorNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "sotomayorNotWithAndMinority": 1,
+            "sotomayorNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorNotWithTotal": 3,
+            "sotomayorNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "sotomayorTotalMathCheck": 4
+          }
+        },
+        "kagan": {
+          "kaganAuthor": {
+            "kaganMajorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganMinorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConDissOpinionAuthoredJoinedTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganOpinionAuthoredJoinedTotal": 0,
+            "kaganOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "kaganSidedWith": {
+            "kaganWithAndMajority": 1,
+            "kaganWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "kaganWithAndMinority": 0,
+            "kaganWithAndMinorityCaseIds": [],
+            "kaganWithTotal": 1,
+            "kaganWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "kaganNotWithAndMajority": 2,
+            "kaganNotWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kaganNotWithAndMinority": 1,
+            "kaganNotWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kaganNotWithTotal": 3,
+            "kaganNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "kaganTotalMathCheck": 4
+          }
+        }
+      }
+    },
+    "sotomayor": {
+      "name": "Sonia Sotomayor",
+      "title": "Associate Justice",
+      "seniority": 8,
+      "lastName": "Sotomayor",
+      "year": 2014,
+      "authored": {
+        "majorityAuthored": 1,
+        "majorityAuthoredCaseIds": [
+          "13-975_0"
+        ],
+        "minorityAuthored": 1,
+        "minorityAuthoredCaseIds": [
+          "14-7955_0"
+        ],
+        "concurrenceAuthored": 0,
+        "concurrenceAuthoredCaseIds": [],
+        "conDissAuthored": 0,
+        "conDissAuthoredCaseIds": [],
+        "decisionsAuthored": 2,
+        "decisionsAuthoredCaseIds": [
+          {
+            "caseId": "14-7955_0",
+            "opinion": "minority"
+          },
+          {
+            "caseId": "13-975_0",
+            "opinion": "majority"
+          }
+        ]
+      },
+      "courtAgreeance": {
+        "withMajorityTotals": 3,
+        "withMajorityTotalsCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "13-975_0"
+        ],
+        "withMinorityTotals": 1,
+        "withMinorityTotalsCaseIds": [
+          "14-7955_0"
+        ],
+        "opinionsJoinedTotal": 4,
+        "opinionsJoinedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "joined": {
+        "withMajority": 2,
+        "withMajorityCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "joinedJustice": "kennedy"
+          },
+          {
+            "caseId": "13-628_1",
+            "joinedJustice": "kennedy"
+          }
+        ],
+        "withMinority": 0,
+        "withMinorityCaseIds": [],
+        "withConcurrence": 0,
+        "withConcurrenceCaseIds": [],
+        "withConDiss": 0,
+        "withConDissCaseIds": [],
+        "opinionsJoinedTotalMathCheck": 2,
+        "opinionsJoinedTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1"
+        ]
+      },
+      "attendance": {
+        "casesVotedTotal": 4,
+        "casesVotedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "casesNotVotedTotal": 0,
+        "casesNotVotedTotalCaseIds": [],
+        "casesTotalMathCheck": 4,
+        "casesTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "myOpinionJoiners": {
+        "roberts": {
+          "robertsMajorityJoinedTotal": 0,
+          "robertsMajorityJoinedTotalCaseIds": [],
+          "robertsMinorityJoinedTotal": 0,
+          "robertsMinorityJoinedTotalCaseIds": [],
+          "robertsConcurrenceJoinedTotal": 0,
+          "robertsConcurrenceJoinedTotalCaseIds": [],
+          "robertsConDissJoinedTotal": 0,
+          "robertsConDissJoinedTotalCaseIds": [],
+          "robertsJoinedTotal": 0,
+          "robertsJoinedTotalCaseIds": []
+        },
+        "scalia": {
+          "scaliaMajorityJoinedTotal": 1,
+          "scaliaMajorityJoinedTotalCaseIds": [
+            "13-975_0"
+          ],
+          "scaliaMinorityJoinedTotal": 0,
+          "scaliaMinorityJoinedTotalCaseIds": [],
+          "scaliaConcurrenceJoinedTotal": 0,
+          "scaliaConcurrenceJoinedTotalCaseIds": [],
+          "scaliaConDissJoinedTotal": 0,
+          "scaliaConDissJoinedTotalCaseIds": [],
+          "scaliaJoinedTotal": 1,
+          "scaliaJoinedTotalCaseIds": [
+            "13-975_0"
+          ]
+        },
+        "kennedy": {
+          "kennedyMajorityJoinedTotal": 1,
+          "kennedyMajorityJoinedTotalCaseIds": [
+            "13-975_0"
+          ],
+          "kennedyMinorityJoinedTotal": 0,
+          "kennedyMinorityJoinedTotalCaseIds": [],
+          "kennedyConcurrenceJoinedTotal": 0,
+          "kennedyConcurrenceJoinedTotalCaseIds": [],
+          "kennedyConDissJoinedTotal": 0,
+          "kennedyConDissJoinedTotalCaseIds": [],
+          "kennedyJoinedTotal": 1,
+          "kennedyJoinedTotalCaseIds": [
+            "13-975_0"
+          ]
+        },
+        "thomas": {
+          "thomasMajorityJoinedTotal": 0,
+          "thomasMajorityJoinedTotalCaseIds": [],
+          "thomasMinorityJoinedTotal": 0,
+          "thomasMinorityJoinedTotalCaseIds": [],
+          "thomasConcurrenceJoinedTotal": 0,
+          "thomasConcurrenceJoinedTotalCaseIds": [],
+          "thomasConDissJoinedTotal": 0,
+          "thomasConDissJoinedTotalCaseIds": [],
+          "thomasJoinedTotal": 0,
+          "thomasJoinedTotalCaseIds": []
+        },
+        "ginsburg": {
+          "ginsburgMajorityJoinedTotal": 0,
+          "ginsburgMajorityJoinedTotalCaseIds": [],
+          "ginsburgMinorityJoinedTotal": 1,
+          "ginsburgMinorityJoinedTotalCaseIds": [
+            "14-7955_0"
+          ],
+          "ginsburgConcurrenceJoinedTotal": 0,
+          "ginsburgConcurrenceJoinedTotalCaseIds": [],
+          "ginsburgConDissJoinedTotal": 0,
+          "ginsburgConDissJoinedTotalCaseIds": [],
+          "ginsburgJoinedTotal": 1,
+          "ginsburgJoinedTotalCaseIds": [
+            "14-7955_0"
+          ]
+        },
+        "breyer": {
+          "breyerMajorityJoinedTotal": 1,
+          "breyerMajorityJoinedTotalCaseIds": [
+            "13-975_0"
+          ],
+          "breyerMinorityJoinedTotal": 1,
+          "breyerMinorityJoinedTotalCaseIds": [
+            "14-7955_0"
+          ],
+          "breyerConcurrenceJoinedTotal": 0,
+          "breyerConcurrenceJoinedTotalCaseIds": [],
+          "breyerConDissJoinedTotal": 0,
+          "breyerConDissJoinedTotalCaseIds": [],
+          "breyerJoinedTotal": 2,
+          "breyerJoinedTotalCaseIds": [
+            "14-7955_0",
+            "13-975_0"
+          ]
+        },
+        "alito": {
+          "alitoMajorityJoinedTotal": 1,
+          "alitoMajorityJoinedTotalCaseIds": [
+            "13-975_0"
+          ],
+          "alitoMinorityJoinedTotal": 0,
+          "alitoMinorityJoinedTotalCaseIds": [],
+          "alitoConcurrenceJoinedTotal": 0,
+          "alitoConcurrenceJoinedTotalCaseIds": [],
+          "alitoConDissJoinedTotal": 0,
+          "alitoConDissJoinedTotalCaseIds": [],
+          "alitoJoinedTotal": 1,
+          "alitoJoinedTotalCaseIds": [
+            "13-975_0"
+          ]
+        },
+        "kagan": {
+          "kaganMajorityJoinedTotal": 1,
+          "kaganMajorityJoinedTotalCaseIds": [
+            "13-975_0"
+          ],
+          "kaganMinorityJoinedTotal": 1,
+          "kaganMinorityJoinedTotalCaseIds": [
+            "14-7955_0"
+          ],
+          "kaganConcurrenceJoinedTotal": 0,
+          "kaganConcurrenceJoinedTotalCaseIds": [],
+          "kaganConDissJoinedTotal": 0,
+          "kaganConDissJoinedTotalCaseIds": [],
+          "kaganJoinedTotal": 2,
+          "kaganJoinedTotalCaseIds": [
+            "14-7955_0",
+            "13-975_0"
+          ]
+        }
+      },
+      "justices": {
+        "roberts": {
+          "robertsAuthor": {
+            "robertsMajorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsMinorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConDissOpinionAuthoredJoinedTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsOpinionAuthoredJoinedTotal": 0,
+            "robertsOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "robertsSidedWith": {
+            "robertsWithAndMajority": 0,
+            "robertsWithAndMajorityCaseIds": [],
+            "robertsWithAndMinority": 0,
+            "robertsWithAndMinorityCaseIds": [],
+            "robertsWithTotal": 0,
+            "robertsWithTotalCaseIds": [],
+            "robertsNotWithAndMajority": 1,
+            "robertsNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "robertsNotWithAndMinority": 3,
+            "robertsNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "robertsNotWithTotal": 4,
+            "robertsNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "robertsTotalMathCheck": 4
+          }
+        },
+        "scalia": {
+          "scaliaAuthor": {
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaOpinionAuthoredJoinedTotal": 0,
+            "scaliaOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "scaliaSidedWith": {
+            "scaliaWithAndMajority": 1,
+            "scaliaWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "scaliaWithAndMinority": 0,
+            "scaliaWithAndMinorityCaseIds": [],
+            "scaliaWithTotal": 1,
+            "scaliaWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "scaliaNotWithAndMajority": 1,
+            "scaliaNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "scaliaNotWithAndMinority": 2,
+            "scaliaNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "scaliaNotWithTotal": 3,
+            "scaliaNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "scaliaTotalMathCheck": 4
+          }
+        },
+        "kennedy": {
+          "kennedyAuthor": {
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 2,
+            "kennedyMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyOpinionAuthoredJoinedTotal": 2,
+            "kennedyOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ]
+          },
+          "kennedySidedWith": {
+            "kennedyWithAndMajority": 3,
+            "kennedyWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kennedyWithAndMinority": 0,
+            "kennedyWithAndMinorityCaseIds": [],
+            "kennedyWithTotal": 3,
+            "kennedyWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kennedyNotWithAndMajority": 1,
+            "kennedyNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kennedyNotWithAndMinority": 0,
+            "kennedyNotWithAndMinorityCaseIds": [],
+            "kennedyNotWithTotal": 1,
+            "kennedyNotWithTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "kennedyTotalMathCheck": 4
+          }
+        },
+        "thomas": {
+          "thomasAuthor": {
+            "thomasMajorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasMinorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConDissOpinionAuthoredJoinedTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasOpinionAuthoredJoinedTotal": 0,
+            "thomasOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "thomasSidedWith": {
+            "thomasWithAndMajority": 1,
+            "thomasWithAndMajorityCaseIds": [
+              "13-628_0"
+            ],
+            "thomasWithAndMinority": 0,
+            "thomasWithAndMinorityCaseIds": [],
+            "thomasWithTotal": 1,
+            "thomasWithTotalCaseIds": [
+              "13-628_0"
+            ],
+            "thomasNotWithAndMajority": 1,
+            "thomasNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "thomasNotWithAndMinority": 2,
+            "thomasNotWithAndMinorityCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "thomasNotWithTotal": 3,
+            "thomasNotWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "thomasTotalMathCheck": 4
+          }
+        },
+        "ginsburg": {
+          "ginsburgAuthor": {
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgOpinionAuthoredJoinedTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "ginsburgSidedWith": {
+            "ginsburgWithAndMajority": 2,
+            "ginsburgWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "ginsburgWithAndMinority": 1,
+            "ginsburgWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "ginsburgWithTotal": 3,
+            "ginsburgWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "ginsburgNotWithAndMajority": 0,
+            "ginsburgNotWithAndMajorityCaseIds": [],
+            "ginsburgNotWithAndMinority": 1,
+            "ginsburgNotWithAndMinorityCaseIds": [
+              "13-975_0"
+            ],
+            "ginsburgNotWithTotal": 1,
+            "ginsburgNotWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "ginsburgTotalMathCheck": 4
+          }
+        },
+        "breyer": {
+          "breyerAuthor": {
+            "breyerMajorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConDissOpinionAuthoredJoinedTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerOpinionAuthoredJoinedTotal": 0,
+            "breyerOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "breyerSidedWith": {
+            "breyerWithAndMajority": 3,
+            "breyerWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "breyerWithAndMinority": 1,
+            "breyerWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "breyerWithTotal": 4,
+            "breyerWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "breyerNotWithAndMajority": 0,
+            "breyerNotWithAndMajorityCaseIds": [],
+            "breyerNotWithAndMinority": 0,
+            "breyerNotWithAndMinorityCaseIds": [],
+            "breyerNotWithTotal": 0,
+            "breyerNotWithTotalCaseIds": [],
+            "breyerTotalMathCheck": 4
+          }
+        },
+        "alito": {
+          "alitoAuthor": {
+            "alitoMajorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConDissOpinionAuthoredJoinedTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoOpinionAuthoredJoinedTotal": 0,
+            "alitoOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "alitoSidedWith": {
+            "alitoWithAndMajority": 1,
+            "alitoWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "alitoWithAndMinority": 0,
+            "alitoWithAndMinorityCaseIds": [],
+            "alitoWithTotal": 1,
+            "alitoWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "alitoNotWithAndMajority": 1,
+            "alitoNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "alitoNotWithAndMinority": 2,
+            "alitoNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "alitoNotWithTotal": 3,
+            "alitoNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "alitoTotalMathCheck": 4
+          }
+        },
+        "kagan": {
+          "kaganAuthor": {
+            "kaganMajorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganMinorityOpinionAuthoredJoinedTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganConDissOpinionAuthoredJoinedTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kaganOpinionAuthoredJoinedTotal": 0,
+            "kaganOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "kaganSidedWith": {
+            "kaganWithAndMajority": 3,
+            "kaganWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kaganWithAndMinority": 1,
+            "kaganWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kaganWithTotal": 4,
+            "kaganWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "kaganNotWithAndMajority": 0,
+            "kaganNotWithAndMajorityCaseIds": [],
+            "kaganNotWithAndMinority": 0,
+            "kaganNotWithAndMinorityCaseIds": [],
+            "kaganNotWithTotal": 0,
+            "kaganNotWithTotalCaseIds": [],
+            "kaganTotalMathCheck": 4
+          }
+        }
+      }
+    },
+    "kagan": {
+      "name": "Elena Kagan",
+      "title": "Associate Justice",
+      "seniority": 9,
+      "lastName": "Kagan",
+      "year": 2014,
+      "authored": {
+        "majorityAuthored": 1,
+        "majorityAuthoredCaseIds": [
+          "13-628_1"
+        ],
+        "minorityAuthored": 0,
+        "minorityAuthoredCaseIds": [],
+        "concurrenceAuthored": 0,
+        "concurrenceAuthoredCaseIds": [],
+        "conDissAuthored": 0,
+        "conDissAuthoredCaseIds": [],
+        "decisionsAuthored": 1,
+        "decisionsAuthoredCaseIds": [
+          {
+            "caseId": "13-628_1",
+            "opinion": "majority"
+          }
+        ]
+      },
+      "courtAgreeance": {
+        "withMajorityTotals": 3,
+        "withMajorityTotalsCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "13-975_0"
+        ],
+        "withMinorityTotals": 1,
+        "withMinorityTotalsCaseIds": [
+          "14-7955_0"
+        ],
+        "opinionsJoinedTotal": 4,
+        "opinionsJoinedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "joined": {
+        "withMajority": 3,
+        "withMajorityCaseIds": [
+          {
+            "caseId": "13-628_0",
+            "joinedJustice": "kennedy"
+          },
+          {
+            "caseId": "13-628_1",
+            "joinedJustice": "kennedy"
+          },
+          {
+            "caseId": "13-975_0",
+            "joinedJustice": "sotomayor"
+          }
+        ],
+        "withMinority": 1,
+        "withMinorityCaseIds": [
+          {
+            "caseId": "14-7955_0",
+            "joinedJustice": "sotomayor"
+          }
+        ],
+        "withConcurrence": 0,
+        "withConcurrenceCaseIds": [],
+        "withConDiss": 0,
+        "withConDissCaseIds": [],
+        "opinionsJoinedTotalMathCheck": 4,
+        "opinionsJoinedTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "attendance": {
+        "casesVotedTotal": 4,
+        "casesVotedTotalCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ],
+        "casesNotVotedTotal": 0,
+        "casesNotVotedTotalCaseIds": [],
+        "casesTotalMathCheck": 4,
+        "casesTotalMathCheckCaseIds": [
+          "13-628_0",
+          "13-628_1",
+          "14-7955_0",
+          "13-975_0"
+        ]
+      },
+      "myOpinionJoiners": {
+        "roberts": {
+          "robertsMajorityJoinedTotal": 0,
+          "robertsMajorityJoinedTotalCaseIds": [],
+          "robertsMinorityJoinedTotal": 0,
+          "robertsMinorityJoinedTotalCaseIds": [],
+          "robertsConcurrenceJoinedTotal": 0,
+          "robertsConcurrenceJoinedTotalCaseIds": [],
+          "robertsConDissJoinedTotal": 0,
+          "robertsConDissJoinedTotalCaseIds": [],
+          "robertsJoinedTotal": 0,
+          "robertsJoinedTotalCaseIds": []
+        },
+        "scalia": {
+          "scaliaMajorityJoinedTotal": 0,
+          "scaliaMajorityJoinedTotalCaseIds": [],
+          "scaliaMinorityJoinedTotal": 0,
+          "scaliaMinorityJoinedTotalCaseIds": [],
+          "scaliaConcurrenceJoinedTotal": 0,
+          "scaliaConcurrenceJoinedTotalCaseIds": [],
+          "scaliaConDissJoinedTotal": 0,
+          "scaliaConDissJoinedTotalCaseIds": [],
+          "scaliaJoinedTotal": 0,
+          "scaliaJoinedTotalCaseIds": []
+        },
+        "kennedy": {
+          "kennedyMajorityJoinedTotal": 0,
+          "kennedyMajorityJoinedTotalCaseIds": [],
+          "kennedyMinorityJoinedTotal": 0,
+          "kennedyMinorityJoinedTotalCaseIds": [],
+          "kennedyConcurrenceJoinedTotal": 0,
+          "kennedyConcurrenceJoinedTotalCaseIds": [],
+          "kennedyConDissJoinedTotal": 0,
+          "kennedyConDissJoinedTotalCaseIds": [],
+          "kennedyJoinedTotal": 0,
+          "kennedyJoinedTotalCaseIds": []
+        },
+        "thomas": {
+          "thomasMajorityJoinedTotal": 0,
+          "thomasMajorityJoinedTotalCaseIds": [],
+          "thomasMinorityJoinedTotal": 0,
+          "thomasMinorityJoinedTotalCaseIds": [],
+          "thomasConcurrenceJoinedTotal": 0,
+          "thomasConcurrenceJoinedTotalCaseIds": [],
+          "thomasConDissJoinedTotal": 0,
+          "thomasConDissJoinedTotalCaseIds": [],
+          "thomasJoinedTotal": 0,
+          "thomasJoinedTotalCaseIds": []
+        },
+        "ginsburg": {
+          "ginsburgMajorityJoinedTotal": 0,
+          "ginsburgMajorityJoinedTotalCaseIds": [],
+          "ginsburgMinorityJoinedTotal": 0,
+          "ginsburgMinorityJoinedTotalCaseIds": [],
+          "ginsburgConcurrenceJoinedTotal": 0,
+          "ginsburgConcurrenceJoinedTotalCaseIds": [],
+          "ginsburgConDissJoinedTotal": 0,
+          "ginsburgConDissJoinedTotalCaseIds": [],
+          "ginsburgJoinedTotal": 0,
+          "ginsburgJoinedTotalCaseIds": []
+        },
+        "breyer": {
+          "breyerMajorityJoinedTotal": 0,
+          "breyerMajorityJoinedTotalCaseIds": [],
+          "breyerMinorityJoinedTotal": 0,
+          "breyerMinorityJoinedTotalCaseIds": [],
+          "breyerConcurrenceJoinedTotal": 0,
+          "breyerConcurrenceJoinedTotalCaseIds": [],
+          "breyerConDissJoinedTotal": 0,
+          "breyerConDissJoinedTotalCaseIds": [],
+          "breyerJoinedTotal": 0,
+          "breyerJoinedTotalCaseIds": []
+        },
+        "alito": {
+          "alitoMajorityJoinedTotal": 0,
+          "alitoMajorityJoinedTotalCaseIds": [],
+          "alitoMinorityJoinedTotal": 0,
+          "alitoMinorityJoinedTotalCaseIds": [],
+          "alitoConcurrenceJoinedTotal": 0,
+          "alitoConcurrenceJoinedTotalCaseIds": [],
+          "alitoConDissJoinedTotal": 0,
+          "alitoConDissJoinedTotalCaseIds": [],
+          "alitoJoinedTotal": 0,
+          "alitoJoinedTotalCaseIds": []
+        },
+        "sotomayor": {
+          "sotomayorMajorityJoinedTotal": 0,
+          "sotomayorMajorityJoinedTotalCaseIds": [],
+          "sotomayorMinorityJoinedTotal": 0,
+          "sotomayorMinorityJoinedTotalCaseIds": [],
+          "sotomayorConcurrenceJoinedTotal": 0,
+          "sotomayorConcurrenceJoinedTotalCaseIds": [],
+          "sotomayorConDissJoinedTotal": 0,
+          "sotomayorConDissJoinedTotalCaseIds": [],
+          "sotomayorJoinedTotal": 0,
+          "sotomayorJoinedTotalCaseIds": []
+        }
+      },
+      "justices": {
+        "roberts": {
+          "robertsAuthor": {
+            "robertsMajorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsMinorityOpinionAuthoredJoinedTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsConDissOpinionAuthoredJoinedTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "robertsOpinionAuthoredJoinedTotal": 0,
+            "robertsOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "robertsSidedWith": {
+            "robertsWithAndMajority": 0,
+            "robertsWithAndMajorityCaseIds": [],
+            "robertsWithAndMinority": 0,
+            "robertsWithAndMinorityCaseIds": [],
+            "robertsWithTotal": 0,
+            "robertsWithTotalCaseIds": [],
+            "robertsNotWithAndMajority": 1,
+            "robertsNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "robertsNotWithAndMinority": 3,
+            "robertsNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "robertsNotWithTotal": 4,
+            "robertsNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "robertsTotalMathCheck": 4
+          }
+        },
+        "scalia": {
+          "scaliaAuthor": {
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "scaliaOpinionAuthoredJoinedTotal": 0,
+            "scaliaOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "scaliaSidedWith": {
+            "scaliaWithAndMajority": 1,
+            "scaliaWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "scaliaWithAndMinority": 0,
+            "scaliaWithAndMinorityCaseIds": [],
+            "scaliaWithTotal": 1,
+            "scaliaWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "scaliaNotWithAndMajority": 1,
+            "scaliaNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "scaliaNotWithAndMinority": 2,
+            "scaliaNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "scaliaNotWithTotal": 3,
+            "scaliaNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "scaliaTotalMathCheck": 4
+          }
+        },
+        "kennedy": {
+          "kennedyAuthor": {
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 2,
+            "kennedyMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "kennedyOpinionAuthoredJoinedTotal": 2,
+            "kennedyOpinionAuthoredJoinedTotalCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ]
+          },
+          "kennedySidedWith": {
+            "kennedyWithAndMajority": 3,
+            "kennedyWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kennedyWithAndMinority": 0,
+            "kennedyWithAndMinorityCaseIds": [],
+            "kennedyWithTotal": 3,
+            "kennedyWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "kennedyNotWithAndMajority": 1,
+            "kennedyNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "kennedyNotWithAndMinority": 0,
+            "kennedyNotWithAndMinorityCaseIds": [],
+            "kennedyNotWithTotal": 1,
+            "kennedyNotWithTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "kennedyTotalMathCheck": 4
+          }
+        },
+        "thomas": {
+          "thomasAuthor": {
+            "thomasMajorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasMinorityOpinionAuthoredJoinedTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasConDissOpinionAuthoredJoinedTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "thomasOpinionAuthoredJoinedTotal": 0,
+            "thomasOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "thomasSidedWith": {
+            "thomasWithAndMajority": 1,
+            "thomasWithAndMajorityCaseIds": [
+              "13-628_0"
+            ],
+            "thomasWithAndMinority": 0,
+            "thomasWithAndMinorityCaseIds": [],
+            "thomasWithTotal": 1,
+            "thomasWithTotalCaseIds": [
+              "13-628_0"
+            ],
+            "thomasNotWithAndMajority": 1,
+            "thomasNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "thomasNotWithAndMinority": 2,
+            "thomasNotWithAndMinorityCaseIds": [
+              "13-628_1",
+              "13-975_0"
+            ],
+            "thomasNotWithTotal": 3,
+            "thomasNotWithTotalCaseIds": [
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "thomasTotalMathCheck": 4
+          }
+        },
+        "ginsburg": {
+          "ginsburgAuthor": {
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "ginsburgOpinionAuthoredJoinedTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "ginsburgSidedWith": {
+            "ginsburgWithAndMajority": 2,
+            "ginsburgWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "ginsburgWithAndMinority": 1,
+            "ginsburgWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "ginsburgWithTotal": 3,
+            "ginsburgWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "ginsburgNotWithAndMajority": 0,
+            "ginsburgNotWithAndMajorityCaseIds": [],
+            "ginsburgNotWithAndMinority": 1,
+            "ginsburgNotWithAndMinorityCaseIds": [
+              "13-975_0"
+            ],
+            "ginsburgNotWithTotal": 1,
+            "ginsburgNotWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "ginsburgTotalMathCheck": 4
+          }
+        },
+        "breyer": {
+          "breyerAuthor": {
+            "breyerMajorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerConDissOpinionAuthoredJoinedTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "breyerOpinionAuthoredJoinedTotal": 0,
+            "breyerOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "breyerSidedWith": {
+            "breyerWithAndMajority": 3,
+            "breyerWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "breyerWithAndMinority": 1,
+            "breyerWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "breyerWithTotal": 4,
+            "breyerWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "breyerNotWithAndMajority": 0,
+            "breyerNotWithAndMajorityCaseIds": [],
+            "breyerNotWithAndMinority": 0,
+            "breyerNotWithAndMinorityCaseIds": [],
+            "breyerNotWithTotal": 0,
+            "breyerNotWithTotalCaseIds": [],
+            "breyerTotalMathCheck": 4
+          }
+        },
+        "alito": {
+          "alitoAuthor": {
+            "alitoMajorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoConDissOpinionAuthoredJoinedTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "alitoOpinionAuthoredJoinedTotal": 0,
+            "alitoOpinionAuthoredJoinedTotalCaseIds": []
+          },
+          "alitoSidedWith": {
+            "alitoWithAndMajority": 1,
+            "alitoWithAndMajorityCaseIds": [
+              "13-975_0"
+            ],
+            "alitoWithAndMinority": 0,
+            "alitoWithAndMinorityCaseIds": [],
+            "alitoWithTotal": 1,
+            "alitoWithTotalCaseIds": [
+              "13-975_0"
+            ],
+            "alitoNotWithAndMajority": 1,
+            "alitoNotWithAndMajorityCaseIds": [
+              "14-7955_0"
+            ],
+            "alitoNotWithAndMinority": 2,
+            "alitoNotWithAndMinorityCaseIds": [
+              "13-628_0",
+              "13-628_1"
+            ],
+            "alitoNotWithTotal": 3,
+            "alitoNotWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0"
+            ],
+            "alitoTotalMathCheck": 4
+          }
+        },
+        "sotomayor": {
+          "sotomayorAuthor": {
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 1,
+            "sotomayorMajorityOpinionAuthoredJoinedTotalCaseIds": [
+              "13-975_0"
+            ],
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 1,
+            "sotomayorMinorityOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotalCaseIds": [],
+            "sotomayorOpinionAuthoredJoinedTotal": 2,
+            "sotomayorOpinionAuthoredJoinedTotalCaseIds": [
+              "14-7955_0",
+              "13-975_0"
+            ]
+          },
+          "sotomayorSidedWith": {
+            "sotomayorWithAndMajority": 3,
+            "sotomayorWithAndMajorityCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "13-975_0"
+            ],
+            "sotomayorWithAndMinority": 1,
+            "sotomayorWithAndMinorityCaseIds": [
+              "14-7955_0"
+            ],
+            "sotomayorWithTotal": 4,
+            "sotomayorWithTotalCaseIds": [
+              "13-628_0",
+              "13-628_1",
+              "14-7955_0",
+              "13-975_0"
+            ],
+            "sotomayorNotWithAndMajority": 0,
+            "sotomayorNotWithAndMajorityCaseIds": [],
+            "sotomayorNotWithAndMinority": 0,
+            "sotomayorNotWithAndMinorityCaseIds": [],
+            "sotomayorNotWithTotal": 0,
+            "sotomayorNotWithTotalCaseIds": [],
+            "sotomayorTotalMathCheck": 4
+          }
+        }
+      }
+    }
+  },
+  "oyezAllOpinionData": {
+    "year": 2014,
+    "totalMajorityAuthored": 5,
+    "totalMajorityAuthoredCaseIds": [
+      "13-628_0",
+      "13-628_1",
+      "13-628_1",
+      "14-7955_0",
+      "13-975_0"
+    ],
+    "totalMinorityAuthored": 8,
+    "totalMinorityAuthoredCaseIds": [
+      "13-628_0",
+      "13-628_0",
+      "13-628_1",
+      "13-628_1",
+      "14-7955_0",
+      "14-7955_0",
+      "13-975_0",
+      "13-975_0"
+    ],
+    "totalConcurrenceAuthored": 6,
+    "totalConcurrenceAuthoredCaseIds": [
+      "13-628_0",
+      "13-628_0",
+      "13-628_1",
+      "14-7955_0",
+      "14-7955_0",
+      "13-975_0"
+    ],
+    "totalConDissAuthored": 1,
+    "totalConDissAuthoredCaseIds": [
+      "13-628_1"
+    ],
+    "totalOpinionsAuthored": 20,
+    "totalOpinionsAuthoredCaseIds": [
+      {
+        "caseId": "13-628_0",
+        "justice": "kennedy",
+        "opinion": "majority"
+      },
+      {
+        "caseId": "13-628_0",
+        "justice": "breyer",
+        "opinion": "concurrence"
+      },
+      {
+        "caseId": "13-628_0",
+        "justice": "thomas",
+        "opinion": "concurrence"
+      },
+      {
+        "caseId": "13-628_0",
+        "justice": "roberts",
+        "opinion": "minority"
+      },
+      {
+        "caseId": "13-628_0",
+        "justice": "scalia",
+        "opinion": "minority"
+      },
+      {
+        "caseId": "13-628_1",
+        "justice": "kennedy",
+        "opinion": "majority"
+      },
+      {
+        "caseId": "13-628_1",
+        "justice": "breyer",
+        "opinion": "concurrence"
+      },
+      {
+        "caseId": "13-628_1",
+        "justice": "kagan",
+        "opinion": "majority"
+      },
+      {
+        "caseId": "13-628_1",
+        "justice": "thomas",
+        "opinion": "conDiss"
+      },
+      {
+        "caseId": "13-628_1",
+        "justice": "roberts",
+        "opinion": "minority"
+      },
+      {
+        "caseId": "13-628_1",
+        "justice": "scalia",
+        "opinion": "minority"
+      },
+      {
+        "caseId": "14-7955_0",
+        "justice": "alito",
+        "opinion": "majority"
+      },
+      {
+        "caseId": "14-7955_0",
+        "justice": "scalia",
+        "opinion": "concurrence"
+      },
+      {
+        "caseId": "14-7955_0",
+        "justice": "thomas",
+        "opinion": "concurrence"
+      },
+      {
+        "caseId": "14-7955_0",
+        "justice": "breyer",
+        "opinion": "minority"
+      },
+      {
+        "caseId": "14-7955_0",
+        "justice": "sotomayor",
+        "opinion": "minority"
+      },
+      {
+        "caseId": "13-975_0",
+        "justice": "sotomayor",
+        "opinion": "majority"
+      },
+      {
+        "caseId": "13-975_0",
+        "justice": "alito",
+        "opinion": "concurrence"
+      },
+      {
+        "caseId": "13-975_0",
+        "justice": "thomas",
+        "opinion": "minority"
+      },
+      {
+        "caseId": "13-975_0",
+        "justice": "roberts",
+        "opinion": "minority"
+      }
+    ]
+  }
+}

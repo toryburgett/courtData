@@ -2372,8 +2372,6 @@ $(document).ready(function(){
         oyezAllCasesData.push(opinionData);
 
         // adjust html
-        console.log("."+num+"CaseTitle");
-        console.log(num);
         $("."+num+"CaseTitle").text(opinionData.caseName);
         $("."+num+"Case").append("<div class=\""+num+"Decision"+a+"\"></div><div class=\""+num+"CaseOpinions"+a+" allOpinions\"></div></div>");
         $("."+num+"Decision"+a).append("<h2>"+opinionData.majVotes+" - "+opinionData.minVotes+"</h2>");
@@ -2383,9 +2381,6 @@ $(document).ready(function(){
 
 
       }
-      console.log(oyezAllCasesData);
-      console.log(oyezAllJusticeData);
-      console.log(oyezAllOpinionData);
       console.log(oyezData);
 
     }).fail(function(){
