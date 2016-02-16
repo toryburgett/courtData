@@ -2173,7 +2173,28 @@ $(document).ready(function(){
   var caseYear = 2014;
   var oyez = "";
   var oyezCaseNum = 0;
-  var oyezArray = ["https://api.oyez.org/cases/2014/13-628", "https://api.oyez.org/cases/2014/14-7955", "https://api.oyez.org/cases/2014/13-975"];
+  // var oyezArray = ["https://api.oyez.org/cases/2014/13-628", "https://api.oyez.org/cases/2014/14-7955", "https://api.oyez.org/cases/2014/13-975"];
+
+  var oyezArray = [];
+
+  function oyezArrayAjax(){
+    var url = oyezYear;
+    $.ajax({
+      url: url,
+      type: "get",
+      dataType: "json"
+    }).done(function(response){
+      console.log(response);
+      for(var m = 0; m < response.length; m++){
+        oyezArray.push(response[m].href);
+      }
+      console.log(oyezArray);
+    });
+  }
+
+  $(".yearCollect").on("click", function(){
+    oyezArrayAjax();
+  });
 
 
   function oyezAjax(num){
