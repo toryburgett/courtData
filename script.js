@@ -2177,7 +2177,9 @@ $(document).ready(function(){
 
 
   // Collect all of the cases for a year in oyezArray
-  var oyezArray = [];
+  // var oyezArray = [];
+  var oyezArray = ["https://api.oyez.org/cases/2014/13-854", "https://api.oyez.org/cases/2014/13-435", "https://api.oyez.org/cases/2014/13-1402", "https://api.oyez.org/cases/2014/13-1032", "https://api.oyez.org/cases/2014/13-1032", "https://api.oyez.org/cases/2014/126_orig"];
+
 
   function oyezArrayAjax(){
     var url = oyezYear;
@@ -2197,7 +2199,13 @@ $(document).ready(function(){
   }
 
   $(".yearCollect").on("click", function(){
-    oyezArrayAjax();
+    // oyezArrayAjax();
+
+    for(var n = 0; n < oyezArray.length; n++){
+      // every case gets their own box
+      $(".allCases").append("<div class=\""+n+"Case case\"><h1 class=\""+n+"CaseTitle\"></h1></div>");
+    }
+
   });
 
 
@@ -2317,17 +2325,35 @@ $(document).ready(function(){
                   }
                 }
 
+
+                var joinedJusticeLastName = "";
                 // find joined justice opinion in oyez ajax
                 var joinedJusticeOyezOpinion = capitalizeFirstLetter(joinedJusticeOyez[0].opinion_type);
+                console.log(joinedJusticeOyez);
                 if(joinedJusticeOyezOpinion === "Special concurrence"){
                   joinedJusticeOyezOpinion = "ConDiss";
                 }
                 if(joinedJusticeOyezOpinion === "Dissent"){
                   joinedJusticeOyezOpinion = "Minority";
                 }
+                // Troubleshooting, some errors in Oyez
+                if(joinedJusticeOyezOpinion === "None"){
+                  console.log("PROBLEM");
+                  selectedJusticeOpinion = selectedVote.vote;
+                  for(var o = 0; o<response.decisions[a].votes.length; o++){
+                    if(response.decisions[a].votes[o].opinion_type === selectedJusticeOpinion){
+                      joinedJusticeOyez.pop();
+                      joinedJusticeOyez.push(response.decisions[a].votes[o]);
+                      console.log(joinedJusticeOyez);
+                      joinedJusticeOyezOpinion = capitalizeFirstLetter(joinedJusticeOyez[0].opinion_type);
+                      joinedJusticeLastName = joinedJusticeOyez[0].member.last_name.toLowerCase();
+                    }
+                  }
+                }else{
+                  joinedJusticeLastName = selectedVote.joining[z].last_name.toLowerCase();
+                }
 
                 // find justices in my object
-                var joinedJusticeLastName = selectedVote.joining[z].last_name.toLowerCase();
                 var joinedJustice = oyezAllJusticeData[joinedJusticeLastName];
                 // add to case data
                 justice.joined.push(selectedVote.joining[z].last_name);
@@ -2338,6 +2364,13 @@ $(document).ready(function(){
                 selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+"OpinionAuthoredJoinedTotalCaseIds"].push(opinionData.decisionId);
                 // specific opinion
                 selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+joinedJusticeOyezOpinion+"OpinionAuthoredJoinedTotal"] = selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+joinedJusticeOyezOpinion+"OpinionAuthoredJoinedTotal"] + 1;
+
+                console.log(joinedJusticeLastName+joinedJusticeOyezOpinion);
+                console.log(selectJusticeLastName);
+                console.log(selectJustice.justices[joinedJusticeLastName]);
+
+                console.log(selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+joinedJusticeOyezOpinion+"OpinionAuthoredJoinedTotalCaseIds"]);
+
                 selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+joinedJusticeOyezOpinion+"OpinionAuthoredJoinedTotalCaseIds"].push(opinionData.decisionId);
 
                 // Joined Justice gets credit for selected Justice
