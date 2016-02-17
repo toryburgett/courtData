@@ -1,0 +1,48 @@
+.case{
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  width: 910px;
+}
+
+.opinion{
+  height: 100px;
+  width: 100px;
+  float: left;
+  color: white;
+  text-align: center;
+}
+.majority{
+  background-color: green;
+  height: 100%;
+}
+.minority{
+  background-color: red;
+  height: 100%;
+}
+.concurrance{
+  background-color: skyBlue;
+  height: 100%;
+}
+.specialConcurrance{
+  background-color: violet;
+  height: 100%;
+}
+#1{
+  width: 100%;
+}
+#2{
+  width: 50%;
+}
+#3{
+  width: 33%;
+  height: 100%;
+}
+#4{
+  width: 25%;
+  height: 100%;
+}
+.allOpinions{
+  width: 900px;
+  height: 100px;
+}

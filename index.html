@@ -3,13 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <title>Courtly Oyez Test</title>
-  <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <!-- OYEZ -->
+  <link rel="stylesheet" href="oyez/style.css">
+  <script src="oyez/script.js"></script>
+  <!-- WIKI -->
+  <link rel="stylesheet" href="wiki/style.css">
+  <script src="wiki/script.js"></script>
+  <!-- DEFAULT -->
+  <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
+  <!-- GOOGLE FONT -->
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <button class="yearCollect">YEAR COLLECT</button>
-  <button class="caseClick">CASE CLICK</button>
-  <div class="allCases"></div>
+  <div class="header">
+    <h1>&hearts; COURTLY &hearts;</h1>
+  </div>
+  <div class="dataOptions">
+    <h2>SHOW OPTION</h2>
+    <button id="oyez">OYEZ</button>
+    <button id="wiki">WIKI</button>
+  </div>
+  <div class="oyez">
+    <button class="yearCollect">YEAR COLLECT</button>
+    <button class="caseClick">CASE CLICK</button>
+    <div class="allCases"></div>
+  </div>
+  <div class="wiki">
+    <div class="wikiOptions">
+      <button class="wikiData">WIKI DATA</button>
+    </div>
+  </div>
 </body>
 </html>
