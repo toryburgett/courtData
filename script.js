@@ -2177,8 +2177,8 @@ $(document).ready(function(){
 
 
   // Collect all of the cases for a year in oyezArray
-  // var oyezArray = [];
-  var oyezArray = ["https://api.oyez.org/cases/2014/13-854", "https://api.oyez.org/cases/2014/13-435", "https://api.oyez.org/cases/2014/13-1402", "https://api.oyez.org/cases/2014/13-1032", "https://api.oyez.org/cases/2014/13-1032", "https://api.oyez.org/cases/2014/126_orig"];
+  var oyezArray = [];
+  // var oyezArray = ["https://api.oyez.org/cases/2014/13-854", "https://api.oyez.org/cases/2014/13-435", "https://api.oyez.org/cases/2014/13-1402", "https://api.oyez.org/cases/2014/13-1032", "https://api.oyez.org/cases/2014/13-1032", "https://api.oyez.org/cases/2014/126_orig"];
 
 
   function oyezArrayAjax(){
@@ -2190,21 +2190,23 @@ $(document).ready(function(){
     }).done(function(response){
       console.log(response);
       for(var m = 0; m < response.length; m++){
-        oyezArray.push(response[m].href);
-        // every case gets their own box
-        $(".allCases").append("<div class=\""+m+"Case case\"><h1 class=\""+m+"CaseTitle\"></h1></div>");
+        if(m !== "https://api.oyez.org/cases/2014/126_orig"){
+          oyezArray.push(response[m].href);
+          // every case gets their own box
+          $(".allCases").append("<div class=\""+m+"Case case\"><h1 class=\""+m+"CaseTitle\"></h1></div>");
+        }
       }
       console.log(oyezArray);
     });
   }
 
   $(".yearCollect").on("click", function(){
-    // oyezArrayAjax();
+    oyezArrayAjax();
 
-    for(var n = 0; n < oyezArray.length; n++){
-      // every case gets their own box
-      $(".allCases").append("<div class=\""+n+"Case case\"><h1 class=\""+n+"CaseTitle\"></h1></div>");
-    }
+    // for(var n = 0; n < oyezArray.length; n++){
+    //   // every case gets their own box
+    //   $(".allCases").append("<div class=\""+n+"Case case\"><h1 class=\""+n+"CaseTitle\"></h1></div>");
+    // }
 
   });
 
