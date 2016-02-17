@@ -2249,7 +2249,7 @@ $(document).ready(function(){
 
 
         for(var y=0; y<response.decisions[a].votes.length; y++){
-          console.log(response.decisions[a].votes[y].member.last_name);
+          // console.log(response.decisions[a].votes[y].member.last_name);
           var selectedVote = response.decisions[a].votes[y];
 
           var justice = {name: "", decision: "", authored: [], joined: [], casesVotedTotal: 0, casesNotVotedTotal: 0};
@@ -2420,7 +2420,7 @@ $(document).ready(function(){
               //specific opinion add
               selectJustice.authored[selectJusticeOyezOpinion+"Authored"] = selectJustice.authored[selectJusticeOyezOpinion+"Authored"] + 1;
 
-              console.log(selectJusticeOyezOpinion+"AuthoredCaseIds");
+              // console.log(selectJusticeOyezOpinion+"AuthoredCaseIds");
               selectJustice.authored[selectJusticeOyezOpinion+"AuthoredCaseIds"].push(opinionData.decisionId);
 
               //add to oyez all opinion data object
