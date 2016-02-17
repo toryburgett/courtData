@@ -2247,6 +2247,7 @@ $(document).ready(function(){
 
 
         for(var y=0; y<response.decisions[a].votes.length; y++){
+          console.log(response.decisions[a].votes[y].member.last_name);
           var selectedVote = response.decisions[a].votes[y];
 
           var justice = {name: "", decision: "", authored: [], joined: [], casesVotedTotal: 0, casesNotVotedTotal: 0};
@@ -2329,25 +2330,32 @@ $(document).ready(function(){
                 var joinedJusticeLastName = "";
                 // find joined justice opinion in oyez ajax
                 var joinedJusticeOyezOpinion = capitalizeFirstLetter(joinedJusticeOyez[0].opinion_type);
-                console.log(joinedJusticeOyez);
                 if(joinedJusticeOyezOpinion === "Special concurrence"){
                   joinedJusticeOyezOpinion = "ConDiss";
                 }
                 if(joinedJusticeOyezOpinion === "Dissent"){
                   joinedJusticeOyezOpinion = "Minority";
                 }
+                if(joinedJusticeOyezOpinion === "Plurality"){
+                  joinedJusticeOyezOpinion = "Majority";
+                }
                 // Troubleshooting, some errors in Oyez
                 if(joinedJusticeOyezOpinion === "None"){
                   console.log("PROBLEM");
                   selectedJusticeOpinion = selectedVote.vote;
+                  if(selectedJusticeOpinion === "minority"){
+                    selectedJusticeOpinion = "dissent";
+                  }
                   for(var o = 0; o<response.decisions[a].votes.length; o++){
                     if(response.decisions[a].votes[o].opinion_type === selectedJusticeOpinion){
                       joinedJusticeOyez.pop();
                       joinedJusticeOyez.push(response.decisions[a].votes[o]);
-                      console.log(joinedJusticeOyez);
                       joinedJusticeOyezOpinion = capitalizeFirstLetter(joinedJusticeOyez[0].opinion_type);
                       joinedJusticeLastName = joinedJusticeOyez[0].member.last_name.toLowerCase();
                     }
+                  }
+                  if(joinedJusticeOyezOpinion === "Dissent"){
+                    joinedJusticeOyezOpinion = "Minority";
                   }
                 }else{
                   joinedJusticeLastName = selectedVote.joining[z].last_name.toLowerCase();
@@ -2364,13 +2372,6 @@ $(document).ready(function(){
                 selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+"OpinionAuthoredJoinedTotalCaseIds"].push(opinionData.decisionId);
                 // specific opinion
                 selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+joinedJusticeOyezOpinion+"OpinionAuthoredJoinedTotal"] = selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+joinedJusticeOyezOpinion+"OpinionAuthoredJoinedTotal"] + 1;
-
-                console.log(joinedJusticeLastName+joinedJusticeOyezOpinion);
-                console.log(selectJusticeLastName);
-                console.log(selectJustice.justices[joinedJusticeLastName]);
-
-                console.log(selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+joinedJusticeOyezOpinion+"OpinionAuthoredJoinedTotalCaseIds"]);
-
                 selectJustice.justices[joinedJusticeLastName][joinedJusticeLastName+"Author"][joinedJusticeLastName+joinedJusticeOyezOpinion+"OpinionAuthoredJoinedTotalCaseIds"].push(opinionData.decisionId);
 
                 // Joined Justice gets credit for selected Justice
@@ -2393,10 +2394,17 @@ $(document).ready(function(){
 
             // Authorship - if justice has written their own opinion
             if(selectedVote.opinion_type !== "none"){
+              // account for plurality
+              var selectJusticeOyezOpinion = "";
+              if(selectedVote.opinion_type === "plurality"){
+                selectJusticeOyezOpinion = "majority"
+              }else{
+                selectJusticeOyezOpinion = selectedVote.opinion_type;
+              }
               // add opinion to case data
-              justice.authored.push({opinion: selectedVote.opinion_type});
+              justice.authored.push({opinion: selectJusticeOyezOpinion});
+
               //get opinion type
-              var selectJusticeOyezOpinion = selectedVote.opinion_type;
               if(selectJusticeOyezOpinion === "special concurrence"){
                 selectJusticeOyezOpinion = "conDiss";
               }
@@ -2409,6 +2417,8 @@ $(document).ready(function(){
               selectJustice.authored.decisionsAuthoredCaseIds.push({caseId: opinionData.decisionId, opinion: selectJusticeOyezOpinion});
               //specific opinion add
               selectJustice.authored[selectJusticeOyezOpinion+"Authored"] = selectJustice.authored[selectJusticeOyezOpinion+"Authored"] + 1;
+
+              console.log(selectJusticeOyezOpinion+"AuthoredCaseIds");
               selectJustice.authored[selectJusticeOyezOpinion+"AuthoredCaseIds"].push(opinionData.decisionId);
 
               //add to oyez all opinion data object
