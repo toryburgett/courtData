@@ -1,0 +1,43 @@
+.wiki{
+  border: 1px solid salmon;
+  border-radius: 5px;
+  margin: 5px auto;
+  padding: 5px;
+}
+
+.wikiOptions{
+  /*background-color: salmon;*/
+  padding: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.wikiData{
+  background-color: white;
+  border-radius: 5px;
+  color: salmon;
+  border: 1px solid salmon;
+  padding: 10px;
+}
+
+.wikiCases{
+  background-color: salmon;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  color: white;
+}
+.wikiCasesTitle{
+  text-align: center;
+}
+
+.wikiCase{
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  color: salmon;
+}

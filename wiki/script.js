@@ -12,6 +12,28 @@ $(document).ready(function(){
   var allWikiCases = [];
   var allWikiData = {year: "", cases: allWikiCases};
 
+  function deleteText(line, char){
+    var saveVar = line;
+    for(var letter in char){
+      if(char[letter].length === 1){
+        for(var c=0; c<line.length; c++){
+          if(line.charAt(c) === char[letter]){
+            saveVar = saveVar.replace(char[letter], "");
+          }
+        }
+      } else {
+        // only does this once
+        saveVar = saveVar.replace(char[letter], "");
+      }
+    }
+    return saveVar;
+  }
+
+  function mapWordToLetterArray(){
+
+  }
+
+
   function wikiAjax(){
     var url = wikiJson;
     $.ajax({
@@ -22,9 +44,7 @@ $(document).ready(function(){
       console.log(response);
       for(var a=0; a<response.length; a++){
         if(response[a] === ("=="+year+" term opinions==")){
-          var title = response[a];
-          title.replace("==", "");
-          allWikiData.year = title;
+          allWikiData.year = deleteText(response[a], ["="]);
         }else if((response[a].includes("{{"))&&(response[a].includes("}}"))){
           navRows++;
           console.log(navRows);
@@ -37,11 +57,23 @@ $(document).ready(function(){
         }else if(response[a].includes("}}")){
           rowEndIndex = a;
           var caseLength = rowEndIndex - rowStartIndex;
-          var newCase = [];
+          var newCase = {case: "", tempArray: []};
+
           for(var b=0; b<caseLength; b++){
-            newCase.push(response[rowStartIndex+b]);
+            // var newCaseEntry = "";
+
+            if(response[rowStartIndex+b].includes("|case=")){
+              newCase.case = deleteText(response[rowStartIndex+b], ["|case="]);
+            }else{
+              var newCaseEntry = response[rowStartIndex+b];
+              newCase.tempArray.push(newCaseEntry);
+            }
+
           }
           allWikiCases.push(newCase);
+
+
+
         }
       }
 
