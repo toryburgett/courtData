@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   var wikiJson = "https://gist.githubusercontent.com/toryburgett/8f19b0635cb46cc62d6b/raw/2bb006b6dfa20aae0c393a0ac70f0de8e597cf05/wiki_2014.json";
-  var year = 2014;
+  var caseYear = 2014;
 
   var navRows = 0;
 
@@ -29,8 +29,7 @@ $(document).ready(function(){
     return saveVar;
   }
 
-  function wikiAjax(){
-    var url = wikiJson;
+  function wikiAjax(year, url){
     $.ajax({
       url: url,
       type: "get",
@@ -52,18 +51,29 @@ $(document).ready(function(){
         }else if(response[a].includes("}}")){
           rowEndIndex = a;
           var caseLength = rowEndIndex - rowStartIndex;
-          var newCase = {case: "", volume: "", argue_date: "", decision_date: "", justices: [], opinions: [], };
+          var newCase = {
+            caseId: "",
+            case: "",
+            caseNum: "",
+            volume: "",
+            argue_date: "",
+            decision_date: "",
+            majVotes: 0,
+            minVotes: 0,
+            attendance: {
+              totalVotes: 0,
+              didVote: 0,
+              notVote: 0
+            },
+            justices: {roberts: [], scalia: [], kennedy: [], thomas: [], ginsburg: [], breyer: [], alito: [], sotomayor: [], kagan: []},
+            opinions: []
+          };
 
+          //for every entry in the case from the response
           for(var b=0; b<caseLength; b++){
-            // var newCaseEntry = "";
-            var caseNum = "|#=";
-            var caseInfoKeys = ["case", "volume", "argue-date", "decision-date", "case-display"];
-            var justiceRow = "|justice";
-            var justiceKeys = ["roberts", "scalia", "kennedy", "thomas", "ginsburg", "breyer", "alito", "sotomayor", "kagan"];
-            var opinionTypes = ["majority", "dissent", "concurrence", "concurrencedissent", "plurality", "didnotparticipate"];
 
-
-
+            // Enter General Case Info
+            var caseInfoKeys = ["case", "volume", "argue-date", "decision-date", "case-display", "#"];
             for(var c=0; c<caseInfoKeys.length; c++){
               if(response[rowStartIndex+b].includes("|"+caseInfoKeys[c]+"=")){
                 var newCaseKey = caseInfoKeys[c];
@@ -73,124 +83,163 @@ $(document).ready(function(){
                 if(newCaseKey === "case_display"){
                   newCaseKey = "case";
                 }
+                if(newCaseKey === "#"){
+                  newCaseKey = "caseNum";
+                }
                 newCase[newCaseKey] = deleteText(response[rowStartIndex+b], [("|"+caseInfoKeys[c]+"=")]);
               }
             }
+
+            // Create and enter caseId for case
+            var caseId = year+"_"+newCase.volume+"_"+newCase.caseNum;
+            newCase.caseId = caseId;
+
+            // Enter Justice Info for Case
+            var justiceKeys = ["roberts", "scalia", "kennedy", "thomas", "ginsburg", "breyer", "alito", "sotomayor", "kagan"];
+            var opinionTypes = ["majority", "dissent", "concurrence", "concurrencedissent", "plurality"];
             for(var d=0; d<justiceKeys.length; d++){
               if(response[rowStartIndex+b].includes("<!--"+justiceKeys[d]+"-->")){
                 var rawCurrentJustice = response[rowStartIndex+b];
                 var editCurrentJustice = deleteText(rawCurrentJustice, ["<!--"+justiceKeys[d]+"-->"]);
                 var currentJusticeArray = editCurrentJustice.split("|");
-
-
-                var justiceName = justiceKeys[d];
-                var justiceVote = "";
-                var justiceAttendance = "";
-                var justiceAuthor = "";
-                var justiceInfo = {name: justiceName, vote: justiceVote, author: justiceAuthor, joined: {total: [], inFull: [], part: []}, attendance: justiceAttendance, data: editCurrentJustice};
-
                 var numOpinionsJoin = editCurrentJustice.match(/opinion/g).length;
+                var justiceName = justiceKeys[d];
+
+                var justiceInfo = {
+                  name: justiceName,
+                  vote: "",
+                  majorityVote: 0,
+                  minorityVote: 0,
+                  partMajorityVote: 0,
+                  attendance: 2,
+                  data: editCurrentJustice,
+                  numOpinionsJoin: numOpinionsJoin,
+                  caseId: caseId,
+                  year: year,
+                  opinionAuthored: [],
+                  joined: {
+                    total: [],
+                    inFull: [],
+                    part: []
+                  }
+                };
+
+
 
                 for(var e=0; e<currentJusticeArray.length; e++){
                   //if the justiceArray entry pertains to an opinion
+                  var rawJusticeOpinion = currentJusticeArray[e];
+
                   if(currentJusticeArray[e].includes("opinion")){
+                    // did the justice vote / participate?
+                    // justice did not participate in voting
+                    if(currentJusticeArray[e].includes("didnotparticipate")){
+                      justiceInfo.vote = "none";
+                      justiceInfo.attendance = 0;
 
-                    if(currentJusticeArray[e].includes("join")){
+                    // justice did participate in vote
+                    }else{
+                      justiceInfo.attendance = 1;
+
                       // if joined opinion
-                      var justiceJoined = {opinion: "", author: "", partJoin: 0, fullJoin: 0};
-                      var justiceJoinedAuthor = "";
-                      var rawJusticeOpinion = currentJusticeArray[e];
-                      var opinion = "";
+                      if(currentJusticeArray[e].includes("join")){
+                        var justiceJoined = {opinion: "", author: "", partJoin: 0, fullJoin: 0};
+                        var authorJoined = "";
+                        var opinion = "";
 
-                      // what is the opinionType of this?
-                      for(var f = 0; f<opinionTypes.length; f++){
-                        if(rawJusticeOpinion.includes(opinionTypes[f])){
-                          opinion = opinionTypes[f];
-                          justiceJoined.opinion = opinion;
+                        // what is the opinionType of this?
+                        for(var f = 0; f<opinionTypes.length; f++){
+                          if(rawJusticeOpinion.includes(opinionTypes[f])){
+                            opinion = opinionTypes[f];
+                            justiceJoined.opinion = opinion;
+                          }
                         }
-                      }
 
-
-
-
-
-
-
-
-
-                      var authorIdArray = currentJusticeArray[e].split(opinion);
-                      var authorJoined = "";
-                      // console.log("="+opinion+authorIdArray[1]);
-
-                      // who is the author of joined opinion?
-                      for(var g = 0; g<caseLength; g++){
-                        if(response[rowStartIndex+g].includes("="+opinion+authorIdArray[1])){
-                          console.log("WE DID IT");
-                          for(var h=0; h<justiceKeys.length; h++){
-                            if(response[rowStartIndex+g].includes(justiceKeys[h])){
-                              authorJoined = justiceKeys[h];
-                              console.log(authorJoined);
-                              justiceJoined.author = justiceKeys[h];
-                              console.log("DID IT");
+                        // who is the author of joined opinion?
+                        // what is the id for the opinion?
+                        var authorIdArray = currentJusticeArray[e].split(opinion);
+                        // which justice wrote this opinion (with the id) for this case?
+                        for(var g = 0; g<caseLength; g++){
+                          if(response[rowStartIndex+g].includes("="+opinion+authorIdArray[1])){
+                            for(var h=0; h<justiceKeys.length; h++){
+                              if(response[rowStartIndex+g].includes(justiceKeys[h])){
+                                authorJoined = justiceKeys[h];
+                                justiceJoined.author = justiceKeys[h];
+                              }
                             }
                           }
                         }
-                      }
 
-                      console.log(authorJoined);
+                        //Did they join the whole thing, or just partially?
+                        if(rawJusticeOpinion.includes("partjoin")){
+                          // if joind an opinion in part
+                          justiceJoined.partJoin = 1;
+                          justiceInfo.joined.part.push(justiceJoined);
+                        }else{
+                          // if they joined the entire opinion
+                          justiceJoined.fullJoin = 1;
+                          justiceInfo.joined.inFull.push(justiceJoined);
+                        }
+
+                        justiceInfo.joined.total.push(justiceJoined);
 
 
 
-
-
-
-
-                      //Did they join the whole thing, or just partially?
-                      if(rawJusticeOpinion.includes("partjoin")){
-                        // if joind in part
-                        justiceJoined.partJoin = 1;
-                        justiceInfo.joined.part.push(justiceJoined);
                       }else{
-                        // if they joined the entire thing
-                        justiceJoined.fullJoin = 1;
-                        justiceInfo.joined.inFull.push(justiceJoined);
+                        // if authored opinion -- includes "opinion", not join or didnotparticipate
+                        var opinionAuthored = {
+                          opinion: "",
+                          author: justiceName,
+                          caseId: caseId,
+                          year: year,
+                          opinionId: "",
+                          authoredId: "",
+                          joiners: []
+                        };
+                        //what is the type of opinion?
+                        var authoredOpinionType = "";
+                        for(var j = 0; j<opinionTypes.length; j++){
+                          if(rawJusticeOpinion.includes(opinionTypes[j])){
+                            authoredOpinionType = opinionTypes[j];
+                            opinionAuthored.opinion = authoredOpinionType;
+                          }
+                        }
+
+                        // find Id of authored opinion
+                        var authoredIdArray = currentJusticeArray[e].split(authoredOpinionType);
+                        var authoredId = authoredIdArray[1];
+                        opinionAuthored.authoredId = authoredId;
+                        opinionAuthored.opinionId = caseId+"_"+authoredOpinionType+"_"+justiceName+"_"+authoredId;
+
+                        // joined justices?
+
+                        // how did the justice vote?
+                        if(authoredOpinionType !== "dissent"){
+                          justiceInfo.vote = "majority";
+                          justiceInfo.majorityVote = 1;
+                          if(authoredOpinionType === "concurrencedissent"){
+                            justiceInfo.partMajorityVote = 1;
+                          }
+                        }else{
+                          justiceInfo.vote = "minority";
+                        }
+
+                        // push authored array to justice info
+                        justiceInfo.opinionAuthored.push(opinionAuthored);
                       }
-
-
-                      justiceInfo.joined.total.push(justiceJoined);
-
-                    }else{
-                      // if authored opinion
-                      justiceInfo.author = currentJusticeArray[e];
-
-
                     }
-
                   }
-
-
-
                 }
 
-
-
-
-
-
-
-
-                newCase.justices.push(justiceInfo);
-
-// [newCaseKey] = deleteText(response[rowStartIndex+b], [("|"+[d]+"=")]);
+                newCase.justices[justiceName].push(justiceInfo);
 
               }
-
             }
-
           }
+
+          //total case numbers - majority votes v minority votes
+
           allWikiCases.push(newCase);
-
-
 
         }
       }
@@ -202,6 +251,6 @@ $(document).ready(function(){
   }
 
   $(".wikiData").on("click", function(){
-    wikiAjax();
+    wikiAjax(caseYear, wikiJson);
   });
 });
