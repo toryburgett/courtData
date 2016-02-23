@@ -29,6 +29,14 @@
   padding: 10px;
 }
 
+.wikiJustice{
+  background-color: white;
+  border-radius: 5px;
+  color: salmon;
+  border: 1px solid salmon;
+  padding: 10px;
+}
+
 .wikiCases{
   background-color: salmon;
   border-radius: 5px;
