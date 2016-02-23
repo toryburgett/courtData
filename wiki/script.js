@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  var wikiJson = "https://gist.githubusercontent.com/toryburgett/8f19b0635cb46cc62d6b/raw/2bb006b6dfa20aae0c393a0ac70f0de8e597cf05/wiki_2014.json";
+  var wikiJson = "https://gist.githubusercontent.com/toryburgett/8f19b0635cb46cc62d6b/raw/09359187af36428b0fab53515477997c24fa5bbb/wiki_2014.json";
   var caseYear = 2014;
 
   var navRows = 0;
@@ -69,8 +69,7 @@ $(document).ready(function(){
             justices: {roberts: [], scalia: [], kennedy: [], thomas: [], ginsburg: [], breyer: [], alito: [], sotomayor: [], kagan: []},
             opinions: []
           };
-          var justiceKeys = ["roberts", "scalia", "kennedy", "thomas", "ginsburg", "breyer", "alito", "sotomayor", "kagan"];
-          var opinionTypes = ["majority", "dissent", "concurrence", "concurrencedissent", "plurality"];
+          var opinionTypes = ["majority", "dissent", "concurrence", "concurrencedissent"];
 
           //for every entry in the case from the response
           for(var b=0; b<caseLength; b++){
@@ -303,7 +302,6 @@ $(document).ready(function(){
 
 
   var wikiDraw = function(){
-
     for(var p=0; p<allWikiData.cases.length; p++){
       var caseFinder = allWikiData.cases[p].caseId;
       // individual case wrapper, title, opinionArea, justiceArea
@@ -311,43 +309,60 @@ $(document).ready(function(){
       $(".caseWiki."+caseFinder).append("<div class=\"caseWikiTitle "+caseFinder+"\"> <h2>"+allWikiData.cases[p].case+"</h2><h3>"+allWikiData.cases[p].majVotes+" - "+allWikiData.cases[p].minVotes+"</h3></div>");
       $(".caseWiki."+caseFinder).append("<div class=\"justiceArea "+caseFinder+"\"></div>");
       $(".caseWiki."+caseFinder).append("<div class=\"opinionArea "+caseFinder+"\"></div>");
-
-
       for(var q=0; q<justiceKeys.length; q++){
           var justiceName = justiceKeys[q];
           var justice = allWikiData.cases[p].justices[justiceName][0];
           var justiceNumOpinions = justice.numOpinionsJoin;
           var justiceWidth = (1/justiceNumOpinions)*100;
-
           $(".justiceArea."+caseFinder).append("<div class=\"justice "+justiceName+caseFinder+"\"></div>");
-
           //author credit
           if(justice.opinionAuthored.length !== 0){
             $(".opinionArea."+caseFinder).append("<p>"+justice.vote+", author: "+justice.name+"</p>");
           }
-
           if(justice.joined.total !==0){
             for(var s=0; s<justice.joined.total.length; s++){
               $(".justice."+justiceName+caseFinder).append("<div class=\"justiceOpinion join"+justice.joined.total[s].opinion+"\" style=\"width: "+justiceWidth+"%;\"><p>"+justiceName+"</p><p>"+justice.joined.total[s].author+"</p></div>");
             }
-
           }
           if(justice.opinionAuthored.length !== 0){
             $(".justice."+justiceName+caseFinder).append("<div class=\"justiceOpinion "+justice.opinionAuthored[0].opinion+"\" style=\"width: "+justiceWidth+"%;\">"+justiceName+"</div>");
           }
-
           if(justice.vote === "none"){
             $(".justice."+justiceName+caseFinder).append("<div class=\"justiceOpinion didnotparticipate\">"+justiceName+"</div>");
           }
-
         }
     }
-
   };
 
   $(".wikiDraw").on("click", function(){
     wikiDraw();
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 });

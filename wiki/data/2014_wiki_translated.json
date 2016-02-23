@@ -7525,19 +7525,19 @@
               "total": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "ginsburg",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "inFull": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "ginsburg",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "part": []
@@ -7660,17 +7660,17 @@
             "minorityVote": 0,
             "partMajorityVote": 0,
             "attendance": 1,
-            "data": "|justice5-opinion1=plurality |justice5-sortcode=1",
+            "data": "|justice5-opinion1=majority |justice5-sortcode=1",
             "numOpinionsJoin": 1,
             "caseId": "2014_574_22",
             "year": 2014,
             "opinionAuthored": [
               {
-                "opinion": "plurality",
+                "opinion": "majority",
                 "author": "ginsburg",
                 "caseId": "2014_574_22",
                 "year": 2014,
-                "opinionId": "2014_574_22_plurality_ginsburg_ ",
+                "opinionId": "2014_574_22_majority_ginsburg_ ",
                 "authoredId": " "
               }
             ],
@@ -7698,19 +7698,19 @@
               "total": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "ginsburg",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "inFull": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "ginsburg",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "part": []
@@ -7763,19 +7763,19 @@
               "total": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "ginsburg",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "inFull": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "ginsburg",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "part": []
@@ -7814,11 +7814,11 @@
       },
       "opinions": [
         {
-          "opinion": "plurality",
+          "opinion": "majority",
           "author": "ginsburg",
           "caseId": "2014_574_22",
           "year": 2014,
-          "opinionId": "2014_574_22_plurality_ginsburg_ ",
+          "opinionId": "2014_574_22_majority_ginsburg_ ",
           "authoredId": " "
         },
         {
@@ -11465,19 +11465,19 @@
               "total": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "scalia",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "inFull": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "scalia",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "part": []
@@ -11492,17 +11492,17 @@
             "minorityVote": 0,
             "partMajorityVote": 0,
             "attendance": 1,
-            "data": "|justice2-opinion1=plurality |justice2-sortcode=1X",
+            "data": "|justice2-opinion1=majority |justice2-sortcode=1X",
             "numOpinionsJoin": 1,
             "caseId": "2014_575_33",
             "year": 2014,
             "opinionAuthored": [
               {
-                "opinion": "plurality",
+                "opinion": "majority",
                 "author": "scalia",
                 "caseId": "2014_575_33",
                 "year": 2014,
-                "opinionId": "2014_575_33_plurality_scalia_ ",
+                "opinionId": "2014_575_33_majority_scalia_ ",
                 "authoredId": " "
               }
             ],
@@ -11566,19 +11566,19 @@
               "total": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "scalia",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "inFull": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "scalia",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "part": []
@@ -11647,20 +11647,20 @@
               "total": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "scalia",
                   "partJoin": 1,
                   "fullJoin": 0,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "inFull": [],
               "part": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "scalia",
                   "partJoin": 1,
                   "fullJoin": 0,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ]
             }
@@ -11683,19 +11683,19 @@
               "total": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "scalia",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "inFull": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "scalia",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "part": []
@@ -11770,11 +11770,11 @@
       },
       "opinions": [
         {
-          "opinion": "plurality",
+          "opinion": "majority",
           "author": "scalia",
           "caseId": "2014_575_33",
           "year": 2014,
-          "opinionId": "2014_575_33_plurality_scalia_ ",
+          "opinionId": "2014_575_33_majority_scalia_ ",
           "authoredId": " "
         },
         {
@@ -12904,17 +12904,17 @@
             "minorityVote": 0,
             "partMajorityVote": 0,
             "attendance": 1,
-            "data": "|justice1-opinion1=plurality |justice1-sortcode=1X",
+            "data": "|justice1-opinion1=majority |justice1-sortcode=1X",
             "numOpinionsJoin": 1,
             "caseId": "2014_575_37",
             "year": 2014,
             "opinionAuthored": [
               {
-                "opinion": "plurality",
+                "opinion": "majority",
                 "author": "roberts",
                 "caseId": "2014_575_37",
                 "year": 2014,
-                "opinionId": "2014_575_37_plurality_roberts_ ",
+                "opinionId": "2014_575_37_majority_roberts_ ",
                 "authoredId": " "
               }
             ],
@@ -13045,20 +13045,20 @@
               "total": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "roberts",
                   "partJoin": 1,
                   "fullJoin": 0,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "inFull": [],
               "part": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "roberts",
                   "partJoin": 1,
                   "fullJoin": 0,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ]
             }
@@ -13090,10 +13090,10 @@
               "total": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "roberts",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 },
                 {
                   "opinion": "concurrence",
@@ -13106,10 +13106,10 @@
               "inFull": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "roberts",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "part": [
@@ -13170,19 +13170,19 @@
               "total": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "roberts",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "inFull": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "roberts",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "part": []
@@ -13206,19 +13206,19 @@
               "total": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "roberts",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "inFull": [
                 {
                   "opinion": "majority",
-                  "author": "",
+                  "author": "roberts",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "part": []
@@ -13228,11 +13228,11 @@
       },
       "opinions": [
         {
-          "opinion": "plurality",
+          "opinion": "majority",
           "author": "roberts",
           "caseId": "2014_575_37",
           "year": 2014,
-          "opinionId": "2014_575_37_plurality_roberts_ ",
+          "opinionId": "2014_575_37_majority_roberts_ ",
           "authoredId": " "
         },
         {
@@ -19256,7 +19256,7 @@
             "minorityVote": 0,
             "partMajorityVote": 0,
             "attendance": 1,
-            "data": "|justice1-opinion1=joinplurality |justice1-sortcode=J1",
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
             "numOpinionsJoin": 1,
             "caseId": "2014_576_55",
             "year": 2014,
@@ -19264,7 +19264,7 @@
             "joined": {
               "total": [
                 {
-                  "opinion": "plurality",
+                  "opinion": "majority",
                   "author": "scalia",
                   "partJoin": 0,
                   "fullJoin": 1,
@@ -19273,7 +19273,7 @@
               ],
               "inFull": [
                 {
-                  "opinion": "plurality",
+                  "opinion": "majority",
                   "author": "scalia",
                   "partJoin": 0,
                   "fullJoin": 1,
@@ -19292,17 +19292,17 @@
             "minorityVote": 0,
             "partMajorityVote": 0,
             "attendance": 1,
-            "data": "|justice2-opinion1=plurality |justice2-sortcode=1X",
+            "data": "|justice2-opinion1=majority |justice2-sortcode=1X",
             "numOpinionsJoin": 1,
             "caseId": "2014_576_55",
             "year": 2014,
             "opinionAuthored": [
               {
-                "opinion": "plurality",
+                "opinion": "majority",
                 "author": "scalia",
                 "caseId": "2014_576_55",
                 "year": 2014,
-                "opinionId": "2014_576_55_plurality_scalia_ ",
+                "opinionId": "2014_576_55_majority_scalia_ ",
                 "authoredId": " "
               }
             ],
@@ -19350,7 +19350,7 @@
             "minorityVote": 0,
             "partMajorityVote": 0,
             "attendance": 1,
-            "data": "|justice4-opinion1=joinplurality |justice4-sortcode=J1",
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
             "numOpinionsJoin": 1,
             "caseId": "2014_576_55",
             "year": 2014,
@@ -19358,7 +19358,7 @@
             "joined": {
               "total": [
                 {
-                  "opinion": "plurality",
+                  "opinion": "majority",
                   "author": "scalia",
                   "partJoin": 0,
                   "fullJoin": 1,
@@ -19367,7 +19367,7 @@
               ],
               "inFull": [
                 {
-                  "opinion": "plurality",
+                  "opinion": "majority",
                   "author": "scalia",
                   "partJoin": 0,
                   "fullJoin": 1,
@@ -19554,11 +19554,11 @@
       },
       "opinions": [
         {
-          "opinion": "plurality",
+          "opinion": "majority",
           "author": "scalia",
           "caseId": "2014_576_55",
           "year": 2014,
-          "opinionId": "2014_576_55_plurality_scalia_ ",
+          "opinionId": "2014_576_55_majority_scalia_ ",
           "authoredId": " "
         },
         {
@@ -26925,11 +26925,11 @@
       "authoredId": " "
     },
     {
-      "opinion": "plurality",
+      "opinion": "majority",
       "author": "ginsburg",
       "caseId": "2014_574_22",
       "year": 2014,
-      "opinionId": "2014_574_22_plurality_ginsburg_ ",
+      "opinionId": "2014_574_22_majority_ginsburg_ ",
       "authoredId": " "
     },
     {
@@ -27149,11 +27149,11 @@
       "authoredId": " "
     },
     {
-      "opinion": "plurality",
+      "opinion": "majority",
       "author": "scalia",
       "caseId": "2014_575_33",
       "year": 2014,
-      "opinionId": "2014_575_33_plurality_scalia_ ",
+      "opinionId": "2014_575_33_majority_scalia_ ",
       "authoredId": " "
     },
     {
@@ -27245,11 +27245,11 @@
       "authoredId": " "
     },
     {
-      "opinion": "plurality",
+      "opinion": "majority",
       "author": "roberts",
       "caseId": "2014_575_37",
       "year": 2014,
-      "opinionId": "2014_575_37_plurality_roberts_ ",
+      "opinionId": "2014_575_37_majority_roberts_ ",
       "authoredId": " "
     },
     {
@@ -27557,11 +27557,11 @@
       "authoredId": " "
     },
     {
-      "opinion": "plurality",
+      "opinion": "majority",
       "author": "scalia",
       "caseId": "2014_576_55",
       "year": 2014,
-      "opinionId": "2014_576_55_plurality_scalia_ ",
+      "opinionId": "2014_576_55_majority_scalia_ ",
       "authoredId": " "
     },
     {
