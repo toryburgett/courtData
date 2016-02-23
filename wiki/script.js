@@ -135,10 +135,14 @@ $(document).ready(function(){
                     if(currentJusticeArray[e].includes("didnotparticipate")){
                       justiceInfo.vote = "none";
                       justiceInfo.attendance = 0;
+                      newCase.attendance.notVote ++;
+                      newCase.attendance.totalVotes ++;
 
                     // justice did participate in vote
                     }else{
                       justiceInfo.attendance = 1;
+                      newCase.attendance.didVote ++;
+                      newCase.attendance.totalVotes ++;
 
                       // if joined opinion
                       if(currentJusticeArray[e].includes("join")){
@@ -188,8 +192,19 @@ $(document).ready(function(){
                           justiceInfo.vote = "minority";
                           justiceInfo.minorityVote = 1;
                         } else {
-                          justiceInfo.vote = "majority";
-                          justiceInfo.majorityVote = 1;
+                            justiceInfo.vote = "majority";
+                            justiceInfo.majorityVote = 1;
+                        }
+
+                        // have they signed onto a cd? if yes...
+                        if(justiceInfo.joined.total.length !== 0){
+                          for(var p=0; p<justiceInfo.joined.total.length; p++){
+                            if(((justiceInfo.joined.total[p].opinion === "majority")||(justiceInfo.joined.total[p].opinion === "concurrence"))&(opinion === "concurrencedissent")){
+                              justiceInfo.vote = "minority";
+                              justiceInfo.minorityVote = 1;
+                              justiceInfo.majorityVote = 0;
+                            }
+                          }
                         }
 
                         justiceInfo.joined.total.push(justiceJoined);
@@ -203,7 +218,6 @@ $(document).ready(function(){
                           year: year,
                           opinionId: "",
                           authoredId: "",
-                          joiners: []
                         };
                         //what is the type of opinion?
                         var authoredOpinionType = "";
@@ -230,6 +244,18 @@ $(document).ready(function(){
                           justiceInfo.vote = "majority";
                           justiceInfo.majorityVote = 1;
                         }
+
+                        // write cd but signed onto majority, minority vote
+                        if(justiceInfo.joined.total.length !== 0){
+                          for(var q=0; q<justiceInfo.joined.total.length; q++){
+                            if(((justiceInfo.joined.total[q].opinion === "majority")||(justiceInfo.joined.total[q].opinion === "concurrence"))&(authoredOpinionType === "concurrencedissent")){
+                              justiceInfo.vote = "minority";
+                              justiceInfo.minorityVote = 1;
+                              justiceInfo.majorityVote = 0;
+                            }
+                          }
+                        }
+
 
                         // push authored array to justice info
                         justiceInfo.opinionAuthored.push(opinionAuthored);
@@ -284,7 +310,7 @@ $(document).ready(function(){
       $(".casesArea").append("<div class=\"caseWiki "+caseFinder+"\"></div>");
       $(".caseWiki."+caseFinder).append("<div class=\"caseWikiTitle "+caseFinder+"\"> <h2>"+allWikiData.cases[p].case+"</h2><h3>"+allWikiData.cases[p].majVotes+" - "+allWikiData.cases[p].minVotes+"</h3></div>");
       $(".caseWiki."+caseFinder).append("<div class=\"justiceArea "+caseFinder+"\"></div>");
-$(".caseWiki."+caseFinder).append("<div class=\"opinionArea "+caseFinder+"\"></div>");
+      $(".caseWiki."+caseFinder).append("<div class=\"opinionArea "+caseFinder+"\"></div>");
 
 
       for(var q=0; q<justiceKeys.length; q++){
@@ -310,12 +336,11 @@ $(".caseWiki."+caseFinder).append("<div class=\"opinionArea "+caseFinder+"\"></d
             $(".justice."+justiceName+caseFinder).append("<div class=\"justiceOpinion "+justice.opinionAuthored[0].opinion+"\" style=\"width: "+justiceWidth+"%;\">"+justiceName+"</div>");
           }
 
-
-          // }
+          if(justice.vote === "none"){
+            $(".justice."+justiceName+caseFinder).append("<div class=\"justiceOpinion didnotparticipate\">"+justiceName+"</div>");
+          }
 
         }
-
-//
     }
 
   };
