@@ -10,7 +10,8 @@ $(document).ready(function(){
   var rowEndIndex = 0;
 
   var allWikiCases = [];
-  var allWikiData = {year: "", cases: allWikiCases};
+  var allWikiData = {year: "", cases: allWikiCases, opinions: []};
+  var justiceKeys = ["roberts", "scalia", "kennedy", "thomas", "ginsburg", "breyer", "alito", "sotomayor", "kagan"];
 
   function deleteText(line, char){
     var saveVar = line;
@@ -124,8 +125,6 @@ $(document).ready(function(){
                   }
                 };
 
-
-
                 for(var e=0; e<currentJusticeArray.length; e++){
                   //if the justiceArray entry pertains to an opinion
                   var rawJusticeOpinion = currentJusticeArray[e];
@@ -143,7 +142,7 @@ $(document).ready(function(){
 
                       // if joined opinion
                       if(currentJusticeArray[e].includes("join")){
-                        var justiceJoined = {opinion: "", author: "", partJoin: 0, fullJoin: 0};
+                        var justiceJoined = {opinion: "", author: "", partJoin: 0, fullJoin: 0, authorId: ""};
                         var authorJoined = "";
                         var opinion = "";
 
@@ -163,6 +162,7 @@ $(document).ready(function(){
                           if(response[rowStartIndex+g].includes("="+opinion+authorIdArray[1])){
                             for(var h=0; h<justiceKeys.length; h++){
                               if(response[rowStartIndex+g].includes(justiceKeys[h])){
+                                justiceJoined.authorId = authorIdArray[1];
                                 authorJoined = justiceKeys[h];
                                 justiceJoined.author = justiceKeys[h];
                               }
@@ -184,15 +184,12 @@ $(document).ready(function(){
                         }
 
                         // how did the justice vote?
-                        if(opinion !== "dissent"){
-                          justiceInfo.vote = "majority";
-                          justiceInfo.majorityVote = 1;
-                          if(opinion === "concurrencedissent"){
-                            justiceInfo.partMajorityVote = 1;
-                          }
-                        }else{
+                        if((opinion === "dissent")||(opinion === "concurrencedissent")){
                           justiceInfo.vote = "minority";
                           justiceInfo.minorityVote = 1;
+                        } else {
+                          justiceInfo.vote = "majority";
+                          justiceInfo.majorityVote = 1;
                         }
 
                         justiceInfo.joined.total.push(justiceJoined);
@@ -205,6 +202,7 @@ $(document).ready(function(){
                           caseId: caseId,
                           year: year,
                           opinionId: "",
+                          authoredId: "",
                           joiners: []
                         };
                         //what is the type of opinion?
@@ -225,19 +223,21 @@ $(document).ready(function(){
                         // joined justices?
 
                         // how did the justice vote?
-                        if(authoredOpinionType !== "dissent"){
-                          justiceInfo.vote = "majority";
-                          justiceInfo.majorityVote = 1;
-                          if(authoredOpinionType === "concurrencedissent"){
-                            justiceInfo.partMajorityVote = 1;
-                          }
-                        }else{
+                        if((authoredOpinionType === "dissent")||(authoredOpinionType === "concurrencedissent")){
                           justiceInfo.vote = "minority";
                           justiceInfo.minorityVote = 1;
+                        } else {
+                          justiceInfo.vote = "majority";
+                          justiceInfo.majorityVote = 1;
                         }
 
                         // push authored array to justice info
                         justiceInfo.opinionAuthored.push(opinionAuthored);
+                        // add to opinion of cases
+                        newCase.opinions.push(opinionAuthored);
+                        //add to all opinions
+                        allWikiData.opinions.push(opinionAuthored);
+
                       }
                     }
                   }
@@ -273,4 +273,56 @@ $(document).ready(function(){
   $(".wikiData").on("click", function(){
     wikiAjax(caseYear, wikiJson);
   });
+
+
+
+  var wikiDraw = function(){
+
+    for(var p=0; p<allWikiData.cases.length; p++){
+      var caseFinder = allWikiData.cases[p].caseId;
+      // individual case wrapper, title, opinionArea, justiceArea
+      $(".casesArea").append("<div class=\"caseWiki "+caseFinder+"\"></div>");
+      $(".caseWiki."+caseFinder).append("<div class=\"caseWikiTitle "+caseFinder+"\"> <h2>"+allWikiData.cases[p].case+"</h2><h3>"+allWikiData.cases[p].majVotes+" - "+allWikiData.cases[p].minVotes+"</h3></div>");
+      $(".caseWiki."+caseFinder).append("<div class=\"justiceArea "+caseFinder+"\"></div>");
+$(".caseWiki."+caseFinder).append("<div class=\"opinionArea "+caseFinder+"\"></div>");
+
+
+      for(var q=0; q<justiceKeys.length; q++){
+          var justiceName = justiceKeys[q];
+          var justice = allWikiData.cases[p].justices[justiceName][0];
+          var justiceNumOpinions = justice.numOpinionsJoin;
+          var justiceWidth = (1/justiceNumOpinions)*100;
+
+          $(".justiceArea."+caseFinder).append("<div class=\"justice "+justiceName+caseFinder+"\"></div>");
+
+          //author credit
+          if(justice.opinionAuthored.length !== 0){
+            $(".opinionArea."+caseFinder).append("<p>"+justice.vote+", author: "+justice.name+"</p>");
+          }
+
+          if(justice.joined.total !==0){
+            for(var s=0; s<justice.joined.total.length; s++){
+              $(".justice."+justiceName+caseFinder).append("<div class=\"justiceOpinion join"+justice.joined.total[s].opinion+"\" style=\"width: "+justiceWidth+"%;\"><p>"+justiceName+"</p><p>"+justice.joined.total[s].author+"</p></div>");
+            }
+
+          }
+          if(justice.opinionAuthored.length !== 0){
+            $(".justice."+justiceName+caseFinder).append("<div class=\"justiceOpinion "+justice.opinionAuthored[0].opinion+"\" style=\"width: "+justiceWidth+"%;\">"+justiceName+"</div>");
+          }
+
+
+          // }
+
+        }
+
+//
+    }
+
+  };
+
+  $(".wikiDraw").on("click", function(){
+    wikiDraw();
+  });
+
+
 });
