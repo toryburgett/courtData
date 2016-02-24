@@ -4618,7 +4618,7 @@ $(document).ready(function(){
     //address every individual case
     for(var b=0; b<allWikiData.cases.length; b++){
 
-      if(b<2){
+      if((b>10)&(b<13)){
 
       var currentCase = allWikiData.cases[b];
       var caseId = {caseId: currentCase.caseId, case: currentCase.case};
@@ -4642,34 +4642,40 @@ $(document).ready(function(){
           updateTotal(justiceData.attendance, "casesTotalMathCheck", caseId);
 
           // Court Agreeance
-          // majority
           var currentJusticeVote = currentJustice.vote;
           var currentJusticeVoteCap = capitalizeFirstLetter(currentJusticeVote);
-          var attendance = "with"+currentJusticeVoteCap+"Totals";
+          var courtAgreeance = "with"+currentJusticeVoteCap+"Totals";
           updateTotal(justiceData.courtAgreeance, "opinionsJoinedTotal", caseId);
-          updateTotal(justiceData.courtAgreeance, attendance, caseId);
-
-          if(currentJustice.vote === "majority"){
-            updateTotal(justiceData.courtAgreeance, "withMajorityTotals", caseId);
-            updateTotal(justiceData.courtAgreeance, "opinionsJoinedTotal", caseId);
-          }
-          // minority
-          if(currentJustice.vote === "minority"){
-            updateTotal(justiceData.courtAgreeance, "withMinorityTotals", caseId);
-            updateTotal(justiceData.courtAgreeance, "opinionsJoinedTotal", caseId);
-          }
+          updateTotal(justiceData.courtAgreeance, courtAgreeance, caseId);
 
           // currentJustice v compareJustice, sidedWith
           for(var f=0; f<justiceKeys.length; f++){
             var compareJusticeName = justiceKeys[f];
+            // make sure you're not comparing justice with themselves
             if(compareJusticeName !== justiceName){
-              //sidedWithJustice
+              //Get new compareJustice
               var compareJustice = currentCase.justices[compareJusticeName][0];
               var compareJusticeVote = compareJustice.vote;
-              // if(currentJusticeVote )
-
+              var compareJusticeVoteCap = capitalizeFirstLetter(compareJusticeVote);
+              // if the compareJustice voted
+              if(compareJustice.attendance === 1){
+                var compareCaseId = {caseId: currentCase.caseId, case: currentCase.case, justiceA: justiceName, justiceB: compareJusticeName, justiceAVote: currentJusticeVote, justiceBVote: compareJusticeVote};
+                // if compareJustice vote = currentJustice vote
+                if(currentJusticeVote === compareJusticeVote){
+                  var compareOpinionString = compareJusticeName+"WithAnd"+currentJusticeVoteCap;
+                  var compareJusticeNameString = compareJusticeName + "WithTotal";
+                  updateTotal(justiceData.justices[compareJusticeName][compareJusticeName+"SidedWith"], compareOpinionString, compareCaseId);
+                  updateTotal(justiceData.justices[compareJusticeName][compareJusticeName+"SidedWith"], compareJusticeNameString, compareCaseId);
+                }else{
+                // if compareJustice vote != currentJustice vote
+                  var compareNotOpinionString = compareJusticeName+"NotWithAnd"+currentJusticeVoteCap;
+                  var compareNotJusticeNameString = compareJusticeName + "NotWithTotal";
+                  updateTotal(justiceData.justices[compareJusticeName][compareJusticeName+"SidedWith"], compareNotOpinionString, compareCaseId);
+                  updateTotal(justiceData.justices[compareJusticeName][compareJusticeName+"SidedWith"], compareNotJusticeNameString, compareCaseId);
+                }
+                justiceData.justices[compareJusticeName][compareJusticeName+"SidedWith"][compareJusticeName+"TotalMathCheck"] ++;
+              }
             }
-
           }
 
 
