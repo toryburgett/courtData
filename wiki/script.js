@@ -4279,10 +4279,20 @@ $(document).ready(function(){
         alitoJoinedTotal: 0, alitoJoinedTotalCaseIds: [],
       },
       sotomayor: {
+        sotomayorMajorityJoinedFullTotal: 0, sotomayorMajorityJoinedFullTotalCaseIds: [],
+        sotomayorMajorityJoinedPartTotal: 0, sotomayorMajorityJoinedPartTotalCaseIds: [],
         sotomayorMajorityJoinedTotal: 0, sotomayorMajorityJoinedTotalCaseIds: [],
+        sotomayorMinorityJoinedFullTotal: 0, sotomayorMinorityJoinedFullTotalCaseIds: [],
+        sotomayorMinorityJoinedPartTotal: 0, sotomayorMinorityJoinedPartTotalCaseIds: [],
         sotomayorMinorityJoinedTotal: 0, sotomayorMinorityJoinedTotalCaseIds: [],
+        sotomayorConcurrenceJoinedFullTotal: 0, sotomayorConcurrenceJoinedFullTotalCaseIds: [],
+        sotomayorConcurrenceJoinedPartTotal: 0, sotomayorConcurrenceJoinedPartTotalCaseIds: [],
         sotomayorConcurrenceJoinedTotal: 0, sotomayorConcurrenceJoinedTotalCaseIds: [],
+        sotomayorConDissJoinedFullTotal: 0, sotomayorConDissJoinedFullTotalCaseIds: [],
+        sotomayorConDissJoinedPartTotal: 0, sotomayorConDissJoinedPartTotalCaseIds: [],
         sotomayorConDissJoinedTotal: 0, sotomayorConDissJoinedTotalCaseIds: [],
+        sotomayorJoinedFullTotal: 0, sotomayorJoinedFullTotalCaseIds: [],
+        sotomayorJoinedPartTotal: 0, sotomayorJoinedPartTotalCaseIds: [],
         sotomayorJoinedTotal: 0, sotomayorJoinedTotalCaseIds: [],
       }
     },
@@ -4644,6 +4654,7 @@ $(document).ready(function(){
 
     //address every individual case
     for(var b=0; b<allWikiData.cases.length; b++){
+      console.log("allWikiData.cases."+b);
       // if((b>10)&(b<13)){
       // if((b<12)){
       var currentCase = allWikiData.cases[b];
@@ -4802,7 +4813,7 @@ $(document).ready(function(){
             var currentJusticeWroteOpinionCap = capitalizeFirstLetter(currentJusticeWroteOpinionType);
 
             // set caseId
-            var authoredJoinCaseId = {caseId: currentCase.caseId, case: currentCase.case, author: justiceName, opinion: currentJusticeWroteOpinion.opinion};
+            var authoredJoinCaseId = {caseId: currentCase.caseId, case: currentCase.case, author: justiceName, opinion: currentJusticeWroteOpinion.opinion, joiner: "", fullOrPart: ""};
             var authoredCaseId = {caseId: currentCase.caseId, case: currentCase.case, author: justiceName, opinion: currentJusticeWroteOpinion.opinion, joiners: {joiners: [], joinersPart:[], joinersFull: []}};
 
             // did any other justices join this opinion?
@@ -4818,14 +4829,24 @@ $(document).ready(function(){
                   //did otherJustice fully join my opinion?
                   if(otherJustice.joined.inFull.length !== 0){
                     for(var h=0; h<otherJustice.joined.inFull.length; h++){
+                      console.log(otherJusticeName);
                       var otherJusticeFullJoin = otherJustice.joined.inFull[h];
                       if(otherJusticeFullJoin.author === justiceName){
                         // update caseId for authored
                         authoredCaseId.joiners.joiners.push(otherJusticeName);
                         authoredCaseId.joiners.joinersFull.push(otherJusticeName);
+                        // update for upcoming push caseId
+                        authoredJoinCaseId.joiner = otherJusticeName;
+                        authoredJoinCaseId.fullOrPart = "full";
                         // update myOpinionJoiners
                         // specific opinion
+                        console.log(justiceName);
+                        console.log(otherJusticeName);
+                        console.log(justiceData.myOpinionJoiners[otherJusticeName]);
+                        console.log(otherJusticeName+currentJusticeWroteOpinionCap+"JoinedFullTotal");
                         updateTotal(justiceData.myOpinionJoiners[otherJusticeName], (otherJusticeName+currentJusticeWroteOpinionCap+"JoinedFullTotal"), authoredJoinCaseId);
+
+                        console.log(otherJusticeName);
                         // All full opinions
                         updateTotal(justiceData.myOpinionJoiners[otherJusticeName], (otherJusticeName+"JoinedFullTotal"), authoredJoinCaseId);
                         // All opinions
@@ -4842,6 +4863,9 @@ $(document).ready(function(){
                         // update caseId for authored
                         authoredCaseId.joiners.joiners.push(otherJusticeName);
                         authoredCaseId.joiners.joinersPart.push(otherJusticeName);
+                        // update for upcoming push caseId
+                        authoredJoinCaseId.joiner = otherJusticeName;
+                        authoredJoinCaseId.fullOrPart = "part";
                         // update myOpinionJoiners
                         // specific opinion
                         updateTotal(justiceData.myOpinionJoiners[otherJusticeName], (otherJusticeName+currentJusticeWroteOpinionCap+"JoinedPartTotal"), authoredJoinCaseId);
