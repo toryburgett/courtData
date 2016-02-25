@@ -4628,8 +4628,8 @@ $(document).ready(function(){
   }
 
   var updateTotal = function(justiceXpath, key, caseId){
-    console.log(justiceXpath);
-    console.log(key);
+    // console.log(justiceXpath);
+    // console.log(key);
 
     justiceXpath[key] ++;
     justiceXpath[key+"CaseIds"].push(caseId);
@@ -4722,9 +4722,6 @@ $(document).ready(function(){
               // set caseId
               var joinFullCaseId = {caseId: currentCase.caseId, case: currentCase.case, joiner: justiceName, author: currentJusticeJoinOpinionFull.author, opinion: currentJusticeJoinOpinionFull.opinion, fullOrPart: "full"};
 
-              // console.log(currentJustice.joined.inFull);
-              console.log(currentJusticeJoinOpinionFull);
-
               // if the opinion was unanimous majority, no author
               if((currentJusticeJoinOpinionFull.author === "")&&(currentJusticeJoinOpinionFull.opinion === "majority")){
                 opinionAbbrev = currentJusticeJoinOpinionFull.opinion;
@@ -4756,29 +4753,51 @@ $(document).ready(function(){
                 updateTotal(justiceData.justices[opinionJoinedAuthor][opinionJoinedAuthor+"Author"].totals, (opinionJoinedAuthor+"OpinionAuthoredJoinedTotal"), joinFullCaseId);
 
               }
-              console.log(currentJusticeJoinOpinionFull);
-              console.log(opinionAbbrev);
-
 
               opinionAbbrevCap = capitalizeFirstLetter(opinionAbbrev);
               var justiceJoinedString = "with"+opinionAbbrevCap;
+
+              // joined totals for justice
               updateTotal(justiceData.joined, justiceJoinedString, joinFullCaseId);
               updateTotal(justiceData.joined, "opinionsJoinedFull", joinFullCaseId);
               updateTotal(justiceData.joined, "opinionsJoinedTotalMathCheck", joinFullCaseId);
 
-              console.log(justiceData.joined);
-
-
-
-
             }
           }
-          // Part
+          // Part Joined
           if(currentJustice.joined.part.length !== 0){
             for(var e=0; e<currentJustice.joined.part.length; e++){
               var currentJusticeJoinOpinionPart = currentJustice.joined.part[e];
+              var opinionJoinedPartAuthor = currentJusticeJoinOpinionPart.author;
 
+              // setting opinion type
+              var opinionAbbrevPart = currentJusticeJoinOpinionPart.opinion;
+              var opinionAbbrevPartCap = "";
+              if(opinionAbbrevPart === "dissent"){
+                opinionAbbrevPart = "minority";
+              }else if(opinionAbbrevPart === "concurrencedissent"){
+                opinionAbbrevPart = "conDiss";
+              }
+              opinionAbbrevPartCap = capitalizeFirstLetter(opinionAbbrevPart);
 
+              // set caseId
+              var joinPartCaseId = {caseId: currentCase.caseId, case: currentCase.case, joiner: justiceName, author: opinionJoinedPartAuthor, opinion: currentJusticeJoinOpinionPart.opinion, fullOrPart: "part"};
+
+              // Add to Justice Data
+              // joined author specific opinion
+              updateTotal(justiceData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"][opinionAbbrevPart], (opinionJoinedPartAuthor+opinionAbbrevPartCap+"OpinionAuthoredJoinedPartTotal"), joinPartCaseId);
+              updateTotal(justiceData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"][opinionAbbrevPart], (opinionJoinedPartAuthor+opinionAbbrevPartCap+"OpinionAuthoredJoinedTotal"), joinPartCaseId);
+
+              //joined author totals
+              updateTotal(justiceData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"].totals, (opinionJoinedPartAuthor+"OpinionAuthoredJoinedPartTotal"), joinPartCaseId);
+              updateTotal(justiceData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"].totals, (opinionJoinedPartAuthor+"OpinionAuthoredJoinedTotal"), joinPartCaseId);
+
+              // joined totals for justice
+              updateTotal(justiceData.joined, ("partWith"+opinionAbbrevPartCap), joinPartCaseId);
+              updateTotal(justiceData.joined, "opinionsJoinedPart", joinPartCaseId);
+              updateTotal(justiceData.joined, "opinionsJoinedTotalMathCheck", joinPartCaseId);
+
+              console.log(justiceData.joined);
 
             }
           }
