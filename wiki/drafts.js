@@ -27,7 +27,7 @@
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
     unanimousDec: {
-      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: [],
     },
 
     myOpinionJoiners: {
@@ -503,7 +503,7 @@
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
     unanimousDec: {
-      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: [],
     },
 
     myOpinionJoiners: {
@@ -980,7 +980,7 @@
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
     unanimousDec: {
-      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: [],
     },
 
     myOpinionJoiners: {
@@ -1458,7 +1458,7 @@
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
     unanimousDec: {
-      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: [],
     },
 
     myOpinionJoiners: {
@@ -1936,7 +1936,7 @@
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
     unanimousDec: {
-      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: [],
     },
 
     myOpinionJoiners: {
@@ -2413,7 +2413,7 @@
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
     unanimousDec: {
-      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: [],
     },
 
     myOpinionJoiners: {
@@ -2890,7 +2890,7 @@
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
     unanimousDec: {
-      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: [],
     },
 
     myOpinionJoiners: {
@@ -3367,7 +3367,7 @@
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
     unanimousDec: {
-      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: [],
     },
 
     myOpinionJoiners: {
@@ -3845,7 +3845,7 @@
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
     unanimousDec: {
-      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: [],
     },
 
     myOpinionJoiners: {
