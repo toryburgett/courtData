@@ -26,6 +26,9 @@
       casesNotVotedTotal: 0, casesNotVotedTotalCaseIds: [],
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
+    unanimousDec: {
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+    },
 
     myOpinionJoiners: {
       scalia:{
@@ -498,6 +501,9 @@
       casesVotedTotal: 0, casesVotedTotalCaseIds: [],
       casesNotVotedTotal: 0, casesNotVotedTotalCaseIds: [],
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
+    },
+    unanimousDec: {
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
     },
 
     myOpinionJoiners: {
@@ -972,6 +978,9 @@
       casesVotedTotal: 0, casesVotedTotalCaseIds: [],
       casesNotVotedTotal: 0, casesNotVotedTotalCaseIds: [],
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
+    },
+    unanimousDec: {
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
     },
 
     myOpinionJoiners: {
@@ -1448,6 +1457,9 @@
       casesNotVotedTotal: 0, casesNotVotedTotalCaseIds: [],
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
+    unanimousDec: {
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+    },
 
     myOpinionJoiners: {
       roberts: {
@@ -1923,6 +1935,9 @@
       casesNotVotedTotal: 0, casesNotVotedTotalCaseIds: [],
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
+    unanimousDec: {
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+    },
 
     myOpinionJoiners: {
       roberts: {
@@ -2396,6 +2411,9 @@
       casesVotedTotal: 0, casesVotedTotalCaseIds: [],
       casesNotVotedTotal: 0, casesNotVotedTotalCaseIds: [],
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
+    },
+    unanimousDec: {
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
     },
 
     myOpinionJoiners: {
@@ -2871,6 +2889,9 @@
       casesNotVotedTotal: 0, casesNotVotedTotalCaseIds: [],
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
     },
+    unanimousDec: {
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
+    },
 
     myOpinionJoiners: {
       roberts: {
@@ -3344,6 +3365,9 @@
       casesVotedTotal: 0, casesVotedTotalCaseIds: [],
       casesNotVotedTotal: 0, casesNotVotedTotalCaseIds: [],
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
+    },
+    unanimousDec: {
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
     },
 
     myOpinionJoiners: {
@@ -3819,6 +3843,9 @@
       casesVotedTotal: 0, casesVotedTotalCaseIds: [],
       casesNotVotedTotal: 0, casesNotVotedTotalCaseIds: [],
       casesTotalMathCheck: 0, casesTotalMathCheckCaseIds: [],
+    },
+    unanimousDec: {
+      unanimousDecTotal: 0,   unanimousDecTotalCaseIds: 0,
     },
 
     myOpinionJoiners: {
