@@ -1,19 +1,19 @@
 $(document).ready(function(){
 
-  // 2015 data
-  var wikiJson = "https://gist.githubusercontent.com/toryburgett/538b22e7f28b21c682e6/raw/e813558b5d7935a1e05b8992b869443143cef2a3/wiki_2015.json";
-  var caseYear = 2015;
+  // // 2015 data
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/538b22e7f28b21c682e6/raw/e813558b5d7935a1e05b8992b869443143cef2a3/wiki_2015.json";
+  // var caseYear = 2015;
 
   // // 2014 data
   // var wikiJson = "https://gist.githubusercontent.com/toryburgett/8f19b0635cb46cc62d6b/raw/09359187af36428b0fab53515477997c24fa5bbb/wiki_2014.json";
   // var caseYear = 2014;
 
-  // // 2013 data
-  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/a3115cd77aa94f9cf615/raw/172d7520099be02de88414a0bc2006292022ad95/wiki_2013.json";
-  // var caseYear = 2013;
+  // 2013 data
+  var wikiJson = "https://gist.githubusercontent.com/toryburgett/a3115cd77aa94f9cf615/raw/0af0a6acdfdf00339dab443745678e2c876fbab4/wiki_2013.json";
+  var caseYear = 2013;
 
   // // 2012 data
-  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/e879d6e2e92901f34f20/raw/b1b6563899a2f862a1231e5c78323da7029cda54/wiki_2012.json";
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/e879d6e2e92901f34f20/raw/88f4566a48aa5e98c114e0836b8c6f842c31dd86/wiki_2012.json";
   // var caseYear = 2012;
 
   // // 2011 data
@@ -6706,7 +6706,7 @@ $(document).ready(function(){
     }
     //address every individual case
     for(var b=0; b<allWikiData.cases.length; b++){
-      console.log("allWikiData.cases."+b);
+      // console.log("allWikiData.cases."+b);
       var currentCase = allWikiData.cases[b];
       var caseId = {caseId: currentCase.caseId, case: currentCase.case};
       // address every justice for a case
@@ -6715,7 +6715,6 @@ $(document).ready(function(){
         var currentJustice = currentCase.justices[justiceName][0];
         var justiceData = wikiData.wikiAllJusticeData[justiceName];
         var shortJusticeData = shortWikiJusticeData[justiceName];
-        console.log(shortJusticeData);
         // Attendance
         if(currentJustice.attendance === 0){
           // Did Not Vote
@@ -6878,8 +6877,8 @@ $(document).ready(function(){
             // setting opinion type
             var currentJusticeWroteOpinionType = currentJusticeWroteOpinion.opinion;
 
-            console.log(currentJusticeWroteOpinion);
-            console.log(currentJusticeWroteOpinionType);
+            // console.log(currentJusticeWroteOpinion);
+            // console.log(currentJusticeWroteOpinionType);
 
             if(currentJusticeWroteOpinionType === "dissent"){
               currentJusticeWroteOpinionType = "minority";
@@ -6947,7 +6946,6 @@ $(document).ready(function(){
                         // All opinions
                         updateTotal(justiceData.myOpinionJoiners[otherJusticeName], (otherJusticeName+"JoinedTotal"), authoredJoinCaseId);
                         shortJusticeData.myOpinionJoiners[otherJusticeName][otherJusticeName+"JoinedTotal"]++;
-                        console.log(authoredJoinCaseId);
                       }
                     }
                   }
