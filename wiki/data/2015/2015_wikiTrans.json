@@ -1,0 +1,6426 @@
+{
+  "year": "2015 term opinions",
+  "cases": [
+    {
+      "caseId": "2015_577_1",
+      "case": "Maryland v. Kulbicki",
+      "caseNum": "1",
+      "volume": "577",
+      "argue_date": "",
+      "decision_date": "October 5, 2015",
+      "majVotes": 9,
+      "minVotes": 0,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_1",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_1",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_1",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_1",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_1",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_1",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_1",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_1",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_1",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": []
+    },
+    {
+      "caseId": "2015_577_2",
+      "case": "Mullenix v. Luna",
+      "caseNum": "2",
+      "volume": "577",
+      "argue_date": "",
+      "decision_date": "November 9, 2015",
+      "majVotes": 8,
+      "minVotes": 1,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_2",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=concurrence |justice2-sortcode=2",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_2",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "concurrence",
+                "author": "scalia",
+                "caseId": "2015_577_2",
+                "year": 2015,
+                "opinionId": "2015_577_2_concurrence_scalia_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_2",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_2",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_2",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_2",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_2",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=dissent |justice8-sortcode=4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_2",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "dissent",
+                "author": "sotomayor",
+                "caseId": "2015_577_2",
+                "year": 2015,
+                "opinionId": "2015_577_2_dissent_sotomayor_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_2",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "concurrence",
+          "author": "scalia",
+          "caseId": "2015_577_2",
+          "year": 2015,
+          "opinionId": "2015_577_2_concurrence_scalia_ ",
+          "authoredId": " "
+        },
+        {
+          "opinion": "dissent",
+          "author": "sotomayor",
+          "caseId": "2015_577_2",
+          "year": 2015,
+          "opinionId": "2015_577_2_dissent_sotomayor_ ",
+          "authoredId": " "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_3",
+      "case": "OBB Personenverkehr AG v. Sachs",
+      "caseNum": "3",
+      "volume": "577",
+      "argue_date": "October 5, 2015",
+      "decision_date": "December 1, 2015",
+      "majVotes": 9,
+      "minVotes": 0,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=majority |justice1-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_3",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "roberts",
+                "caseId": "2015_577_3",
+                "year": 2015,
+                "opinionId": "2015_577_3_majority_roberts_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_3",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_3",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_3",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_3",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_3",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_3",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_3",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_3",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "majority",
+          "author": "roberts",
+          "caseId": "2015_577_3",
+          "year": 2015,
+          "opinionId": "2015_577_3_majority_roberts_ ",
+          "authoredId": " "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_4",
+      "case": "Shapiro v. McManus",
+      "caseNum": "4",
+      "volume": "577",
+      "argue_date": "November 4, 2015",
+      "decision_date": "December 8, 2015",
+      "majVotes": 9,
+      "minVotes": 0,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_4",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=majority |justice2-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_4",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "scalia",
+                "caseId": "2015_577_4",
+                "year": 2015,
+                "opinionId": "2015_577_4_majority_scalia_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_4",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_4",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_4",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_4",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_4",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_4",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_4",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "majority",
+          "author": "scalia",
+          "caseId": "2015_577_4",
+          "year": 2015,
+          "opinionId": "2015_577_4_majority_scalia_ ",
+          "authoredId": " "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_5",
+      "case": "DIRECTV, Inc. v. Imburgia",
+      "caseNum": "5",
+      "volume": "577",
+      "argue_date": "October 6, 2015",
+      "decision_date": "December 14, 2015",
+      "majVotes": 6,
+      "minVotes": 3,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_5",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "breyer",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "breyer",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_5",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "breyer",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "breyer",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_5",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "breyer",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "breyer",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=dissent1 |justice4-sortcode=4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_5",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "dissent",
+                "author": "thomas",
+                "caseId": "2015_577_5",
+                "year": 2015,
+                "opinionId": "2015_577_5_dissent_thomas_1 ",
+                "authoredId": "1 "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=dissent2 |justice5-sortcode=4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_5",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "dissent",
+                "author": "ginsburg",
+                "caseId": "2015_577_5",
+                "year": 2015,
+                "opinionId": "2015_577_5_dissent_ginsburg_2 ",
+                "authoredId": "2 "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=majority |justice6-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_5",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "breyer",
+                "caseId": "2015_577_5",
+                "year": 2015,
+                "opinionId": "2015_577_5_majority_breyer_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_5",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "breyer",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "breyer",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joindissent2 |justice8-sortcode=J4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_5",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "dissent",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": "2 "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "dissent",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": "2 "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_5",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "breyer",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "breyer",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "dissent",
+          "author": "thomas",
+          "caseId": "2015_577_5",
+          "year": 2015,
+          "opinionId": "2015_577_5_dissent_thomas_1 ",
+          "authoredId": "1 "
+        },
+        {
+          "opinion": "dissent",
+          "author": "ginsburg",
+          "caseId": "2015_577_5",
+          "year": 2015,
+          "opinionId": "2015_577_5_dissent_ginsburg_2 ",
+          "authoredId": "2 "
+        },
+        {
+          "opinion": "majority",
+          "author": "breyer",
+          "caseId": "2015_577_5",
+          "year": 2015,
+          "opinionId": "2015_577_5_majority_breyer_ ",
+          "authoredId": " "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_6",
+      "case": "White v. Wheeler",
+      "caseNum": "6",
+      "volume": "577",
+      "argue_date": "",
+      "decision_date": "December 14, 2015",
+      "majVotes": 9,
+      "minVotes": 0,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_6",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_6",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_6",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_6",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_6",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_6",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_6",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_6",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_6",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": []
+    },
+    {
+      "caseId": "2015_577_7",
+      "case": "Bruce v. Samuels",
+      "caseNum": "7",
+      "volume": "577",
+      "argue_date": "November 4, 2015",
+      "decision_date": "January 12, 2016",
+      "majVotes": 9,
+      "minVotes": 0,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_7",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_7",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_7",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_7",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=majority |justice5-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_7",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "ginsburg",
+                "caseId": "2015_577_7",
+                "year": 2015,
+                "opinionId": "2015_577_7_majority_ginsburg_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_7",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_7",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_7",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_7",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "majority",
+          "author": "ginsburg",
+          "caseId": "2015_577_7",
+          "year": 2015,
+          "opinionId": "2015_577_7_majority_ginsburg_ ",
+          "authoredId": " "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_8",
+      "case": "Hurst v. Florida",
+      "caseNum": "8",
+      "volume": "577",
+      "argue_date": "October 13, 2015",
+      "decision_date": "January 12, 2016",
+      "majVotes": 8,
+      "minVotes": 1,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_8",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_8",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_8",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_8",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_8",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=concurrence |justice6-sortcode=2",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_8",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "concurrence",
+                "author": "breyer",
+                "caseId": "2015_577_8",
+                "year": 2015,
+                "opinionId": "2015_577_8_concurrence_breyer_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=dissent |justice7-sortcode=4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_8",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "dissent",
+                "author": "alito",
+                "caseId": "2015_577_8",
+                "year": 2015,
+                "opinionId": "2015_577_8_dissent_alito_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=majority |justice8-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_8",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "sotomayor",
+                "caseId": "2015_577_8",
+                "year": 2015,
+                "opinionId": "2015_577_8_majority_sotomayor_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_8",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "sotomayor",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "concurrence",
+          "author": "breyer",
+          "caseId": "2015_577_8",
+          "year": 2015,
+          "opinionId": "2015_577_8_concurrence_breyer_ ",
+          "authoredId": " "
+        },
+        {
+          "opinion": "dissent",
+          "author": "alito",
+          "caseId": "2015_577_8",
+          "year": 2015,
+          "opinionId": "2015_577_8_dissent_alito_ ",
+          "authoredId": " "
+        },
+        {
+          "opinion": "majority",
+          "author": "sotomayor",
+          "caseId": "2015_577_8",
+          "year": 2015,
+          "opinionId": "2015_577_8_majority_sotomayor_ ",
+          "authoredId": " "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_9",
+      "case": "Kansas v. Carr",
+      "caseNum": "9",
+      "volume": "577",
+      "argue_date": "October 7, 2015",
+      "decision_date": "January 20, 2016",
+      "majVotes": 8,
+      "minVotes": 1,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_9",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=majority |justice2-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_9",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "scalia",
+                "caseId": "2015_577_9",
+                "year": 2015,
+                "opinionId": "2015_577_9_majority_scalia_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_9",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_9",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_9",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_9",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_9",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=dissent |justice8-sortcode=4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_9",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "dissent",
+                "author": "sotomayor",
+                "caseId": "2015_577_9",
+                "year": 2015,
+                "opinionId": "2015_577_9_dissent_sotomayor_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_9",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "majority",
+          "author": "scalia",
+          "caseId": "2015_577_9",
+          "year": 2015,
+          "opinionId": "2015_577_9_majority_scalia_ ",
+          "authoredId": " "
+        },
+        {
+          "opinion": "dissent",
+          "author": "sotomayor",
+          "caseId": "2015_577_9",
+          "year": 2015,
+          "opinionId": "2015_577_9_dissent_sotomayor_ ",
+          "authoredId": " "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_10",
+      "case": "Montanile v. Board of Trustees of Nat. Elevator Industry Health Benefit Plan",
+      "caseNum": "10",
+      "volume": "577",
+      "argue_date": "November 9, 2015",
+      "decision_date": "January 20, 2016",
+      "majVotes": 8,
+      "minVotes": 1,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_10",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_10",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_10",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=majority |justice4-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_10",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "thomas",
+                "caseId": "2015_577_10",
+                "year": 2015,
+                "opinionId": "2015_577_10_majority_thomas_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=dissent |justice5-sortcode=4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_10",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "dissent",
+                "author": "ginsburg",
+                "caseId": "2015_577_10",
+                "year": 2015,
+                "opinionId": "2015_577_10_dissent_ginsburg_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_10",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 1,
+            "attendance": 1,
+            "data": "|justice7-opinion1=partjoinmajority |justice7-sortcode=J1X",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_10",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 1,
+                  "fullJoin": 0,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [],
+              "part": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 1,
+                  "fullJoin": 0,
+                  "authorId": " "
+                }
+              ]
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_10",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_10",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "majority",
+          "author": "thomas",
+          "caseId": "2015_577_10",
+          "year": 2015,
+          "opinionId": "2015_577_10_majority_thomas_ ",
+          "authoredId": " "
+        },
+        {
+          "opinion": "dissent",
+          "author": "ginsburg",
+          "caseId": "2015_577_10",
+          "year": 2015,
+          "opinionId": "2015_577_10_dissent_ginsburg_ ",
+          "authoredId": " "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_11",
+      "case": "Campbell-Ewald v. Gomez",
+      "caseNum": "11",
+      "volume": "577",
+      "argue_date": "October 14, 2015",
+      "decision_date": "January 20, 2016",
+      "majVotes": 6,
+      "minVotes": 3,
+      "attendance": {
+        "totalVotes": 10,
+        "didVote": 10,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=dissent1 |justice1-sortcode=4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_11",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "dissent",
+                "author": "roberts",
+                "caseId": "2015_577_11",
+                "year": 2015,
+                "opinionId": "2015_577_11_dissent_roberts_1 ",
+                "authoredId": "1 "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joindissent1 |justice2-sortcode=J4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_11",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "dissent",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": "1 "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "dissent",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": "1 "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_11",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=concurrence |justice4-sortcode=2",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_11",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "concurrence",
+                "author": "thomas",
+                "caseId": "2015_577_11",
+                "year": 2015,
+                "opinionId": "2015_577_11_concurrence_thomas_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=majority |justice5-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_11",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "ginsburg",
+                "caseId": "2015_577_11",
+                "year": 2015,
+                "opinionId": "2015_577_11_majority_ginsburg_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_11",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joindissent1 |justice7-opinion2=dissent2 |justice7-sortcode=4J4",
+            "numOpinionsJoin": 2,
+            "caseId": "2015_577_11",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "dissent",
+                "author": "alito",
+                "caseId": "2015_577_11",
+                "year": 2015,
+                "opinionId": "2015_577_11_dissent_alito_2 ",
+                "authoredId": "2 "
+              }
+            ],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "dissent",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": "1 "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "dissent",
+                  "author": "roberts",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": "1 "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_11",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_11",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "ginsburg",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "dissent",
+          "author": "roberts",
+          "caseId": "2015_577_11",
+          "year": 2015,
+          "opinionId": "2015_577_11_dissent_roberts_1 ",
+          "authoredId": "1 "
+        },
+        {
+          "opinion": "concurrence",
+          "author": "thomas",
+          "caseId": "2015_577_11",
+          "year": 2015,
+          "opinionId": "2015_577_11_concurrence_thomas_ ",
+          "authoredId": " "
+        },
+        {
+          "opinion": "majority",
+          "author": "ginsburg",
+          "caseId": "2015_577_11",
+          "year": 2015,
+          "opinionId": "2015_577_11_majority_ginsburg_ ",
+          "authoredId": " "
+        },
+        {
+          "opinion": "dissent",
+          "author": "alito",
+          "caseId": "2015_577_11",
+          "year": 2015,
+          "opinionId": "2015_577_11_dissent_alito_2 ",
+          "authoredId": "2 "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_12",
+      "case": "",
+      "caseNum": "12",
+      "volume": "577",
+      "argue_date": "January 12, 2016",
+      "decision_date": "January 20, 2016",
+      "majVotes": 9,
+      "minVotes": 0,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_12",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_12",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_12",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_12",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_12",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_12",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_12",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_12",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_12",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": []
+    },
+    {
+      "caseId": "2015_577_13",
+      "case": "Montgomery v. Louisiana",
+      "caseNum": "13",
+      "volume": "577",
+      "argue_date": "October 13, 2015",
+      "decision_date": "January 25, 2016",
+      "majVotes": 6,
+      "minVotes": 3,
+      "attendance": {
+        "totalVotes": 10,
+        "didVote": 10,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_13",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "kennedy",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "kennedy",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=dissent1 |justice2-sortcode=4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_13",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "dissent",
+                "author": "scalia",
+                "caseId": "2015_577_13",
+                "year": 2015,
+                "opinionId": "2015_577_13_dissent_scalia_1 ",
+                "authoredId": "1 "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=majority |justice3-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_13",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "kennedy",
+                "caseId": "2015_577_13",
+                "year": 2015,
+                "opinionId": "2015_577_13_majority_kennedy_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joindissent1 |justice4-opinion2=dissent2 |justice4-sortcode=4J4",
+            "numOpinionsJoin": 2,
+            "caseId": "2015_577_13",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "dissent",
+                "author": "thomas",
+                "caseId": "2015_577_13",
+                "year": 2015,
+                "opinionId": "2015_577_13_dissent_thomas_2 ",
+                "authoredId": "2 "
+              }
+            ],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "dissent",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": "1 "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "dissent",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": "1 "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_13",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "kennedy",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "kennedy",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_13",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "kennedy",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "kennedy",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joindissent1 |justice7-sortcode=J4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_13",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "dissent",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": "1 "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "dissent",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": "1 "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_13",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "kennedy",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "kennedy",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_13",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "kennedy",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "kennedy",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "dissent",
+          "author": "scalia",
+          "caseId": "2015_577_13",
+          "year": 2015,
+          "opinionId": "2015_577_13_dissent_scalia_1 ",
+          "authoredId": "1 "
+        },
+        {
+          "opinion": "majority",
+          "author": "kennedy",
+          "caseId": "2015_577_13",
+          "year": 2015,
+          "opinionId": "2015_577_13_majority_kennedy_ ",
+          "authoredId": " "
+        },
+        {
+          "opinion": "dissent",
+          "author": "thomas",
+          "caseId": "2015_577_13",
+          "year": 2015,
+          "opinionId": "2015_577_13_dissent_thomas_2 ",
+          "authoredId": "2 "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_14",
+      "case": "Musacchio v. United States",
+      "caseNum": "14",
+      "volume": "577",
+      "argue_date": "November 30, 2015",
+      "decision_date": "January 25, 2016",
+      "majVotes": 9,
+      "minVotes": 0,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_14",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_14",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_14",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=majority |justice4-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_14",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "thomas",
+                "caseId": "2015_577_14",
+                "year": 2015,
+                "opinionId": "2015_577_14_majority_thomas_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_14",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_14",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_14",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_14",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_14",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "thomas",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "majority",
+          "author": "thomas",
+          "caseId": "2015_577_14",
+          "year": 2015,
+          "opinionId": "2015_577_14_majority_thomas_ ",
+          "authoredId": " "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_15",
+      "case": "Menominee Tribe of Wis. v. United States",
+      "caseNum": "15",
+      "volume": "577",
+      "argue_date": "December 1, 2015",
+      "decision_date": "January 25, 2016",
+      "majVotes": 9,
+      "minVotes": 0,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_15",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_15",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_15",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_15",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_15",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_15",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=majority |justice7-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_15",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "alito",
+                "caseId": "2015_577_15",
+                "year": 2015,
+                "opinionId": "2015_577_15_majority_alito_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_15",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_15",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "alito",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "majority",
+          "author": "alito",
+          "caseId": "2015_577_15",
+          "year": 2015,
+          "opinionId": "2015_577_15_majority_alito_ ",
+          "authoredId": " "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_16",
+      "case": "FERC v. Electric Power Supply Assn.",
+      "caseNum": "16",
+      "volume": "577",
+      "argue_date": "October 14, 2015",
+      "decision_date": "January 25, 2016",
+      "majVotes": 6,
+      "minVotes": 2,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 8,
+        "notVote": 1
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_16",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "kagan",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "kagan",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=dissent |justice2-sortcode=4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_16",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "dissent",
+                "author": "scalia",
+                "caseId": "2015_577_16",
+                "year": 2015,
+                "opinionId": "2015_577_16_dissent_scalia_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_16",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "kagan",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "kagan",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "minority",
+            "majorityVote": 0,
+            "minorityVote": 1,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joindissent |justice4-sortcode=J4",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_16",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "dissent",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "dissent",
+                  "author": "scalia",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_16",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "kagan",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "kagan",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_16",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "kagan",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "kagan",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "none",
+            "majorityVote": 0,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 0,
+            "data": "|justice7-opinion1=didnotparticipate |justice7-sortcode=X",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_16",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_16",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "kagan",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "kagan",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": " "
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=majority |justice9-sortcode=1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_16",
+            "year": 2015,
+            "opinionAuthored": [
+              {
+                "opinion": "majority",
+                "author": "kagan",
+                "caseId": "2015_577_16",
+                "year": 2015,
+                "opinionId": "2015_577_16_majority_kagan_ ",
+                "authoredId": " "
+              }
+            ],
+            "joined": {
+              "total": [],
+              "inFull": [],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": [
+        {
+          "opinion": "dissent",
+          "author": "scalia",
+          "caseId": "2015_577_16",
+          "year": 2015,
+          "opinionId": "2015_577_16_dissent_scalia_ ",
+          "authoredId": " "
+        },
+        {
+          "opinion": "majority",
+          "author": "kagan",
+          "caseId": "2015_577_16",
+          "year": 2015,
+          "opinionId": "2015_577_16_majority_kagan_ ",
+          "authoredId": " "
+        }
+      ]
+    },
+    {
+      "caseId": "2015_577_17",
+      "case": "James v. Boise",
+      "caseNum": "17",
+      "volume": "577",
+      "argue_date": "",
+      "decision_date": "January 25, 2016",
+      "majVotes": 9,
+      "minVotes": 0,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_17",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_17",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_17",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_17",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_17",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_17",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_17",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_17",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_17",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": []
+    },
+    {
+      "caseId": "2015_577_18",
+      "case": "Amgen Inc. v. Harris",
+      "caseNum": "18",
+      "volume": "577",
+      "argue_date": "",
+      "decision_date": "January 25, 2016",
+      "majVotes": 9,
+      "minVotes": 0,
+      "attendance": {
+        "totalVotes": 9,
+        "didVote": 9,
+        "notVote": 0
+      },
+      "justices": {
+        "roberts": [
+          {
+            "name": "roberts",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice1-opinion1=joinmajority |justice1-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_18",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "scalia": [
+          {
+            "name": "scalia",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice2-opinion1=joinmajority |justice2-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_18",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kennedy": [
+          {
+            "name": "kennedy",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice3-opinion1=joinmajority |justice3-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_18",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "thomas": [
+          {
+            "name": "thomas",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice4-opinion1=joinmajority |justice4-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_18",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "ginsburg": [
+          {
+            "name": "ginsburg",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice5-opinion1=joinmajority |justice5-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_18",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "breyer": [
+          {
+            "name": "breyer",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice6-opinion1=joinmajority |justice6-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_18",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "alito": [
+          {
+            "name": "alito",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice7-opinion1=joinmajority |justice7-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_18",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "sotomayor": [
+          {
+            "name": "sotomayor",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice8-opinion1=joinmajority |justice8-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_18",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ],
+        "kagan": [
+          {
+            "name": "kagan",
+            "vote": "majority",
+            "majorityVote": 1,
+            "minorityVote": 0,
+            "partMajorityVote": 0,
+            "attendance": 1,
+            "data": "|justice9-opinion1=joinmajority |justice9-sortcode=J1",
+            "numOpinionsJoin": 1,
+            "caseId": "2015_577_18",
+            "year": 2015,
+            "opinionAuthored": [],
+            "joined": {
+              "total": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "inFull": [
+                {
+                  "opinion": "majority",
+                  "author": "",
+                  "partJoin": 0,
+                  "fullJoin": 1,
+                  "authorId": ""
+                }
+              ],
+              "part": []
+            }
+          }
+        ]
+      },
+      "opinions": []
+    }
+  ],
+  "opinions": [
+    {
+      "opinion": "concurrence",
+      "author": "scalia",
+      "caseId": "2015_577_2",
+      "year": 2015,
+      "opinionId": "2015_577_2_concurrence_scalia_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "dissent",
+      "author": "sotomayor",
+      "caseId": "2015_577_2",
+      "year": 2015,
+      "opinionId": "2015_577_2_dissent_sotomayor_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "majority",
+      "author": "roberts",
+      "caseId": "2015_577_3",
+      "year": 2015,
+      "opinionId": "2015_577_3_majority_roberts_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "majority",
+      "author": "scalia",
+      "caseId": "2015_577_4",
+      "year": 2015,
+      "opinionId": "2015_577_4_majority_scalia_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "dissent",
+      "author": "thomas",
+      "caseId": "2015_577_5",
+      "year": 2015,
+      "opinionId": "2015_577_5_dissent_thomas_1 ",
+      "authoredId": "1 "
+    },
+    {
+      "opinion": "dissent",
+      "author": "ginsburg",
+      "caseId": "2015_577_5",
+      "year": 2015,
+      "opinionId": "2015_577_5_dissent_ginsburg_2 ",
+      "authoredId": "2 "
+    },
+    {
+      "opinion": "majority",
+      "author": "breyer",
+      "caseId": "2015_577_5",
+      "year": 2015,
+      "opinionId": "2015_577_5_majority_breyer_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "majority",
+      "author": "ginsburg",
+      "caseId": "2015_577_7",
+      "year": 2015,
+      "opinionId": "2015_577_7_majority_ginsburg_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "concurrence",
+      "author": "breyer",
+      "caseId": "2015_577_8",
+      "year": 2015,
+      "opinionId": "2015_577_8_concurrence_breyer_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "dissent",
+      "author": "alito",
+      "caseId": "2015_577_8",
+      "year": 2015,
+      "opinionId": "2015_577_8_dissent_alito_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "majority",
+      "author": "sotomayor",
+      "caseId": "2015_577_8",
+      "year": 2015,
+      "opinionId": "2015_577_8_majority_sotomayor_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "majority",
+      "author": "scalia",
+      "caseId": "2015_577_9",
+      "year": 2015,
+      "opinionId": "2015_577_9_majority_scalia_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "dissent",
+      "author": "sotomayor",
+      "caseId": "2015_577_9",
+      "year": 2015,
+      "opinionId": "2015_577_9_dissent_sotomayor_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "majority",
+      "author": "thomas",
+      "caseId": "2015_577_10",
+      "year": 2015,
+      "opinionId": "2015_577_10_majority_thomas_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "dissent",
+      "author": "ginsburg",
+      "caseId": "2015_577_10",
+      "year": 2015,
+      "opinionId": "2015_577_10_dissent_ginsburg_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "dissent",
+      "author": "roberts",
+      "caseId": "2015_577_11",
+      "year": 2015,
+      "opinionId": "2015_577_11_dissent_roberts_1 ",
+      "authoredId": "1 "
+    },
+    {
+      "opinion": "concurrence",
+      "author": "thomas",
+      "caseId": "2015_577_11",
+      "year": 2015,
+      "opinionId": "2015_577_11_concurrence_thomas_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "majority",
+      "author": "ginsburg",
+      "caseId": "2015_577_11",
+      "year": 2015,
+      "opinionId": "2015_577_11_majority_ginsburg_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "dissent",
+      "author": "alito",
+      "caseId": "2015_577_11",
+      "year": 2015,
+      "opinionId": "2015_577_11_dissent_alito_2 ",
+      "authoredId": "2 "
+    },
+    {
+      "opinion": "dissent",
+      "author": "scalia",
+      "caseId": "2015_577_13",
+      "year": 2015,
+      "opinionId": "2015_577_13_dissent_scalia_1 ",
+      "authoredId": "1 "
+    },
+    {
+      "opinion": "majority",
+      "author": "kennedy",
+      "caseId": "2015_577_13",
+      "year": 2015,
+      "opinionId": "2015_577_13_majority_kennedy_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "dissent",
+      "author": "thomas",
+      "caseId": "2015_577_13",
+      "year": 2015,
+      "opinionId": "2015_577_13_dissent_thomas_2 ",
+      "authoredId": "2 "
+    },
+    {
+      "opinion": "majority",
+      "author": "thomas",
+      "caseId": "2015_577_14",
+      "year": 2015,
+      "opinionId": "2015_577_14_majority_thomas_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "majority",
+      "author": "alito",
+      "caseId": "2015_577_15",
+      "year": 2015,
+      "opinionId": "2015_577_15_majority_alito_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "dissent",
+      "author": "scalia",
+      "caseId": "2015_577_16",
+      "year": 2015,
+      "opinionId": "2015_577_16_dissent_scalia_ ",
+      "authoredId": " "
+    },
+    {
+      "opinion": "majority",
+      "author": "kagan",
+      "caseId": "2015_577_16",
+      "year": 2015,
+      "opinionId": "2015_577_16_majority_kagan_ ",
+      "authoredId": " "
+    }
+  ]
+}

@@ -1,28 +1,28 @@
 $(document).ready(function(){
 
-  // // 2015 data
-  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/538b22e7f28b21c682e6/raw/b7cc75a11e32bdd43bc35e9578e4f63d91bde632/wiki_2015.json";
-  // var caseYear = 2015;
+  // 2015 data
+  var wikiJson = "https://gist.githubusercontent.com/toryburgett/538b22e7f28b21c682e6/raw/e813558b5d7935a1e05b8992b869443143cef2a3/wiki_2015.json";
+  var caseYear = 2015;
 
   // // 2014 data
   // var wikiJson = "https://gist.githubusercontent.com/toryburgett/8f19b0635cb46cc62d6b/raw/09359187af36428b0fab53515477997c24fa5bbb/wiki_2014.json";
   // var caseYear = 2014;
 
   // // 2013 data
-  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/a3115cd77aa94f9cf615/raw/18ecc59d2f475b614ebd4a7bed0b19dc8588235c/wiki_2013.json";
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/a3115cd77aa94f9cf615/raw/172d7520099be02de88414a0bc2006292022ad95/wiki_2013.json";
   // var caseYear = 2013;
 
   // // 2012 data
-  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/e879d6e2e92901f34f20/raw/b97072f7e1b80db7c24993b6dd959f32f1a6b28e/wiki_2012.json";
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/e879d6e2e92901f34f20/raw/b1b6563899a2f862a1231e5c78323da7029cda54/wiki_2012.json";
   // var caseYear = 2012;
 
   // // 2011 data
-  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/dd23845a8a54b16fe086/raw/a46bae4c09cd0c3567041d41befc5f539e39589c/wiki_2011.json";
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/dd23845a8a54b16fe086/raw/04b1880e90d5a241980d7ccb1092be98e0326ea3/wiki_2011.json";
   // var caseYear = 2011;
 
-  // 2010 data
-  var wikiJson = "https://gist.githubusercontent.com/toryburgett/c474efad024e5f84a393/raw/f47262f66ae295927a9729cd2c8b6ee39feb02b8/wiki_2010.json";
-  var caseYear = 2010;
+  // // 2010 data
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/c474efad024e5f84a393/raw/ca5bb723b09ae1cfb5a7359bb346add2e148bb46/wiki_2010.json";
+  // var caseYear = 2010;
 
 
   var navRows = 0;
