@@ -16,13 +16,13 @@ $(document).ready(function(){
   // var wikiJson = "https://gist.githubusercontent.com/toryburgett/e879d6e2e92901f34f20/raw/d517ed17ee2bc25056363dd6af4492161dd46764/wiki_2012.json";
   // var caseYear = 2012;
 
-  // 2011 data
-  var wikiJson = "https://gist.githubusercontent.com/toryburgett/dd23845a8a54b16fe086/raw/04b1880e90d5a241980d7ccb1092be98e0326ea3/wiki_2011.json";
-  var caseYear = 2011;
+  // // 2011 data
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/dd23845a8a54b16fe086/raw/04b1880e90d5a241980d7ccb1092be98e0326ea3/wiki_2011.json";
+  // var caseYear = 2011;
 
-  // // 2010 data
-  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/c474efad024e5f84a393/raw/ca5bb723b09ae1cfb5a7359bb346add2e148bb46/wiki_2010.json";
-  // var caseYear = 2010;
+  // 2010 data
+  var wikiJson = "https://gist.githubusercontent.com/toryburgett/c474efad024e5f84a393/raw/ca5bb723b09ae1cfb5a7359bb346add2e148bb46/wiki_2010.json";
+  var caseYear = 2010;
 
 
   var navRows = 0;
