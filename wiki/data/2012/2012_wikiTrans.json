@@ -11868,7 +11868,7 @@
             "minorityVote": 1,
             "partMajorityVote": 0,
             "attendance": 1,
-            "data": "|justice6-opinion1=joindissent  |justice6-sortcode=J4",
+            "data": "|justice6-opinion1=joindissent |justice6-sortcode=J4",
             "numOpinionsJoin": 1,
             "caseId": "2012_569_34",
             "year": 2012,
@@ -11877,19 +11877,19 @@
               "total": [
                 {
                   "opinion": "dissent",
-                  "author": "",
+                  "author": "kagan",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "inFull": [
                 {
                   "opinion": "dissent",
-                  "author": "",
+                  "author": "kagan",
                   "partJoin": 0,
                   "fullJoin": 1,
-                  "authorId": ""
+                  "authorId": " "
                 }
               ],
               "part": []

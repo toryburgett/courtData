@@ -13,7 +13,7 @@ $(document).ready(function(){
   // var caseYear = 2013;
 
   // 2012 data
-  var wikiJson = "https://gist.githubusercontent.com/toryburgett/e879d6e2e92901f34f20/raw/88f4566a48aa5e98c114e0836b8c6f842c31dd86/wiki_2012.json";
+  var wikiJson = "https://gist.githubusercontent.com/toryburgett/e879d6e2e92901f34f20/raw/d517ed17ee2bc25056363dd6af4492161dd46764/wiki_2012.json";
   var caseYear = 2012;
 
   // // 2011 data
@@ -6791,6 +6791,8 @@ $(document).ready(function(){
                 if((currentJusticeJoinOpinionFull.author === "")){
                   console.log("error");
                   console.log(currentJusticeJoinOpinionFull);
+                  console.log(currentCase);
+                  console.log(currentJustice);
                 }
                 // set variables for opinions
                 if((currentJusticeJoinOpinionFull.opinion === "majority")||(currentJusticeJoinOpinionFull.opinion === "concurrence")){
