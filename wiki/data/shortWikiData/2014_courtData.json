@@ -1,0 +1,4358 @@
+{
+  "roberts": {
+    "name": "John Roberts",
+    "title": "Chief Justice",
+    "seniority": 1,
+    "lastName": "Roberts",
+    "year": 0,
+    "authored": {
+      "majorityAuthored": 7,
+      "minorityAuthored": 5,
+      "concurrenceAuthored": 1,
+      "conDissAuthored": 1,
+      "decisionsAuthored": 14
+    },
+    "courtAgreeance": {
+      "withMajorityTotals": 58,
+      "withMinorityTotals": 16,
+      "opinionsJoinedTotal": 74
+    },
+    "joined": {
+      "withMajority": 50,
+      "partWithMajority": 1,
+      "withMinority": 11,
+      "partWithMinority": 1,
+      "withConcurrence": 0,
+      "partWithConcurrence": 0,
+      "withConDiss": 0,
+      "partWithConDiss": 1,
+      "opinionsJoinedFull": 61,
+      "opinionsJoinedPart": 3,
+      "opinionsJoinedTotalMathCheck": 64
+    },
+    "attendance": {
+      "casesVotedTotal": 74,
+      "casesNotVotedTotal": 0,
+      "casesTotalMathCheck": 74
+    },
+    "unanimousDec": {
+      "unanimousDecTotal": 8
+    },
+    "myOpinionJoiners": {
+      "scalia": {
+        "scaliaMajorityJoinedFullTotal": 5,
+        "scaliaMajorityJoinedPartTotal": 0,
+        "scaliaMajorityJoinedTotal": 0,
+        "scaliaMinorityJoinedFullTotal": 3,
+        "scaliaMinorityJoinedPartTotal": 0,
+        "scaliaMinorityJoinedTotal": 0,
+        "scaliaConcurrenceJoinedFullTotal": 0,
+        "scaliaConcurrenceJoinedPartTotal": 0,
+        "scaliaConcurrenceJoinedTotal": 0,
+        "scaliaConDissJoinedFullTotal": 0,
+        "scaliaConDissJoinedPartTotal": 0,
+        "scaliaConDissJoinedTotal": 0,
+        "scaliaJoinedFullTotal": 8,
+        "scaliaJoinedPartTotal": 0,
+        "scaliaJoinedTotal": 8
+      },
+      "kennedy": {
+        "kennedyMajorityJoinedFullTotal": 5,
+        "kennedyMajorityJoinedPartTotal": 0,
+        "kennedyMajorityJoinedTotal": 0,
+        "kennedyMinorityJoinedFullTotal": 0,
+        "kennedyMinorityJoinedPartTotal": 0,
+        "kennedyMinorityJoinedTotal": 0,
+        "kennedyConcurrenceJoinedFullTotal": 0,
+        "kennedyConcurrenceJoinedPartTotal": 0,
+        "kennedyConcurrenceJoinedTotal": 0,
+        "kennedyConDissJoinedFullTotal": 0,
+        "kennedyConDissJoinedPartTotal": 0,
+        "kennedyConDissJoinedTotal": 0,
+        "kennedyJoinedFullTotal": 5,
+        "kennedyJoinedPartTotal": 0,
+        "kennedyJoinedTotal": 5
+      },
+      "thomas": {
+        "thomasMajorityJoinedFullTotal": 4,
+        "thomasMajorityJoinedPartTotal": 0,
+        "thomasMajorityJoinedTotal": 0,
+        "thomasMinorityJoinedFullTotal": 2,
+        "thomasMinorityJoinedPartTotal": 2,
+        "thomasMinorityJoinedTotal": 0,
+        "thomasConcurrenceJoinedFullTotal": 0,
+        "thomasConcurrenceJoinedPartTotal": 0,
+        "thomasConcurrenceJoinedTotal": 0,
+        "thomasConDissJoinedFullTotal": 0,
+        "thomasConDissJoinedPartTotal": 0,
+        "thomasConDissJoinedTotal": 0,
+        "thomasJoinedFullTotal": 6,
+        "thomasJoinedPartTotal": 2,
+        "thomasJoinedTotal": 8
+      },
+      "ginsburg": {
+        "ginsburgMajorityJoinedFullTotal": 5,
+        "ginsburgMajorityJoinedPartTotal": 2,
+        "ginsburgMajorityJoinedTotal": 0,
+        "ginsburgMinorityJoinedFullTotal": 1,
+        "ginsburgMinorityJoinedPartTotal": 0,
+        "ginsburgMinorityJoinedTotal": 0,
+        "ginsburgConcurrenceJoinedFullTotal": 0,
+        "ginsburgConcurrenceJoinedPartTotal": 0,
+        "ginsburgConcurrenceJoinedTotal": 0,
+        "ginsburgConDissJoinedFullTotal": 0,
+        "ginsburgConDissJoinedPartTotal": 0,
+        "ginsburgConDissJoinedTotal": 0,
+        "ginsburgJoinedFullTotal": 6,
+        "ginsburgJoinedPartTotal": 2,
+        "ginsburgJoinedTotal": 8
+      },
+      "breyer": {
+        "breyerMajorityJoinedFullTotal": 6,
+        "breyerMajorityJoinedPartTotal": 1,
+        "breyerMajorityJoinedTotal": 0,
+        "breyerMinorityJoinedFullTotal": 0,
+        "breyerMinorityJoinedPartTotal": 0,
+        "breyerMinorityJoinedTotal": 0,
+        "breyerConcurrenceJoinedFullTotal": 0,
+        "breyerConcurrenceJoinedPartTotal": 0,
+        "breyerConcurrenceJoinedTotal": 0,
+        "breyerConDissJoinedFullTotal": 0,
+        "breyerConDissJoinedPartTotal": 0,
+        "breyerConDissJoinedTotal": 0,
+        "breyerJoinedFullTotal": 6,
+        "breyerJoinedPartTotal": 1,
+        "breyerJoinedTotal": 7
+      },
+      "alito": {
+        "alitoMajorityJoinedFullTotal": 4,
+        "alitoMajorityJoinedPartTotal": 0,
+        "alitoMajorityJoinedTotal": 0,
+        "alitoMinorityJoinedFullTotal": 2,
+        "alitoMinorityJoinedPartTotal": 0,
+        "alitoMinorityJoinedTotal": 0,
+        "alitoConcurrenceJoinedFullTotal": 0,
+        "alitoConcurrenceJoinedPartTotal": 0,
+        "alitoConcurrenceJoinedTotal": 0,
+        "alitoConDissJoinedFullTotal": 0,
+        "alitoConDissJoinedPartTotal": 0,
+        "alitoConDissJoinedTotal": 0,
+        "alitoJoinedFullTotal": 6,
+        "alitoJoinedPartTotal": 0,
+        "alitoJoinedTotal": 6
+      },
+      "sotomayor": {
+        "sotomayorMajorityJoinedFullTotal": 4,
+        "sotomayorMajorityJoinedPartTotal": 0,
+        "sotomayorMajorityJoinedTotal": 0,
+        "sotomayorMinorityJoinedFullTotal": 0,
+        "sotomayorMinorityJoinedPartTotal": 0,
+        "sotomayorMinorityJoinedTotal": 0,
+        "sotomayorConcurrenceJoinedFullTotal": 0,
+        "sotomayorConcurrenceJoinedPartTotal": 0,
+        "sotomayorConcurrenceJoinedTotal": 0,
+        "sotomayorConDissJoinedFullTotal": 0,
+        "sotomayorConDissJoinedPartTotal": 0,
+        "sotomayorConDissJoinedTotal": 0,
+        "sotomayorJoinedFullTotal": 4,
+        "sotomayorJoinedPartTotal": 0,
+        "sotomayorJoinedTotal": 4
+      },
+      "kagan": {
+        "kaganMajorityJoinedFullTotal": 6,
+        "kaganMajorityJoinedPartTotal": 1,
+        "kaganMajorityJoinedTotal": 0,
+        "kaganMinorityJoinedFullTotal": 0,
+        "kaganMinorityJoinedPartTotal": 0,
+        "kaganMinorityJoinedTotal": 0,
+        "kaganConcurrenceJoinedFullTotal": 0,
+        "kaganConcurrenceJoinedPartTotal": 0,
+        "kaganConcurrenceJoinedTotal": 0,
+        "kaganConDissJoinedFullTotal": 0,
+        "kaganConDissJoinedPartTotal": 0,
+        "kaganConDissJoinedTotal": 0,
+        "kaganJoinedFullTotal": 6,
+        "kaganJoinedPartTotal": 1,
+        "kaganJoinedTotal": 7
+      }
+    },
+    "justices": {
+      "scalia": {
+        "scaliaAuthor": {
+          "majority": {
+            "scaliaMajorityOpinionAuthoredJoinedFullTotal": 9,
+            "scaliaMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 9
+          },
+          "minority": {
+            "scaliaMinorityOpinionAuthoredJoinedFullTotal": 6,
+            "scaliaMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 6
+          },
+          "concurrence": {
+            "scaliaConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "scaliaConDissOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "scaliaOpinionAuthoredJoinedFullTotal": 15,
+            "scaliaOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaOpinionAuthoredJoinedTotal": 15
+          }
+        },
+        "scaliaSidedWith": {
+          "scaliaWithAndMajority": 49,
+          "scaliaWithAndMinority": 14,
+          "scaliaWithTotal": 63,
+          "scaliaNotWithAndMajority": 9,
+          "scaliaNotWithAndMinority": 2,
+          "scaliaNotWithTotal": 11,
+          "scaliaTotalMathCheck": 74
+        }
+      },
+      "kennedy": {
+        "kennedyAuthor": {
+          "majority": {
+            "kennedyMajorityOpinionAuthoredJoinedFullTotal": 2,
+            "kennedyMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 2
+          },
+          "minority": {
+            "kennedyMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "kennedyConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kennedyConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kennedyOpinionAuthoredJoinedFullTotal": 2,
+            "kennedyOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyOpinionAuthoredJoinedTotal": 2
+          }
+        },
+        "kennedySidedWith": {
+          "kennedyWithAndMajority": 50,
+          "kennedyWithAndMinority": 1,
+          "kennedyWithTotal": 51,
+          "kennedyNotWithAndMajority": 8,
+          "kennedyNotWithAndMinority": 15,
+          "kennedyNotWithTotal": 23,
+          "kennedyTotalMathCheck": 74
+        }
+      },
+      "thomas": {
+        "thomasAuthor": {
+          "majority": {
+            "thomasMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "thomasMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotal": 6
+          },
+          "minority": {
+            "thomasMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedPartTotal": 1,
+            "thomasMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "thomasConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "thomasConDissOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedPartTotal": 1,
+            "thomasConDissOpinionAuthoredJoinedTotal": 1
+          },
+          "totals": {
+            "thomasOpinionAuthoredJoinedFullTotal": 6,
+            "thomasOpinionAuthoredJoinedPartTotal": 2,
+            "thomasOpinionAuthoredJoinedTotal": 8
+          }
+        },
+        "thomasSidedWith": {
+          "thomasWithAndMajority": 41,
+          "thomasWithAndMinority": 13,
+          "thomasWithTotal": 54,
+          "thomasNotWithAndMajority": 17,
+          "thomasNotWithAndMinority": 3,
+          "thomasNotWithTotal": 20,
+          "thomasTotalMathCheck": 74
+        }
+      },
+      "ginsburg": {
+        "ginsburgAuthor": {
+          "majority": {
+            "ginsburgMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "ginsburgMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 6
+          },
+          "minority": {
+            "ginsburgMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "ginsburgConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "ginsburgConDissOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "ginsburgOpinionAuthoredJoinedFullTotal": 6,
+            "ginsburgOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotal": 6
+          }
+        },
+        "ginsburgSidedWith": {
+          "ginsburgWithAndMajority": 49,
+          "ginsburgWithAndMinority": 1,
+          "ginsburgWithTotal": 50,
+          "ginsburgNotWithAndMajority": 9,
+          "ginsburgNotWithAndMinority": 15,
+          "ginsburgNotWithTotal": 24,
+          "ginsburgTotalMathCheck": 74
+        }
+      },
+      "breyer": {
+        "breyerAuthor": {
+          "majority": {
+            "breyerMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "breyerMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "breyerMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "breyerConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "breyerConDissOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "breyerOpinionAuthoredJoinedFullTotal": 4,
+            "breyerOpinionAuthoredJoinedPartTotal": 0,
+            "breyerOpinionAuthoredJoinedTotal": 4
+          }
+        },
+        "breyerSidedWith": {
+          "breyerWithAndMajority": 51,
+          "breyerWithAndMinority": 0,
+          "breyerWithTotal": 51,
+          "breyerNotWithAndMajority": 6,
+          "breyerNotWithAndMinority": 15,
+          "breyerNotWithTotal": 21,
+          "breyerTotalMathCheck": 72
+        }
+      },
+      "alito": {
+        "alitoAuthor": {
+          "majority": {
+            "alitoMajorityOpinionAuthoredJoinedFullTotal": 8,
+            "alitoMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotal": 8
+          },
+          "minority": {
+            "alitoMinorityOpinionAuthoredJoinedFullTotal": 5,
+            "alitoMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotal": 5
+          },
+          "concurrence": {
+            "alitoConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "alitoConDissOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "alitoOpinionAuthoredJoinedFullTotal": 13,
+            "alitoOpinionAuthoredJoinedPartTotal": 0,
+            "alitoOpinionAuthoredJoinedTotal": 13
+          }
+        },
+        "alitoSidedWith": {
+          "alitoWithAndMajority": 48,
+          "alitoWithAndMinority": 12,
+          "alitoWithTotal": 60,
+          "alitoNotWithAndMajority": 10,
+          "alitoNotWithAndMinority": 4,
+          "alitoNotWithTotal": 14,
+          "alitoTotalMathCheck": 74
+        }
+      },
+      "sotomayor": {
+        "sotomayorAuthor": {
+          "majority": {
+            "sotomayorMajorityOpinionAuthoredJoinedFullTotal": 3,
+            "sotomayorMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 3
+          },
+          "minority": {
+            "sotomayorMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "sotomayorConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "sotomayorConDissOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "sotomayorOpinionAuthoredJoinedFullTotal": 3,
+            "sotomayorOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorOpinionAuthoredJoinedTotal": 3
+          }
+        },
+        "sotomayorSidedWith": {
+          "sotomayorWithAndMajority": 50,
+          "sotomayorWithAndMinority": 0,
+          "sotomayorWithTotal": 50,
+          "sotomayorNotWithAndMajority": 8,
+          "sotomayorNotWithAndMinority": 16,
+          "sotomayorNotWithTotal": 24,
+          "sotomayorTotalMathCheck": 74
+        }
+      },
+      "kagan": {
+        "kaganAuthor": {
+          "majority": {
+            "kaganMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "kaganMajorityOpinionAuthoredJoinedPartTotal": 1,
+            "kaganMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "kaganMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "kaganConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kaganConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kaganOpinionAuthoredJoinedFullTotal": 4,
+            "kaganOpinionAuthoredJoinedPartTotal": 1,
+            "kaganOpinionAuthoredJoinedTotal": 5
+          }
+        },
+        "kaganSidedWith": {
+          "kaganWithAndMajority": 47,
+          "kaganWithAndMinority": 0,
+          "kaganWithTotal": 47,
+          "kaganNotWithAndMajority": 11,
+          "kaganNotWithAndMinority": 16,
+          "kaganNotWithTotal": 27,
+          "kaganTotalMathCheck": 74
+        }
+      }
+    }
+  },
+  "scalia": {
+    "name": "Antonin Scalia",
+    "title": "Associate Justice",
+    "seniority": 2,
+    "lastName": "Scalia",
+    "year": 0,
+    "authored": {
+      "majorityAuthored": 9,
+      "minorityAuthored": 13,
+      "concurrenceAuthored": 4,
+      "conDissAuthored": 2,
+      "decisionsAuthored": 28
+    },
+    "courtAgreeance": {
+      "withMajorityTotals": 51,
+      "withMinorityTotals": 23,
+      "opinionsJoinedTotal": 74
+    },
+    "joined": {
+      "withMajority": 39,
+      "partWithMajority": 0,
+      "withMinority": 13,
+      "partWithMinority": 2,
+      "withConcurrence": 1,
+      "partWithConcurrence": 0,
+      "withConDiss": 1,
+      "partWithConDiss": 0,
+      "opinionsJoinedFull": 54,
+      "opinionsJoinedPart": 2,
+      "opinionsJoinedTotalMathCheck": 56
+    },
+    "attendance": {
+      "casesVotedTotal": 74,
+      "casesNotVotedTotal": 0,
+      "casesTotalMathCheck": 74
+    },
+    "unanimousDec": {
+      "unanimousDecTotal": 8
+    },
+    "myOpinionJoiners": {
+      "roberts": {
+        "robertsMajorityJoinedFullTotal": 9,
+        "robertsMajorityJoinedPartTotal": 0,
+        "robertsMajorityJoinedTotal": 0,
+        "robertsMinorityJoinedFullTotal": 6,
+        "robertsMinorityJoinedPartTotal": 0,
+        "robertsMinorityJoinedTotal": 0,
+        "robertsConcurrenceJoinedFullTotal": 0,
+        "robertsConcurrenceJoinedPartTotal": 0,
+        "robertsConcurrenceJoinedTotal": 0,
+        "robertsConDissJoinedFullTotal": 0,
+        "robertsConDissJoinedPartTotal": 0,
+        "robertsConDissJoinedTotal": 0,
+        "robertsJoinedFullTotal": 15,
+        "robertsJoinedPartTotal": 0,
+        "robertsJoinedTotal": 15
+      },
+      "kennedy": {
+        "kennedyMajorityJoinedFullTotal": 5,
+        "kennedyMajorityJoinedPartTotal": 0,
+        "kennedyMajorityJoinedTotal": 0,
+        "kennedyMinorityJoinedFullTotal": 2,
+        "kennedyMinorityJoinedPartTotal": 0,
+        "kennedyMinorityJoinedTotal": 0,
+        "kennedyConcurrenceJoinedFullTotal": 0,
+        "kennedyConcurrenceJoinedPartTotal": 0,
+        "kennedyConcurrenceJoinedTotal": 0,
+        "kennedyConDissJoinedFullTotal": 0,
+        "kennedyConDissJoinedPartTotal": 0,
+        "kennedyConDissJoinedTotal": 0,
+        "kennedyJoinedFullTotal": 7,
+        "kennedyJoinedPartTotal": 0,
+        "kennedyJoinedTotal": 7
+      },
+      "thomas": {
+        "thomasMajorityJoinedFullTotal": 5,
+        "thomasMajorityJoinedPartTotal": 0,
+        "thomasMajorityJoinedTotal": 0,
+        "thomasMinorityJoinedFullTotal": 8,
+        "thomasMinorityJoinedPartTotal": 2,
+        "thomasMinorityJoinedTotal": 0,
+        "thomasConcurrenceJoinedFullTotal": 1,
+        "thomasConcurrenceJoinedPartTotal": 0,
+        "thomasConcurrenceJoinedTotal": 0,
+        "thomasConDissJoinedFullTotal": 0,
+        "thomasConDissJoinedPartTotal": 0,
+        "thomasConDissJoinedTotal": 0,
+        "thomasJoinedFullTotal": 14,
+        "thomasJoinedPartTotal": 2,
+        "thomasJoinedTotal": 16
+      },
+      "ginsburg": {
+        "ginsburgMajorityJoinedFullTotal": 5,
+        "ginsburgMajorityJoinedPartTotal": 0,
+        "ginsburgMajorityJoinedTotal": 0,
+        "ginsburgMinorityJoinedFullTotal": 0,
+        "ginsburgMinorityJoinedPartTotal": 0,
+        "ginsburgMinorityJoinedTotal": 0,
+        "ginsburgConcurrenceJoinedFullTotal": 1,
+        "ginsburgConcurrenceJoinedPartTotal": 0,
+        "ginsburgConcurrenceJoinedTotal": 0,
+        "ginsburgConDissJoinedFullTotal": 0,
+        "ginsburgConDissJoinedPartTotal": 0,
+        "ginsburgConDissJoinedTotal": 0,
+        "ginsburgJoinedFullTotal": 6,
+        "ginsburgJoinedPartTotal": 0,
+        "ginsburgJoinedTotal": 6
+      },
+      "breyer": {
+        "breyerMajorityJoinedFullTotal": 6,
+        "breyerMajorityJoinedPartTotal": 1,
+        "breyerMajorityJoinedTotal": 0,
+        "breyerMinorityJoinedFullTotal": 0,
+        "breyerMinorityJoinedPartTotal": 0,
+        "breyerMinorityJoinedTotal": 0,
+        "breyerConcurrenceJoinedFullTotal": 0,
+        "breyerConcurrenceJoinedPartTotal": 0,
+        "breyerConcurrenceJoinedTotal": 0,
+        "breyerConDissJoinedFullTotal": 0,
+        "breyerConDissJoinedPartTotal": 0,
+        "breyerConDissJoinedTotal": 0,
+        "breyerJoinedFullTotal": 6,
+        "breyerJoinedPartTotal": 1,
+        "breyerJoinedTotal": 7
+      },
+      "alito": {
+        "alitoMajorityJoinedFullTotal": 5,
+        "alitoMajorityJoinedPartTotal": 0,
+        "alitoMajorityJoinedTotal": 0,
+        "alitoMinorityJoinedFullTotal": 3,
+        "alitoMinorityJoinedPartTotal": 0,
+        "alitoMinorityJoinedTotal": 0,
+        "alitoConcurrenceJoinedFullTotal": 0,
+        "alitoConcurrenceJoinedPartTotal": 0,
+        "alitoConcurrenceJoinedTotal": 0,
+        "alitoConDissJoinedFullTotal": 0,
+        "alitoConDissJoinedPartTotal": 0,
+        "alitoConDissJoinedTotal": 0,
+        "alitoJoinedFullTotal": 8,
+        "alitoJoinedPartTotal": 0,
+        "alitoJoinedTotal": 8
+      },
+      "sotomayor": {
+        "sotomayorMajorityJoinedFullTotal": 6,
+        "sotomayorMajorityJoinedPartTotal": 0,
+        "sotomayorMajorityJoinedTotal": 0,
+        "sotomayorMinorityJoinedFullTotal": 0,
+        "sotomayorMinorityJoinedPartTotal": 0,
+        "sotomayorMinorityJoinedTotal": 0,
+        "sotomayorConcurrenceJoinedFullTotal": 0,
+        "sotomayorConcurrenceJoinedPartTotal": 0,
+        "sotomayorConcurrenceJoinedTotal": 0,
+        "sotomayorConDissJoinedFullTotal": 0,
+        "sotomayorConDissJoinedPartTotal": 0,
+        "sotomayorConDissJoinedTotal": 0,
+        "sotomayorJoinedFullTotal": 6,
+        "sotomayorJoinedPartTotal": 0,
+        "sotomayorJoinedTotal": 6
+      },
+      "kagan": {
+        "kaganMajorityJoinedFullTotal": 6,
+        "kaganMajorityJoinedPartTotal": 0,
+        "kaganMajorityJoinedTotal": 0,
+        "kaganMinorityJoinedFullTotal": 1,
+        "kaganMinorityJoinedPartTotal": 0,
+        "kaganMinorityJoinedTotal": 0,
+        "kaganConcurrenceJoinedFullTotal": 0,
+        "kaganConcurrenceJoinedPartTotal": 0,
+        "kaganConcurrenceJoinedTotal": 0,
+        "kaganConDissJoinedFullTotal": 1,
+        "kaganConDissJoinedPartTotal": 0,
+        "kaganConDissJoinedTotal": 0,
+        "kaganJoinedFullTotal": 8,
+        "kaganJoinedPartTotal": 0,
+        "kaganJoinedTotal": 8
+      }
+    },
+    "justices": {
+      "roberts": {
+        "robertsAuthor": {
+          "majority": {
+            "robertsMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "robertsMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "robertsMinorityOpinionAuthoredJoinedFullTotal": 3,
+            "robertsMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotal": 3
+          },
+          "concurrence": {
+            "robertsConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "robertsConDissOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "robertsOpinionAuthoredJoinedFullTotal": 8,
+            "robertsOpinionAuthoredJoinedPartTotal": 0,
+            "robertsOpinionAuthoredJoinedTotal": 8
+          }
+        },
+        "robertsSidedWith": {
+          "robertsWithAndMajority": 49,
+          "robertsWithAndMinority": 14,
+          "robertsWithTotal": 63,
+          "robertsNotWithAndMajority": 2,
+          "robertsNotWithAndMinority": 9,
+          "robertsNotWithTotal": 11,
+          "robertsTotalMathCheck": 74
+        }
+      },
+      "kennedy": {
+        "kennedyAuthor": {
+          "majority": {
+            "kennedyMajorityOpinionAuthoredJoinedFullTotal": 1,
+            "kennedyMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 1
+          },
+          "minority": {
+            "kennedyMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "kennedyConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kennedyConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kennedyOpinionAuthoredJoinedFullTotal": 1,
+            "kennedyOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyOpinionAuthoredJoinedTotal": 1
+          }
+        },
+        "kennedySidedWith": {
+          "kennedyWithAndMajority": 47,
+          "kennedyWithAndMinority": 5,
+          "kennedyWithTotal": 52,
+          "kennedyNotWithAndMajority": 4,
+          "kennedyNotWithAndMinority": 18,
+          "kennedyNotWithTotal": 22,
+          "kennedyTotalMathCheck": 74
+        }
+      },
+      "thomas": {
+        "thomasAuthor": {
+          "majority": {
+            "thomasMajorityOpinionAuthoredJoinedFullTotal": 7,
+            "thomasMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "thomasMinorityOpinionAuthoredJoinedFullTotal": 3,
+            "thomasMinorityOpinionAuthoredJoinedPartTotal": 2,
+            "thomasMinorityOpinionAuthoredJoinedTotal": 5
+          },
+          "concurrence": {
+            "thomasConcurrenceOpinionAuthoredJoinedFullTotal": 1,
+            "thomasConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 1
+          },
+          "conDiss": {
+            "thomasConDissOpinionAuthoredJoinedFullTotal": 1,
+            "thomasConDissOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotal": 1
+          },
+          "totals": {
+            "thomasOpinionAuthoredJoinedFullTotal": 12,
+            "thomasOpinionAuthoredJoinedPartTotal": 2,
+            "thomasOpinionAuthoredJoinedTotal": 14
+          }
+        },
+        "thomasSidedWith": {
+          "thomasWithAndMajority": 40,
+          "thomasWithAndMinority": 19,
+          "thomasWithTotal": 59,
+          "thomasNotWithAndMajority": 11,
+          "thomasNotWithAndMinority": 4,
+          "thomasNotWithTotal": 15,
+          "thomasTotalMathCheck": 74
+        }
+      },
+      "ginsburg": {
+        "ginsburgAuthor": {
+          "majority": {
+            "ginsburgMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "ginsburgMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "ginsburgMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "ginsburgMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "ginsburgConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "ginsburgConDissOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "ginsburgOpinionAuthoredJoinedFullTotal": 5,
+            "ginsburgOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotal": 5
+          }
+        },
+        "ginsburgSidedWith": {
+          "ginsburgWithAndMajority": 42,
+          "ginsburgWithAndMinority": 1,
+          "ginsburgWithTotal": 43,
+          "ginsburgNotWithAndMajority": 9,
+          "ginsburgNotWithAndMinority": 22,
+          "ginsburgNotWithTotal": 31,
+          "ginsburgTotalMathCheck": 74
+        }
+      },
+      "breyer": {
+        "breyerAuthor": {
+          "majority": {
+            "breyerMajorityOpinionAuthoredJoinedFullTotal": 3,
+            "breyerMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotal": 3
+          },
+          "minority": {
+            "breyerMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "breyerConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "breyerConDissOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "breyerOpinionAuthoredJoinedFullTotal": 3,
+            "breyerOpinionAuthoredJoinedPartTotal": 0,
+            "breyerOpinionAuthoredJoinedTotal": 3
+          }
+        },
+        "breyerSidedWith": {
+          "breyerWithAndMajority": 45,
+          "breyerWithAndMinority": 0,
+          "breyerWithTotal": 45,
+          "breyerNotWithAndMajority": 6,
+          "breyerNotWithAndMinority": 21,
+          "breyerNotWithTotal": 27,
+          "breyerTotalMathCheck": 72
+        }
+      },
+      "alito": {
+        "alitoAuthor": {
+          "majority": {
+            "alitoMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "alitoMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "alitoMinorityOpinionAuthoredJoinedFullTotal": 5,
+            "alitoMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotal": 5
+          },
+          "concurrence": {
+            "alitoConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "alitoConDissOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "alitoOpinionAuthoredJoinedFullTotal": 9,
+            "alitoOpinionAuthoredJoinedPartTotal": 0,
+            "alitoOpinionAuthoredJoinedTotal": 9
+          }
+        },
+        "alitoSidedWith": {
+          "alitoWithAndMajority": 43,
+          "alitoWithAndMinority": 14,
+          "alitoWithTotal": 57,
+          "alitoNotWithAndMajority": 8,
+          "alitoNotWithAndMinority": 9,
+          "alitoNotWithTotal": 17,
+          "alitoTotalMathCheck": 74
+        }
+      },
+      "sotomayor": {
+        "sotomayorAuthor": {
+          "majority": {
+            "sotomayorMajorityOpinionAuthoredJoinedFullTotal": 3,
+            "sotomayorMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 3
+          },
+          "minority": {
+            "sotomayorMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "sotomayorConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "sotomayorConDissOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "sotomayorOpinionAuthoredJoinedFullTotal": 3,
+            "sotomayorOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorOpinionAuthoredJoinedTotal": 3
+          }
+        },
+        "sotomayorSidedWith": {
+          "sotomayorWithAndMajority": 43,
+          "sotomayorWithAndMinority": 0,
+          "sotomayorWithTotal": 43,
+          "sotomayorNotWithAndMajority": 8,
+          "sotomayorNotWithAndMinority": 23,
+          "sotomayorNotWithTotal": 31,
+          "sotomayorTotalMathCheck": 74
+        }
+      },
+      "kagan": {
+        "kaganAuthor": {
+          "majority": {
+            "kaganMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "kaganMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "kaganMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "kaganMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "kaganConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kaganConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kaganOpinionAuthoredJoinedFullTotal": 5,
+            "kaganOpinionAuthoredJoinedPartTotal": 0,
+            "kaganOpinionAuthoredJoinedTotal": 5
+          }
+        },
+        "kaganSidedWith": {
+          "kaganWithAndMajority": 44,
+          "kaganWithAndMinority": 4,
+          "kaganWithTotal": 48,
+          "kaganNotWithAndMajority": 7,
+          "kaganNotWithAndMinority": 19,
+          "kaganNotWithTotal": 26,
+          "kaganTotalMathCheck": 74
+        }
+      }
+    }
+  },
+  "kennedy": {
+    "name": "Anthony Kennedy",
+    "title": "Associate Justice",
+    "seniority": 3,
+    "lastName": "Kennedy",
+    "year": 0,
+    "authored": {
+      "majorityAuthored": 6,
+      "minorityAuthored": 3,
+      "concurrenceAuthored": 4,
+      "conDissAuthored": 0,
+      "decisionsAuthored": 13
+    },
+    "courtAgreeance": {
+      "withMajorityTotals": 65,
+      "withMinorityTotals": 9,
+      "opinionsJoinedTotal": 74
+    },
+    "joined": {
+      "withMajority": 56,
+      "partWithMajority": 1,
+      "withMinority": 7,
+      "partWithMinority": 1,
+      "withConcurrence": 1,
+      "partWithConcurrence": 0,
+      "withConDiss": 0,
+      "partWithConDiss": 0,
+      "opinionsJoinedFull": 64,
+      "opinionsJoinedPart": 2,
+      "opinionsJoinedTotalMathCheck": 66
+    },
+    "attendance": {
+      "casesVotedTotal": 74,
+      "casesNotVotedTotal": 0,
+      "casesTotalMathCheck": 74
+    },
+    "unanimousDec": {
+      "unanimousDecTotal": 8
+    },
+    "myOpinionJoiners": {
+      "roberts": {
+        "robertsMajorityJoinedFullTotal": 2,
+        "robertsMajorityJoinedPartTotal": 0,
+        "robertsMajorityJoinedTotal": 0,
+        "robertsMinorityJoinedFullTotal": 0,
+        "robertsMinorityJoinedPartTotal": 0,
+        "robertsMinorityJoinedTotal": 0,
+        "robertsConcurrenceJoinedFullTotal": 0,
+        "robertsConcurrenceJoinedPartTotal": 0,
+        "robertsConcurrenceJoinedTotal": 0,
+        "robertsConDissJoinedFullTotal": 0,
+        "robertsConDissJoinedPartTotal": 0,
+        "robertsConDissJoinedTotal": 0,
+        "robertsJoinedFullTotal": 2,
+        "robertsJoinedPartTotal": 0,
+        "robertsJoinedTotal": 2
+      },
+      "scalia": {
+        "scaliaMajorityJoinedFullTotal": 1,
+        "scaliaMajorityJoinedPartTotal": 0,
+        "scaliaMajorityJoinedTotal": 0,
+        "scaliaMinorityJoinedFullTotal": 0,
+        "scaliaMinorityJoinedPartTotal": 0,
+        "scaliaMinorityJoinedTotal": 0,
+        "scaliaConcurrenceJoinedFullTotal": 0,
+        "scaliaConcurrenceJoinedPartTotal": 0,
+        "scaliaConcurrenceJoinedTotal": 0,
+        "scaliaConDissJoinedFullTotal": 0,
+        "scaliaConDissJoinedPartTotal": 0,
+        "scaliaConDissJoinedTotal": 0,
+        "scaliaJoinedFullTotal": 1,
+        "scaliaJoinedPartTotal": 0,
+        "scaliaJoinedTotal": 1
+      },
+      "thomas": {
+        "thomasMajorityJoinedFullTotal": 0,
+        "thomasMajorityJoinedPartTotal": 1,
+        "thomasMajorityJoinedTotal": 0,
+        "thomasMinorityJoinedFullTotal": 0,
+        "thomasMinorityJoinedPartTotal": 0,
+        "thomasMinorityJoinedTotal": 0,
+        "thomasConcurrenceJoinedFullTotal": 0,
+        "thomasConcurrenceJoinedPartTotal": 0,
+        "thomasConcurrenceJoinedTotal": 0,
+        "thomasConDissJoinedFullTotal": 0,
+        "thomasConDissJoinedPartTotal": 0,
+        "thomasConDissJoinedTotal": 0,
+        "thomasJoinedFullTotal": 0,
+        "thomasJoinedPartTotal": 1,
+        "thomasJoinedTotal": 1
+      },
+      "ginsburg": {
+        "ginsburgMajorityJoinedFullTotal": 6,
+        "ginsburgMajorityJoinedPartTotal": 0,
+        "ginsburgMajorityJoinedTotal": 0,
+        "ginsburgMinorityJoinedFullTotal": 0,
+        "ginsburgMinorityJoinedPartTotal": 0,
+        "ginsburgMinorityJoinedTotal": 0,
+        "ginsburgConcurrenceJoinedFullTotal": 0,
+        "ginsburgConcurrenceJoinedPartTotal": 0,
+        "ginsburgConcurrenceJoinedTotal": 0,
+        "ginsburgConDissJoinedFullTotal": 0,
+        "ginsburgConDissJoinedPartTotal": 0,
+        "ginsburgConDissJoinedTotal": 0,
+        "ginsburgJoinedFullTotal": 6,
+        "ginsburgJoinedPartTotal": 0,
+        "ginsburgJoinedTotal": 6
+      },
+      "breyer": {
+        "breyerMajorityJoinedFullTotal": 5,
+        "breyerMajorityJoinedPartTotal": 0,
+        "breyerMajorityJoinedTotal": 0,
+        "breyerMinorityJoinedFullTotal": 0,
+        "breyerMinorityJoinedPartTotal": 0,
+        "breyerMinorityJoinedTotal": 0,
+        "breyerConcurrenceJoinedFullTotal": 0,
+        "breyerConcurrenceJoinedPartTotal": 0,
+        "breyerConcurrenceJoinedTotal": 0,
+        "breyerConDissJoinedFullTotal": 0,
+        "breyerConDissJoinedPartTotal": 0,
+        "breyerConDissJoinedTotal": 0,
+        "breyerJoinedFullTotal": 5,
+        "breyerJoinedPartTotal": 0,
+        "breyerJoinedTotal": 5
+      },
+      "alito": {
+        "alitoMajorityJoinedFullTotal": 2,
+        "alitoMajorityJoinedPartTotal": 0,
+        "alitoMajorityJoinedTotal": 0,
+        "alitoMinorityJoinedFullTotal": 0,
+        "alitoMinorityJoinedPartTotal": 0,
+        "alitoMinorityJoinedTotal": 0,
+        "alitoConcurrenceJoinedFullTotal": 1,
+        "alitoConcurrenceJoinedPartTotal": 0,
+        "alitoConcurrenceJoinedTotal": 0,
+        "alitoConDissJoinedFullTotal": 0,
+        "alitoConDissJoinedPartTotal": 0,
+        "alitoConDissJoinedTotal": 0,
+        "alitoJoinedFullTotal": 3,
+        "alitoJoinedPartTotal": 0,
+        "alitoJoinedTotal": 3
+      },
+      "sotomayor": {
+        "sotomayorMajorityJoinedFullTotal": 6,
+        "sotomayorMajorityJoinedPartTotal": 0,
+        "sotomayorMajorityJoinedTotal": 0,
+        "sotomayorMinorityJoinedFullTotal": 0,
+        "sotomayorMinorityJoinedPartTotal": 0,
+        "sotomayorMinorityJoinedTotal": 0,
+        "sotomayorConcurrenceJoinedFullTotal": 0,
+        "sotomayorConcurrenceJoinedPartTotal": 0,
+        "sotomayorConcurrenceJoinedTotal": 0,
+        "sotomayorConDissJoinedFullTotal": 0,
+        "sotomayorConDissJoinedPartTotal": 0,
+        "sotomayorConDissJoinedTotal": 0,
+        "sotomayorJoinedFullTotal": 6,
+        "sotomayorJoinedPartTotal": 0,
+        "sotomayorJoinedTotal": 6
+      },
+      "kagan": {
+        "kaganMajorityJoinedFullTotal": 6,
+        "kaganMajorityJoinedPartTotal": 0,
+        "kaganMajorityJoinedTotal": 0,
+        "kaganMinorityJoinedFullTotal": 0,
+        "kaganMinorityJoinedPartTotal": 0,
+        "kaganMinorityJoinedTotal": 0,
+        "kaganConcurrenceJoinedFullTotal": 0,
+        "kaganConcurrenceJoinedPartTotal": 0,
+        "kaganConcurrenceJoinedTotal": 0,
+        "kaganConDissJoinedFullTotal": 0,
+        "kaganConDissJoinedPartTotal": 0,
+        "kaganConDissJoinedTotal": 0,
+        "kaganJoinedFullTotal": 6,
+        "kaganJoinedPartTotal": 0,
+        "kaganJoinedTotal": 6
+      }
+    },
+    "justices": {
+      "roberts": {
+        "robertsAuthor": {
+          "majority": {
+            "robertsMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "robertsMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "robertsMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "robertsConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "robertsConDissOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "robertsOpinionAuthoredJoinedFullTotal": 5,
+            "robertsOpinionAuthoredJoinedPartTotal": 0,
+            "robertsOpinionAuthoredJoinedTotal": 5
+          }
+        },
+        "robertsSidedWith": {
+          "robertsWithAndMajority": 50,
+          "robertsWithAndMinority": 1,
+          "robertsWithTotal": 51,
+          "robertsNotWithAndMajority": 15,
+          "robertsNotWithAndMinority": 8,
+          "robertsNotWithTotal": 23,
+          "robertsTotalMathCheck": 74
+        }
+      },
+      "scalia": {
+        "scaliaAuthor": {
+          "majority": {
+            "scaliaMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "scaliaMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "scaliaMinorityOpinionAuthoredJoinedFullTotal": 2,
+            "scaliaMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 2
+          },
+          "concurrence": {
+            "scaliaConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "scaliaConDissOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "scaliaOpinionAuthoredJoinedFullTotal": 7,
+            "scaliaOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaOpinionAuthoredJoinedTotal": 7
+          }
+        },
+        "scaliaSidedWith": {
+          "scaliaWithAndMajority": 47,
+          "scaliaWithAndMinority": 5,
+          "scaliaWithTotal": 52,
+          "scaliaNotWithAndMajority": 18,
+          "scaliaNotWithAndMinority": 4,
+          "scaliaNotWithTotal": 22,
+          "scaliaTotalMathCheck": 74
+        }
+      },
+      "thomas": {
+        "thomasAuthor": {
+          "majority": {
+            "thomasMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "thomasMajorityOpinionAuthoredJoinedPartTotal": 1,
+            "thomasMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "thomasMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "thomasMinorityOpinionAuthoredJoinedPartTotal": 1,
+            "thomasMinorityOpinionAuthoredJoinedTotal": 2
+          },
+          "concurrence": {
+            "thomasConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "thomasConDissOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "thomasOpinionAuthoredJoinedFullTotal": 7,
+            "thomasOpinionAuthoredJoinedPartTotal": 2,
+            "thomasOpinionAuthoredJoinedTotal": 9
+          }
+        },
+        "thomasSidedWith": {
+          "thomasWithAndMajority": 41,
+          "thomasWithAndMinority": 6,
+          "thomasWithTotal": 47,
+          "thomasNotWithAndMajority": 24,
+          "thomasNotWithAndMinority": 3,
+          "thomasNotWithTotal": 27,
+          "thomasTotalMathCheck": 74
+        }
+      },
+      "ginsburg": {
+        "ginsburgAuthor": {
+          "majority": {
+            "ginsburgMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "ginsburgMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "ginsburgMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "ginsburgConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "ginsburgConDissOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "ginsburgOpinionAuthoredJoinedFullTotal": 4,
+            "ginsburgOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotal": 4
+          }
+        },
+        "ginsburgSidedWith": {
+          "ginsburgWithAndMajority": 56,
+          "ginsburgWithAndMinority": 1,
+          "ginsburgWithTotal": 57,
+          "ginsburgNotWithAndMajority": 9,
+          "ginsburgNotWithAndMinority": 8,
+          "ginsburgNotWithTotal": 17,
+          "ginsburgTotalMathCheck": 74
+        }
+      },
+      "breyer": {
+        "breyerAuthor": {
+          "majority": {
+            "breyerMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "breyerMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotal": 6
+          },
+          "minority": {
+            "breyerMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "breyerConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "breyerConDissOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "breyerOpinionAuthoredJoinedFullTotal": 6,
+            "breyerOpinionAuthoredJoinedPartTotal": 0,
+            "breyerOpinionAuthoredJoinedTotal": 6
+          }
+        },
+        "breyerSidedWith": {
+          "breyerWithAndMajority": 57,
+          "breyerWithAndMinority": 0,
+          "breyerWithTotal": 57,
+          "breyerNotWithAndMajority": 6,
+          "breyerNotWithAndMinority": 9,
+          "breyerNotWithTotal": 15,
+          "breyerTotalMathCheck": 72
+        }
+      },
+      "alito": {
+        "alitoAuthor": {
+          "majority": {
+            "alitoMajorityOpinionAuthoredJoinedFullTotal": 8,
+            "alitoMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotal": 8
+          },
+          "minority": {
+            "alitoMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "alitoMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "alitoConcurrenceOpinionAuthoredJoinedFullTotal": 1,
+            "alitoConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 1
+          },
+          "conDiss": {
+            "alitoConDissOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "alitoOpinionAuthoredJoinedFullTotal": 10,
+            "alitoOpinionAuthoredJoinedPartTotal": 0,
+            "alitoOpinionAuthoredJoinedTotal": 10
+          }
+        },
+        "alitoSidedWith": {
+          "alitoWithAndMajority": 47,
+          "alitoWithAndMinority": 4,
+          "alitoWithTotal": 51,
+          "alitoNotWithAndMajority": 18,
+          "alitoNotWithAndMinority": 5,
+          "alitoNotWithTotal": 23,
+          "alitoTotalMathCheck": 74
+        }
+      },
+      "sotomayor": {
+        "sotomayorAuthor": {
+          "majority": {
+            "sotomayorMajorityOpinionAuthoredJoinedFullTotal": 7,
+            "sotomayorMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "sotomayorMinorityOpinionAuthoredJoinedFullTotal": 2,
+            "sotomayorMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 2
+          },
+          "concurrence": {
+            "sotomayorConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "sotomayorConDissOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "sotomayorOpinionAuthoredJoinedFullTotal": 9,
+            "sotomayorOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorOpinionAuthoredJoinedTotal": 9
+          }
+        },
+        "sotomayorSidedWith": {
+          "sotomayorWithAndMajority": 59,
+          "sotomayorWithAndMinority": 2,
+          "sotomayorWithTotal": 61,
+          "sotomayorNotWithAndMajority": 6,
+          "sotomayorNotWithAndMinority": 7,
+          "sotomayorNotWithTotal": 13,
+          "sotomayorTotalMathCheck": 74
+        }
+      },
+      "kagan": {
+        "kaganAuthor": {
+          "majority": {
+            "kaganMajorityOpinionAuthoredJoinedFullTotal": 7,
+            "kaganMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "kaganMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "kaganMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "kaganConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kaganConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kaganOpinionAuthoredJoinedFullTotal": 8,
+            "kaganOpinionAuthoredJoinedPartTotal": 0,
+            "kaganOpinionAuthoredJoinedTotal": 8
+          }
+        },
+        "kaganSidedWith": {
+          "kaganWithAndMajority": 57,
+          "kaganWithAndMinority": 3,
+          "kaganWithTotal": 60,
+          "kaganNotWithAndMajority": 8,
+          "kaganNotWithAndMinority": 6,
+          "kaganNotWithTotal": 14,
+          "kaganTotalMathCheck": 74
+        }
+      }
+    }
+  },
+  "thomas": {
+    "name": "Clarence Thomas",
+    "title": "Associate Justice",
+    "seniority": 4,
+    "lastName": "Thomas",
+    "year": 0,
+    "authored": {
+      "majorityAuthored": 7,
+      "minorityAuthored": 17,
+      "concurrenceAuthored": 10,
+      "conDissAuthored": 3,
+      "decisionsAuthored": 37
+    },
+    "courtAgreeance": {
+      "withMajorityTotals": 44,
+      "withMinorityTotals": 30,
+      "opinionsJoinedTotal": 74
+    },
+    "joined": {
+      "withMajority": 30,
+      "partWithMajority": 2,
+      "withMinority": 18,
+      "partWithMinority": 4,
+      "withConcurrence": 1,
+      "partWithConcurrence": 0,
+      "withConDiss": 0,
+      "partWithConDiss": 0,
+      "opinionsJoinedFull": 49,
+      "opinionsJoinedPart": 6,
+      "opinionsJoinedTotalMathCheck": 55
+    },
+    "attendance": {
+      "casesVotedTotal": 74,
+      "casesNotVotedTotal": 0,
+      "casesTotalMathCheck": 74
+    },
+    "unanimousDec": {
+      "unanimousDecTotal": 7
+    },
+    "myOpinionJoiners": {
+      "roberts": {
+        "robertsMajorityJoinedFullTotal": 6,
+        "robertsMajorityJoinedPartTotal": 0,
+        "robertsMajorityJoinedTotal": 0,
+        "robertsMinorityJoinedFullTotal": 0,
+        "robertsMinorityJoinedPartTotal": 1,
+        "robertsMinorityJoinedTotal": 0,
+        "robertsConcurrenceJoinedFullTotal": 0,
+        "robertsConcurrenceJoinedPartTotal": 0,
+        "robertsConcurrenceJoinedTotal": 0,
+        "robertsConDissJoinedFullTotal": 0,
+        "robertsConDissJoinedPartTotal": 1,
+        "robertsConDissJoinedTotal": 0,
+        "robertsJoinedFullTotal": 6,
+        "robertsJoinedPartTotal": 2,
+        "robertsJoinedTotal": 8
+      },
+      "scalia": {
+        "scaliaMajorityJoinedFullTotal": 7,
+        "scaliaMajorityJoinedPartTotal": 0,
+        "scaliaMajorityJoinedTotal": 0,
+        "scaliaMinorityJoinedFullTotal": 3,
+        "scaliaMinorityJoinedPartTotal": 2,
+        "scaliaMinorityJoinedTotal": 0,
+        "scaliaConcurrenceJoinedFullTotal": 1,
+        "scaliaConcurrenceJoinedPartTotal": 0,
+        "scaliaConcurrenceJoinedTotal": 0,
+        "scaliaConDissJoinedFullTotal": 1,
+        "scaliaConDissJoinedPartTotal": 0,
+        "scaliaConDissJoinedTotal": 0,
+        "scaliaJoinedFullTotal": 12,
+        "scaliaJoinedPartTotal": 2,
+        "scaliaJoinedTotal": 14
+      },
+      "kennedy": {
+        "kennedyMajorityJoinedFullTotal": 6,
+        "kennedyMajorityJoinedPartTotal": 1,
+        "kennedyMajorityJoinedTotal": 0,
+        "kennedyMinorityJoinedFullTotal": 1,
+        "kennedyMinorityJoinedPartTotal": 1,
+        "kennedyMinorityJoinedTotal": 0,
+        "kennedyConcurrenceJoinedFullTotal": 0,
+        "kennedyConcurrenceJoinedPartTotal": 0,
+        "kennedyConcurrenceJoinedTotal": 0,
+        "kennedyConDissJoinedFullTotal": 0,
+        "kennedyConDissJoinedPartTotal": 0,
+        "kennedyConDissJoinedTotal": 0,
+        "kennedyJoinedFullTotal": 7,
+        "kennedyJoinedPartTotal": 2,
+        "kennedyJoinedTotal": 9
+      },
+      "ginsburg": {
+        "ginsburgMajorityJoinedFullTotal": 5,
+        "ginsburgMajorityJoinedPartTotal": 0,
+        "ginsburgMajorityJoinedTotal": 0,
+        "ginsburgMinorityJoinedFullTotal": 1,
+        "ginsburgMinorityJoinedPartTotal": 0,
+        "ginsburgMinorityJoinedTotal": 0,
+        "ginsburgConcurrenceJoinedFullTotal": 0,
+        "ginsburgConcurrenceJoinedPartTotal": 0,
+        "ginsburgConcurrenceJoinedTotal": 0,
+        "ginsburgConDissJoinedFullTotal": 0,
+        "ginsburgConDissJoinedPartTotal": 0,
+        "ginsburgConDissJoinedTotal": 0,
+        "ginsburgJoinedFullTotal": 6,
+        "ginsburgJoinedPartTotal": 0,
+        "ginsburgJoinedTotal": 6
+      },
+      "breyer": {
+        "breyerMajorityJoinedFullTotal": 4,
+        "breyerMajorityJoinedPartTotal": 1,
+        "breyerMajorityJoinedTotal": 0,
+        "breyerMinorityJoinedFullTotal": 0,
+        "breyerMinorityJoinedPartTotal": 0,
+        "breyerMinorityJoinedTotal": 0,
+        "breyerConcurrenceJoinedFullTotal": 0,
+        "breyerConcurrenceJoinedPartTotal": 0,
+        "breyerConcurrenceJoinedTotal": 0,
+        "breyerConDissJoinedFullTotal": 0,
+        "breyerConDissJoinedPartTotal": 0,
+        "breyerConDissJoinedTotal": 0,
+        "breyerJoinedFullTotal": 4,
+        "breyerJoinedPartTotal": 1,
+        "breyerJoinedTotal": 5
+      },
+      "alito": {
+        "alitoMajorityJoinedFullTotal": 7,
+        "alitoMajorityJoinedPartTotal": 0,
+        "alitoMajorityJoinedTotal": 0,
+        "alitoMinorityJoinedFullTotal": 4,
+        "alitoMinorityJoinedPartTotal": 1,
+        "alitoMinorityJoinedTotal": 0,
+        "alitoConcurrenceJoinedFullTotal": 0,
+        "alitoConcurrenceJoinedPartTotal": 0,
+        "alitoConcurrenceJoinedTotal": 0,
+        "alitoConDissJoinedFullTotal": 1,
+        "alitoConDissJoinedPartTotal": 0,
+        "alitoConDissJoinedTotal": 0,
+        "alitoJoinedFullTotal": 12,
+        "alitoJoinedPartTotal": 1,
+        "alitoJoinedTotal": 13
+      },
+      "sotomayor": {
+        "sotomayorMajorityJoinedFullTotal": 5,
+        "sotomayorMajorityJoinedPartTotal": 2,
+        "sotomayorMajorityJoinedTotal": 0,
+        "sotomayorMinorityJoinedFullTotal": 0,
+        "sotomayorMinorityJoinedPartTotal": 0,
+        "sotomayorMinorityJoinedTotal": 0,
+        "sotomayorConcurrenceJoinedFullTotal": 0,
+        "sotomayorConcurrenceJoinedPartTotal": 0,
+        "sotomayorConcurrenceJoinedTotal": 0,
+        "sotomayorConDissJoinedFullTotal": 0,
+        "sotomayorConDissJoinedPartTotal": 0,
+        "sotomayorConDissJoinedTotal": 0,
+        "sotomayorJoinedFullTotal": 5,
+        "sotomayorJoinedPartTotal": 2,
+        "sotomayorJoinedTotal": 7
+      },
+      "kagan": {
+        "kaganMajorityJoinedFullTotal": 5,
+        "kaganMajorityJoinedPartTotal": 0,
+        "kaganMajorityJoinedTotal": 0,
+        "kaganMinorityJoinedFullTotal": 0,
+        "kaganMinorityJoinedPartTotal": 0,
+        "kaganMinorityJoinedTotal": 0,
+        "kaganConcurrenceJoinedFullTotal": 0,
+        "kaganConcurrenceJoinedPartTotal": 0,
+        "kaganConcurrenceJoinedTotal": 0,
+        "kaganConDissJoinedFullTotal": 0,
+        "kaganConDissJoinedPartTotal": 0,
+        "kaganConDissJoinedTotal": 0,
+        "kaganJoinedFullTotal": 5,
+        "kaganJoinedPartTotal": 0,
+        "kaganJoinedTotal": 5
+      }
+    },
+    "justices": {
+      "roberts": {
+        "robertsAuthor": {
+          "majority": {
+            "robertsMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "robertsMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "robertsMinorityOpinionAuthoredJoinedFullTotal": 2,
+            "robertsMinorityOpinionAuthoredJoinedPartTotal": 2,
+            "robertsMinorityOpinionAuthoredJoinedTotal": 4
+          },
+          "concurrence": {
+            "robertsConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "robertsConDissOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "robertsOpinionAuthoredJoinedFullTotal": 6,
+            "robertsOpinionAuthoredJoinedPartTotal": 2,
+            "robertsOpinionAuthoredJoinedTotal": 8
+          }
+        },
+        "robertsSidedWith": {
+          "robertsWithAndMajority": 41,
+          "robertsWithAndMinority": 13,
+          "robertsWithTotal": 54,
+          "robertsNotWithAndMajority": 3,
+          "robertsNotWithAndMinority": 17,
+          "robertsNotWithTotal": 20,
+          "robertsTotalMathCheck": 74
+        }
+      },
+      "scalia": {
+        "scaliaAuthor": {
+          "majority": {
+            "scaliaMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "scaliaMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "scaliaMinorityOpinionAuthoredJoinedFullTotal": 8,
+            "scaliaMinorityOpinionAuthoredJoinedPartTotal": 2,
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 10
+          },
+          "concurrence": {
+            "scaliaConcurrenceOpinionAuthoredJoinedFullTotal": 1,
+            "scaliaConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 1
+          },
+          "conDiss": {
+            "scaliaConDissOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "scaliaOpinionAuthoredJoinedFullTotal": 14,
+            "scaliaOpinionAuthoredJoinedPartTotal": 2,
+            "scaliaOpinionAuthoredJoinedTotal": 16
+          }
+        },
+        "scaliaSidedWith": {
+          "scaliaWithAndMajority": 40,
+          "scaliaWithAndMinority": 19,
+          "scaliaWithTotal": 59,
+          "scaliaNotWithAndMajority": 4,
+          "scaliaNotWithAndMinority": 11,
+          "scaliaNotWithTotal": 15,
+          "scaliaTotalMathCheck": 74
+        }
+      },
+      "kennedy": {
+        "kennedyAuthor": {
+          "majority": {
+            "kennedyMajorityOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyMajorityOpinionAuthoredJoinedPartTotal": 1,
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 1
+          },
+          "minority": {
+            "kennedyMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "kennedyConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kennedyConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kennedyOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyOpinionAuthoredJoinedPartTotal": 1,
+            "kennedyOpinionAuthoredJoinedTotal": 1
+          }
+        },
+        "kennedySidedWith": {
+          "kennedyWithAndMajority": 41,
+          "kennedyWithAndMinority": 6,
+          "kennedyWithTotal": 47,
+          "kennedyNotWithAndMajority": 3,
+          "kennedyNotWithAndMinority": 24,
+          "kennedyNotWithTotal": 27,
+          "kennedyTotalMathCheck": 74
+        }
+      },
+      "ginsburg": {
+        "ginsburgAuthor": {
+          "majority": {
+            "ginsburgMajorityOpinionAuthoredJoinedFullTotal": 2,
+            "ginsburgMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 2
+          },
+          "minority": {
+            "ginsburgMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "ginsburgConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "ginsburgConDissOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "ginsburgOpinionAuthoredJoinedFullTotal": 2,
+            "ginsburgOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotal": 2
+          }
+        },
+        "ginsburgSidedWith": {
+          "ginsburgWithAndMajority": 37,
+          "ginsburgWithAndMinority": 3,
+          "ginsburgWithTotal": 40,
+          "ginsburgNotWithAndMajority": 7,
+          "ginsburgNotWithAndMinority": 27,
+          "ginsburgNotWithTotal": 34,
+          "ginsburgTotalMathCheck": 74
+        }
+      },
+      "breyer": {
+        "breyerAuthor": {
+          "majority": {
+            "breyerMajorityOpinionAuthoredJoinedFullTotal": 3,
+            "breyerMajorityOpinionAuthoredJoinedPartTotal": 1,
+            "breyerMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "breyerMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "breyerConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "breyerConDissOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "breyerOpinionAuthoredJoinedFullTotal": 3,
+            "breyerOpinionAuthoredJoinedPartTotal": 1,
+            "breyerOpinionAuthoredJoinedTotal": 4
+          }
+        },
+        "breyerSidedWith": {
+          "breyerWithAndMajority": 36,
+          "breyerWithAndMinority": 0,
+          "breyerWithTotal": 36,
+          "breyerNotWithAndMajority": 6,
+          "breyerNotWithAndMinority": 30,
+          "breyerNotWithTotal": 36,
+          "breyerTotalMathCheck": 72
+        }
+      },
+      "alito": {
+        "alitoAuthor": {
+          "majority": {
+            "alitoMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "alitoMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "alitoMinorityOpinionAuthoredJoinedFullTotal": 7,
+            "alitoMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotal": 7
+          },
+          "concurrence": {
+            "alitoConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "alitoConDissOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "alitoOpinionAuthoredJoinedFullTotal": 12,
+            "alitoOpinionAuthoredJoinedPartTotal": 0,
+            "alitoOpinionAuthoredJoinedTotal": 12
+          }
+        },
+        "alitoSidedWith": {
+          "alitoWithAndMajority": 42,
+          "alitoWithAndMinority": 20,
+          "alitoWithTotal": 62,
+          "alitoNotWithAndMajority": 2,
+          "alitoNotWithAndMinority": 10,
+          "alitoNotWithTotal": 12,
+          "alitoTotalMathCheck": 74
+        }
+      },
+      "sotomayor": {
+        "sotomayorAuthor": {
+          "majority": {
+            "sotomayorMajorityOpinionAuthoredJoinedFullTotal": 2,
+            "sotomayorMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 2
+          },
+          "minority": {
+            "sotomayorMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "sotomayorConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "sotomayorConDissOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "sotomayorOpinionAuthoredJoinedFullTotal": 2,
+            "sotomayorOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorOpinionAuthoredJoinedTotal": 2
+          }
+        },
+        "sotomayorSidedWith": {
+          "sotomayorWithAndMajority": 36,
+          "sotomayorWithAndMinority": 0,
+          "sotomayorWithTotal": 36,
+          "sotomayorNotWithAndMajority": 8,
+          "sotomayorNotWithAndMinority": 30,
+          "sotomayorNotWithTotal": 38,
+          "sotomayorTotalMathCheck": 74
+        }
+      },
+      "kagan": {
+        "kaganAuthor": {
+          "majority": {
+            "kaganMajorityOpinionAuthoredJoinedFullTotal": 2,
+            "kaganMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotal": 2
+          },
+          "minority": {
+            "kaganMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "kaganMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "kaganConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kaganConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kaganOpinionAuthoredJoinedFullTotal": 3,
+            "kaganOpinionAuthoredJoinedPartTotal": 0,
+            "kaganOpinionAuthoredJoinedTotal": 3
+          }
+        },
+        "kaganSidedWith": {
+          "kaganWithAndMajority": 36,
+          "kaganWithAndMinority": 3,
+          "kaganWithTotal": 39,
+          "kaganNotWithAndMajority": 8,
+          "kaganNotWithAndMinority": 27,
+          "kaganNotWithTotal": 35,
+          "kaganTotalMathCheck": 74
+        }
+      }
+    }
+  },
+  "ginsburg": {
+    "name": "Ruth Bader Ginsburg",
+    "title": "Associate Justice",
+    "seniority": 5,
+    "lastName": "Ginsburg",
+    "year": 0,
+    "authored": {
+      "majorityAuthored": 7,
+      "minorityAuthored": 1,
+      "concurrenceAuthored": 5,
+      "conDissAuthored": 0,
+      "decisionsAuthored": 13
+    },
+    "courtAgreeance": {
+      "withMajorityTotals": 64,
+      "withMinorityTotals": 10,
+      "opinionsJoinedTotal": 74
+    },
+    "joined": {
+      "withMajority": 54,
+      "partWithMajority": 2,
+      "withMinority": 9,
+      "partWithMinority": 0,
+      "withConcurrence": 3,
+      "partWithConcurrence": 0,
+      "withConDiss": 1,
+      "partWithConDiss": 0,
+      "opinionsJoinedFull": 67,
+      "opinionsJoinedPart": 2,
+      "opinionsJoinedTotalMathCheck": 69
+    },
+    "attendance": {
+      "casesVotedTotal": 74,
+      "casesNotVotedTotal": 0,
+      "casesTotalMathCheck": 74
+    },
+    "unanimousDec": {
+      "unanimousDecTotal": 8
+    },
+    "myOpinionJoiners": {
+      "roberts": {
+        "robertsMajorityJoinedFullTotal": 6,
+        "robertsMajorityJoinedPartTotal": 0,
+        "robertsMajorityJoinedTotal": 0,
+        "robertsMinorityJoinedFullTotal": 0,
+        "robertsMinorityJoinedPartTotal": 0,
+        "robertsMinorityJoinedTotal": 0,
+        "robertsConcurrenceJoinedFullTotal": 0,
+        "robertsConcurrenceJoinedPartTotal": 0,
+        "robertsConcurrenceJoinedTotal": 0,
+        "robertsConDissJoinedFullTotal": 0,
+        "robertsConDissJoinedPartTotal": 0,
+        "robertsConDissJoinedTotal": 0,
+        "robertsJoinedFullTotal": 6,
+        "robertsJoinedPartTotal": 0,
+        "robertsJoinedTotal": 6
+      },
+      "scalia": {
+        "scaliaMajorityJoinedFullTotal": 4,
+        "scaliaMajorityJoinedPartTotal": 0,
+        "scaliaMajorityJoinedTotal": 0,
+        "scaliaMinorityJoinedFullTotal": 1,
+        "scaliaMinorityJoinedPartTotal": 0,
+        "scaliaMinorityJoinedTotal": 0,
+        "scaliaConcurrenceJoinedFullTotal": 0,
+        "scaliaConcurrenceJoinedPartTotal": 0,
+        "scaliaConcurrenceJoinedTotal": 0,
+        "scaliaConDissJoinedFullTotal": 0,
+        "scaliaConDissJoinedPartTotal": 0,
+        "scaliaConDissJoinedTotal": 0,
+        "scaliaJoinedFullTotal": 5,
+        "scaliaJoinedPartTotal": 0,
+        "scaliaJoinedTotal": 5
+      },
+      "kennedy": {
+        "kennedyMajorityJoinedFullTotal": 4,
+        "kennedyMajorityJoinedPartTotal": 0,
+        "kennedyMajorityJoinedTotal": 0,
+        "kennedyMinorityJoinedFullTotal": 0,
+        "kennedyMinorityJoinedPartTotal": 0,
+        "kennedyMinorityJoinedTotal": 0,
+        "kennedyConcurrenceJoinedFullTotal": 0,
+        "kennedyConcurrenceJoinedPartTotal": 0,
+        "kennedyConcurrenceJoinedTotal": 0,
+        "kennedyConDissJoinedFullTotal": 0,
+        "kennedyConDissJoinedPartTotal": 0,
+        "kennedyConDissJoinedTotal": 0,
+        "kennedyJoinedFullTotal": 4,
+        "kennedyJoinedPartTotal": 0,
+        "kennedyJoinedTotal": 4
+      },
+      "thomas": {
+        "thomasMajorityJoinedFullTotal": 2,
+        "thomasMajorityJoinedPartTotal": 0,
+        "thomasMajorityJoinedTotal": 0,
+        "thomasMinorityJoinedFullTotal": 0,
+        "thomasMinorityJoinedPartTotal": 0,
+        "thomasMinorityJoinedTotal": 0,
+        "thomasConcurrenceJoinedFullTotal": 0,
+        "thomasConcurrenceJoinedPartTotal": 0,
+        "thomasConcurrenceJoinedTotal": 0,
+        "thomasConDissJoinedFullTotal": 0,
+        "thomasConDissJoinedPartTotal": 0,
+        "thomasConDissJoinedTotal": 0,
+        "thomasJoinedFullTotal": 2,
+        "thomasJoinedPartTotal": 0,
+        "thomasJoinedTotal": 2
+      },
+      "breyer": {
+        "breyerMajorityJoinedFullTotal": 7,
+        "breyerMajorityJoinedPartTotal": 0,
+        "breyerMajorityJoinedTotal": 0,
+        "breyerMinorityJoinedFullTotal": 0,
+        "breyerMinorityJoinedPartTotal": 0,
+        "breyerMinorityJoinedTotal": 0,
+        "breyerConcurrenceJoinedFullTotal": 2,
+        "breyerConcurrenceJoinedPartTotal": 1,
+        "breyerConcurrenceJoinedTotal": 0,
+        "breyerConDissJoinedFullTotal": 0,
+        "breyerConDissJoinedPartTotal": 0,
+        "breyerConDissJoinedTotal": 0,
+        "breyerJoinedFullTotal": 9,
+        "breyerJoinedPartTotal": 1,
+        "breyerJoinedTotal": 10
+      },
+      "alito": {
+        "alitoMajorityJoinedFullTotal": 3,
+        "alitoMajorityJoinedPartTotal": 0,
+        "alitoMajorityJoinedTotal": 0,
+        "alitoMinorityJoinedFullTotal": 0,
+        "alitoMinorityJoinedPartTotal": 0,
+        "alitoMinorityJoinedTotal": 0,
+        "alitoConcurrenceJoinedFullTotal": 0,
+        "alitoConcurrenceJoinedPartTotal": 0,
+        "alitoConcurrenceJoinedTotal": 0,
+        "alitoConDissJoinedFullTotal": 0,
+        "alitoConDissJoinedPartTotal": 0,
+        "alitoConDissJoinedTotal": 0,
+        "alitoJoinedFullTotal": 3,
+        "alitoJoinedPartTotal": 0,
+        "alitoJoinedTotal": 3
+      },
+      "sotomayor": {
+        "sotomayorMajorityJoinedFullTotal": 7,
+        "sotomayorMajorityJoinedPartTotal": 0,
+        "sotomayorMajorityJoinedTotal": 0,
+        "sotomayorMinorityJoinedFullTotal": 0,
+        "sotomayorMinorityJoinedPartTotal": 0,
+        "sotomayorMinorityJoinedTotal": 0,
+        "sotomayorConcurrenceJoinedFullTotal": 2,
+        "sotomayorConcurrenceJoinedPartTotal": 1,
+        "sotomayorConcurrenceJoinedTotal": 0,
+        "sotomayorConDissJoinedFullTotal": 0,
+        "sotomayorConDissJoinedPartTotal": 0,
+        "sotomayorConDissJoinedTotal": 0,
+        "sotomayorJoinedFullTotal": 9,
+        "sotomayorJoinedPartTotal": 1,
+        "sotomayorJoinedTotal": 10
+      },
+      "kagan": {
+        "kaganMajorityJoinedFullTotal": 5,
+        "kaganMajorityJoinedPartTotal": 0,
+        "kaganMajorityJoinedTotal": 0,
+        "kaganMinorityJoinedFullTotal": 1,
+        "kaganMinorityJoinedPartTotal": 0,
+        "kaganMinorityJoinedTotal": 0,
+        "kaganConcurrenceJoinedFullTotal": 1,
+        "kaganConcurrenceJoinedPartTotal": 0,
+        "kaganConcurrenceJoinedTotal": 0,
+        "kaganConDissJoinedFullTotal": 0,
+        "kaganConDissJoinedPartTotal": 0,
+        "kaganConDissJoinedTotal": 0,
+        "kaganJoinedFullTotal": 7,
+        "kaganJoinedPartTotal": 0,
+        "kaganJoinedTotal": 7
+      }
+    },
+    "justices": {
+      "roberts": {
+        "robertsAuthor": {
+          "majority": {
+            "robertsMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "robertsMajorityOpinionAuthoredJoinedPartTotal": 2,
+            "robertsMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "robertsMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "robertsMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "robertsConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "robertsConDissOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "robertsOpinionAuthoredJoinedFullTotal": 6,
+            "robertsOpinionAuthoredJoinedPartTotal": 2,
+            "robertsOpinionAuthoredJoinedTotal": 8
+          }
+        },
+        "robertsSidedWith": {
+          "robertsWithAndMajority": 49,
+          "robertsWithAndMinority": 1,
+          "robertsWithTotal": 50,
+          "robertsNotWithAndMajority": 15,
+          "robertsNotWithAndMinority": 9,
+          "robertsNotWithTotal": 24,
+          "robertsTotalMathCheck": 74
+        }
+      },
+      "scalia": {
+        "scaliaAuthor": {
+          "majority": {
+            "scaliaMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "scaliaMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "scaliaMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "scaliaConcurrenceOpinionAuthoredJoinedFullTotal": 1,
+            "scaliaConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 1
+          },
+          "conDiss": {
+            "scaliaConDissOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "scaliaOpinionAuthoredJoinedFullTotal": 6,
+            "scaliaOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaOpinionAuthoredJoinedTotal": 6
+          }
+        },
+        "scaliaSidedWith": {
+          "scaliaWithAndMajority": 42,
+          "scaliaWithAndMinority": 1,
+          "scaliaWithTotal": 43,
+          "scaliaNotWithAndMajority": 22,
+          "scaliaNotWithAndMinority": 9,
+          "scaliaNotWithTotal": 31,
+          "scaliaTotalMathCheck": 74
+        }
+      },
+      "kennedy": {
+        "kennedyAuthor": {
+          "majority": {
+            "kennedyMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "kennedyMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 6
+          },
+          "minority": {
+            "kennedyMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "kennedyConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kennedyConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kennedyOpinionAuthoredJoinedFullTotal": 6,
+            "kennedyOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyOpinionAuthoredJoinedTotal": 6
+          }
+        },
+        "kennedySidedWith": {
+          "kennedyWithAndMajority": 56,
+          "kennedyWithAndMinority": 1,
+          "kennedyWithTotal": 57,
+          "kennedyNotWithAndMajority": 8,
+          "kennedyNotWithAndMinority": 9,
+          "kennedyNotWithTotal": 17,
+          "kennedyTotalMathCheck": 74
+        }
+      },
+      "thomas": {
+        "thomasAuthor": {
+          "majority": {
+            "thomasMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "thomasMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "thomasMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "thomasMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "thomasConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "thomasConDissOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "thomasOpinionAuthoredJoinedFullTotal": 6,
+            "thomasOpinionAuthoredJoinedPartTotal": 0,
+            "thomasOpinionAuthoredJoinedTotal": 6
+          }
+        },
+        "thomasSidedWith": {
+          "thomasWithAndMajority": 37,
+          "thomasWithAndMinority": 3,
+          "thomasWithTotal": 40,
+          "thomasNotWithAndMajority": 27,
+          "thomasNotWithAndMinority": 7,
+          "thomasNotWithTotal": 34,
+          "thomasTotalMathCheck": 74
+        }
+      },
+      "breyer": {
+        "breyerAuthor": {
+          "majority": {
+            "breyerMajorityOpinionAuthoredJoinedFullTotal": 8,
+            "breyerMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotal": 8
+          },
+          "minority": {
+            "breyerMinorityOpinionAuthoredJoinedFullTotal": 3,
+            "breyerMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotal": 3
+          },
+          "concurrence": {
+            "breyerConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "breyerConDissOpinionAuthoredJoinedFullTotal": 1,
+            "breyerConDissOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotal": 1
+          },
+          "totals": {
+            "breyerOpinionAuthoredJoinedFullTotal": 12,
+            "breyerOpinionAuthoredJoinedPartTotal": 0,
+            "breyerOpinionAuthoredJoinedTotal": 12
+          }
+        },
+        "breyerSidedWith": {
+          "breyerWithAndMajority": 62,
+          "breyerWithAndMinority": 6,
+          "breyerWithTotal": 68,
+          "breyerNotWithAndMajority": 0,
+          "breyerNotWithAndMinority": 4,
+          "breyerNotWithTotal": 4,
+          "breyerTotalMathCheck": 72
+        }
+      },
+      "alito": {
+        "alitoAuthor": {
+          "majority": {
+            "alitoMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "alitoMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "alitoMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "alitoConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "alitoConDissOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "alitoOpinionAuthoredJoinedFullTotal": 4,
+            "alitoOpinionAuthoredJoinedPartTotal": 0,
+            "alitoOpinionAuthoredJoinedTotal": 4
+          }
+        },
+        "alitoSidedWith": {
+          "alitoWithAndMajority": 42,
+          "alitoWithAndMinority": 0,
+          "alitoWithTotal": 42,
+          "alitoNotWithAndMajority": 22,
+          "alitoNotWithAndMinority": 10,
+          "alitoNotWithTotal": 32,
+          "alitoTotalMathCheck": 74
+        }
+      },
+      "sotomayor": {
+        "sotomayorAuthor": {
+          "majority": {
+            "sotomayorMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "sotomayorMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 6
+          },
+          "minority": {
+            "sotomayorMinorityOpinionAuthoredJoinedFullTotal": 3,
+            "sotomayorMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 3
+          },
+          "concurrence": {
+            "sotomayorConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "sotomayorConDissOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "sotomayorOpinionAuthoredJoinedFullTotal": 9,
+            "sotomayorOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorOpinionAuthoredJoinedTotal": 9
+          }
+        },
+        "sotomayorSidedWith": {
+          "sotomayorWithAndMajority": 62,
+          "sotomayorWithAndMinority": 6,
+          "sotomayorWithTotal": 68,
+          "sotomayorNotWithAndMajority": 2,
+          "sotomayorNotWithAndMinority": 4,
+          "sotomayorNotWithTotal": 6,
+          "sotomayorTotalMathCheck": 74
+        }
+      },
+      "kagan": {
+        "kaganAuthor": {
+          "majority": {
+            "kaganMajorityOpinionAuthoredJoinedFullTotal": 7,
+            "kaganMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "kaganMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "kaganMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "kaganConcurrenceOpinionAuthoredJoinedFullTotal": 2,
+            "kaganConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 2
+          },
+          "conDiss": {
+            "kaganConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kaganOpinionAuthoredJoinedFullTotal": 10,
+            "kaganOpinionAuthoredJoinedPartTotal": 0,
+            "kaganOpinionAuthoredJoinedTotal": 10
+          }
+        },
+        "kaganSidedWith": {
+          "kaganWithAndMajority": 61,
+          "kaganWithAndMinority": 8,
+          "kaganWithTotal": 69,
+          "kaganNotWithAndMajority": 3,
+          "kaganNotWithAndMinority": 2,
+          "kaganNotWithTotal": 5,
+          "kaganTotalMathCheck": 74
+        }
+      }
+    }
+  },
+  "breyer": {
+    "name": "Stephen Breyer",
+    "title": "Associate Justice",
+    "seniority": 6,
+    "lastName": "Breyer",
+    "year": 0,
+    "authored": {
+      "majorityAuthored": 8,
+      "minorityAuthored": 3,
+      "concurrenceAuthored": 4,
+      "conDissAuthored": 1,
+      "decisionsAuthored": 16
+    },
+    "courtAgreeance": {
+      "withMajorityTotals": 66,
+      "withMinorityTotals": 6,
+      "opinionsJoinedTotal": 72
+    },
+    "joined": {
+      "withMajority": 55,
+      "partWithMajority": 3,
+      "withMinority": 3,
+      "partWithMinority": 0,
+      "withConcurrence": 3,
+      "partWithConcurrence": 1,
+      "withConDiss": 0,
+      "partWithConDiss": 0,
+      "opinionsJoinedFull": 61,
+      "opinionsJoinedPart": 4,
+      "opinionsJoinedTotalMathCheck": 65
+    },
+    "attendance": {
+      "casesVotedTotal": 72,
+      "casesNotVotedTotal": 2,
+      "casesTotalMathCheck": 74
+    },
+    "unanimousDec": {
+      "unanimousDecTotal": 8
+    },
+    "myOpinionJoiners": {
+      "roberts": {
+        "robertsMajorityJoinedFullTotal": 4,
+        "robertsMajorityJoinedPartTotal": 0,
+        "robertsMajorityJoinedTotal": 0,
+        "robertsMinorityJoinedFullTotal": 0,
+        "robertsMinorityJoinedPartTotal": 0,
+        "robertsMinorityJoinedTotal": 0,
+        "robertsConcurrenceJoinedFullTotal": 0,
+        "robertsConcurrenceJoinedPartTotal": 0,
+        "robertsConcurrenceJoinedTotal": 0,
+        "robertsConDissJoinedFullTotal": 0,
+        "robertsConDissJoinedPartTotal": 0,
+        "robertsConDissJoinedTotal": 0,
+        "robertsJoinedFullTotal": 4,
+        "robertsJoinedPartTotal": 0,
+        "robertsJoinedTotal": 4
+      },
+      "scalia": {
+        "scaliaMajorityJoinedFullTotal": 3,
+        "scaliaMajorityJoinedPartTotal": 0,
+        "scaliaMajorityJoinedTotal": 0,
+        "scaliaMinorityJoinedFullTotal": 0,
+        "scaliaMinorityJoinedPartTotal": 0,
+        "scaliaMinorityJoinedTotal": 0,
+        "scaliaConcurrenceJoinedFullTotal": 0,
+        "scaliaConcurrenceJoinedPartTotal": 0,
+        "scaliaConcurrenceJoinedTotal": 0,
+        "scaliaConDissJoinedFullTotal": 0,
+        "scaliaConDissJoinedPartTotal": 0,
+        "scaliaConDissJoinedTotal": 0,
+        "scaliaJoinedFullTotal": 3,
+        "scaliaJoinedPartTotal": 0,
+        "scaliaJoinedTotal": 3
+      },
+      "kennedy": {
+        "kennedyMajorityJoinedFullTotal": 6,
+        "kennedyMajorityJoinedPartTotal": 0,
+        "kennedyMajorityJoinedTotal": 0,
+        "kennedyMinorityJoinedFullTotal": 0,
+        "kennedyMinorityJoinedPartTotal": 0,
+        "kennedyMinorityJoinedTotal": 0,
+        "kennedyConcurrenceJoinedFullTotal": 0,
+        "kennedyConcurrenceJoinedPartTotal": 0,
+        "kennedyConcurrenceJoinedTotal": 0,
+        "kennedyConDissJoinedFullTotal": 0,
+        "kennedyConDissJoinedPartTotal": 0,
+        "kennedyConDissJoinedTotal": 0,
+        "kennedyJoinedFullTotal": 6,
+        "kennedyJoinedPartTotal": 0,
+        "kennedyJoinedTotal": 6
+      },
+      "thomas": {
+        "thomasMajorityJoinedFullTotal": 3,
+        "thomasMajorityJoinedPartTotal": 1,
+        "thomasMajorityJoinedTotal": 0,
+        "thomasMinorityJoinedFullTotal": 0,
+        "thomasMinorityJoinedPartTotal": 0,
+        "thomasMinorityJoinedTotal": 0,
+        "thomasConcurrenceJoinedFullTotal": 0,
+        "thomasConcurrenceJoinedPartTotal": 0,
+        "thomasConcurrenceJoinedTotal": 0,
+        "thomasConDissJoinedFullTotal": 0,
+        "thomasConDissJoinedPartTotal": 0,
+        "thomasConDissJoinedTotal": 0,
+        "thomasJoinedFullTotal": 3,
+        "thomasJoinedPartTotal": 1,
+        "thomasJoinedTotal": 4
+      },
+      "ginsburg": {
+        "ginsburgMajorityJoinedFullTotal": 8,
+        "ginsburgMajorityJoinedPartTotal": 0,
+        "ginsburgMajorityJoinedTotal": 0,
+        "ginsburgMinorityJoinedFullTotal": 3,
+        "ginsburgMinorityJoinedPartTotal": 0,
+        "ginsburgMinorityJoinedTotal": 0,
+        "ginsburgConcurrenceJoinedFullTotal": 0,
+        "ginsburgConcurrenceJoinedPartTotal": 0,
+        "ginsburgConcurrenceJoinedTotal": 0,
+        "ginsburgConDissJoinedFullTotal": 1,
+        "ginsburgConDissJoinedPartTotal": 0,
+        "ginsburgConDissJoinedTotal": 0,
+        "ginsburgJoinedFullTotal": 12,
+        "ginsburgJoinedPartTotal": 0,
+        "ginsburgJoinedTotal": 12
+      },
+      "alito": {
+        "alitoMajorityJoinedFullTotal": 3,
+        "alitoMajorityJoinedPartTotal": 0,
+        "alitoMajorityJoinedTotal": 0,
+        "alitoMinorityJoinedFullTotal": 0,
+        "alitoMinorityJoinedPartTotal": 0,
+        "alitoMinorityJoinedTotal": 0,
+        "alitoConcurrenceJoinedFullTotal": 0,
+        "alitoConcurrenceJoinedPartTotal": 0,
+        "alitoConcurrenceJoinedTotal": 0,
+        "alitoConDissJoinedFullTotal": 0,
+        "alitoConDissJoinedPartTotal": 0,
+        "alitoConDissJoinedTotal": 0,
+        "alitoJoinedFullTotal": 3,
+        "alitoJoinedPartTotal": 0,
+        "alitoJoinedTotal": 3
+      },
+      "sotomayor": {
+        "sotomayorMajorityJoinedFullTotal": 8,
+        "sotomayorMajorityJoinedPartTotal": 0,
+        "sotomayorMajorityJoinedTotal": 0,
+        "sotomayorMinorityJoinedFullTotal": 1,
+        "sotomayorMinorityJoinedPartTotal": 0,
+        "sotomayorMinorityJoinedTotal": 0,
+        "sotomayorConcurrenceJoinedFullTotal": 0,
+        "sotomayorConcurrenceJoinedPartTotal": 0,
+        "sotomayorConcurrenceJoinedTotal": 0,
+        "sotomayorConDissJoinedFullTotal": 0,
+        "sotomayorConDissJoinedPartTotal": 0,
+        "sotomayorConDissJoinedTotal": 0,
+        "sotomayorJoinedFullTotal": 9,
+        "sotomayorJoinedPartTotal": 0,
+        "sotomayorJoinedTotal": 9
+      },
+      "kagan": {
+        "kaganMajorityJoinedFullTotal": 8,
+        "kaganMajorityJoinedPartTotal": 0,
+        "kaganMajorityJoinedTotal": 0,
+        "kaganMinorityJoinedFullTotal": 2,
+        "kaganMinorityJoinedPartTotal": 0,
+        "kaganMinorityJoinedTotal": 0,
+        "kaganConcurrenceJoinedFullTotal": 0,
+        "kaganConcurrenceJoinedPartTotal": 0,
+        "kaganConcurrenceJoinedTotal": 0,
+        "kaganConDissJoinedFullTotal": 1,
+        "kaganConDissJoinedPartTotal": 0,
+        "kaganConDissJoinedTotal": 0,
+        "kaganJoinedFullTotal": 11,
+        "kaganJoinedPartTotal": 0,
+        "kaganJoinedTotal": 11
+      }
+    },
+    "justices": {
+      "roberts": {
+        "robertsAuthor": {
+          "majority": {
+            "robertsMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "robertsMajorityOpinionAuthoredJoinedPartTotal": 1,
+            "robertsMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "robertsMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "robertsConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "robertsConDissOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "robertsOpinionAuthoredJoinedFullTotal": 6,
+            "robertsOpinionAuthoredJoinedPartTotal": 1,
+            "robertsOpinionAuthoredJoinedTotal": 7
+          }
+        },
+        "robertsSidedWith": {
+          "robertsWithAndMajority": 51,
+          "robertsWithAndMinority": 0,
+          "robertsWithTotal": 51,
+          "robertsNotWithAndMajority": 15,
+          "robertsNotWithAndMinority": 6,
+          "robertsNotWithTotal": 21,
+          "robertsTotalMathCheck": 72
+        }
+      },
+      "scalia": {
+        "scaliaAuthor": {
+          "majority": {
+            "scaliaMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "scaliaMajorityOpinionAuthoredJoinedPartTotal": 1,
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "scaliaMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "scaliaConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "scaliaConDissOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "scaliaOpinionAuthoredJoinedFullTotal": 6,
+            "scaliaOpinionAuthoredJoinedPartTotal": 1,
+            "scaliaOpinionAuthoredJoinedTotal": 7
+          }
+        },
+        "scaliaSidedWith": {
+          "scaliaWithAndMajority": 45,
+          "scaliaWithAndMinority": 0,
+          "scaliaWithTotal": 45,
+          "scaliaNotWithAndMajority": 21,
+          "scaliaNotWithAndMinority": 6,
+          "scaliaNotWithTotal": 27,
+          "scaliaTotalMathCheck": 72
+        }
+      },
+      "kennedy": {
+        "kennedyAuthor": {
+          "majority": {
+            "kennedyMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "kennedyMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "kennedyMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "kennedyConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kennedyConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kennedyOpinionAuthoredJoinedFullTotal": 5,
+            "kennedyOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyOpinionAuthoredJoinedTotal": 5
+          }
+        },
+        "kennedySidedWith": {
+          "kennedyWithAndMajority": 57,
+          "kennedyWithAndMinority": 0,
+          "kennedyWithTotal": 57,
+          "kennedyNotWithAndMajority": 9,
+          "kennedyNotWithAndMinority": 6,
+          "kennedyNotWithTotal": 15,
+          "kennedyTotalMathCheck": 72
+        }
+      },
+      "thomas": {
+        "thomasAuthor": {
+          "majority": {
+            "thomasMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "thomasMajorityOpinionAuthoredJoinedPartTotal": 1,
+            "thomasMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "thomasMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "thomasConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "thomasConDissOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "thomasOpinionAuthoredJoinedFullTotal": 4,
+            "thomasOpinionAuthoredJoinedPartTotal": 1,
+            "thomasOpinionAuthoredJoinedTotal": 5
+          }
+        },
+        "thomasSidedWith": {
+          "thomasWithAndMajority": 36,
+          "thomasWithAndMinority": 0,
+          "thomasWithTotal": 36,
+          "thomasNotWithAndMajority": 30,
+          "thomasNotWithAndMinority": 6,
+          "thomasNotWithTotal": 36,
+          "thomasTotalMathCheck": 72
+        }
+      },
+      "ginsburg": {
+        "ginsburgAuthor": {
+          "majority": {
+            "ginsburgMajorityOpinionAuthoredJoinedFullTotal": 7,
+            "ginsburgMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "ginsburgMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "ginsburgConcurrenceOpinionAuthoredJoinedFullTotal": 2,
+            "ginsburgConcurrenceOpinionAuthoredJoinedPartTotal": 1,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 3
+          },
+          "conDiss": {
+            "ginsburgConDissOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "ginsburgOpinionAuthoredJoinedFullTotal": 9,
+            "ginsburgOpinionAuthoredJoinedPartTotal": 1,
+            "ginsburgOpinionAuthoredJoinedTotal": 10
+          }
+        },
+        "ginsburgSidedWith": {
+          "ginsburgWithAndMajority": 62,
+          "ginsburgWithAndMinority": 6,
+          "ginsburgWithTotal": 68,
+          "ginsburgNotWithAndMajority": 4,
+          "ginsburgNotWithAndMinority": 0,
+          "ginsburgNotWithTotal": 4,
+          "ginsburgTotalMathCheck": 72
+        }
+      },
+      "alito": {
+        "alitoAuthor": {
+          "majority": {
+            "alitoMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "alitoMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "alitoMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "alitoConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "alitoConDissOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "alitoOpinionAuthoredJoinedFullTotal": 5,
+            "alitoOpinionAuthoredJoinedPartTotal": 0,
+            "alitoOpinionAuthoredJoinedTotal": 5
+          }
+        },
+        "alitoSidedWith": {
+          "alitoWithAndMajority": 44,
+          "alitoWithAndMinority": 0,
+          "alitoWithTotal": 44,
+          "alitoNotWithAndMajority": 22,
+          "alitoNotWithAndMinority": 6,
+          "alitoNotWithTotal": 28,
+          "alitoTotalMathCheck": 72
+        }
+      },
+      "sotomayor": {
+        "sotomayorAuthor": {
+          "majority": {
+            "sotomayorMajorityOpinionAuthoredJoinedFullTotal": 7,
+            "sotomayorMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "sotomayorMinorityOpinionAuthoredJoinedFullTotal": 2,
+            "sotomayorMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 2
+          },
+          "concurrence": {
+            "sotomayorConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "sotomayorConDissOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "sotomayorOpinionAuthoredJoinedFullTotal": 9,
+            "sotomayorOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorOpinionAuthoredJoinedTotal": 9
+          }
+        },
+        "sotomayorSidedWith": {
+          "sotomayorWithAndMajority": 63,
+          "sotomayorWithAndMinority": 5,
+          "sotomayorWithTotal": 68,
+          "sotomayorNotWithAndMajority": 3,
+          "sotomayorNotWithAndMinority": 1,
+          "sotomayorNotWithTotal": 4,
+          "sotomayorTotalMathCheck": 72
+        }
+      },
+      "kagan": {
+        "kaganAuthor": {
+          "majority": {
+            "kaganMajorityOpinionAuthoredJoinedFullTotal": 7,
+            "kaganMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "kaganMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "kaganMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "kaganConcurrenceOpinionAuthoredJoinedFullTotal": 1,
+            "kaganConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 1
+          },
+          "conDiss": {
+            "kaganConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kaganOpinionAuthoredJoinedFullTotal": 9,
+            "kaganOpinionAuthoredJoinedPartTotal": 0,
+            "kaganOpinionAuthoredJoinedTotal": 9
+          }
+        },
+        "kaganSidedWith": {
+          "kaganWithAndMajority": 62,
+          "kaganWithAndMinority": 6,
+          "kaganWithTotal": 68,
+          "kaganNotWithAndMajority": 4,
+          "kaganNotWithAndMinority": 0,
+          "kaganNotWithTotal": 4,
+          "kaganTotalMathCheck": 72
+        }
+      }
+    }
+  },
+  "alito": {
+    "name": "Samuel Alito",
+    "title": "Associate Justice",
+    "seniority": 7,
+    "lastName": "Alito",
+    "year": 0,
+    "authored": {
+      "majorityAuthored": 8,
+      "minorityAuthored": 13,
+      "concurrenceAuthored": 8,
+      "conDissAuthored": 1,
+      "decisionsAuthored": 30
+    },
+    "courtAgreeance": {
+      "withMajorityTotals": 52,
+      "withMinorityTotals": 22,
+      "opinionsJoinedTotal": 74
+    },
+    "joined": {
+      "withMajority": 38,
+      "partWithMajority": 2,
+      "withMinority": 9,
+      "partWithMinority": 1,
+      "withConcurrence": 1,
+      "partWithConcurrence": 0,
+      "withConDiss": 1,
+      "partWithConDiss": 0,
+      "opinionsJoinedFull": 49,
+      "opinionsJoinedPart": 3,
+      "opinionsJoinedTotalMathCheck": 52
+    },
+    "attendance": {
+      "casesVotedTotal": 74,
+      "casesNotVotedTotal": 0,
+      "casesTotalMathCheck": 74
+    },
+    "unanimousDec": {
+      "unanimousDecTotal": 7
+    },
+    "myOpinionJoiners": {
+      "roberts": {
+        "robertsMajorityJoinedFullTotal": 8,
+        "robertsMajorityJoinedPartTotal": 0,
+        "robertsMajorityJoinedTotal": 0,
+        "robertsMinorityJoinedFullTotal": 5,
+        "robertsMinorityJoinedPartTotal": 0,
+        "robertsMinorityJoinedTotal": 0,
+        "robertsConcurrenceJoinedFullTotal": 0,
+        "robertsConcurrenceJoinedPartTotal": 0,
+        "robertsConcurrenceJoinedTotal": 0,
+        "robertsConDissJoinedFullTotal": 0,
+        "robertsConDissJoinedPartTotal": 0,
+        "robertsConDissJoinedTotal": 0,
+        "robertsJoinedFullTotal": 13,
+        "robertsJoinedPartTotal": 0,
+        "robertsJoinedTotal": 13
+      },
+      "scalia": {
+        "scaliaMajorityJoinedFullTotal": 4,
+        "scaliaMajorityJoinedPartTotal": 0,
+        "scaliaMajorityJoinedTotal": 0,
+        "scaliaMinorityJoinedFullTotal": 5,
+        "scaliaMinorityJoinedPartTotal": 0,
+        "scaliaMinorityJoinedTotal": 0,
+        "scaliaConcurrenceJoinedFullTotal": 0,
+        "scaliaConcurrenceJoinedPartTotal": 0,
+        "scaliaConcurrenceJoinedTotal": 0,
+        "scaliaConDissJoinedFullTotal": 0,
+        "scaliaConDissJoinedPartTotal": 0,
+        "scaliaConDissJoinedTotal": 0,
+        "scaliaJoinedFullTotal": 9,
+        "scaliaJoinedPartTotal": 0,
+        "scaliaJoinedTotal": 9
+      },
+      "kennedy": {
+        "kennedyMajorityJoinedFullTotal": 8,
+        "kennedyMajorityJoinedPartTotal": 0,
+        "kennedyMajorityJoinedTotal": 0,
+        "kennedyMinorityJoinedFullTotal": 1,
+        "kennedyMinorityJoinedPartTotal": 0,
+        "kennedyMinorityJoinedTotal": 0,
+        "kennedyConcurrenceJoinedFullTotal": 1,
+        "kennedyConcurrenceJoinedPartTotal": 0,
+        "kennedyConcurrenceJoinedTotal": 0,
+        "kennedyConDissJoinedFullTotal": 0,
+        "kennedyConDissJoinedPartTotal": 0,
+        "kennedyConDissJoinedTotal": 0,
+        "kennedyJoinedFullTotal": 10,
+        "kennedyJoinedPartTotal": 0,
+        "kennedyJoinedTotal": 10
+      },
+      "thomas": {
+        "thomasMajorityJoinedFullTotal": 5,
+        "thomasMajorityJoinedPartTotal": 0,
+        "thomasMajorityJoinedTotal": 0,
+        "thomasMinorityJoinedFullTotal": 7,
+        "thomasMinorityJoinedPartTotal": 0,
+        "thomasMinorityJoinedTotal": 0,
+        "thomasConcurrenceJoinedFullTotal": 0,
+        "thomasConcurrenceJoinedPartTotal": 0,
+        "thomasConcurrenceJoinedTotal": 0,
+        "thomasConDissJoinedFullTotal": 0,
+        "thomasConDissJoinedPartTotal": 0,
+        "thomasConDissJoinedTotal": 0,
+        "thomasJoinedFullTotal": 12,
+        "thomasJoinedPartTotal": 0,
+        "thomasJoinedTotal": 12
+      },
+      "ginsburg": {
+        "ginsburgMajorityJoinedFullTotal": 4,
+        "ginsburgMajorityJoinedPartTotal": 0,
+        "ginsburgMajorityJoinedTotal": 0,
+        "ginsburgMinorityJoinedFullTotal": 0,
+        "ginsburgMinorityJoinedPartTotal": 0,
+        "ginsburgMinorityJoinedTotal": 0,
+        "ginsburgConcurrenceJoinedFullTotal": 0,
+        "ginsburgConcurrenceJoinedPartTotal": 0,
+        "ginsburgConcurrenceJoinedTotal": 0,
+        "ginsburgConDissJoinedFullTotal": 0,
+        "ginsburgConDissJoinedPartTotal": 0,
+        "ginsburgConDissJoinedTotal": 0,
+        "ginsburgJoinedFullTotal": 4,
+        "ginsburgJoinedPartTotal": 0,
+        "ginsburgJoinedTotal": 4
+      },
+      "breyer": {
+        "breyerMajorityJoinedFullTotal": 5,
+        "breyerMajorityJoinedPartTotal": 0,
+        "breyerMajorityJoinedTotal": 0,
+        "breyerMinorityJoinedFullTotal": 0,
+        "breyerMinorityJoinedPartTotal": 0,
+        "breyerMinorityJoinedTotal": 0,
+        "breyerConcurrenceJoinedFullTotal": 0,
+        "breyerConcurrenceJoinedPartTotal": 0,
+        "breyerConcurrenceJoinedTotal": 0,
+        "breyerConDissJoinedFullTotal": 0,
+        "breyerConDissJoinedPartTotal": 0,
+        "breyerConDissJoinedTotal": 0,
+        "breyerJoinedFullTotal": 5,
+        "breyerJoinedPartTotal": 0,
+        "breyerJoinedTotal": 5
+      },
+      "sotomayor": {
+        "sotomayorMajorityJoinedFullTotal": 6,
+        "sotomayorMajorityJoinedPartTotal": 0,
+        "sotomayorMajorityJoinedTotal": 0,
+        "sotomayorMinorityJoinedFullTotal": 0,
+        "sotomayorMinorityJoinedPartTotal": 0,
+        "sotomayorMinorityJoinedTotal": 0,
+        "sotomayorConcurrenceJoinedFullTotal": 1,
+        "sotomayorConcurrenceJoinedPartTotal": 0,
+        "sotomayorConcurrenceJoinedTotal": 0,
+        "sotomayorConDissJoinedFullTotal": 0,
+        "sotomayorConDissJoinedPartTotal": 0,
+        "sotomayorConDissJoinedTotal": 0,
+        "sotomayorJoinedFullTotal": 7,
+        "sotomayorJoinedPartTotal": 0,
+        "sotomayorJoinedTotal": 7
+      },
+      "kagan": {
+        "kaganMajorityJoinedFullTotal": 4,
+        "kaganMajorityJoinedPartTotal": 0,
+        "kaganMajorityJoinedTotal": 0,
+        "kaganMinorityJoinedFullTotal": 0,
+        "kaganMinorityJoinedPartTotal": 0,
+        "kaganMinorityJoinedTotal": 0,
+        "kaganConcurrenceJoinedFullTotal": 0,
+        "kaganConcurrenceJoinedPartTotal": 0,
+        "kaganConcurrenceJoinedTotal": 0,
+        "kaganConDissJoinedFullTotal": 0,
+        "kaganConDissJoinedPartTotal": 0,
+        "kaganConDissJoinedTotal": 0,
+        "kaganJoinedFullTotal": 4,
+        "kaganJoinedPartTotal": 0,
+        "kaganJoinedTotal": 4
+      }
+    },
+    "justices": {
+      "roberts": {
+        "robertsAuthor": {
+          "majority": {
+            "robertsMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "robertsMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "robertsMinorityOpinionAuthoredJoinedFullTotal": 2,
+            "robertsMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotal": 2
+          },
+          "concurrence": {
+            "robertsConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "robertsConDissOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "robertsOpinionAuthoredJoinedFullTotal": 6,
+            "robertsOpinionAuthoredJoinedPartTotal": 0,
+            "robertsOpinionAuthoredJoinedTotal": 6
+          }
+        },
+        "robertsSidedWith": {
+          "robertsWithAndMajority": 48,
+          "robertsWithAndMinority": 12,
+          "robertsWithTotal": 60,
+          "robertsNotWithAndMajority": 4,
+          "robertsNotWithAndMinority": 10,
+          "robertsNotWithTotal": 14,
+          "robertsTotalMathCheck": 74
+        }
+      },
+      "scalia": {
+        "scaliaAuthor": {
+          "majority": {
+            "scaliaMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "scaliaMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "scaliaMinorityOpinionAuthoredJoinedFullTotal": 3,
+            "scaliaMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 3
+          },
+          "concurrence": {
+            "scaliaConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "scaliaConDissOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "scaliaOpinionAuthoredJoinedFullTotal": 8,
+            "scaliaOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaOpinionAuthoredJoinedTotal": 8
+          }
+        },
+        "scaliaSidedWith": {
+          "scaliaWithAndMajority": 43,
+          "scaliaWithAndMinority": 14,
+          "scaliaWithTotal": 57,
+          "scaliaNotWithAndMajority": 9,
+          "scaliaNotWithAndMinority": 8,
+          "scaliaNotWithTotal": 17,
+          "scaliaTotalMathCheck": 74
+        }
+      },
+      "kennedy": {
+        "kennedyAuthor": {
+          "majority": {
+            "kennedyMajorityOpinionAuthoredJoinedFullTotal": 2,
+            "kennedyMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 2
+          },
+          "minority": {
+            "kennedyMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "kennedyConcurrenceOpinionAuthoredJoinedFullTotal": 1,
+            "kennedyConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 1
+          },
+          "conDiss": {
+            "kennedyConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kennedyOpinionAuthoredJoinedFullTotal": 3,
+            "kennedyOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyOpinionAuthoredJoinedTotal": 3
+          }
+        },
+        "kennedySidedWith": {
+          "kennedyWithAndMajority": 47,
+          "kennedyWithAndMinority": 4,
+          "kennedyWithTotal": 51,
+          "kennedyNotWithAndMajority": 5,
+          "kennedyNotWithAndMinority": 18,
+          "kennedyNotWithTotal": 23,
+          "kennedyTotalMathCheck": 74
+        }
+      },
+      "thomas": {
+        "thomasAuthor": {
+          "majority": {
+            "thomasMajorityOpinionAuthoredJoinedFullTotal": 7,
+            "thomasMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "thomasMinorityOpinionAuthoredJoinedFullTotal": 4,
+            "thomasMinorityOpinionAuthoredJoinedPartTotal": 1,
+            "thomasMinorityOpinionAuthoredJoinedTotal": 5
+          },
+          "concurrence": {
+            "thomasConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "thomasConDissOpinionAuthoredJoinedFullTotal": 1,
+            "thomasConDissOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotal": 1
+          },
+          "totals": {
+            "thomasOpinionAuthoredJoinedFullTotal": 12,
+            "thomasOpinionAuthoredJoinedPartTotal": 1,
+            "thomasOpinionAuthoredJoinedTotal": 13
+          }
+        },
+        "thomasSidedWith": {
+          "thomasWithAndMajority": 42,
+          "thomasWithAndMinority": 20,
+          "thomasWithTotal": 62,
+          "thomasNotWithAndMajority": 10,
+          "thomasNotWithAndMinority": 2,
+          "thomasNotWithTotal": 12,
+          "thomasTotalMathCheck": 74
+        }
+      },
+      "ginsburg": {
+        "ginsburgAuthor": {
+          "majority": {
+            "ginsburgMajorityOpinionAuthoredJoinedFullTotal": 3,
+            "ginsburgMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 3
+          },
+          "minority": {
+            "ginsburgMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "ginsburgConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "ginsburgConDissOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "ginsburgOpinionAuthoredJoinedFullTotal": 3,
+            "ginsburgOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotal": 3
+          }
+        },
+        "ginsburgSidedWith": {
+          "ginsburgWithAndMajority": 42,
+          "ginsburgWithAndMinority": 0,
+          "ginsburgWithTotal": 42,
+          "ginsburgNotWithAndMajority": 10,
+          "ginsburgNotWithAndMinority": 22,
+          "ginsburgNotWithTotal": 32,
+          "ginsburgTotalMathCheck": 74
+        }
+      },
+      "breyer": {
+        "breyerAuthor": {
+          "majority": {
+            "breyerMajorityOpinionAuthoredJoinedFullTotal": 3,
+            "breyerMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotal": 3
+          },
+          "minority": {
+            "breyerMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "breyerConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "breyerConDissOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "breyerOpinionAuthoredJoinedFullTotal": 3,
+            "breyerOpinionAuthoredJoinedPartTotal": 0,
+            "breyerOpinionAuthoredJoinedTotal": 3
+          }
+        },
+        "breyerSidedWith": {
+          "breyerWithAndMajority": 44,
+          "breyerWithAndMinority": 0,
+          "breyerWithTotal": 44,
+          "breyerNotWithAndMajority": 6,
+          "breyerNotWithAndMinority": 22,
+          "breyerNotWithTotal": 28,
+          "breyerTotalMathCheck": 72
+        }
+      },
+      "sotomayor": {
+        "sotomayorAuthor": {
+          "majority": {
+            "sotomayorMajorityOpinionAuthoredJoinedFullTotal": 3,
+            "sotomayorMajorityOpinionAuthoredJoinedPartTotal": 2,
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "sotomayorMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "sotomayorConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "sotomayorConDissOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "sotomayorOpinionAuthoredJoinedFullTotal": 3,
+            "sotomayorOpinionAuthoredJoinedPartTotal": 2,
+            "sotomayorOpinionAuthoredJoinedTotal": 5
+          }
+        },
+        "sotomayorSidedWith": {
+          "sotomayorWithAndMajority": 44,
+          "sotomayorWithAndMinority": 0,
+          "sotomayorWithTotal": 44,
+          "sotomayorNotWithAndMajority": 8,
+          "sotomayorNotWithAndMinority": 22,
+          "sotomayorNotWithTotal": 30,
+          "sotomayorTotalMathCheck": 74
+        }
+      },
+      "kagan": {
+        "kaganAuthor": {
+          "majority": {
+            "kaganMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "kaganMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "kaganMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "kaganConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kaganConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kaganOpinionAuthoredJoinedFullTotal": 4,
+            "kaganOpinionAuthoredJoinedPartTotal": 0,
+            "kaganOpinionAuthoredJoinedTotal": 4
+          }
+        },
+        "kaganSidedWith": {
+          "kaganWithAndMajority": 41,
+          "kaganWithAndMinority": 0,
+          "kaganWithTotal": 41,
+          "kaganNotWithAndMajority": 11,
+          "kaganNotWithAndMinority": 22,
+          "kaganNotWithTotal": 33,
+          "kaganTotalMathCheck": 74
+        }
+      }
+    }
+  },
+  "sotomayor": {
+    "name": "Sonia Sotomayor",
+    "title": "Associate Justice",
+    "seniority": 8,
+    "lastName": "Sotomayor",
+    "year": 0,
+    "authored": {
+      "majorityAuthored": 7,
+      "minorityAuthored": 6,
+      "concurrenceAuthored": 3,
+      "conDissAuthored": 0,
+      "decisionsAuthored": 16
+    },
+    "courtAgreeance": {
+      "withMajorityTotals": 66,
+      "withMinorityTotals": 8,
+      "opinionsJoinedTotal": 74
+    },
+    "joined": {
+      "withMajority": 57,
+      "partWithMajority": 2,
+      "withMinority": 2,
+      "partWithMinority": 0,
+      "withConcurrence": 3,
+      "partWithConcurrence": 1,
+      "withConDiss": 0,
+      "partWithConDiss": 0,
+      "opinionsJoinedFull": 62,
+      "opinionsJoinedPart": 3,
+      "opinionsJoinedTotalMathCheck": 65
+    },
+    "attendance": {
+      "casesVotedTotal": 74,
+      "casesNotVotedTotal": 0,
+      "casesTotalMathCheck": 74
+    },
+    "unanimousDec": {
+      "unanimousDecTotal": 8
+    },
+    "myOpinionJoiners": {
+      "roberts": {
+        "robertsMajorityJoinedFullTotal": 3,
+        "robertsMajorityJoinedPartTotal": 0,
+        "robertsMajorityJoinedTotal": 0,
+        "robertsMinorityJoinedFullTotal": 0,
+        "robertsMinorityJoinedPartTotal": 0,
+        "robertsMinorityJoinedTotal": 0,
+        "robertsConcurrenceJoinedFullTotal": 0,
+        "robertsConcurrenceJoinedPartTotal": 0,
+        "robertsConcurrenceJoinedTotal": 0,
+        "robertsConDissJoinedFullTotal": 0,
+        "robertsConDissJoinedPartTotal": 0,
+        "robertsConDissJoinedTotal": 0,
+        "robertsJoinedFullTotal": 3,
+        "robertsJoinedPartTotal": 0,
+        "robertsJoinedTotal": 3
+      },
+      "scalia": {
+        "scaliaMajorityJoinedFullTotal": 3,
+        "scaliaMajorityJoinedPartTotal": 0,
+        "scaliaMajorityJoinedTotal": 0,
+        "scaliaMinorityJoinedFullTotal": 0,
+        "scaliaMinorityJoinedPartTotal": 0,
+        "scaliaMinorityJoinedTotal": 0,
+        "scaliaConcurrenceJoinedFullTotal": 0,
+        "scaliaConcurrenceJoinedPartTotal": 0,
+        "scaliaConcurrenceJoinedTotal": 0,
+        "scaliaConDissJoinedFullTotal": 0,
+        "scaliaConDissJoinedPartTotal": 0,
+        "scaliaConDissJoinedTotal": 0,
+        "scaliaJoinedFullTotal": 3,
+        "scaliaJoinedPartTotal": 0,
+        "scaliaJoinedTotal": 3
+      },
+      "kennedy": {
+        "kennedyMajorityJoinedFullTotal": 7,
+        "kennedyMajorityJoinedPartTotal": 0,
+        "kennedyMajorityJoinedTotal": 0,
+        "kennedyMinorityJoinedFullTotal": 2,
+        "kennedyMinorityJoinedPartTotal": 0,
+        "kennedyMinorityJoinedTotal": 0,
+        "kennedyConcurrenceJoinedFullTotal": 0,
+        "kennedyConcurrenceJoinedPartTotal": 0,
+        "kennedyConcurrenceJoinedTotal": 0,
+        "kennedyConDissJoinedFullTotal": 0,
+        "kennedyConDissJoinedPartTotal": 0,
+        "kennedyConDissJoinedTotal": 0,
+        "kennedyJoinedFullTotal": 9,
+        "kennedyJoinedPartTotal": 0,
+        "kennedyJoinedTotal": 9
+      },
+      "thomas": {
+        "thomasMajorityJoinedFullTotal": 2,
+        "thomasMajorityJoinedPartTotal": 0,
+        "thomasMajorityJoinedTotal": 0,
+        "thomasMinorityJoinedFullTotal": 0,
+        "thomasMinorityJoinedPartTotal": 0,
+        "thomasMinorityJoinedTotal": 0,
+        "thomasConcurrenceJoinedFullTotal": 0,
+        "thomasConcurrenceJoinedPartTotal": 0,
+        "thomasConcurrenceJoinedTotal": 0,
+        "thomasConDissJoinedFullTotal": 0,
+        "thomasConDissJoinedPartTotal": 0,
+        "thomasConDissJoinedTotal": 0,
+        "thomasJoinedFullTotal": 2,
+        "thomasJoinedPartTotal": 0,
+        "thomasJoinedTotal": 2
+      },
+      "ginsburg": {
+        "ginsburgMajorityJoinedFullTotal": 6,
+        "ginsburgMajorityJoinedPartTotal": 0,
+        "ginsburgMajorityJoinedTotal": 0,
+        "ginsburgMinorityJoinedFullTotal": 3,
+        "ginsburgMinorityJoinedPartTotal": 0,
+        "ginsburgMinorityJoinedTotal": 0,
+        "ginsburgConcurrenceJoinedFullTotal": 0,
+        "ginsburgConcurrenceJoinedPartTotal": 0,
+        "ginsburgConcurrenceJoinedTotal": 0,
+        "ginsburgConDissJoinedFullTotal": 0,
+        "ginsburgConDissJoinedPartTotal": 0,
+        "ginsburgConDissJoinedTotal": 0,
+        "ginsburgJoinedFullTotal": 9,
+        "ginsburgJoinedPartTotal": 0,
+        "ginsburgJoinedTotal": 9
+      },
+      "breyer": {
+        "breyerMajorityJoinedFullTotal": 7,
+        "breyerMajorityJoinedPartTotal": 0,
+        "breyerMajorityJoinedTotal": 0,
+        "breyerMinorityJoinedFullTotal": 2,
+        "breyerMinorityJoinedPartTotal": 0,
+        "breyerMinorityJoinedTotal": 0,
+        "breyerConcurrenceJoinedFullTotal": 0,
+        "breyerConcurrenceJoinedPartTotal": 0,
+        "breyerConcurrenceJoinedTotal": 0,
+        "breyerConDissJoinedFullTotal": 0,
+        "breyerConDissJoinedPartTotal": 0,
+        "breyerConDissJoinedTotal": 0,
+        "breyerJoinedFullTotal": 9,
+        "breyerJoinedPartTotal": 0,
+        "breyerJoinedTotal": 9
+      },
+      "alito": {
+        "alitoMajorityJoinedFullTotal": 3,
+        "alitoMajorityJoinedPartTotal": 2,
+        "alitoMajorityJoinedTotal": 0,
+        "alitoMinorityJoinedFullTotal": 0,
+        "alitoMinorityJoinedPartTotal": 0,
+        "alitoMinorityJoinedTotal": 0,
+        "alitoConcurrenceJoinedFullTotal": 0,
+        "alitoConcurrenceJoinedPartTotal": 0,
+        "alitoConcurrenceJoinedTotal": 0,
+        "alitoConDissJoinedFullTotal": 0,
+        "alitoConDissJoinedPartTotal": 0,
+        "alitoConDissJoinedTotal": 0,
+        "alitoJoinedFullTotal": 3,
+        "alitoJoinedPartTotal": 2,
+        "alitoJoinedTotal": 5
+      },
+      "kagan": {
+        "kaganMajorityJoinedFullTotal": 7,
+        "kaganMajorityJoinedPartTotal": 0,
+        "kaganMajorityJoinedTotal": 0,
+        "kaganMinorityJoinedFullTotal": 3,
+        "kaganMinorityJoinedPartTotal": 0,
+        "kaganMinorityJoinedTotal": 0,
+        "kaganConcurrenceJoinedFullTotal": 1,
+        "kaganConcurrenceJoinedPartTotal": 0,
+        "kaganConcurrenceJoinedTotal": 0,
+        "kaganConDissJoinedFullTotal": 0,
+        "kaganConDissJoinedPartTotal": 0,
+        "kaganConDissJoinedTotal": 0,
+        "kaganJoinedFullTotal": 11,
+        "kaganJoinedPartTotal": 0,
+        "kaganJoinedTotal": 11
+      }
+    },
+    "justices": {
+      "roberts": {
+        "robertsAuthor": {
+          "majority": {
+            "robertsMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "robertsMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "robertsMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "robertsConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "robertsConDissOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "robertsOpinionAuthoredJoinedFullTotal": 4,
+            "robertsOpinionAuthoredJoinedPartTotal": 0,
+            "robertsOpinionAuthoredJoinedTotal": 4
+          }
+        },
+        "robertsSidedWith": {
+          "robertsWithAndMajority": 50,
+          "robertsWithAndMinority": 0,
+          "robertsWithTotal": 50,
+          "robertsNotWithAndMajority": 16,
+          "robertsNotWithAndMinority": 8,
+          "robertsNotWithTotal": 24,
+          "robertsTotalMathCheck": 74
+        }
+      },
+      "scalia": {
+        "scaliaAuthor": {
+          "majority": {
+            "scaliaMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "scaliaMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 6
+          },
+          "minority": {
+            "scaliaMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "scaliaConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "scaliaConDissOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "scaliaOpinionAuthoredJoinedFullTotal": 6,
+            "scaliaOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaOpinionAuthoredJoinedTotal": 6
+          }
+        },
+        "scaliaSidedWith": {
+          "scaliaWithAndMajority": 43,
+          "scaliaWithAndMinority": 0,
+          "scaliaWithTotal": 43,
+          "scaliaNotWithAndMajority": 23,
+          "scaliaNotWithAndMinority": 8,
+          "scaliaNotWithTotal": 31,
+          "scaliaTotalMathCheck": 74
+        }
+      },
+      "kennedy": {
+        "kennedyAuthor": {
+          "majority": {
+            "kennedyMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "kennedyMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 6
+          },
+          "minority": {
+            "kennedyMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "kennedyConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kennedyConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kennedyOpinionAuthoredJoinedFullTotal": 6,
+            "kennedyOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyOpinionAuthoredJoinedTotal": 6
+          }
+        },
+        "kennedySidedWith": {
+          "kennedyWithAndMajority": 59,
+          "kennedyWithAndMinority": 2,
+          "kennedyWithTotal": 61,
+          "kennedyNotWithAndMajority": 7,
+          "kennedyNotWithAndMinority": 6,
+          "kennedyNotWithTotal": 13,
+          "kennedyTotalMathCheck": 74
+        }
+      },
+      "thomas": {
+        "thomasAuthor": {
+          "majority": {
+            "thomasMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "thomasMajorityOpinionAuthoredJoinedPartTotal": 2,
+            "thomasMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "thomasMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "thomasConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "thomasConDissOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "thomasOpinionAuthoredJoinedFullTotal": 5,
+            "thomasOpinionAuthoredJoinedPartTotal": 2,
+            "thomasOpinionAuthoredJoinedTotal": 7
+          }
+        },
+        "thomasSidedWith": {
+          "thomasWithAndMajority": 36,
+          "thomasWithAndMinority": 0,
+          "thomasWithTotal": 36,
+          "thomasNotWithAndMajority": 30,
+          "thomasNotWithAndMinority": 8,
+          "thomasNotWithTotal": 38,
+          "thomasTotalMathCheck": 74
+        }
+      },
+      "ginsburg": {
+        "ginsburgAuthor": {
+          "majority": {
+            "ginsburgMajorityOpinionAuthoredJoinedFullTotal": 7,
+            "ginsburgMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "ginsburgMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "ginsburgConcurrenceOpinionAuthoredJoinedFullTotal": 2,
+            "ginsburgConcurrenceOpinionAuthoredJoinedPartTotal": 1,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 3
+          },
+          "conDiss": {
+            "ginsburgConDissOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "ginsburgOpinionAuthoredJoinedFullTotal": 9,
+            "ginsburgOpinionAuthoredJoinedPartTotal": 1,
+            "ginsburgOpinionAuthoredJoinedTotal": 10
+          }
+        },
+        "ginsburgSidedWith": {
+          "ginsburgWithAndMajority": 62,
+          "ginsburgWithAndMinority": 6,
+          "ginsburgWithTotal": 68,
+          "ginsburgNotWithAndMajority": 4,
+          "ginsburgNotWithAndMinority": 2,
+          "ginsburgNotWithTotal": 6,
+          "ginsburgTotalMathCheck": 74
+        }
+      },
+      "breyer": {
+        "breyerAuthor": {
+          "majority": {
+            "breyerMajorityOpinionAuthoredJoinedFullTotal": 8,
+            "breyerMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotal": 8
+          },
+          "minority": {
+            "breyerMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "breyerMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "breyerConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "breyerConDissOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "breyerOpinionAuthoredJoinedFullTotal": 9,
+            "breyerOpinionAuthoredJoinedPartTotal": 0,
+            "breyerOpinionAuthoredJoinedTotal": 9
+          }
+        },
+        "breyerSidedWith": {
+          "breyerWithAndMajority": 63,
+          "breyerWithAndMinority": 5,
+          "breyerWithTotal": 68,
+          "breyerNotWithAndMajority": 1,
+          "breyerNotWithAndMinority": 3,
+          "breyerNotWithTotal": 4,
+          "breyerTotalMathCheck": 72
+        }
+      },
+      "alito": {
+        "alitoAuthor": {
+          "majority": {
+            "alitoMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "alitoMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotal": 6
+          },
+          "minority": {
+            "alitoMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "alitoConcurrenceOpinionAuthoredJoinedFullTotal": 1,
+            "alitoConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 1
+          },
+          "conDiss": {
+            "alitoConDissOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "alitoOpinionAuthoredJoinedFullTotal": 7,
+            "alitoOpinionAuthoredJoinedPartTotal": 0,
+            "alitoOpinionAuthoredJoinedTotal": 7
+          }
+        },
+        "alitoSidedWith": {
+          "alitoWithAndMajority": 44,
+          "alitoWithAndMinority": 0,
+          "alitoWithTotal": 44,
+          "alitoNotWithAndMajority": 22,
+          "alitoNotWithAndMinority": 8,
+          "alitoNotWithTotal": 30,
+          "alitoTotalMathCheck": 74
+        }
+      },
+      "kagan": {
+        "kaganAuthor": {
+          "majority": {
+            "kaganMajorityOpinionAuthoredJoinedFullTotal": 7,
+            "kaganMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "kaganMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "kaganMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kaganMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "kaganConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kaganConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kaganConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kaganOpinionAuthoredJoinedFullTotal": 8,
+            "kaganOpinionAuthoredJoinedPartTotal": 0,
+            "kaganOpinionAuthoredJoinedTotal": 8
+          }
+        },
+        "kaganSidedWith": {
+          "kaganWithAndMajority": 61,
+          "kaganWithAndMinority": 6,
+          "kaganWithTotal": 67,
+          "kaganNotWithAndMajority": 5,
+          "kaganNotWithAndMinority": 2,
+          "kaganNotWithTotal": 7,
+          "kaganTotalMathCheck": 74
+        }
+      }
+    }
+  },
+  "kagan": {
+    "name": "Elena Kagan",
+    "title": "Associate Justice",
+    "seniority": 9,
+    "lastName": "Kagan",
+    "year": 0,
+    "authored": {
+      "majorityAuthored": 7,
+      "minorityAuthored": 2,
+      "concurrenceAuthored": 2,
+      "conDissAuthored": 0,
+      "decisionsAuthored": 11
+    },
+    "courtAgreeance": {
+      "withMajorityTotals": 63,
+      "withMinorityTotals": 11,
+      "opinionsJoinedTotal": 74
+    },
+    "joined": {
+      "withMajority": 55,
+      "partWithMajority": 1,
+      "withMinority": 7,
+      "partWithMinority": 0,
+      "withConcurrence": 2,
+      "partWithConcurrence": 0,
+      "withConDiss": 2,
+      "partWithConDiss": 0,
+      "opinionsJoinedFull": 66,
+      "opinionsJoinedPart": 1,
+      "opinionsJoinedTotalMathCheck": 67
+    },
+    "attendance": {
+      "casesVotedTotal": 74,
+      "casesNotVotedTotal": 0,
+      "casesTotalMathCheck": 74
+    },
+    "unanimousDec": {
+      "unanimousDecTotal": 8
+    },
+    "myOpinionJoiners": {
+      "roberts": {
+        "robertsMajorityJoinedFullTotal": 4,
+        "robertsMajorityJoinedPartTotal": 1,
+        "robertsMajorityJoinedTotal": 0,
+        "robertsMinorityJoinedFullTotal": 0,
+        "robertsMinorityJoinedPartTotal": 0,
+        "robertsMinorityJoinedTotal": 0,
+        "robertsConcurrenceJoinedFullTotal": 0,
+        "robertsConcurrenceJoinedPartTotal": 0,
+        "robertsConcurrenceJoinedTotal": 0,
+        "robertsConDissJoinedFullTotal": 0,
+        "robertsConDissJoinedPartTotal": 0,
+        "robertsConDissJoinedTotal": 0,
+        "robertsJoinedFullTotal": 4,
+        "robertsJoinedPartTotal": 1,
+        "robertsJoinedTotal": 5
+      },
+      "scalia": {
+        "scaliaMajorityJoinedFullTotal": 4,
+        "scaliaMajorityJoinedPartTotal": 0,
+        "scaliaMajorityJoinedTotal": 0,
+        "scaliaMinorityJoinedFullTotal": 1,
+        "scaliaMinorityJoinedPartTotal": 0,
+        "scaliaMinorityJoinedTotal": 0,
+        "scaliaConcurrenceJoinedFullTotal": 0,
+        "scaliaConcurrenceJoinedPartTotal": 0,
+        "scaliaConcurrenceJoinedTotal": 0,
+        "scaliaConDissJoinedFullTotal": 0,
+        "scaliaConDissJoinedPartTotal": 0,
+        "scaliaConDissJoinedTotal": 0,
+        "scaliaJoinedFullTotal": 5,
+        "scaliaJoinedPartTotal": 0,
+        "scaliaJoinedTotal": 5
+      },
+      "kennedy": {
+        "kennedyMajorityJoinedFullTotal": 7,
+        "kennedyMajorityJoinedPartTotal": 0,
+        "kennedyMajorityJoinedTotal": 0,
+        "kennedyMinorityJoinedFullTotal": 1,
+        "kennedyMinorityJoinedPartTotal": 0,
+        "kennedyMinorityJoinedTotal": 0,
+        "kennedyConcurrenceJoinedFullTotal": 0,
+        "kennedyConcurrenceJoinedPartTotal": 0,
+        "kennedyConcurrenceJoinedTotal": 0,
+        "kennedyConDissJoinedFullTotal": 0,
+        "kennedyConDissJoinedPartTotal": 0,
+        "kennedyConDissJoinedTotal": 0,
+        "kennedyJoinedFullTotal": 8,
+        "kennedyJoinedPartTotal": 0,
+        "kennedyJoinedTotal": 8
+      },
+      "thomas": {
+        "thomasMajorityJoinedFullTotal": 2,
+        "thomasMajorityJoinedPartTotal": 0,
+        "thomasMajorityJoinedTotal": 0,
+        "thomasMinorityJoinedFullTotal": 1,
+        "thomasMinorityJoinedPartTotal": 0,
+        "thomasMinorityJoinedTotal": 0,
+        "thomasConcurrenceJoinedFullTotal": 0,
+        "thomasConcurrenceJoinedPartTotal": 0,
+        "thomasConcurrenceJoinedTotal": 0,
+        "thomasConDissJoinedFullTotal": 0,
+        "thomasConDissJoinedPartTotal": 0,
+        "thomasConDissJoinedTotal": 0,
+        "thomasJoinedFullTotal": 3,
+        "thomasJoinedPartTotal": 0,
+        "thomasJoinedTotal": 3
+      },
+      "ginsburg": {
+        "ginsburgMajorityJoinedFullTotal": 7,
+        "ginsburgMajorityJoinedPartTotal": 0,
+        "ginsburgMajorityJoinedTotal": 0,
+        "ginsburgMinorityJoinedFullTotal": 1,
+        "ginsburgMinorityJoinedPartTotal": 0,
+        "ginsburgMinorityJoinedTotal": 0,
+        "ginsburgConcurrenceJoinedFullTotal": 2,
+        "ginsburgConcurrenceJoinedPartTotal": 0,
+        "ginsburgConcurrenceJoinedTotal": 0,
+        "ginsburgConDissJoinedFullTotal": 0,
+        "ginsburgConDissJoinedPartTotal": 0,
+        "ginsburgConDissJoinedTotal": 0,
+        "ginsburgJoinedFullTotal": 10,
+        "ginsburgJoinedPartTotal": 0,
+        "ginsburgJoinedTotal": 10
+      },
+      "breyer": {
+        "breyerMajorityJoinedFullTotal": 7,
+        "breyerMajorityJoinedPartTotal": 0,
+        "breyerMajorityJoinedTotal": 0,
+        "breyerMinorityJoinedFullTotal": 1,
+        "breyerMinorityJoinedPartTotal": 0,
+        "breyerMinorityJoinedTotal": 0,
+        "breyerConcurrenceJoinedFullTotal": 1,
+        "breyerConcurrenceJoinedPartTotal": 0,
+        "breyerConcurrenceJoinedTotal": 0,
+        "breyerConDissJoinedFullTotal": 0,
+        "breyerConDissJoinedPartTotal": 0,
+        "breyerConDissJoinedTotal": 0,
+        "breyerJoinedFullTotal": 9,
+        "breyerJoinedPartTotal": 0,
+        "breyerJoinedTotal": 9
+      },
+      "alito": {
+        "alitoMajorityJoinedFullTotal": 4,
+        "alitoMajorityJoinedPartTotal": 0,
+        "alitoMajorityJoinedTotal": 0,
+        "alitoMinorityJoinedFullTotal": 0,
+        "alitoMinorityJoinedPartTotal": 0,
+        "alitoMinorityJoinedTotal": 0,
+        "alitoConcurrenceJoinedFullTotal": 0,
+        "alitoConcurrenceJoinedPartTotal": 0,
+        "alitoConcurrenceJoinedTotal": 0,
+        "alitoConDissJoinedFullTotal": 0,
+        "alitoConDissJoinedPartTotal": 0,
+        "alitoConDissJoinedTotal": 0,
+        "alitoJoinedFullTotal": 4,
+        "alitoJoinedPartTotal": 0,
+        "alitoJoinedTotal": 4
+      },
+      "sotomayor": {
+        "sotomayorMajorityJoinedFullTotal": 7,
+        "sotomayorMajorityJoinedPartTotal": 0,
+        "sotomayorMajorityJoinedTotal": 0,
+        "sotomayorMinorityJoinedFullTotal": 1,
+        "sotomayorMinorityJoinedPartTotal": 0,
+        "sotomayorMinorityJoinedTotal": 0,
+        "sotomayorConcurrenceJoinedFullTotal": 0,
+        "sotomayorConcurrenceJoinedPartTotal": 0,
+        "sotomayorConcurrenceJoinedTotal": 0,
+        "sotomayorConDissJoinedFullTotal": 0,
+        "sotomayorConDissJoinedPartTotal": 0,
+        "sotomayorConDissJoinedTotal": 0,
+        "sotomayorJoinedFullTotal": 8,
+        "sotomayorJoinedPartTotal": 0,
+        "sotomayorJoinedTotal": 8
+      }
+    },
+    "justices": {
+      "roberts": {
+        "robertsAuthor": {
+          "majority": {
+            "robertsMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "robertsMajorityOpinionAuthoredJoinedPartTotal": 1,
+            "robertsMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "robertsMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "robertsMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "robertsConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "robertsConDissOpinionAuthoredJoinedFullTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedPartTotal": 0,
+            "robertsConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "robertsOpinionAuthoredJoinedFullTotal": 6,
+            "robertsOpinionAuthoredJoinedPartTotal": 1,
+            "robertsOpinionAuthoredJoinedTotal": 7
+          }
+        },
+        "robertsSidedWith": {
+          "robertsWithAndMajority": 47,
+          "robertsWithAndMinority": 0,
+          "robertsWithTotal": 47,
+          "robertsNotWithAndMajority": 16,
+          "robertsNotWithAndMinority": 11,
+          "robertsNotWithTotal": 27,
+          "robertsTotalMathCheck": 74
+        }
+      },
+      "scalia": {
+        "scaliaAuthor": {
+          "majority": {
+            "scaliaMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "scaliaMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMajorityOpinionAuthoredJoinedTotal": 6
+          },
+          "minority": {
+            "scaliaMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "scaliaMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "scaliaConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "scaliaConDissOpinionAuthoredJoinedFullTotal": 1,
+            "scaliaConDissOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaConDissOpinionAuthoredJoinedTotal": 1
+          },
+          "totals": {
+            "scaliaOpinionAuthoredJoinedFullTotal": 8,
+            "scaliaOpinionAuthoredJoinedPartTotal": 0,
+            "scaliaOpinionAuthoredJoinedTotal": 8
+          }
+        },
+        "scaliaSidedWith": {
+          "scaliaWithAndMajority": 44,
+          "scaliaWithAndMinority": 4,
+          "scaliaWithTotal": 48,
+          "scaliaNotWithAndMajority": 19,
+          "scaliaNotWithAndMinority": 7,
+          "scaliaNotWithTotal": 26,
+          "scaliaTotalMathCheck": 74
+        }
+      },
+      "kennedy": {
+        "kennedyAuthor": {
+          "majority": {
+            "kennedyMajorityOpinionAuthoredJoinedFullTotal": 6,
+            "kennedyMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMajorityOpinionAuthoredJoinedTotal": 6
+          },
+          "minority": {
+            "kennedyMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "kennedyConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "kennedyConDissOpinionAuthoredJoinedFullTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "kennedyOpinionAuthoredJoinedFullTotal": 6,
+            "kennedyOpinionAuthoredJoinedPartTotal": 0,
+            "kennedyOpinionAuthoredJoinedTotal": 6
+          }
+        },
+        "kennedySidedWith": {
+          "kennedyWithAndMajority": 57,
+          "kennedyWithAndMinority": 3,
+          "kennedyWithTotal": 60,
+          "kennedyNotWithAndMajority": 6,
+          "kennedyNotWithAndMinority": 8,
+          "kennedyNotWithTotal": 14,
+          "kennedyTotalMathCheck": 74
+        }
+      },
+      "thomas": {
+        "thomasAuthor": {
+          "majority": {
+            "thomasMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "thomasMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "thomasMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "thomasMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "thomasMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "thomasConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "thomasConDissOpinionAuthoredJoinedFullTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedPartTotal": 0,
+            "thomasConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "thomasOpinionAuthoredJoinedFullTotal": 5,
+            "thomasOpinionAuthoredJoinedPartTotal": 0,
+            "thomasOpinionAuthoredJoinedTotal": 5
+          }
+        },
+        "thomasSidedWith": {
+          "thomasWithAndMajority": 36,
+          "thomasWithAndMinority": 3,
+          "thomasWithTotal": 39,
+          "thomasNotWithAndMajority": 27,
+          "thomasNotWithAndMinority": 8,
+          "thomasNotWithTotal": 35,
+          "thomasTotalMathCheck": 74
+        }
+      },
+      "ginsburg": {
+        "ginsburgAuthor": {
+          "majority": {
+            "ginsburgMajorityOpinionAuthoredJoinedFullTotal": 5,
+            "ginsburgMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMajorityOpinionAuthoredJoinedTotal": 5
+          },
+          "minority": {
+            "ginsburgMinorityOpinionAuthoredJoinedFullTotal": 1,
+            "ginsburgMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgMinorityOpinionAuthoredJoinedTotal": 1
+          },
+          "concurrence": {
+            "ginsburgConcurrenceOpinionAuthoredJoinedFullTotal": 1,
+            "ginsburgConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConcurrenceOpinionAuthoredJoinedTotal": 1
+          },
+          "conDiss": {
+            "ginsburgConDissOpinionAuthoredJoinedFullTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "ginsburgOpinionAuthoredJoinedFullTotal": 7,
+            "ginsburgOpinionAuthoredJoinedPartTotal": 0,
+            "ginsburgOpinionAuthoredJoinedTotal": 7
+          }
+        },
+        "ginsburgSidedWith": {
+          "ginsburgWithAndMajority": 61,
+          "ginsburgWithAndMinority": 8,
+          "ginsburgWithTotal": 69,
+          "ginsburgNotWithAndMajority": 2,
+          "ginsburgNotWithAndMinority": 3,
+          "ginsburgNotWithTotal": 5,
+          "ginsburgTotalMathCheck": 74
+        }
+      },
+      "breyer": {
+        "breyerAuthor": {
+          "majority": {
+            "breyerMajorityOpinionAuthoredJoinedFullTotal": 8,
+            "breyerMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMajorityOpinionAuthoredJoinedTotal": 8
+          },
+          "minority": {
+            "breyerMinorityOpinionAuthoredJoinedFullTotal": 2,
+            "breyerMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "breyerMinorityOpinionAuthoredJoinedTotal": 2
+          },
+          "concurrence": {
+            "breyerConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "breyerConDissOpinionAuthoredJoinedFullTotal": 1,
+            "breyerConDissOpinionAuthoredJoinedPartTotal": 0,
+            "breyerConDissOpinionAuthoredJoinedTotal": 1
+          },
+          "totals": {
+            "breyerOpinionAuthoredJoinedFullTotal": 11,
+            "breyerOpinionAuthoredJoinedPartTotal": 0,
+            "breyerOpinionAuthoredJoinedTotal": 11
+          }
+        },
+        "breyerSidedWith": {
+          "breyerWithAndMajority": 62,
+          "breyerWithAndMinority": 6,
+          "breyerWithTotal": 68,
+          "breyerNotWithAndMajority": 0,
+          "breyerNotWithAndMinority": 4,
+          "breyerNotWithTotal": 4,
+          "breyerTotalMathCheck": 72
+        }
+      },
+      "alito": {
+        "alitoAuthor": {
+          "majority": {
+            "alitoMajorityOpinionAuthoredJoinedFullTotal": 4,
+            "alitoMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMajorityOpinionAuthoredJoinedTotal": 4
+          },
+          "minority": {
+            "alitoMinorityOpinionAuthoredJoinedFullTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "alitoMinorityOpinionAuthoredJoinedTotal": 0
+          },
+          "concurrence": {
+            "alitoConcurrenceOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConcurrenceOpinionAuthoredJoinedTotal": 0
+          },
+          "conDiss": {
+            "alitoConDissOpinionAuthoredJoinedFullTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedPartTotal": 0,
+            "alitoConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "alitoOpinionAuthoredJoinedFullTotal": 4,
+            "alitoOpinionAuthoredJoinedPartTotal": 0,
+            "alitoOpinionAuthoredJoinedTotal": 4
+          }
+        },
+        "alitoSidedWith": {
+          "alitoWithAndMajority": 41,
+          "alitoWithAndMinority": 0,
+          "alitoWithTotal": 41,
+          "alitoNotWithAndMajority": 22,
+          "alitoNotWithAndMinority": 11,
+          "alitoNotWithTotal": 33,
+          "alitoTotalMathCheck": 74
+        }
+      },
+      "sotomayor": {
+        "sotomayorAuthor": {
+          "majority": {
+            "sotomayorMajorityOpinionAuthoredJoinedFullTotal": 7,
+            "sotomayorMajorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMajorityOpinionAuthoredJoinedTotal": 7
+          },
+          "minority": {
+            "sotomayorMinorityOpinionAuthoredJoinedFullTotal": 3,
+            "sotomayorMinorityOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorMinorityOpinionAuthoredJoinedTotal": 3
+          },
+          "concurrence": {
+            "sotomayorConcurrenceOpinionAuthoredJoinedFullTotal": 1,
+            "sotomayorConcurrenceOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConcurrenceOpinionAuthoredJoinedTotal": 1
+          },
+          "conDiss": {
+            "sotomayorConDissOpinionAuthoredJoinedFullTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorConDissOpinionAuthoredJoinedTotal": 0
+          },
+          "totals": {
+            "sotomayorOpinionAuthoredJoinedFullTotal": 11,
+            "sotomayorOpinionAuthoredJoinedPartTotal": 0,
+            "sotomayorOpinionAuthoredJoinedTotal": 11
+          }
+        },
+        "sotomayorSidedWith": {
+          "sotomayorWithAndMajority": 61,
+          "sotomayorWithAndMinority": 6,
+          "sotomayorWithTotal": 67,
+          "sotomayorNotWithAndMajority": 2,
+          "sotomayorNotWithAndMinority": 5,
+          "sotomayorNotWithTotal": 7,
+          "sotomayorTotalMathCheck": 74
+        }
+      }
+    }
+  }
+}

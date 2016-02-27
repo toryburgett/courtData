@@ -1,7 +1,29 @@
 $(document).ready(function(){
 
-  var wikiJson = "https://gist.githubusercontent.com/toryburgett/8f19b0635cb46cc62d6b/raw/09359187af36428b0fab53515477997c24fa5bbb/wiki_2014.json";
-  var caseYear = 2014;
+  // // 2015 data
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/538b22e7f28b21c682e6/raw/b7cc75a11e32bdd43bc35e9578e4f63d91bde632/wiki_2015.json";
+  // var caseYear = 2015;
+
+  // // 2014 data
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/8f19b0635cb46cc62d6b/raw/09359187af36428b0fab53515477997c24fa5bbb/wiki_2014.json";
+  // var caseYear = 2014;
+
+  // // 2013 data
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/a3115cd77aa94f9cf615/raw/18ecc59d2f475b614ebd4a7bed0b19dc8588235c/wiki_2013.json";
+  // var caseYear = 2013;
+
+  // // 2012 data
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/e879d6e2e92901f34f20/raw/b97072f7e1b80db7c24993b6dd959f32f1a6b28e/wiki_2012.json";
+  // var caseYear = 2012;
+
+  // // 2011 data
+  // var wikiJson = "https://gist.githubusercontent.com/toryburgett/dd23845a8a54b16fe086/raw/a46bae4c09cd0c3567041d41befc5f539e39589c/wiki_2011.json";
+  // var caseYear = 2011;
+
+  // 2010 data
+  var wikiJson = "https://gist.githubusercontent.com/toryburgett/c474efad024e5f84a393/raw/f47262f66ae295927a9729cd2c8b6ee39feb02b8/wiki_2010.json";
+  var caseYear = 2010;
+
 
   var navRows = 0;
 
@@ -6692,21 +6714,29 @@ $(document).ready(function(){
         var justiceName = justiceKeys[c];
         var currentJustice = currentCase.justices[justiceName][0];
         var justiceData = wikiData.wikiAllJusticeData[justiceName];
+        var shortJusticeData = shortWikiJusticeData[justiceName];
+        console.log(shortJusticeData);
         // Attendance
         if(currentJustice.attendance === 0){
           // Did Not Vote
           updateTotal(justiceData.attendance, "casesNotVotedTotal", caseId);
+          shortJusticeData.attendance.casesNotVotedTotal++;
           updateTotal(justiceData.attendance, "casesTotalMathCheck", caseId);
+          shortJusticeData.attendance.casesTotalMathCheck++;
         }else if(currentJustice.attendance === 1){
           // Did Vote
           updateTotal(justiceData.attendance, "casesVotedTotal", caseId);
+          shortJusticeData.attendance.casesVotedTotal++;
           updateTotal(justiceData.attendance, "casesTotalMathCheck", caseId);
+          shortJusticeData.attendance.casesTotalMathCheck++;
           // Court Agreeance
           var currentJusticeVote = currentJustice.vote;
           var currentJusticeVoteCap = capitalizeFirstLetter(currentJusticeVote);
           var courtAgreeance = "with"+currentJusticeVoteCap+"Totals";
           updateTotal(justiceData.courtAgreeance, "opinionsJoinedTotal", caseId);
+          shortJusticeData.courtAgreeance.opinionsJoinedTotal++;
           updateTotal(justiceData.courtAgreeance, courtAgreeance, caseId);
+          shortJusticeData.courtAgreeance[courtAgreeance]++;
           // currentJustice v compareJustice, sidedWith
           for(var f=0; f<justiceKeys.length; f++){
             var compareJusticeName = justiceKeys[f];
@@ -6724,15 +6754,20 @@ $(document).ready(function(){
                   var compareOpinionString = compareJusticeName+"WithAnd"+currentJusticeVoteCap;
                   var compareJusticeNameString = compareJusticeName + "WithTotal";
                   updateTotal(justiceData.justices[compareJusticeName][compareJusticeName+"SidedWith"], compareOpinionString, compareCaseId);
+                  shortJusticeData.justices[compareJusticeName][compareJusticeName+"SidedWith"][compareOpinionString]++;
                   updateTotal(justiceData.justices[compareJusticeName][compareJusticeName+"SidedWith"], compareJusticeNameString, compareCaseId);
+                  shortJusticeData.justices[compareJusticeName][compareJusticeName+"SidedWith"][compareJusticeNameString]++;
                 }else{
                 // if compareJustice vote != currentJustice vote
                   var compareNotOpinionString = compareJusticeName+"NotWithAnd"+currentJusticeVoteCap;
                   var compareNotJusticeNameString = compareJusticeName + "NotWithTotal";
                   updateTotal(justiceData.justices[compareJusticeName][compareJusticeName+"SidedWith"], compareNotOpinionString, compareCaseId);
+                  shortJusticeData.justices[compareJusticeName][compareJusticeName+"SidedWith"][compareNotOpinionString]++;
                   updateTotal(justiceData.justices[compareJusticeName][compareJusticeName+"SidedWith"], compareNotJusticeNameString, compareCaseId);
+                  shortJusticeData.justices[compareJusticeName][compareJusticeName+"SidedWith"][compareNotJusticeNameString]++;
                 }
                 justiceData.justices[compareJusticeName][compareJusticeName+"SidedWith"][compareJusticeName+"TotalMathCheck"] ++;
+                shortJusticeData.justices[compareJusticeName][compareJusticeName+"SidedWith"][compareJusticeName+"TotalMathCheck"] ++;
               }
             }
           }
@@ -6751,6 +6786,7 @@ $(document).ready(function(){
               if((currentJusticeJoinOpinionFull.author === "")&&(currentJusticeJoinOpinionFull.opinion === "majority")){
                 opinionAbbrev = currentJusticeJoinOpinionFull.opinion;
                 updateTotal(justiceData.unanimousDec, "unanimousDecTotal", caseId);
+                shortJusticeData.unanimousDec.unanimousDecTotal = shortJusticeData.unanimousDec.unanimousDecTotal + 1;
               }else{
                 // Just in case
                 if((currentJusticeJoinOpinionFull.author === "")){
@@ -6770,18 +6806,25 @@ $(document).ready(function(){
 
                 // joined author specific opinion
                 updateTotal(justiceData.justices[opinionJoinedAuthor][opinionJoinedAuthor+"Author"][opinionAbbrev], (opinionJoinedAuthor+opinionAbbrevCap+"OpinionAuthoredJoinedFullTotal"), joinFullCaseId);
+                shortJusticeData.justices[opinionJoinedAuthor][opinionJoinedAuthor+"Author"][opinionAbbrev][opinionJoinedAuthor+opinionAbbrevCap+"OpinionAuthoredJoinedFullTotal"]++;
                 updateTotal(justiceData.justices[opinionJoinedAuthor][opinionJoinedAuthor+"Author"][opinionAbbrev], (opinionJoinedAuthor+opinionAbbrevCap+"OpinionAuthoredJoinedTotal"), joinFullCaseId);
+                shortJusticeData.justices[opinionJoinedAuthor][opinionJoinedAuthor+"Author"][opinionAbbrev][opinionJoinedAuthor+opinionAbbrevCap+"OpinionAuthoredJoinedTotal"]++;
 
                 //joined author totals
                 updateTotal(justiceData.justices[opinionJoinedAuthor][opinionJoinedAuthor+"Author"].totals, (opinionJoinedAuthor+"OpinionAuthoredJoinedFullTotal"), joinFullCaseId);
+                shortJusticeData.justices[opinionJoinedAuthor][opinionJoinedAuthor+"Author"].totals[opinionJoinedAuthor+"OpinionAuthoredJoinedFullTotal"]++;
                 updateTotal(justiceData.justices[opinionJoinedAuthor][opinionJoinedAuthor+"Author"].totals, (opinionJoinedAuthor+"OpinionAuthoredJoinedTotal"), joinFullCaseId);
+                shortJusticeData.justices[opinionJoinedAuthor][opinionJoinedAuthor+"Author"].totals[opinionJoinedAuthor+"OpinionAuthoredJoinedTotal"]++;
               }
               opinionAbbrevCap = capitalizeFirstLetter(opinionAbbrev);
               var justiceJoinedString = "with"+opinionAbbrevCap;
               // joined totals for justice
               updateTotal(justiceData.joined, justiceJoinedString, joinFullCaseId);
+              shortJusticeData.joined[justiceJoinedString]++;
               updateTotal(justiceData.joined, "opinionsJoinedFull", joinFullCaseId);
+              shortJusticeData.joined.opinionsJoinedFull++;
               updateTotal(justiceData.joined, "opinionsJoinedTotalMathCheck", joinFullCaseId);
+              shortJusticeData.joined.opinionsJoinedTotalMathCheck++;
             }
           }
           // Part Joined
@@ -6806,16 +6849,24 @@ $(document).ready(function(){
               // Add to Justice Data
               // joined author specific opinion
               updateTotal(justiceData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"][opinionAbbrevPart], (opinionJoinedPartAuthor+opinionAbbrevPartCap+"OpinionAuthoredJoinedPartTotal"), joinPartCaseId);
+              shortJusticeData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"][opinionAbbrevPart][opinionJoinedPartAuthor+opinionAbbrevPartCap+"OpinionAuthoredJoinedPartTotal"]++;
               updateTotal(justiceData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"][opinionAbbrevPart], (opinionJoinedPartAuthor+opinionAbbrevPartCap+"OpinionAuthoredJoinedTotal"), joinPartCaseId);
+              shortJusticeData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"][opinionAbbrevPart][opinionJoinedPartAuthor+opinionAbbrevPartCap+"OpinionAuthoredJoinedTotal"]++;
 
               //joined author totals
               updateTotal(justiceData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"].totals, (opinionJoinedPartAuthor+"OpinionAuthoredJoinedPartTotal"), joinPartCaseId);
+              shortJusticeData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"].totals[opinionJoinedPartAuthor+"OpinionAuthoredJoinedPartTotal"]++;
               updateTotal(justiceData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"].totals, (opinionJoinedPartAuthor+"OpinionAuthoredJoinedTotal"), joinPartCaseId);
+              shortJusticeData.justices[opinionJoinedPartAuthor][opinionJoinedPartAuthor+"Author"].totals[opinionJoinedPartAuthor+"OpinionAuthoredJoinedTotal"]++;
 
               // joined totals for justice
               updateTotal(justiceData.joined, ("partWith"+opinionAbbrevPartCap), joinPartCaseId);
+              shortJusticeData.joined["partWith"+opinionAbbrevPartCap]++;
               updateTotal(justiceData.joined, "opinionsJoinedPart", joinPartCaseId);
+              shortJusticeData.joined.opinionsJoinedPart++;
               updateTotal(justiceData.joined, "opinionsJoinedTotalMathCheck", joinPartCaseId);
+              shortJusticeData.joined.opinionsJoinedTotalMathCheck++;
+
             }
           }
           //Authored Opinions
@@ -6854,7 +6905,6 @@ $(document).ready(function(){
                   //did otherJustice fully join my opinion?
                   if(otherJustice.joined.inFull.length !== 0){
                     for(var h=0; h<otherJustice.joined.inFull.length; h++){
-                      console.log(otherJusticeName);
                       var otherJusticeFullJoin = otherJustice.joined.inFull[h];
                       if(otherJusticeFullJoin.author === justiceName){
                         // update caseId for authored
@@ -6865,18 +6915,14 @@ $(document).ready(function(){
                         authoredJoinCaseId.fullOrPart = "full";
                         // update myOpinionJoiners
                         // specific opinion
-                        console.log(justiceName);
-                        console.log(otherJusticeName);
-                        console.log(justiceData.myOpinionJoiners[otherJusticeName]);
-                        console.log(otherJusticeName+currentJusticeWroteOpinionCap+"JoinedFullTotal");
                         updateTotal(justiceData.myOpinionJoiners[otherJusticeName], (otherJusticeName+currentJusticeWroteOpinionCap+"JoinedFullTotal"), authoredJoinCaseId);
-
-                        console.log(otherJusticeName);
+                        shortJusticeData.myOpinionJoiners[otherJusticeName][otherJusticeName+currentJusticeWroteOpinionCap+"JoinedFullTotal"]++;
                         // All full opinions
                         updateTotal(justiceData.myOpinionJoiners[otherJusticeName], (otherJusticeName+"JoinedFullTotal"), authoredJoinCaseId);
+                        shortJusticeData.myOpinionJoiners[otherJusticeName][otherJusticeName+"JoinedFullTotal"]++;
                         // All opinions
                         updateTotal(justiceData.myOpinionJoiners[otherJusticeName], (otherJusticeName+"JoinedTotal"), authoredJoinCaseId);
-                        console.log(authoredJoinCaseId);
+                        shortJusticeData.myOpinionJoiners[otherJusticeName][otherJusticeName+"JoinedTotal"]++;
                       }
                     }
                   }
@@ -6894,10 +6940,13 @@ $(document).ready(function(){
                         // update myOpinionJoiners
                         // specific opinion
                         updateTotal(justiceData.myOpinionJoiners[otherJusticeName], (otherJusticeName+currentJusticeWroteOpinionCap+"JoinedPartTotal"), authoredJoinCaseId);
+                        shortJusticeData.myOpinionJoiners[otherJusticeName][otherJusticeName+currentJusticeWroteOpinionCap+"JoinedPartTotal"]++;
                         // All full opinions
                         updateTotal(justiceData.myOpinionJoiners[otherJusticeName], (otherJusticeName+"JoinedPartTotal"), authoredJoinCaseId);
+                        shortJusticeData.myOpinionJoiners[otherJusticeName][otherJusticeName+"JoinedPartTotal"]++;
                         // All opinions
                         updateTotal(justiceData.myOpinionJoiners[otherJusticeName], (otherJusticeName+"JoinedTotal"), authoredJoinCaseId);
+                        shortJusticeData.myOpinionJoiners[otherJusticeName][otherJusticeName+"JoinedTotal"]++;
                         console.log(authoredJoinCaseId);
                       }
                     }
@@ -6907,7 +6956,9 @@ $(document).ready(function(){
             }
             // authored
             updateTotal(justiceData.authored, (currentJusticeWroteOpinionType+"Authored"), authoredCaseId);
+            shortJusticeData.authored[currentJusticeWroteOpinionType+"Authored"]++;
             updateTotal(justiceData.authored, "decisionsAuthored", authoredCaseId);
+            shortJusticeData.authored.decisionsAuthored++;
             // Add to opinion index, wikiData.wikiAllOpinionData - total[x]Authored, totalOpinionsAuthored
             updateTotal(wikiData.wikiAllOpinionData, ("total"+currentJusticeWroteOpinionCap+"Authored"), authoredCaseId);
             updateTotal(wikiData.wikiAllOpinionData, "totalOpinionsAuthored", authoredCaseId);
